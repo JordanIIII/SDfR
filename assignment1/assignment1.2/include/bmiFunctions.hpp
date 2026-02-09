@@ -1,0 +1,5 @@
+#ifndef BMIFUNCTIONS_HPP
+#define BMIFUNCTIONS_HPP
+
+
+#endif
