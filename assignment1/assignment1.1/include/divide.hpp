@@ -10,6 +10,7 @@
 #ifndef DIVIDE_HPP
 #define DIVIDE_HPP
 
+// Declare divide function
 int divide(const int num, const int den);
 
 #endif

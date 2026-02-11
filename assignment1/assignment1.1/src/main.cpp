@@ -11,9 +11,15 @@
 #include "../include/divide.hpp"
 
 int main(void) {
+    // Declaration of variables and values
     int a = 7;
     int b = 3;
+
+    // Carry out division and store the output in c
     int c = divide(a, b);
+
+    // Print output
     std :: cout << a << "/" << b << "=" << c << std::endl;
+
     return 0;
 }

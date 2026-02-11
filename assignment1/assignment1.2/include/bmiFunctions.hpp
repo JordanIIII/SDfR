@@ -11,6 +11,7 @@
 #ifndef BMIFUNCTIONS_HPP
 #define BMIFUNCTIONS_HPP
 
+// Declare BMI functions
 void printInfo();
 double calculateBMI(double weight, double height);
 void evaluateAndPrintBMI(double bmi);
