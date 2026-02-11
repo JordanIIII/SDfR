@@ -12,7 +12,7 @@
 
 Maze initializeMaze() {
  // Initialization of the maze
- Maze maze = {{
+ const Maze maze = {{
   {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#'}, // Row 0
   {'#', '.', '.', '.', '#', '.', '.', '.', '.', '.', '.', '#'}, // Row 1
   {'.', '.', '#', '.', '#', '.', '#', '#', '#', '#', '.', '#'}, // Row 2
@@ -33,7 +33,7 @@ Maze initializeMaze() {
 void printMaze(const Maze& maze) {
 
  for (const auto& row : maze) {
-  for (char cell : row) {
+  for (const char cell : row) {
    std::cout << cell << ' ';
   }
   std::cout << '\n';

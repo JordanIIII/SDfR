@@ -17,7 +17,16 @@
  Position start = findStart(maze);
  printMaze(maze);
 
-  std::cout << start.row << " " << start.col << std::endl;
+ // Change starting position to a '.' so that the solver sees it as a path
+ maze[start.row][start.col] = '.';
+
+ if (traverseMaze(maze, start.row, start.col)) {
+  std::cout << '\n';
+ } else {
+  std::cout << "No solution found." << std::endl;
+ }
+
+ // std::cout << start.row << " " << start.col << std::endl;
  return 0;
 
 }

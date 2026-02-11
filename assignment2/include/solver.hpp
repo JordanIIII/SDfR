@@ -20,4 +20,6 @@ struct Position {
 
 Position findStart(const Maze& maze);
 
+bool traverseMaze(Maze& maze, const int row, const int col);
+
 #endif //SDFR_SOLVER_HPP
