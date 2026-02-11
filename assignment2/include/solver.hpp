@@ -3,21 +3,21 @@
 // Group   : PPD 1
 // License : LGPL open source license
 //
-// Brief   : Maze solver algorithm
+// Brief   : Solving algorithm for the maze
 //
 //=============================================================================
 
-#include <iostream>
-#include "../include/maze.hpp"
-#include "../include/solver.hpp"
+#ifndef SDFR_SOLVER_HPP
+#define SDFR_SOLVER_HPP
 
- int main() {
+#include "maze.hpp"
 
- Maze maze = initializeMaze();
- Position start = findStart(maze);
- printMaze(maze);
+// Simple structure that holds the X and Y coordinates in the maze
+struct Position {
+ int row;
+ int col;
+};
 
-  std::cout << start.row << " " << start.col << std::endl;
- return 0;
+Position findStart(const Maze& maze);
 
-}
+#endif //SDFR_SOLVER_HPP

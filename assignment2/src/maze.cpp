@@ -3,7 +3,7 @@
 // Group   : PPD 1
 // License : LGPL open source license
 //
-// Brief   : Initializes array for the maze
+// Brief   : Initializes array for the maze and a maze print function
 //
 //=============================================================================
 
