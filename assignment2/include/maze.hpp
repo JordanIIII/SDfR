@@ -12,15 +12,15 @@
 
 #include <array>
 
-// Dimensions
+// Dimensions of the maze
 const int MAZE_ROWS = 12;
 const int MAZE_COLS = 12;
 
-// Type definition
-using Maze = std::array<std::array<char, MAZE_COLS>, MAZE_ROWS>;
+// Maze type definition
+typedef std::array<std::array<char, MAZE_COLS>, MAZE_ROWS> Maze;
 
 // Function declaration
 Maze initializeMaze();
-void printMaze(const Maze& maze);  // Without the & at Maze&, the program would make a full copy of the maze at every function call.
+void printMaze(const Maze& maze);  // The & means that the original maze is passed and not a copy.
 
 #endif //SDFR_INITIALIZEMAZE_HPP

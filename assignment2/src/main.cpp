@@ -14,19 +14,22 @@
  int main() {
 
  Maze maze = initializeMaze();
- Position start = findStart(maze);
+ Position startPos = findStart(maze);
  printMaze(maze);
 
- // Change starting position to a '.' so that the solver sees it as a path
- maze[start.row][start.col] = '.';
+ // Initial direction is set to north
+ Direction startDir = Direction::NORTH;
 
- if (traverseMaze(maze, start.row, start.col)) {
-  std::cout << '\n';
+ // Change starting position to a '.' for the solver
+ maze[startPos.row][startPos.col] = '.';
+
+ // Start the maze traversal
+ if (traverseMaze(maze, startPos.row, startPos.col, startDir)) {
+  std::cout << "Solution found.\n" << std::endl;
  } else {
-  std::cout << "No solution found." << std::endl;
+  std::cout << "No solution found.\n" << std::endl;
  }
 
- // std::cout << start.row << " " << start.col << std::endl;
  return 0;
 
 }
