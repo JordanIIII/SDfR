@@ -3,7 +3,7 @@
 // Group   : PPD 1
 // License : LGPL open source license
 //
-// Brief   : Initializes array for the maze
+// Brief   : Sets constants for number of rows and cols, as well as defining the grid type
 //
 //=============================================================================
 

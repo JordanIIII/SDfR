@@ -3,7 +3,7 @@
 // Group   : PPD 1
 // License : LGPL open source license
 //
-// Brief   : Solving algorithm for the maze
+// Brief   : Defines the scoped enumerator for directions, as well as a struct for position
 //
 //=============================================================================
 

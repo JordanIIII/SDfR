@@ -13,7 +13,7 @@
 #include "../include/solver.hpp"
 #include "../include/maze.hpp"
 
-int delay = 300; // Delay in milliseconds for visualization.
+int delay = 50; // Delay in milliseconds for visualization.
 
 Position findStart(const grid& maze) {
  // Iterate through each row
@@ -81,7 +81,7 @@ bool traverseMaze(grid& maze, const int row, const int col, const Direction curr
  if (maze[row][col] == '#' || maze[row][col] == 'x') return false;
 
  // Check if the maze was solved (column == 0)
- if (col == 0) {
+ if (col == 0 || row == 0 || row == 11) {
   maze[row][col] = 'x'; // Mark last step
   printMaze(maze);
   return true;
