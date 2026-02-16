@@ -13,14 +13,14 @@
 #include <array>
 
 // Dimensions of the maze
-const int MAZE_ROWS = 12;
-const int MAZE_COLS = 12;
+constexpr int rows = 12;
+constexpr int cols = 12;
 
 // Maze type definition
-typedef std::array<std::array<char, MAZE_COLS>, MAZE_ROWS> Maze;
+typedef std::array<std::array<char, cols>, rows> grid;
 
 // Function declaration
-Maze initializeMaze();
-void printMaze(const Maze& maze);  // The & means that the original maze is passed and not a copy.
+grid initializeMaze();
+void printMaze(const grid& maze);  // The & means that the original maze is passed and not a copy.
 
 #endif //SDFR_INITIALIZEMAZE_HPP

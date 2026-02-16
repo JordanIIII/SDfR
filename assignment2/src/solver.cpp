@@ -13,13 +13,13 @@
 #include "../include/solver.hpp"
 #include "../include/maze.hpp"
 
-int delay = 100; // Delay in milliseconds for visualization.
+int delay = 300; // Delay in milliseconds for visualization.
 
-Position findStart(const Maze& maze) {
+Position findStart(const grid& maze) {
  // Iterate through each row
- for (int row = 0; row < MAZE_ROWS; ++row) {
+ for (int row = 0; row < rows; ++row) {
   // Iterate through each column
-  for (int col = 0; col < MAZE_COLS; ++col) {
+  for (int col = 0; col < cols; ++col) {
 
    // Check if current cell matches 'x'.
    if (maze[row][col] == 'x') {
@@ -28,18 +28,17 @@ Position findStart(const Maze& maze) {
   }
  }
 
- // Error message in the event it fails to find the start.
- std::cout << "Failed to find starting position.";
+ // In case it does not find an 'x', function must return something
  return {-1, -1};
 }
 
 // Return the row and col offset depending on current direction
-Position getOffset(Direction dir) {
+Position getOffset(const Direction dir) {
  switch (dir) {
-  case Direction::NORTH:    return {-1,0};
-  case Direction::SOUTH:    return {1,0};
-  case Direction::EAST:     return {0,1};
-  case Direction::WEST:     return {0,-1};
+  case Direction::UP:    return {-1,0};
+  case Direction::DOWN:    return {1,0};
+  case Direction::RIGHT:     return {0,1};
+  case Direction::LEFT:     return {0,-1};
  }
  // Default case
  return {0, 0};
@@ -47,40 +46,36 @@ Position getOffset(Direction dir) {
 
 ////////// Functions for turning
 // Left
-Direction turnLeft(Direction dir) {
+Direction turnLeft(const Direction dir) {
  switch (dir) {
-  case Direction::NORTH:    return Direction::WEST;
-  case Direction::SOUTH:    return Direction::EAST;
-  case Direction::EAST:     return Direction::NORTH;
-  case Direction::WEST:     return Direction::SOUTH;
+  case Direction::UP:    return Direction::LEFT;
+  case Direction::DOWN:    return Direction::RIGHT;
+  case Direction::RIGHT:     return Direction::UP;
+  case Direction::LEFT:     return Direction::DOWN;
  }
  // Default case
- return Direction::NORTH;
+ return Direction::UP;
 };
 
 // Right
-Direction turnRight(Direction dir) {
+Direction turnRight(const Direction dir) {
  switch (dir) {
-  case Direction::NORTH:    return Direction::EAST;
-  case Direction::SOUTH:    return Direction::WEST;
-  case Direction::EAST:     return Direction::SOUTH;
-  case Direction::WEST:     return Direction::NORTH;
+  case Direction::UP:    return Direction::RIGHT;
+  case Direction::DOWN:    return Direction::LEFT;
+  case Direction::RIGHT:     return Direction::DOWN;
+  case Direction::LEFT:     return Direction::UP;
  }
  // Default case
- return Direction::NORTH;
+ return Direction::UP;
 };
 
-// Back
-Direction turnBack(Direction dir) {
- return turnRight(turnRight(dir));
-};
 /////////////
 
 // Recursive function to traverse the maze
-bool traverseMaze(Maze& maze, const int row, const int col, const Direction currentDir) {
+bool traverseMaze(grid& maze, const int row, const int col, const Direction currentDir) {
 
- // Check bounds
- if (row < 0 || col < 0 || row >= MAZE_ROWS || col >= MAZE_COLS) return false;
+ // Check if your're in the maze
+ if (row < 0 || col < 0 || row >= rows || col >= cols) return false;
 
  // Check walls and path
  if (maze[row][col] == '#' || maze[row][col] == 'x') return false;
@@ -98,15 +93,14 @@ bool traverseMaze(Maze& maze, const int row, const int col, const Direction curr
  std::this_thread::sleep_for(std::chrono::milliseconds(delay));
 
  // Define the order in which the directions are tried (for loop)
- Direction tryOrder[] = {
+ Direction turnOrder[] = {
     turnRight(currentDir),  // First try turning right
     currentDir,             // If not possible, go straight
-    turnLeft(currentDir),   // If not possible, turn left
-    turnBack(currentDir)    // Finally if those are impossible, turn back
+    turnLeft(currentDir)   // If not possible, turn left
  };
 
  // Try each direction in the defined order
- for (Direction dir : tryOrder) {
+ for (const Direction dir : turnOrder) {
   Position offset = getOffset(dir);
   if (traverseMaze(maze, row + offset.row, col + offset.col, dir)) {
    return true;

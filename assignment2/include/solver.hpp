@@ -14,10 +14,10 @@
 
 // Scoped enumerator Direction
 enum class Direction {
- NORTH,
- EAST,
- SOUTH,
- WEST
+ UP,
+ RIGHT,
+ DOWN,
+ LEFT
 };
 
 // Simple structure that holds the X and Y coordinates in the maze
@@ -26,8 +26,8 @@ struct Position {
  int col;
 };
 
-Position findStart(const Maze& maze);
+Position findStart(const grid& maze);
 
-bool traverseMaze(Maze& maze, const int row, const int col, const Direction currentDir);
+bool traverseMaze(grid& maze, const int row, const int col, const Direction currentDir);
 
 #endif //SDFR_SOLVER_HPP

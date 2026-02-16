@@ -39,5 +39,22 @@
       "$0"
     ],
     "description": "Inserts the standard assignment header for Jordan and Steyn"
+   },
+
+   "README file header": {
+	"prefix": "readme",
+	"body": [
+	  "Assignment ${1:Assignment number}",
+	  "−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−",
+	  "Ensure directory is set to .\\assignment${1:Assignment number}",
+	  "−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−",
+	  "1. Compile command:",
+	  "\tg++ ${2:Enter the compile command here}",
+	  "2. Run command:",
+	  "\t${3:Enter the run command here}",
+	  "3. Usage:",
+	  "\t${4:Enter usage instructions here}"
+	],
+	"description": "Inserts a standard README file header"
    }
 }

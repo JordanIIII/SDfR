@@ -13,12 +13,12 @@
 
  int main() {
 
- Maze maze = initializeMaze();
+ grid maze = initializeMaze();
  Position startPos = findStart(maze);
  printMaze(maze);
 
  // Initial direction is set to north
- Direction startDir = Direction::NORTH;
+ constexpr Direction startDir = Direction::UP;
 
  // Change starting position to a '.' for the solver
  maze[startPos.row][startPos.col] = '.';

@@ -10,9 +10,9 @@
 #include <iostream>
 #include "../include/maze.hpp"
 
-Maze initializeMaze() {
+grid initializeMaze() {
  // Initialization of the maze
- Maze maze = {{
+ const grid maze = {{
   {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#'}, 
   {'#', '.', '.', '.', '#', '.', '.', '.', '.', '.', '.', '#'}, 
   {'.', '.', '#', '.', '#', '.', '#', '#', '#', '#', '.', '#'}, 
@@ -30,7 +30,7 @@ Maze initializeMaze() {
  return maze;
 }
 
-void printMaze(const Maze& maze) {
+void printMaze(const grid& maze) {
 
  for (const auto& row : maze) {
   for (const char cell : row) {
@@ -38,6 +38,6 @@ void printMaze(const Maze& maze) {
   }
   std::cout << '\n';
  }
- // Print a separator in between steps
+ // Separator between each step
  std::cout << "------------------------\n";
 }
