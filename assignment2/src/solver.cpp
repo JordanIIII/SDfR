@@ -13,7 +13,7 @@
 #include "../include/solver.hpp"
 #include "../include/maze.hpp"
 
-int delay = 50; // Delay in milliseconds for visualization.
+int delay = 300; // Delay in milliseconds for visualization.
 
 Position findStart(const grid& maze) {
  // Iterate through each row
