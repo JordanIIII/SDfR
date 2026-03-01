@@ -145,6 +145,24 @@ public:
       std::cout << "\n\n";
    } 
 
+   // concatenate two lists
+   void concatenate(List<NODETYPE>& list) {
+      if (list.isEmpty()) { // List to concatenate is empty
+         return;
+      } 
+      else if (isEmpty()) { // current List is empty
+         firstPtr = list.firstPtr;
+         lastPtr = list.lastPtr;
+      } 
+      else { // both Lists are not empty
+         lastPtr->nextPtr = list.firstPtr; // concatenate lists
+         lastPtr = list.lastPtr; // new last node is last node of concatenated list
+      } 
+
+      // empty the concatenated list
+      list.firstPtr = list.lastPtr = nullptr;
+   }
+
 private:
    ListNode<NODETYPE>* firstPtr{nullptr}; // pointer to first node
    ListNode<NODETYPE>* lastPtr{nullptr}; // pointer to last node  
@@ -153,7 +171,14 @@ private:
    ListNode<NODETYPE>* getNewNode(const NODETYPE& value) {
       return new ListNode<NODETYPE>{value};
    } 
-}; 
+};
+
+// Function to fill char list with characters from a string
+void fillList(List<char>& list, const std::string& str) {
+   for (char c : str) {       // iterate through characters in string
+      list.insertAtBack(c);
+   }
+}
 
 #endif
 
