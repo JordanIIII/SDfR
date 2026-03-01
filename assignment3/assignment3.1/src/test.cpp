@@ -14,34 +14,39 @@
 int main() {
     
     // Declare two lists of characters
-    List<char> list1; // List to hold characters from "singlylinkedlist"
-    List<char> list2; // abcdefg
-    List<char> list3; // hijklmnop
-    List<char> list4; // qrstuvw
+    List<char> list1;
+    List<char> list2; 
+    List<char> list3;
 
-    // Fill the lists with characters from the given strings
-    std::string str1 = "singlylinkedlist";
-    std::string str2 = "abcdefg";
-    std::string str3 = "hijklmnop";
-    std::string str4 = "qrstuvw";
+    // Strings for testing
+    std::string str1;
+    std::string str2;
+    std::string str3;
     
+    // Get user input for the three strings for testing edge cases
+    std::cout << "Enter string 1: ";
+    std::getline(std::cin, str1);
+    std::cout << "Enter string 2: ";
+    std::getline(std::cin, str2);
+    std::cout << "Enter string 3: ";
+    std::getline(std::cin, str3);
     // Fill the lists using the fillList function
     fillList(list1, str1);
     fillList(list2, str2);
     fillList(list3, str3);
-    fillList(list4, str4);
 
     // Print the contents of both lists
     list1.print();
     list2.print();
+    list3.print();
 
     std::cout << "Concatenated lists:\n";
 
     // Concatenate lists 2 though 4.
-    list2.concatenate(list3);
-    list2.concatenate(list4);
+    list1.concatenate(list2);
+    list1.concatenate(list3);
 
-    list2.print();
-    
+    list1.print();
+
     return 0;
 }
