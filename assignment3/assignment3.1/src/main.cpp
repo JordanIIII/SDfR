@@ -8,8 +8,8 @@
 //=============================================================================
 
 #include <iostream>
-#include "../include/List.h"
-#include "../include/ListNode.h"
+#include "List.h"
+#include "ListNode.h"
 
 int main() {
     

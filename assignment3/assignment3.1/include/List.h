@@ -3,7 +3,7 @@
 // Group   : PPD 1
 // License : LGPL open source license
 //
-// Brief   : 
+// Brief   : Header file for List class definition, added concatenate and fillList functions
 //
 //=============================================================================
 

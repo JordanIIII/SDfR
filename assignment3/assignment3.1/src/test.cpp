@@ -3,13 +3,13 @@
 // Group   : PPD 1
 // License : LGPL open source license
 //
-// Brief   : Define strings and concatenate them using the List class
+// Brief   : File modified to test edge cases of the concatenate function
 //
 //=============================================================================
 
 #include <iostream>
-#include "../include/List.h"
-#include "../include/ListNode.h"
+#include "List.h"
+#include "ListNode.h"
 
 int main() {
     
