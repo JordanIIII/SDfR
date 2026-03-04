@@ -3,7 +3,7 @@
 // Group   : PPD 1
 // License : LGPL open source license
 //
-// Brief   : Enter a brief description here
+// Brief   : 
 //
 //=============================================================================
 
