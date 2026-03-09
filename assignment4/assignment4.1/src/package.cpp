@@ -1,12 +1,14 @@
 #include "package.hpp"
 
 // Package constructor
-Package::Package(std::string senderName, std::string senderAddress, std::string receiverName, std::string receiverAddress, float weight) {
+Package::Package(std::string senderName, std::string senderAddress, std::string receiverName, std::string receiverAddress, float weight, float flatFee, float weightFee) {
     this->senderName = senderName;
     this->senderAddress = senderAddress;
     this->receiverName = receiverName;
     this->receiverAddress = receiverAddress;
     this->weight = weight;
+    this->flatFee = flatFee;
+    this->weightFee = weightFee;
 }
 
 // printInfo()
@@ -18,10 +20,10 @@ void Package::printInfo() {
 
 // calculateCost()
 float Package::calculateCost() {
-    return weight * 2.50 + 5.00; // Base cost for a package
+    return weight * weightFee + flatFee; // Base cost for a package
 }
 
 // printCost()
 void Package::printCost() {
-    std::cout << "Cost: €" << calculateCost() << std::endl;
+    std::cout << "Cost: " << calculateCost() << " euros" << std::endl;
 }
