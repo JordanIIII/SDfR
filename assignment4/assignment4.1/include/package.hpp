@@ -14,7 +14,7 @@ class Package {
         float weight, float flatFee, float weightFee);
 
     // printInfo()
-    void printInfo();
+    virtual void printInfo();
 
     // calculateCost()
     virtual float calculateCost();
