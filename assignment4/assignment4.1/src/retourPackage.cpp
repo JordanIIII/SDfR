@@ -1,3 +1,13 @@
+//=============================================================================
+// Authors : Jordan Nwandu (s3537544) and Steyn Fokkema (s2710714)
+// Group   : PPD 1
+// License : LGPL open source license
+//
+// Brief   : retour package adds a numeberOfReturns and orderNumber parameter, overwrites the printInfo command to include these
+//
+//=============================================================================
+
+
 #include "retourPackage.hpp"
 
 // Package constructor

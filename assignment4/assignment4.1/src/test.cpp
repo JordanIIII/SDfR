@@ -1,3 +1,13 @@
+//=============================================================================
+// Authors : Jordan Nwandu (s3537544) and Steyn Fokkema (s2710714)
+// Group   : PPD 1
+// License : LGPL open source license
+//
+// Brief   : Test file, changed to take user input for strings.
+//
+//=============================================================================
+
+
 #include "package.hpp"
 #include "sameDayPackage.hpp"
 #include "overnightPackage.hpp"

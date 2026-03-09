@@ -1,3 +1,13 @@
+//=============================================================================
+// Authors : Jordan Nwandu (s3537544) and Steyn Fokkema (s2710714)
+// Group   : PPD 1
+// License : LGPL open source license
+//
+// Brief   : Base package class, defines print info and print cost, also calulates a base cost that everything else is based on
+//
+//=============================================================================
+
+
 #include "package.hpp"
 
 // Package constructor
