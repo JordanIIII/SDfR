@@ -8,11 +8,15 @@
 class overnightPackage : public Package {
     public:
     // Constructor
-    overnightPackage(std::string senderName, std::string senderAddress, std::string receiverName, std::string receiverAddress, float weight, float flatFee, float weightFee);
+    overnightPackage(
+        std::string senderName, 
+        std::string senderAddress, 
+        std::string receiverName, 
+        std::string receiverAddress, 
+        float weight, 
+        float flatFee, 
+        float weightFee);
 
     // calculateCost()
     virtual float calculateCost() override;
-
-    float flatFee;
-    float weightFee;
 };

@@ -1,7 +1,12 @@
 #include "package.hpp"
 
 // Package constructor
-Package::Package(std::string senderName, std::string senderAddress, std::string receiverName, std::string receiverAddress, float weight, float flatFee, float weightFee) {
+Package::Package(
+    std::string senderName, 
+    std::string senderAddress, 
+    std::string receiverName, 
+    std::string receiverAddress, 
+    float weight, float flatFee, float weightFee) {
     this->senderName = senderName;
     this->senderAddress = senderAddress;
     this->receiverName = receiverName;

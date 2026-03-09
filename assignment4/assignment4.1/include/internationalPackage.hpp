@@ -8,11 +8,15 @@
 class internationalPackage : public Package {
     public:
     // Constructor
-    internationalPackage(std::string senderName, std::string senderAddress, std::string receiverName, std::string receiverAddress, float weight, float flatFee, float weightFee);
+    internationalPackage(
+        std::string senderName, 
+        std::string senderAddress, 
+        std::string receiverName, 
+        std::string receiverAddress, 
+        float weight, 
+        float flatFee, 
+        float weightFee);
 
      // calculateCost()
     virtual float calculateCost() override;
-
-    float flatFee;
-    float weightFee;
 };

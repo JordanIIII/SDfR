@@ -6,7 +6,12 @@
 class Package {
     public:
     // Constructor
-    Package(std::string senderName, std::string senderAddress, std::string receiverName, std::string receiverAddress, float weight, float flatFee, float weightFee);
+    Package(
+        std::string senderName, 
+        std::string senderAddress, 
+        std::string receiverName, 
+        std::string receiverAddress, 
+        float weight, float flatFee, float weightFee);
 
     // printInfo()
     void printInfo();

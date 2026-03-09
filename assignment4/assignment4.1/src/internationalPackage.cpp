@@ -2,9 +2,14 @@
 #include "internationalPackage.hpp"
 
 // Package constructor
-internationalPackage::internationalPackage(std::string senderName, std::string senderAddress, std::string receiverName, std::string receiverAddress, float weight, float flatFee, float weightFee) : Package(senderName, senderAddress, receiverName, receiverAddress, weight, flatFee, weightFee) {
-    this->flatFee = flatFee;
-    this->weightFee = weightFee;   
+internationalPackage::internationalPackage(
+    std::string senderName, 
+    std::string senderAddress, 
+    std::string receiverName, 
+    std::string receiverAddress, 
+    float weight, 
+    float flatFee, 
+    float weightFee) : Package(senderName, senderAddress, receiverName, receiverAddress, weight, flatFee, weightFee) {  
 }
 
 // calculateCost()

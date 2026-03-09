@@ -8,11 +8,15 @@
 class sameDayPackage : public Package {
     public:
     // Constructor
-    sameDayPackage(std::string senderName, std::string senderAddress, std::string receiverName, std::string receiverAddress, float weight, float flatFee, float weightFee);
+    sameDayPackage(
+        std::string senderName, 
+        std::string senderAddress, 
+        std::string receiverName, 
+        std::string receiverAddress, 
+        float weight, 
+        float flatFee, 
+        float weightFee);
 
     // calculateCost()
     virtual float calculateCost() override;
-
-    float flatFee;
-    float weightFee;
 };

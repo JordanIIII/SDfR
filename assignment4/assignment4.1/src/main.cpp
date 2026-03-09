@@ -3,6 +3,7 @@
 #include "overnightPackage.hpp"
 #include "twoDayPackage.hpp"
 #include "internationalPackage.hpp"
+#include "overnightInternationalPackage.hpp"
 
 int main() {
     // Parameters: (senderName, senderAddress, receiverName, receiverAddress, weight, flatFee, weightFee)
@@ -10,6 +11,7 @@ int main() {
     sameDayPackage sameDay("Jordan", "Calslaan", "Steyn", "Matenweg", 5.0, 2.0, 5.0);
     overnightPackage overnight("Tomoki", "123 Main St", "Sjoerd", "456 Elm St", 15.0, 5.0, 2.5);
     internationalPackage international("Ira", "Teletubbieland", "Malta", "742 Evergreen Terrace", 7.0, 30.0, 3);
+    overnightInternationalPackage overnightInternational("Alice", "Wonderland", "Bob", "Builder Street", 10.0, 5.0, 2.5);
 
     std::cout << "\nTwo Day Package Info:" << std::endl;
     twoDay.printInfo();
@@ -26,6 +28,10 @@ int main() {
     std::cout << "\nInternational Package Info:" << std::endl;
     international.printInfo();
     international.printCost();
+
+    std::cout << "\nOvernight International Package Info:" << std::endl;
+    overnightInternational.printInfo();
+    overnightInternational.printCost();
 
     return 0;
 }
