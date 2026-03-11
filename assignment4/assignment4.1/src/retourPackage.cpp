@@ -10,7 +10,7 @@
 
 #include "retourPackage.hpp"
 
-// Package constructor
+// Package constructor, it takes the same parameters as the base package, but also takes numberOfReturns and orderNumber
 retourPackage::retourPackage(
     std::string senderName, 
     std::string senderAddress, 
@@ -25,9 +25,7 @@ retourPackage::retourPackage(
 void retourPackage::printInfo() {
     std::cout << "Retour package with order number " << orderNumber<< std::endl;
     std::cout << "Number of items in return: " << numberOfReturns << std::endl;
-    std::cout << "Return address: " << receiverName << ", " << receiverAddress << std::endl;
-    std::cout << "Receiver address: " << senderName << ", " << senderAddress << std::endl;
-    std::cout << "weight: " << weight << " kg" << std::endl;
+    Package::printInfo(); // Call the base class printInfo to print the common package information
 }
 
 float retourPackage::updateWeightFee() {

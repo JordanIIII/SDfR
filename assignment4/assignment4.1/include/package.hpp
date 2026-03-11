@@ -23,15 +23,16 @@ class Package {
         std::string receiverAddress, 
         float weight, float flatFee, float weightFee);
 
-    // printInfo()
+    // printInfo(), this function stays the same for all packages EXCEPT the retour package (it adds order number and number of returns)
     virtual void printInfo();
 
-    // calculateCost()
+    // calculateCost(), calculates the base cost that every other package is based on
     virtual float calculateCost();
 
-    //
+    //printCost(), prints the cost of the package, this function stays the same for all packages
     void printCost();
  
+    protected:
     std::string senderName;
     std::string senderAddress;
     std::string receiverName;

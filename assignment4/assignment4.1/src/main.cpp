@@ -27,6 +27,8 @@ int main() {
     // Parameters: (senderName, senderAddress, receiverName, receiverAddress, weight, flatFee, weightFee, numberOfReturns, orderNumber)
     retourPackage retour("Charlie", "123 Oak St", "David", "456 Pine St", 20.0, 5.0, 2.5, 2, 2026001); 
 
+
+    // same info and cost print function for every package type
     std::cout << "\nTwo Day Package Info:" << std::endl;
     twoDay.printInfo();
     twoDay.printCost();

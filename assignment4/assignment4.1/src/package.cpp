@@ -26,19 +26,19 @@ Package::Package(
     this->weightFee = weightFee;
 }
 
-// printInfo()
+// printInfo(), this function stays the same for all packages EXCEPT the retour package (it adds order number and number of returns)
 void Package::printInfo() {
     std::cout << "Sender: " << senderName << ", " << senderAddress << std::endl;
     std::cout << "Receiver: " << receiverName << ", " << receiverAddress << std::endl;
     std::cout << "Weight: " << weight << " kg" << std::endl;
 }
 
-// calculateCost()
+// calculateCost(), calculates the base cost that every other package is based on
 float Package::calculateCost() {
     return weight * weightFee + flatFee; // Base cost for a package
 }
 
-// printCost()
+// printCost(), prints the cost of the package, this function stays the same for all packages
 void Package::printCost() {
     std::cout << "Cost: " << calculateCost() << " euros" << std::endl;
 }

@@ -22,7 +22,7 @@ overnightInternationalPackage::overnightInternationalPackage(
     float weightFee) : overnightPackage(senderName, senderAddress, receiverName, receiverAddress, weight, flatFee, weightFee) { 
 }
 
-// calculateCost()
+// calculateCost(), it uses the same cost calculation as the overnight package, but adds an additional 21% fee for international shipping
 float overnightInternationalPackage::calculateCost() {  
     float baseCost = overnightPackage::calculateCost();
     return baseCost * 1.21; // International cost is 21% more than the overnight cost

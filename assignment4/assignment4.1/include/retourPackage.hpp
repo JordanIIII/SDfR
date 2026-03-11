@@ -31,6 +31,7 @@ class retourPackage : public Package {
 
     float updateWeightFee(); // Update the weight fee based on the number of returns
 
+    protected:
     int numberOfReturns;
     int orderNumber;
 };
