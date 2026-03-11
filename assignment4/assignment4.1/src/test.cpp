@@ -38,9 +38,9 @@ int main() {
 
     // Create every package type using the provided input
     twoDayPackage twoDay(senderName, senderAddress, receiverName, receiverAddress, weight, 5.0, 2.5);
-    sameDayPackage sameDay(senderName, senderAddress, receiverName, receiverAddress, weight, 2.0, 5.0);
+    sameDayPackage sameDay(senderName, senderAddress, receiverName, receiverAddress, weight, 5.0, 2.5);
     overnightPackage overnight(senderName, senderAddress, receiverName, receiverAddress, weight, 5.0, 2.5);
-    internationalPackage international(senderName, senderAddress, receiverName, receiverAddress, weight, 30.0, 3);
+    internationalPackage international(senderName, senderAddress, receiverName, receiverAddress, weight, 5.0, 2.5);
     overnightInternationalPackage overnightInternational(senderName, senderAddress, receiverName, receiverAddress, weight, 5.0, 2.5);
 
     // Parameters: (senderName, senderAddress, receiverName, receiverAddress, weight, flatFee, weightFee, numberOfReturns, orderNumber)
