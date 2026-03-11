@@ -1,0 +1,40 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>306</x><y>211</y><w>189</w><h>171</h></coordinates><panel_attributes>Class: Package
+--
+Sender Name
+Sender Address
+Receiver Name
+Receiver Address
+Weight
+Flat Fee
+Weight Fee
+--
+printInfo()
+calculateCost()
+printCost()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>198</x><y>373</y><w>144</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>140;10;140;50;10;50;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>117</x><y>481</y><w>189</w><h>45</h></coordinates><panel_attributes>Class: InternationalPackage
+--
+--
+calculateCost()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>288</x><y>634</y><w>207</w><h>45</h></coordinates><panel_attributes>Class: OvernightInternationalPackage
+--
+--
+calculateCost()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>387</x><y>571</y><w>27</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>297</x><y>535</y><w>189</w><h>45</h></coordinates><panel_attributes>Class: OvernightPackage
+--
+--
+calculateCost()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>387</x><y>373</y><w>27</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>481</y><w>189</w><h>45</h></coordinates><panel_attributes>Class: SameDayPackage
+--
+--
+calculateCost()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>373</y><w>126</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50;120;50;120;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>337</y><w>189</w><h>45</h></coordinates><panel_attributes>Class: TwoDayPackage
+--
+--
+calculateCost()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>198</x><y>346</y><w>126</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>120;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>585</x><y>292</y><w>189</w><h>90</h></coordinates><panel_attributes>Class: RetourPackage
+--
+Number of returns
+Order number
+--
+printInfo()
+calculateCost()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>346</y><w>117</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element></diagram>
