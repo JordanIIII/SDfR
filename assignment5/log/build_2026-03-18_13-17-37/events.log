@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.001179] (-) JobUnselected: {'identifier': 'relbot2turtlesim'}
+[0.001561] (-) JobUnselected: {'identifier': 'relbot_launch'}
+[0.001682] (-) JobUnselected: {'identifier': 'relbot_simulator'}
+[0.002242] (relbot_sequence_controller) JobQueued: {'identifier': 'relbot_sequence_controller', 'dependencies': OrderedDict()}
+[0.002445] (relbot_sequence_controller) JobStarted: {'identifier': 'relbot_sequence_controller'}
+[0.030157] (relbot_sequence_controller) JobProgress: {'identifier': 'relbot_sequence_controller', 'progress': 'cmake'}
+[0.032094] (relbot_sequence_controller) JobProgress: {'identifier': 'relbot_sequence_controller', 'progress': 'build'}
+[0.033962] (relbot_sequence_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller', '--', '-j16', '-l16'], 'cwd': '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jordan'), ('GIT_ASKPASS', '/home/jordan/.antigravity-server/bin/1.20.6-135ccf460c67c4b900dc10aa71c978f27d78601c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('ANTIGRAVITY_CLI_ALIAS', 'agy'), ('HOME', '/home/jordan'), ('OLDPWD', '/home/jordan/SDfR/assignment5'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-71d726b1-d2af-49e8-8cb2-10bbfbbee2e7.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jordan/.antigravity-server/bin/1.20.6-135ccf460c67c4b900dc10aa71c978f27d78601c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jordan/.antigravity-server/bin/1.20.6-135ccf460c67c4b900dc10aa71c978f27d78601c/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ANTIGRAVITY_AGENT', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/54967_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.antigravity-server/bin/1.20.6-135ccf460c67c4b900dc10aa71c978f27d78601c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-813be9342e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099410] (-) TimerEvent: {}
+[0.199995] (-) TimerEvent: {}
+[0.243232] (relbot_sequence_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target relbot_sequence_controller\x1b[0m\n'}
+[0.296581] (relbot_sequence_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o\x1b[0m\n'}
+[0.300190] (-) TimerEvent: {}
+[0.400880] (-) TimerEvent: {}
+[0.501545] (-) TimerEvent: {}
+[0.602178] (-) TimerEvent: {}
+[0.703095] (-) TimerEvent: {}
+[0.803746] (-) TimerEvent: {}
+[0.904382] (-) TimerEvent: {}
+[1.005067] (-) TimerEvent: {}
+[1.105784] (-) TimerEvent: {}
+[1.206444] (-) TimerEvent: {}
+[1.307294] (-) TimerEvent: {}
+[1.407888] (-) TimerEvent: {}
+[1.508659] (-) TimerEvent: {}
+[1.609326] (-) TimerEvent: {}
+[1.709900] (-) TimerEvent: {}
+[1.810653] (-) TimerEvent: {}
+[1.911304] (-) TimerEvent: {}
+[2.012042] (-) TimerEvent: {}
+[2.112825] (-) TimerEvent: {}
+[2.213443] (-) TimerEvent: {}
+[2.314253] (-) TimerEvent: {}
+[2.414890] (-) TimerEvent: {}
+[2.515590] (-) TimerEvent: {}
+[2.616192] (-) TimerEvent: {}
+[2.716904] (-) TimerEvent: {}
+[2.817496] (-) TimerEvent: {}
+[2.918104] (-) TimerEvent: {}
+[3.018788] (-) TimerEvent: {}
+[3.119475] (-) TimerEvent: {}
+[3.220114] (-) TimerEvent: {}
+[3.320880] (-) TimerEvent: {}
+[3.421539] (-) TimerEvent: {}
+[3.522226] (-) TimerEvent: {}
+[3.622897] (-) TimerEvent: {}
+[3.723936] (-) TimerEvent: {}
+[3.824582] (-) TimerEvent: {}
+[3.925293] (-) TimerEvent: {}
+[4.026065] (-) TimerEvent: {}
+[4.126735] (-) TimerEvent: {}
+[4.227400] (-) TimerEvent: {}
+[4.328089] (-) TimerEvent: {}
+[4.428818] (-) TimerEvent: {}
+[4.529501] (-) TimerEvent: {}
+[4.630264] (-) TimerEvent: {}
+[4.731021] (-) TimerEvent: {}
+[4.831750] (-) TimerEvent: {}
+[4.932593] (-) TimerEvent: {}
+[5.033336] (-) TimerEvent: {}
+[5.133967] (-) TimerEvent: {}
+[5.234714] (-) TimerEvent: {}
+[5.335579] (-) TimerEvent: {}
+[5.436487] (-) TimerEvent: {}
+[5.537402] (-) TimerEvent: {}
+[5.638206] (-) TimerEvent: {}
+[5.739156] (-) TimerEvent: {}
+[5.839933] (-) TimerEvent: {}
+[5.940648] (-) TimerEvent: {}
+[6.041520] (-) TimerEvent: {}
+[6.142188] (-) TimerEvent: {}
+[6.242856] (-) TimerEvent: {}
+[6.343724] (-) TimerEvent: {}
+[6.444656] (-) TimerEvent: {}
+[6.545371] (-) TimerEvent: {}
+[6.646027] (-) TimerEvent: {}
+[6.746642] (-) TimerEvent: {}
+[6.847310] (-) TimerEvent: {}
+[6.948006] (-) TimerEvent: {}
+[7.048728] (-) TimerEvent: {}
+[7.149372] (-) TimerEvent: {}
+[7.249989] (-) TimerEvent: {}
+[7.350591] (-) TimerEvent: {}
+[7.451151] (-) TimerEvent: {}
+[7.551813] (-) TimerEvent: {}
+[7.652544] (-) TimerEvent: {}
+[7.753185] (-) TimerEvent: {}
+[7.853872] (-) TimerEvent: {}
+[7.954585] (-) TimerEvent: {}
+[8.055431] (-) TimerEvent: {}
+[8.156214] (-) TimerEvent: {}
+[8.257147] (-) TimerEvent: {}
+[8.357696] (-) TimerEvent: {}
+[8.458431] (-) TimerEvent: {}
+[8.559123] (-) TimerEvent: {}
+[8.659902] (-) TimerEvent: {}
+[8.760624] (-) TimerEvent: {}
+[8.861185] (-) TimerEvent: {}
+[8.961788] (-) TimerEvent: {}
+[9.062504] (-) TimerEvent: {}
+[9.163072] (-) TimerEvent: {}
+[9.263654] (-) TimerEvent: {}
+[9.364274] (-) TimerEvent: {}
+[9.464973] (-) TimerEvent: {}
+[9.565656] (-) TimerEvent: {}
+[9.666370] (-) TimerEvent: {}
+[9.766960] (-) TimerEvent: {}
+[9.867572] (-) TimerEvent: {}
+[9.968223] (-) TimerEvent: {}
+[10.068968] (-) TimerEvent: {}
+[10.169591] (-) TimerEvent: {}
+[10.270275] (-) TimerEvent: {}
+[10.370981] (-) TimerEvent: {}
+[10.471570] (-) TimerEvent: {}
+[10.572256] (-) TimerEvent: {}
+[10.673015] (-) TimerEvent: {}
+[10.773955] (-) TimerEvent: {}
+[10.874595] (-) TimerEvent: {}
+[10.975359] (-) TimerEvent: {}
+[11.076143] (-) TimerEvent: {}
+[11.176933] (-) TimerEvent: {}
+[11.277646] (-) TimerEvent: {}
+[11.378362] (-) TimerEvent: {}
+[11.479007] (-) TimerEvent: {}
+[11.579668] (-) TimerEvent: {}
+[11.680283] (-) TimerEvent: {}
+[11.720642] (relbot_sequence_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable relbot_sequence_controller\x1b[0m\n'}
+[11.780619] (-) TimerEvent: {}
+[11.881246] (-) TimerEvent: {}
+[11.981889] (-) TimerEvent: {}
+[12.082534] (-) TimerEvent: {}
+[12.183267] (-) TimerEvent: {}
+[12.283946] (-) TimerEvent: {}
+[12.384581] (-) TimerEvent: {}
+[12.485246] (-) TimerEvent: {}
+[12.585934] (-) TimerEvent: {}
+[12.686551] (-) TimerEvent: {}
+[12.787181] (-) TimerEvent: {}
+[12.862619] (relbot_sequence_controller) StdoutLine: {'line': b'[100%] Built target relbot_sequence_controller\n'}
+[12.887491] (-) TimerEvent: {}
+[12.900706] (relbot_sequence_controller) CommandEnded: {'returncode': 0}
+[12.903279] (relbot_sequence_controller) JobProgress: {'identifier': 'relbot_sequence_controller', 'progress': 'install'}
+[12.931789] (relbot_sequence_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller'], 'cwd': '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jordan'), ('GIT_ASKPASS', '/home/jordan/.antigravity-server/bin/1.20.6-135ccf460c67c4b900dc10aa71c978f27d78601c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('ANTIGRAVITY_CLI_ALIAS', 'agy'), ('HOME', '/home/jordan'), ('OLDPWD', '/home/jordan/SDfR/assignment5'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-71d726b1-d2af-49e8-8cb2-10bbfbbee2e7.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jordan/.antigravity-server/bin/1.20.6-135ccf460c67c4b900dc10aa71c978f27d78601c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jordan/.antigravity-server/bin/1.20.6-135ccf460c67c4b900dc10aa71c978f27d78601c/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ANTIGRAVITY_AGENT', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/54967_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.antigravity-server/bin/1.20.6-135ccf460c67c4b900dc10aa71c978f27d78601c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-813be9342e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.952989] (relbot_sequence_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.956369] (relbot_sequence_controller) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller\n'}
+[12.962989] (relbot_sequence_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment5/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller" to ""\n'}
+[12.963823] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller\n'}
+[12.964217] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller\n'}
+[12.964427] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.sh\n'}
+[12.964965] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.dsv\n'}
+[12.965247] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.sh\n'}
+[12.965686] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.dsv\n'}
+[12.965847] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.bash\n'}
+[12.966063] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.sh\n'}
+[12.966223] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.zsh\n'}
+[12.966427] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.dsv\n'}
+[12.966544] (relbot_sequence_controller) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv\n'}
+[12.966908] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/ament_index/resource_index/packages/relbot_sequence_controller\n'}
+[12.967376] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig.cmake\n'}
+[12.967540] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig-version.cmake\n'}
+[12.967653] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/package.xml\n'}
+[12.973190] (relbot_sequence_controller) CommandEnded: {'returncode': 0}
+[12.987831] (-) TimerEvent: {}
+[13.035818] (relbot_sequence_controller) JobEnded: {'identifier': 'relbot_sequence_controller', 'rc': 0}
+[13.039219] (-) EventReactorShutdown: {}
