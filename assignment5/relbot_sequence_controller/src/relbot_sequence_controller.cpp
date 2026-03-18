@@ -22,7 +22,7 @@ void SteerRelbot::create_topics() {
 
 void SteerRelbot::calculate_velocity() {
     /* Change the code here: */
-    left_velocity = -4;
+    left_velocity = -3;
     right_velocity = 4;
     /* End of your algorithm */
 }
