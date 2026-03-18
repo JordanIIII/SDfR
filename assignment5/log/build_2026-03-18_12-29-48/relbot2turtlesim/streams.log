@@ -1,0 +1,70 @@
+[0.031s] Invoking command in '/home/jordan/SDfR/assignment5/build/relbot2turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment5/relbot2turtlesim -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment5/install/relbot2turtlesim
+[0.316s] -- The C compiler identification is GNU 11.4.0
+[0.972s] -- The CXX compiler identification is GNU 11.4.0
+[1.421s] -- Detecting C compiler ABI info
+[1.606s] -- Detecting C compiler ABI info - done
+[1.613s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.613s] -- Detecting C compile features
+[1.614s] -- Detecting C compile features - done
+[1.618s] -- Detecting CXX compiler ABI info
+[1.809s] -- Detecting CXX compiler ABI info - done
+[1.816s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.816s] -- Detecting CXX compile features
+[1.817s] -- Detecting CXX compile features - done
+[1.827s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.993s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.106s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[2.347s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.354s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.366s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.384s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.462s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.466s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.131s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.254s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.412s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.419s] -- Looking for pthread.h
+[9.633s] -- Looking for pthread.h - found
+[9.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.844s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.845s] -- Found Threads: TRUE  
+[9.892s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[9.932s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[9.944s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.022s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.022s] -- Configured cppcheck include dirs: /home/jordan/SDfR/assignment5/relbot2turtlesim/include
+[10.022s] -- Configured cppcheck exclude dirs and/or files: 
+[10.023s] -- Added test 'lint_cmake' to check CMake code style
+[10.025s] -- Added test 'uncrustify' to check C / C++ code style
+[10.025s] -- Configured uncrustify additional arguments: 
+[10.026s] -- Added test 'xmllint' to check XML markup files
+[10.028s] -- Configuring done
+[10.046s] -- Generating done
+[10.052s] -- Build files have been written to: /home/jordan/SDfR/assignment5/build/relbot2turtlesim
+[10.069s] Invoked command in '/home/jordan/SDfR/assignment5/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment5/relbot2turtlesim -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment5/install/relbot2turtlesim
+[10.071s] Invoking command in '/home/jordan/SDfR/assignment5/build/relbot2turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment5/build/relbot2turtlesim -- -j16 -l16
+[10.147s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot2turtlesim.dir/src/convert.cpp.o[0m
+[18.498s] [100%] [32m[1mLinking CXX executable relbot2turtlesim[0m
+[19.026s] [100%] Built target relbot2turtlesim
+[19.040s] Invoked command in '/home/jordan/SDfR/assignment5/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment5/build/relbot2turtlesim -- -j16 -l16
+[19.042s] Invoking command in '/home/jordan/SDfR/assignment5/build/relbot2turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment5/build/relbot2turtlesim
+[19.051s] -- Install configuration: ""
+[19.052s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/lib/relbot2turtlesim/relbot2turtlesim
+[19.059s] -- Set runtime path of "/home/jordan/SDfR/assignment5/install/relbot2turtlesim/lib/relbot2turtlesim/relbot2turtlesim" to ""
+[19.061s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/ament_index/resource_index/package_run_dependencies/relbot2turtlesim
+[19.061s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/ament_index/resource_index/parent_prefix_path/relbot2turtlesim
+[19.063s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.sh
+[19.063s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.dsv
+[19.063s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.sh
+[19.063s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.dsv
+[19.064s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.bash
+[19.064s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.sh
+[19.064s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.zsh
+[19.064s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.dsv
+[19.064s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv
+[19.065s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/ament_index/resource_index/packages/relbot2turtlesim
+[19.066s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig.cmake
+[19.066s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig-version.cmake
+[19.066s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot2turtlesim/share/relbot2turtlesim/package.xml
+[19.070s] Invoked command in '/home/jordan/SDfR/assignment5/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment5/build/relbot2turtlesim
