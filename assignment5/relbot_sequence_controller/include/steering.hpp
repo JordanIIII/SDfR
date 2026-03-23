@@ -26,7 +26,7 @@ private:
     // Topics
     rclcpp::Publisher<example_interfaces::msg::Float64>::SharedPtr left_wheel_topic_;
     rclcpp::Publisher<example_interfaces::msg::Float64>::SharedPtr right_wheel_topic_;
-    rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr pose_subscriber_;
+    rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr pose_subscriber;
 
     // Timer
     rclcpp::TimerBase::SharedPtr timer_;
@@ -36,19 +36,19 @@ private:
     double right_velocity;
 
     // pose tracking attributes
-    double current_angle_ = 0.0;
-    double current_x_ = 0.0;
-    double current_y_ = 0.0;
-    double start_angle_ = 100.0;
-    double square_start_x_ = 1000.0;
-    double square_start_y_ = 1000.0;
-    double square_start_angle_ = 100.0;
-    int completed_square_turns_ = 0;
-    bool turn_completed_ = false;
-    double circle_start_angle_ = 100.0;
-    bool circle_completed_ = false;
-    double circle_end_time_ = 0.0;
-    double turn_end_time_ = 0.0;
+    double current_angle = 0.0;
+    double current_x = 0.0;
+    double current_y = 0.0;
+    double start_angle = 100.0;
+    double square_start_x = 1000.0;
+    double square_start_y = 1000.0;
+    double square_start_angle = 100.0;
+    int completed_square_turns = 0;
+    bool turn_completed = false;
+    double circle_start_angle = 100.0;
+    bool circle_completed = false;
+    double circle_end_time = 0.0;
+    double turn_end_time = 0.0;
 
     // methods
     void create_topics();
