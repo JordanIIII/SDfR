@@ -1,8 +1,0 @@
-[01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:[m[K In member function ‘[01m[Kvoid SteerRelbot::calculate_velocity()[m[K’:
-[01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:60:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcircle_end_time_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcircle_end_time[m[K’?
-   60 |     else if (elapsed_time - [01;31m[Kcircle_end_time_[m[K < 10) {
-      |                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
-      |                             [32m[Kcircle_end_time[m[K
-gmake[2]: *** [CMakeFiles/relbot_sequence_controller.dir/build.make:76: CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/relbot_sequence_controller.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
