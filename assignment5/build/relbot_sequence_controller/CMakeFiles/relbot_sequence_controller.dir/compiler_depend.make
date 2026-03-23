@@ -691,8 +691,42 @@ CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o: 
   /opt/ros/humble/include/example_interfaces/example_interfaces/msg/detail/float64__builder.hpp \
   /opt/ros/humble/include/example_interfaces/example_interfaces/msg/detail/float64__traits.hpp \
   /opt/ros/humble/include/example_interfaces/example_interfaces/msg/detail/float64__type_support.hpp \
-  /opt/ros/humble/include/example_interfaces/example_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+  /opt/ros/humble/include/example_interfaces/example_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
 
 /opt/ros/humble/include/example_interfaces/example_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -781,6 +815,8 @@ CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o: 
 /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
 
@@ -965,6 +1001,8 @@ CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o: 
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -1606,6 +1644,8 @@ CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o: 
 
 /usr/include/c++/11/istream:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/c++/11/list:
@@ -1713,6 +1753,8 @@ CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o: 
 /usr/include/c++/11/bits/ostream.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 

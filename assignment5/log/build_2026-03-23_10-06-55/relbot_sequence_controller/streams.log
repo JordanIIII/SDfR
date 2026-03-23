@@ -1,0 +1,26 @@
+[0.021s] Invoking command in '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment5/build/relbot_sequence_controller -- -j16 -l16
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target relbot_sequence_controller[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[5.055s] [100%] [32m[1mLinking CXX executable relbot_sequence_controller[0m
+[5.385s] [100%] Built target relbot_sequence_controller
+[5.401s] Invoked command in '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment5/build/relbot_sequence_controller -- -j16 -l16
+[5.404s] Invoking command in '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment5/build/relbot_sequence_controller
+[5.413s] -- Install configuration: ""
+[5.413s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller
+[5.416s] -- Set runtime path of "/home/jordan/SDfR/assignment5/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller" to ""
+[5.416s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller
+[5.417s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller
+[5.417s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.sh
+[5.417s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.dsv
+[5.417s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.sh
+[5.417s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.dsv
+[5.417s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.bash
+[5.418s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.sh
+[5.418s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.zsh
+[5.418s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.dsv
+[5.418s] -- Installing: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv
+[5.418s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/ament_index/resource_index/packages/relbot_sequence_controller
+[5.418s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig.cmake
+[5.418s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig-version.cmake
+[5.419s] -- Up-to-date: /home/jordan/SDfR/assignment5/install/relbot_sequence_controller/share/relbot_sequence_controller/package.xml
+[5.422s] Invoked command in '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment5/build/relbot_sequence_controller

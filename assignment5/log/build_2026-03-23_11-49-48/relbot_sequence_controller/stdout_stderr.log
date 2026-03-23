@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target relbot_sequence_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:[m[K In member function ‘[01m[Kvoid SteerRelbot::calculate_velocity()[m[K’:
+[01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:79:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kturn_end_time_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   79 |         double [01;35m[Kturn_end_time_[m[K = elapsed_time;
+      |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:82:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn_end_time_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcircle_end_time_[m[K’?
+   82 | lse if (elapsed_time - [01;31m[Kturn_end_time_[m[K < 25) {
+      |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                        [32m[Kcircle_end_time_[m[K
+[01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:103:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble turn_end_time_[m[K’
+  103 |         double [01;31m[Kturn_end_time_[m[K = elapsed_time;
+      |                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:82:29:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>turn_end_time_[m[K’ previously declared here
+   82 | lse if (elapsed_time - [01;36m[Kturn_end_time_[m[K < 25) {
+      |                        [01;36m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:103:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kturn_end_time_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  103 |         double [01;35m[Kturn_end_time_[m[K = elapsed_time;
+      |                [01;35m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/relbot_sequence_controller.dir/build.make:76: CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/relbot_sequence_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

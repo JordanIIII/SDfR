@@ -1,0 +1,19 @@
+[0.031s] Invoking command in '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment5/build/relbot_sequence_controller -- -j16 -l16
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[3.509s] [01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:[m[K In member function ‘[01m[Kvoid SteerRelbot::calculate_velocity()[m[K’:
+[3.509s] [01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:79:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn_end_time_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcircle_end_time_[m[K’?
+[3.509s]    79 |         [01;31m[Kturn_end_time_[m[K = elapsed_time;
+[3.509s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.509s]       |         [32m[Kcircle_end_time_[m[K
+[3.517s] [01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:82:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn_end_time_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcircle_end_time_[m[K’?
+[3.517s]    82 | lse if (elapsed_time - [01;31m[Kturn_end_time_[m[K < 25) {
+[3.517s]       |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.517s]       |                        [32m[Kcircle_end_time_[m[K
+[3.526s] [01m[K/home/jordan/SDfR/assignment5/relbot_sequence_controller/src/relbot_sequence_controller.cpp:88:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksquare_turn_completed_[m[K’ was not declared in this scope; did you mean ‘[01m[Kturn_completed_[m[K’?
+[3.526s]    88 |         else if (![01;31m[Ksquare_turn_completed_[m[K) {
+[3.526s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.526s]       |                   [32m[Kturn_completed_[m[K
+[6.738s] gmake[2]: *** [CMakeFiles/relbot_sequence_controller.dir/build.make:76: CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o] Error 1
+[6.739s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/relbot_sequence_controller.dir/all] Error 2
+[6.739s] gmake: *** [Makefile:146: all] Error 2
+[6.743s] Invoked command in '/home/jordan/SDfR/assignment5/build/relbot_sequence_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment5/build/relbot_sequence_controller -- -j16 -l16
