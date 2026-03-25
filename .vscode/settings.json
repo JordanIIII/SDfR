@@ -1,3 +1,4 @@
 {
-    "codetogether.virtualCursorJoin": "sharedVirtualCursor"
+    "codetogether.virtualCursorJoin": "sharedVirtualCursor",
+    "cmake.sourceDirectory": "/home/jordan/SDfR/assignment5/relbot_sequence_controller"
 }
