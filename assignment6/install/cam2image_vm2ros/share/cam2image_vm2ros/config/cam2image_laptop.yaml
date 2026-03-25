@@ -1,0 +1,14 @@
+/cam2image:
+  ros__parameters:
+    width: 640
+    height: 480
+    remote_mode: false
+    device_id: 0
+    show_camera: false
+    frequency: 30.0
+    history: "keep_last"
+    durability: "volatile"
+    reliability: "reliable"
+    depth: 10
+    rotate: false
+    throttle_rate: 5000.0

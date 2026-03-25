@@ -1,0 +1,386 @@
+[0.000000] (-) TimerEvent: {}
+[0.001224] (cam2image_vm2ros) JobQueued: {'identifier': 'cam2image_vm2ros', 'dependencies': OrderedDict()}
+[0.001299] (image_functions_sdfr) JobQueued: {'identifier': 'image_functions_sdfr', 'dependencies': OrderedDict()}
+[0.001503] (cam2image_vm2ros) JobStarted: {'identifier': 'cam2image_vm2ros'}
+[0.013133] (image_functions_sdfr) JobStarted: {'identifier': 'image_functions_sdfr'}
+[0.021781] (cam2image_vm2ros) JobProgress: {'identifier': 'cam2image_vm2ros', 'progress': 'cmake'}
+[0.027384] (cam2image_vm2ros) Command: {'cmd': ['/usr/bin/cmake', '/home/jordan/SDfR/assignment6/src/cam2image_vm2ros', '-DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/cam2image_vm2ros'], 'cwd': '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jordan'), ('GIT_ASKPASS', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jordan'), ('OLDPWD', '/home/jordan/SDfR'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-97a35ad5-f561-42f7-a285-31158c72da77.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/1886_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875e20d725.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.035154] (image_functions_sdfr) JobProgress: {'identifier': 'image_functions_sdfr', 'progress': 'cmake'}
+[0.038718] (image_functions_sdfr) Command: {'cmd': ['/usr/bin/cmake', '/home/jordan/SDfR/assignment6/src/image_functions_sdfr', '-DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/image_functions_sdfr'], 'cwd': '/home/jordan/SDfR/assignment6/build/image_functions_sdfr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jordan'), ('GIT_ASKPASS', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jordan'), ('OLDPWD', '/home/jordan/SDfR'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-97a35ad5-f561-42f7-a285-31158c72da77.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/1886_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875e20d725.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jordan/SDfR/assignment6/build/image_functions_sdfr'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099593] (-) TimerEvent: {}
+[0.200000] (-) TimerEvent: {}
+[0.300407] (-) TimerEvent: {}
+[0.346679] (image_functions_sdfr) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.346985] (cam2image_vm2ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400531] (-) TimerEvent: {}
+[0.500918] (-) TimerEvent: {}
+[0.601318] (-) TimerEvent: {}
+[0.701849] (-) TimerEvent: {}
+[0.802352] (-) TimerEvent: {}
+[0.902746] (-) TimerEvent: {}
+[1.003155] (-) TimerEvent: {}
+[1.035018] (image_functions_sdfr) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.035328] (cam2image_vm2ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.103284] (-) TimerEvent: {}
+[1.203668] (-) TimerEvent: {}
+[1.304078] (-) TimerEvent: {}
+[1.404500] (-) TimerEvent: {}
+[1.498672] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.498970] (cam2image_vm2ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.504632] (-) TimerEvent: {}
+[1.605042] (-) TimerEvent: {}
+[1.705458] (-) TimerEvent: {}
+[1.705968] (cam2image_vm2ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.706129] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.713097] (cam2image_vm2ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.713380] (image_functions_sdfr) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.713917] (cam2image_vm2ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.714116] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.714791] (cam2image_vm2ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.714884] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.719468] (cam2image_vm2ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.719815] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.805638] (-) TimerEvent: {}
+[1.906185] (-) TimerEvent: {}
+[1.940195] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.940690] (cam2image_vm2ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.947980] (cam2image_vm2ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.948438] (image_functions_sdfr) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.948544] (cam2image_vm2ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.948622] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.948861] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.948975] (cam2image_vm2ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.958432] (image_functions_sdfr) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.958698] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.006327] (-) TimerEvent: {}
+[2.106744] (-) TimerEvent: {}
+[2.143318] (image_functions_sdfr) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.143761] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.206881] (-) TimerEvent: {}
+[2.272261] (image_functions_sdfr) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.273260] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.286641] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.307015] (-) TimerEvent: {}
+[2.407398] (-) TimerEvent: {}
+[2.501573] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.501872] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.507519] (-) TimerEvent: {}
+[2.509172] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.509382] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.523944] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.524213] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.546514] (image_functions_sdfr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.546783] (cam2image_vm2ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.572652] (cam2image_vm2ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.573028] (image_functions_sdfr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.607673] (-) TimerEvent: {}
+[2.646549] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.646840] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.651264] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.651477] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.707814] (-) TimerEvent: {}
+[2.808229] (-) TimerEvent: {}
+[2.908643] (-) TimerEvent: {}
+[3.009051] (-) TimerEvent: {}
+[3.109459] (-) TimerEvent: {}
+[3.209879] (-) TimerEvent: {}
+[3.310280] (-) TimerEvent: {}
+[3.410672] (-) TimerEvent: {}
+[3.511081] (-) TimerEvent: {}
+[3.611495] (-) TimerEvent: {}
+[3.640272] (image_functions_sdfr) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.640652] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.711625] (-) TimerEvent: {}
+[3.812032] (-) TimerEvent: {}
+[3.912438] (-) TimerEvent: {}
+[4.012855] (-) TimerEvent: {}
+[4.113264] (-) TimerEvent: {}
+[4.213724] (-) TimerEvent: {}
+[4.314118] (-) TimerEvent: {}
+[4.414566] (-) TimerEvent: {}
+[4.514990] (-) TimerEvent: {}
+[4.615394] (-) TimerEvent: {}
+[4.712281] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.712536] (image_functions_sdfr) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.715467] (-) TimerEvent: {}
+[4.815913] (-) TimerEvent: {}
+[4.916395] (-) TimerEvent: {}
+[5.016822] (-) TimerEvent: {}
+[5.117240] (-) TimerEvent: {}
+[5.217645] (-) TimerEvent: {}
+[5.318098] (-) TimerEvent: {}
+[5.418520] (-) TimerEvent: {}
+[5.518919] (-) TimerEvent: {}
+[5.619323] (-) TimerEvent: {}
+[5.719746] (-) TimerEvent: {}
+[5.820149] (-) TimerEvent: {}
+[5.920594] (-) TimerEvent: {}
+[6.020994] (-) TimerEvent: {}
+[6.121388] (-) TimerEvent: {}
+[6.221840] (-) TimerEvent: {}
+[6.322324] (-) TimerEvent: {}
+[6.422760] (-) TimerEvent: {}
+[6.523241] (-) TimerEvent: {}
+[6.563509] (image_functions_sdfr) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.563825] (cam2image_vm2ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.577460] (cam2image_vm2ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.577612] (image_functions_sdfr) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.623371] (-) TimerEvent: {}
+[6.723786] (-) TimerEvent: {}
+[6.786002] (image_functions_sdfr) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.786422] (image_functions_sdfr) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.790291] (cam2image_vm2ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.790808] (cam2image_vm2ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.823913] (-) TimerEvent: {}
+[6.924311] (-) TimerEvent: {}
+[6.980233] (image_functions_sdfr) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.981096] (cam2image_vm2ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.981938] (image_functions_sdfr) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.982716] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.024446] (-) TimerEvent: {}
+[7.059780] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[7.060026] (image_functions_sdfr) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.102808] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.124581] (-) TimerEvent: {}
+[7.136039] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[7.155262] (cam2image_vm2ros) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core highgui imgcodecs imgproc videoio \n'}
+[7.190434] (image_functions_sdfr) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.221557] (image_functions_sdfr) StdoutLine: {'line': b'-- Generating done\n'}
+[7.224675] (-) TimerEvent: {}
+[7.228585] (image_functions_sdfr) StdoutLine: {'line': b'-- Build files have been written to: /home/jordan/SDfR/assignment6/build/image_functions_sdfr\n'}
+[7.244333] (image_functions_sdfr) CommandEnded: {'returncode': 0}
+[7.245029] (image_functions_sdfr) JobProgress: {'identifier': 'image_functions_sdfr', 'progress': 'build'}
+[7.246556] (image_functions_sdfr) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jordan/SDfR/assignment6/build/image_functions_sdfr', '--', '-j16', '-l16'], 'cwd': '/home/jordan/SDfR/assignment6/build/image_functions_sdfr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jordan'), ('GIT_ASKPASS', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jordan'), ('OLDPWD', '/home/jordan/SDfR'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-97a35ad5-f561-42f7-a285-31158c72da77.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/1886_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875e20d725.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jordan/SDfR/assignment6/build/image_functions_sdfr'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.247749] (cam2image_vm2ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.284129] (cam2image_vm2ros) StdoutLine: {'line': b'-- Generating done\n'}
+[7.293814] (cam2image_vm2ros) StdoutLine: {'line': b'-- Build files have been written to: /home/jordan/SDfR/assignment6/build/cam2image_vm2ros\n'}
+[7.309037] (cam2image_vm2ros) CommandEnded: {'returncode': 0}
+[7.310623] (cam2image_vm2ros) JobProgress: {'identifier': 'cam2image_vm2ros', 'progress': 'build'}
+[7.310892] (cam2image_vm2ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros', '--', '-j16', '-l16'], 'cwd': '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jordan'), ('GIT_ASKPASS', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jordan'), ('OLDPWD', '/home/jordan/SDfR'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-97a35ad5-f561-42f7-a285-31158c72da77.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/1886_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875e20d725.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.317625] (image_functions_sdfr) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_functions.dir/src/image_functions.cpp.o\x1b[0m\n'}
+[7.324816] (-) TimerEvent: {}
+[7.380577] (cam2image_vm2ros) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/cam2image_vm2ros.dir/src/cam2image.cpp.o\x1b[0m\n'}
+[7.380875] (cam2image_vm2ros) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/cam2image.dir/rclcpp_components/node_main_cam2image.cpp.o\x1b[0m\n'}
+[7.380964] (cam2image_vm2ros) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/cam2image_vm2ros.dir/src/remote_capture.cpp.o\x1b[0m\n'}
+[7.424959] (-) TimerEvent: {}
+[7.525393] (-) TimerEvent: {}
+[7.625863] (-) TimerEvent: {}
+[7.726270] (-) TimerEvent: {}
+[7.826693] (-) TimerEvent: {}
+[7.927126] (-) TimerEvent: {}
+[8.027676] (-) TimerEvent: {}
+[8.128136] (-) TimerEvent: {}
+[8.228561] (-) TimerEvent: {}
+[8.328979] (-) TimerEvent: {}
+[8.429397] (-) TimerEvent: {}
+[8.529813] (-) TimerEvent: {}
+[8.630253] (-) TimerEvent: {}
+[8.730694] (-) TimerEvent: {}
+[8.831174] (-) TimerEvent: {}
+[8.931758] (-) TimerEvent: {}
+[9.032211] (-) TimerEvent: {}
+[9.132613] (-) TimerEvent: {}
+[9.233022] (-) TimerEvent: {}
+[9.333500] (-) TimerEvent: {}
+[9.433953] (-) TimerEvent: {}
+[9.534407] (-) TimerEvent: {}
+[9.634847] (-) TimerEvent: {}
+[9.735289] (-) TimerEvent: {}
+[9.835734] (-) TimerEvent: {}
+[9.936175] (-) TimerEvent: {}
+[10.036749] (-) TimerEvent: {}
+[10.137184] (-) TimerEvent: {}
+[10.237620] (-) TimerEvent: {}
+[10.338085] (-) TimerEvent: {}
+[10.438589] (-) TimerEvent: {}
+[10.539100] (-) TimerEvent: {}
+[10.639547] (-) TimerEvent: {}
+[10.740155] (-) TimerEvent: {}
+[10.840659] (-) TimerEvent: {}
+[10.941315] (-) TimerEvent: {}
+[11.041880] (-) TimerEvent: {}
+[11.142324] (-) TimerEvent: {}
+[11.242767] (-) TimerEvent: {}
+[11.343250] (-) TimerEvent: {}
+[11.443741] (-) TimerEvent: {}
+[11.544190] (-) TimerEvent: {}
+[11.622398] (image_functions_sdfr) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libimage_functions.so\x1b[0m\n'}
+[11.644327] (-) TimerEvent: {}
+[11.744767] (-) TimerEvent: {}
+[11.845203] (-) TimerEvent: {}
+[11.893897] (cam2image_vm2ros) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable cam2image\x1b[0m\n'}
+[11.945351] (-) TimerEvent: {}
+[12.010729] (image_functions_sdfr) StdoutLine: {'line': b'[100%] Built target image_functions\n'}
+[12.028544] (image_functions_sdfr) CommandEnded: {'returncode': 0}
+[12.030011] (image_functions_sdfr) JobProgress: {'identifier': 'image_functions_sdfr', 'progress': 'install'}
+[12.042913] (image_functions_sdfr) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jordan/SDfR/assignment6/build/image_functions_sdfr'], 'cwd': '/home/jordan/SDfR/assignment6/build/image_functions_sdfr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jordan'), ('GIT_ASKPASS', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jordan'), ('OLDPWD', '/home/jordan/SDfR'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-97a35ad5-f561-42f7-a285-31158c72da77.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/1886_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875e20d725.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jordan/SDfR/assignment6/build/image_functions_sdfr'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.045438] (-) TimerEvent: {}
+[12.052952] (image_functions_sdfr) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.053205] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/include\n'}
+[12.054483] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr\n'}
+[12.055259] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr/image_functions.hpp\n'}
+[12.055639] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr/visibility_control.h\n'}
+[12.056707] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib/libimage_functions.so\n'}
+[12.057803] (image_functions_sdfr) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib/libimage_functions.so" to ""\n'}
+[12.059672] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.sh\n'}
+[12.060025] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.dsv\n'}
+[12.062221] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/package_run_dependencies/image_functions_sdfr\n'}
+[12.063112] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/parent_prefix_path/image_functions_sdfr\n'}
+[12.063496] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.sh\n'}
+[12.063740] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.dsv\n'}
+[12.064030] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.sh\n'}
+[12.064334] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.dsv\n'}
+[12.064659] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.bash\n'}
+[12.064916] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.sh\n'}
+[12.065210] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.zsh\n'}
+[12.065486] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.dsv\n'}
+[12.065796] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv\n'}
+[12.066864] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/packages/image_functions_sdfr\n'}
+[12.067775] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport.cmake\n'}
+[12.068195] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport-noconfig.cmake\n'}
+[12.068643] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.068993] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.069355] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.069600] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.069993] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig.cmake\n'}
+[12.070272] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig-version.cmake\n'}
+[12.070709] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.xml\n'}
+[12.074317] (image_functions_sdfr) CommandEnded: {'returncode': 0}
+[12.109512] (image_functions_sdfr) JobEnded: {'identifier': 'image_functions_sdfr', 'rc': 0}
+[12.145636] (-) TimerEvent: {}
+[12.241649] (cam2image_vm2ros) StdoutLine: {'line': b'[ 80%] Built target cam2image\n'}
+[12.245761] (-) TimerEvent: {}
+[12.346141] (-) TimerEvent: {}
+[12.446597] (-) TimerEvent: {}
+[12.547045] (-) TimerEvent: {}
+[12.647434] (-) TimerEvent: {}
+[12.747846] (-) TimerEvent: {}
+[12.848237] (-) TimerEvent: {}
+[12.948668] (-) TimerEvent: {}
+[13.049092] (-) TimerEvent: {}
+[13.149529] (-) TimerEvent: {}
+[13.249950] (-) TimerEvent: {}
+[13.350424] (-) TimerEvent: {}
+[13.450822] (-) TimerEvent: {}
+[13.551236] (-) TimerEvent: {}
+[13.651663] (-) TimerEvent: {}
+[13.752076] (-) TimerEvent: {}
+[13.852512] (-) TimerEvent: {}
+[13.952956] (-) TimerEvent: {}
+[14.053414] (-) TimerEvent: {}
+[14.153799] (-) TimerEvent: {}
+[14.254249] (-) TimerEvent: {}
+[14.354631] (-) TimerEvent: {}
+[14.455060] (-) TimerEvent: {}
+[14.555476] (-) TimerEvent: {}
+[14.655909] (-) TimerEvent: {}
+[14.756304] (-) TimerEvent: {}
+[14.856701] (-) TimerEvent: {}
+[14.957107] (-) TimerEvent: {}
+[15.057540] (-) TimerEvent: {}
+[15.157989] (-) TimerEvent: {}
+[15.258363] (-) TimerEvent: {}
+[15.358772] (-) TimerEvent: {}
+[15.459156] (-) TimerEvent: {}
+[15.559584] (-) TimerEvent: {}
+[15.660024] (-) TimerEvent: {}
+[15.760463] (-) TimerEvent: {}
+[15.860852] (-) TimerEvent: {}
+[15.961236] (-) TimerEvent: {}
+[16.061642] (-) TimerEvent: {}
+[16.162053] (-) TimerEvent: {}
+[16.262460] (-) TimerEvent: {}
+[16.362875] (-) TimerEvent: {}
+[16.463302] (-) TimerEvent: {}
+[16.563674] (-) TimerEvent: {}
+[16.664036] (-) TimerEvent: {}
+[16.764401] (-) TimerEvent: {}
+[16.864764] (-) TimerEvent: {}
+[16.965145] (-) TimerEvent: {}
+[17.065534] (-) TimerEvent: {}
+[17.166046] (-) TimerEvent: {}
+[17.266551] (-) TimerEvent: {}
+[17.366946] (-) TimerEvent: {}
+[17.467348] (-) TimerEvent: {}
+[17.567755] (-) TimerEvent: {}
+[17.668158] (-) TimerEvent: {}
+[17.768539] (-) TimerEvent: {}
+[17.868943] (-) TimerEvent: {}
+[17.969332] (-) TimerEvent: {}
+[18.069739] (-) TimerEvent: {}
+[18.170126] (-) TimerEvent: {}
+[18.270498] (-) TimerEvent: {}
+[18.370870] (-) TimerEvent: {}
+[18.471258] (-) TimerEvent: {}
+[18.571682] (-) TimerEvent: {}
+[18.672079] (-) TimerEvent: {}
+[18.772473] (-) TimerEvent: {}
+[18.872880] (-) TimerEvent: {}
+[18.973300] (-) TimerEvent: {}
+[19.073710] (-) TimerEvent: {}
+[19.174118] (-) TimerEvent: {}
+[19.274489] (-) TimerEvent: {}
+[19.374859] (-) TimerEvent: {}
+[19.475237] (-) TimerEvent: {}
+[19.575702] (-) TimerEvent: {}
+[19.676122] (-) TimerEvent: {}
+[19.776518] (-) TimerEvent: {}
+[19.876931] (-) TimerEvent: {}
+[19.977341] (-) TimerEvent: {}
+[20.077786] (-) TimerEvent: {}
+[20.178194] (-) TimerEvent: {}
+[20.278631] (-) TimerEvent: {}
+[20.379113] (-) TimerEvent: {}
+[20.479594] (-) TimerEvent: {}
+[20.580004] (-) TimerEvent: {}
+[20.675893] (cam2image_vm2ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcam2image_vm2ros.so\x1b[0m\n'}
+[20.680100] (-) TimerEvent: {}
+[20.780496] (-) TimerEvent: {}
+[20.880919] (-) TimerEvent: {}
+[20.981402] (-) TimerEvent: {}
+[21.081869] (-) TimerEvent: {}
+[21.182336] (-) TimerEvent: {}
+[21.282843] (-) TimerEvent: {}
+[21.383283] (-) TimerEvent: {}
+[21.483801] (-) TimerEvent: {}
+[21.526727] (cam2image_vm2ros) StdoutLine: {'line': b'[100%] Built target cam2image_vm2ros\n'}
+[21.545995] (cam2image_vm2ros) CommandEnded: {'returncode': 0}
+[21.546993] (cam2image_vm2ros) JobProgress: {'identifier': 'cam2image_vm2ros', 'progress': 'install'}
+[21.547270] (cam2image_vm2ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros'], 'cwd': '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jordan'), ('GIT_ASKPASS', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jordan'), ('OLDPWD', '/home/jordan/SDfR'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-97a35ad5-f561-42f7-a285-31158c72da77.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/1886_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875e20d725.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.559051] (cam2image_vm2ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.560939] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib/cam2image_vm2ros/cam2image\n'}
+[21.562282] (cam2image_vm2ros) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib/cam2image_vm2ros/cam2image" to ""\n'}
+[21.562604] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib/libcam2image_vm2ros.so\n'}
+[21.580360] (cam2image_vm2ros) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib/libcam2image_vm2ros.so" to ""\n'}
+[21.580649] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros\n'}
+[21.581641] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/cam2image.hpp\n'}
+[21.581945] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/visibility_control.h\n'}
+[21.582213] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/base64.hpp\n'}
+[21.582502] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/remote_capture.hpp\n'}
+[21.583900] (-) TimerEvent: {}
+[21.584576] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/library_path.sh\n'}
+[21.584857] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/library_path.dsv\n'}
+[21.586973] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/package_run_dependencies/cam2image_vm2ros\n'}
+[21.587804] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/parent_prefix_path/cam2image_vm2ros\n'}
+[21.588192] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/ament_prefix_path.sh\n'}
+[21.588525] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/ament_prefix_path.dsv\n'}
+[21.588803] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/path.sh\n'}
+[21.589140] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/path.dsv\n'}
+[21.589466] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.bash\n'}
+[21.589936] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.sh\n'}
+[21.590294] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.zsh\n'}
+[21.590558] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.dsv\n'}
+[21.590866] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.dsv\n'}
+[21.592096] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/packages/cam2image_vm2ros\n'}
+[21.592998] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/rclcpp_components/cam2image_vm2ros\n'}
+[21.593982] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosExport.cmake\n'}
+[21.594269] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosExport-noconfig.cmake\n'}
+[21.594675] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.595010] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.595355] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.595679] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosConfig.cmake\n'}
+[21.596595] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosConfig-version.cmake\n'}
+[21.596910] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.xml\n'}
+[21.600344] (cam2image_vm2ros) CommandEnded: {'returncode': 0}
+[21.625892] (cam2image_vm2ros) JobEnded: {'identifier': 'cam2image_vm2ros', 'rc': 0}
+[21.627326] (-) EventReactorShutdown: {}
