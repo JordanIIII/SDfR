@@ -43,31 +43,23 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector_node" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector_node"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/green_object_detector" TYPE EXECUTABLE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/green_object_detector_node")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector_node" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/green_object_detector" TYPE EXECUTABLE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/green_object_detector")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector_node"
-         OLD_RPATH "/opt/ros/humble/lib:/home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib:"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector"
+         OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector_node")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector")
     endif()
   endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE DIRECTORY FILES
-    "/home/jordan/SDfR/assignment6/src/green_object_detector/include"
-    "/home/jordan/SDfR/assignment6/src/green_object_detector/config"
-    "/home/jordan/SDfR/assignment6/src/green_object_detector/launch"
-    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

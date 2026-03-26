@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.001143] (-) JobUnselected: {'identifier': 'cam2image_vm2ros'}
+[0.001224] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.001262] (green_object_detector) JobQueued: {'identifier': 'green_object_detector', 'dependencies': OrderedDict()}
+[0.001291] (green_object_detector) JobStarted: {'identifier': 'green_object_detector'}
+[0.013486] (green_object_detector) JobProgress: {'identifier': 'green_object_detector', 'progress': 'cmake'}
+[0.014646] (green_object_detector) JobProgress: {'identifier': 'green_object_detector', 'progress': 'build'}
+[0.015336] (green_object_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jordan/SDfR/assignment6/build/green_object_detector', '--', '-j16', '-l16'], 'cwd': '/home/jordan/SDfR/assignment6/build/green_object_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jordan'), ('GIT_ASKPASS', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jordan'), ('OLDPWD', '/home/jordan/SDfR'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-99401cb0-1d28-4e86-b156-9e8eba17a492.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/425_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875e20d725.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jordan/SDfR/assignment6/build/green_object_detector'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099254] (-) TimerEvent: {}
+[0.108799] (green_object_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199364] (-) TimerEvent: {}
+[0.282687] (green_object_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299495] (-) TimerEvent: {}
+[0.399856] (-) TimerEvent: {}
+[0.500278] (-) TimerEvent: {}
+[0.564224] (green_object_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.568532] (green_object_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.579374] (green_object_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.595100] (green_object_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600375] (-) TimerEvent: {}
+[0.614458] (green_object_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.667388] (green_object_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.671337] (green_object_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700585] (-) TimerEvent: {}
+[0.800956] (-) TimerEvent: {}
+[0.901346] (-) TimerEvent: {}
+[1.001746] (-) TimerEvent: {}
+[1.102131] (-) TimerEvent: {}
+[1.202527] (-) TimerEvent: {}
+[1.302916] (-) TimerEvent: {}
+[1.403281] (-) TimerEvent: {}
+[1.503650] (-) TimerEvent: {}
+[1.604052] (-) TimerEvent: {}
+[1.704461] (-) TimerEvent: {}
+[1.804859] (-) TimerEvent: {}
+[1.905238] (-) TimerEvent: {}
+[2.005622] (-) TimerEvent: {}
+[2.106005] (-) TimerEvent: {}
+[2.206467] (-) TimerEvent: {}
+[2.306874] (-) TimerEvent: {}
+[2.407249] (-) TimerEvent: {}
+[2.507631] (-) TimerEvent: {}
+[2.608021] (-) TimerEvent: {}
+[2.708405] (-) TimerEvent: {}
+[2.808778] (-) TimerEvent: {}
+[2.909136] (-) TimerEvent: {}
+[3.009490] (-) TimerEvent: {}
+[3.109875] (-) TimerEvent: {}
+[3.210256] (-) TimerEvent: {}
+[3.310747] (-) TimerEvent: {}
+[3.411134] (-) TimerEvent: {}
+[3.511508] (-) TimerEvent: {}
+[3.611893] (-) TimerEvent: {}
+[3.712306] (-) TimerEvent: {}
+[3.812664] (-) TimerEvent: {}
+[3.913059] (-) TimerEvent: {}
+[4.013415] (-) TimerEvent: {}
+[4.113763] (-) TimerEvent: {}
+[4.214153] (-) TimerEvent: {}
+[4.314605] (-) TimerEvent: {}
+[4.414976] (-) TimerEvent: {}
+[4.515359] (-) TimerEvent: {}
+[4.615738] (-) TimerEvent: {}
+[4.716121] (-) TimerEvent: {}
+[4.816520] (-) TimerEvent: {}
+[4.916903] (-) TimerEvent: {}
+[5.017277] (-) TimerEvent: {}
+[5.117667] (-) TimerEvent: {}
+[5.218053] (-) TimerEvent: {}
+[5.318434] (-) TimerEvent: {}
+[5.418806] (-) TimerEvent: {}
+[5.519170] (-) TimerEvent: {}
+[5.619538] (-) TimerEvent: {}
+[5.719924] (-) TimerEvent: {}
+[5.820293] (-) TimerEvent: {}
+[5.920674] (-) TimerEvent: {}
+[6.021033] (-) TimerEvent: {}
+[6.121389] (-) TimerEvent: {}
+[6.221752] (-) TimerEvent: {}
+[6.322150] (-) TimerEvent: {}
+[6.422556] (-) TimerEvent: {}
+[6.522929] (-) TimerEvent: {}
+[6.623306] (-) TimerEvent: {}
+[6.723699] (-) TimerEvent: {}
+[6.824078] (-) TimerEvent: {}
+[6.924448] (-) TimerEvent: {}
+[7.024806] (-) TimerEvent: {}
+[7.125198] (-) TimerEvent: {}
+[7.225599] (-) TimerEvent: {}
+[7.326010] (-) TimerEvent: {}
+[7.426401] (-) TimerEvent: {}
+[7.526760] (-) TimerEvent: {}
+[7.627166] (-) TimerEvent: {}
+[7.727537] (-) TimerEvent: {}
+[7.827877] (-) TimerEvent: {}
+[7.928280] (-) TimerEvent: {}
+[8.028668] (-) TimerEvent: {}
+[8.129063] (-) TimerEvent: {}
+[8.229544] (-) TimerEvent: {}
+[8.329920] (-) TimerEvent: {}
+[8.430292] (-) TimerEvent: {}
+[8.530712] (-) TimerEvent: {}
+[8.631088] (-) TimerEvent: {}
+[8.731470] (-) TimerEvent: {}
+[8.831846] (-) TimerEvent: {}
+[8.932233] (-) TimerEvent: {}
+[9.032593] (-) TimerEvent: {}
+[9.132946] (-) TimerEvent: {}
+[9.233350] (-) TimerEvent: {}
+[9.333731] (-) TimerEvent: {}
+[9.434108] (-) TimerEvent: {}
+[9.534444] (-) TimerEvent: {}
+[9.634800] (-) TimerEvent: {}
+[9.735161] (-) TimerEvent: {}
+[9.745233] (green_object_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.821175] (green_object_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[9.835273] (-) TimerEvent: {}
+[9.862071] (green_object_detector) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[9.878564] (green_object_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.935389] (-) TimerEvent: {}
+[9.964807] (green_object_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.965049] (green_object_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.965129] (green_object_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.965977] (green_object_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.967287] (green_object_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.967423] (green_object_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.967888] (green_object_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.969993] (green_object_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.991823] (green_object_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[9.997794] (green_object_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/jordan/SDfR/assignment6/build/green_object_detector\n'}
+[10.035516] (-) TimerEvent: {}
+[10.047269] (green_object_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/green_object_detector.dir/src/green_object_detector.cpp.o\x1b[0m\n'}
+[10.135645] (-) TimerEvent: {}
+[10.236003] (-) TimerEvent: {}
+[10.336396] (-) TimerEvent: {}
+[10.436878] (-) TimerEvent: {}
+[10.537258] (-) TimerEvent: {}
+[10.637634] (-) TimerEvent: {}
+[10.738003] (-) TimerEvent: {}
+[10.838429] (-) TimerEvent: {}
+[10.938822] (-) TimerEvent: {}
+[11.039227] (-) TimerEvent: {}
+[11.139593] (-) TimerEvent: {}
+[11.240042] (-) TimerEvent: {}
+[11.340412] (-) TimerEvent: {}
+[11.440804] (-) TimerEvent: {}
+[11.541219] (-) TimerEvent: {}
+[11.641594] (-) TimerEvent: {}
+[11.741989] (-) TimerEvent: {}
+[11.842422] (-) TimerEvent: {}
+[11.942813] (-) TimerEvent: {}
+[12.043224] (-) TimerEvent: {}
+[12.143669] (-) TimerEvent: {}
+[12.244045] (-) TimerEvent: {}
+[12.344416] (-) TimerEvent: {}
+[12.444817] (-) TimerEvent: {}
+[12.545226] (-) TimerEvent: {}
+[12.645611] (-) TimerEvent: {}
+[12.746086] (-) TimerEvent: {}
+[12.846509] (-) TimerEvent: {}
+[12.946952] (-) TimerEvent: {}
+[13.047363] (-) TimerEvent: {}
+[13.147774] (-) TimerEvent: {}
+[13.248162] (-) TimerEvent: {}
+[13.348531] (-) TimerEvent: {}
+[13.448953] (-) TimerEvent: {}
+[13.549387] (-) TimerEvent: {}
+[13.649749] (-) TimerEvent: {}
+[13.750121] (-) TimerEvent: {}
+[13.850556] (-) TimerEvent: {}
+[13.950960] (-) TimerEvent: {}
+[14.051360] (-) TimerEvent: {}
+[14.151741] (-) TimerEvent: {}
+[14.163406] (green_object_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable green_object_detector\x1b[0m\n'}
+[14.251869] (-) TimerEvent: {}
+[14.352280] (-) TimerEvent: {}
+[14.452707] (-) TimerEvent: {}
+[14.553059] (-) TimerEvent: {}
+[14.602761] (green_object_detector) StdoutLine: {'line': b'[100%] Built target green_object_detector\n'}
+[14.619302] (green_object_detector) CommandEnded: {'returncode': 0}
+[14.620228] (green_object_detector) JobProgress: {'identifier': 'green_object_detector', 'progress': 'install'}
+[14.633000] (green_object_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jordan/SDfR/assignment6/build/green_object_detector'], 'cwd': '/home/jordan/SDfR/assignment6/build/green_object_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jordan'), ('GIT_ASKPASS', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jordan'), ('OLDPWD', '/home/jordan/SDfR'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-99401cb0-1d28-4e86-b156-9e8eba17a492.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/425_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jordan/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jordan/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875e20d725.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jordan/SDfR/assignment6/build/green_object_detector'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.643116] (green_object_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.643334] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/lib/green_object_detector/green_object_detector\n'}
+[14.644192] (green_object_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/green_object_detector/lib/green_object_detector/green_object_detector" to ""\n'}
+[14.644438] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/package_run_dependencies/green_object_detector\n'}
+[14.644675] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/parent_prefix_path/green_object_detector\n'}
+[14.644998] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/ament_prefix_path.sh\n'}
+[14.645209] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/ament_prefix_path.dsv\n'}
+[14.645377] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/path.sh\n'}
+[14.645550] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/path.dsv\n'}
+[14.645776] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.bash\n'}
+[14.645994] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.sh\n'}
+[14.646086] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.zsh\n'}
+[14.646155] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.dsv\n'}
+[14.646329] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.dsv\n'}
+[14.646683] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/packages/green_object_detector\n'}
+[14.646943] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/cmake/green_object_detectorConfig.cmake\n'}
+[14.647025] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/cmake/green_object_detectorConfig-version.cmake\n'}
+[14.647090] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.xml\n'}
+[14.650430] (green_object_detector) CommandEnded: {'returncode': 0}
+[14.653140] (-) TimerEvent: {}
+[14.677806] (green_object_detector) JobEnded: {'identifier': 'green_object_detector', 'rc': 0}
+[14.679139] (-) EventReactorShutdown: {}

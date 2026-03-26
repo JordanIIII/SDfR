@@ -198,24 +198,24 @@ green_object_detector_uninstall/fast:
 .PHONY : green_object_detector_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named green_object_detector_node
+# Target rules for targets named green_object_detector
 
 # Build rule for target.
-green_object_detector_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 green_object_detector_node
-.PHONY : green_object_detector_node
+green_object_detector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 green_object_detector
+.PHONY : green_object_detector
 
 # fast build rule for target.
-green_object_detector_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/green_object_detector_node.dir/build.make CMakeFiles/green_object_detector_node.dir/build
-.PHONY : green_object_detector_node/fast
+green_object_detector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/green_object_detector.dir/build.make CMakeFiles/green_object_detector.dir/build
+.PHONY : green_object_detector/fast
 
 src/green_object_detector.o: src/green_object_detector.cpp.o
 .PHONY : src/green_object_detector.o
 
 # target to build an object file
 src/green_object_detector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/green_object_detector_node.dir/build.make CMakeFiles/green_object_detector_node.dir/src/green_object_detector.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/green_object_detector.dir/build.make CMakeFiles/green_object_detector.dir/src/green_object_detector.cpp.o
 .PHONY : src/green_object_detector.cpp.o
 
 src/green_object_detector.i: src/green_object_detector.cpp.i
@@ -223,7 +223,7 @@ src/green_object_detector.i: src/green_object_detector.cpp.i
 
 # target to preprocess a source file
 src/green_object_detector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/green_object_detector_node.dir/build.make CMakeFiles/green_object_detector_node.dir/src/green_object_detector.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/green_object_detector.dir/build.make CMakeFiles/green_object_detector.dir/src/green_object_detector.cpp.i
 .PHONY : src/green_object_detector.cpp.i
 
 src/green_object_detector.s: src/green_object_detector.cpp.s
@@ -231,7 +231,7 @@ src/green_object_detector.s: src/green_object_detector.cpp.s
 
 # target to generate assembly for a file
 src/green_object_detector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/green_object_detector_node.dir/build.make CMakeFiles/green_object_detector_node.dir/src/green_object_detector.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/green_object_detector.dir/build.make CMakeFiles/green_object_detector.dir/src/green_object_detector.cpp.s
 .PHONY : src/green_object_detector.cpp.s
 
 # Help Target
@@ -249,7 +249,7 @@ help:
 	@echo "... test"
 	@echo "... green_object_detector_uninstall"
 	@echo "... uninstall"
-	@echo "... green_object_detector_node"
+	@echo "... green_object_detector"
 	@echo "... src/green_object_detector.o"
 	@echo "... src/green_object_detector.i"
 	@echo "... src/green_object_detector.s"

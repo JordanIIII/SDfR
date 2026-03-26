@@ -7,9 +7,19 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(cv_bridge REQUIRED)
+find_package(OpenCV REQUIRED)
+
+add_executable(green_object_detector src/green_object_detector.cpp)
+ament_target_dependencies(green_object_detector rclcpp sensor_msgs cv_bridge)
+
+target_link_libraries(green_object_detector ${OpenCV_LIBS})
+
+install(TARGETS
+  green_object_detector
+  DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

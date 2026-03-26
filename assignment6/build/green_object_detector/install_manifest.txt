@@ -1,7 +1,4 @@
-/home/jordan/SDfR/assignment6/install/green_object_detector/lib/green_object_detector/green_object_detector_node
-/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/include/green_object_detector/green_object_detector.hpp
-/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/config/detector.yaml
-/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/launch/green_detector_test.launch.py
+/home/jordan/SDfR/assignment6/install/green_object_detector/lib/green_object_detector/green_object_detector
 /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/package_run_dependencies/green_object_detector
 /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/parent_prefix_path/green_object_detector
 /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/ament_prefix_path.sh

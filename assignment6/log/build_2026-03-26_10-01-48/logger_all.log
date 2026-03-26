@@ -1,0 +1,299 @@
+[0.402s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.402s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dd410349270>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dd4104bac20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dd4104bac20>>, mixin_verb=('build',))
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.769s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jordan/SDfR/assignment6'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['python_setup_py']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'python_setup_py'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extension 'ros'
+[0.793s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam2image_vm2ros' with type 'ros.ament_cmake' and name 'cam2image_vm2ros'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extension 'ros'
+[0.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/green_object_detector' with type 'ros.ament_cmake' and name 'green_object_detector'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ros'
+[0.795s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_functions_sdfr' with type 'ros.ament_cmake' and name 'image_functions_sdfr'
+[0.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.845s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_target' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.934s] DEBUG:colcon.colcon_core.verb:Building package 'cam2image_vm2ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros', 'merge_install': False, 'path': '/home/jordan/SDfR/assignment6/src/cam2image_vm2ros', 'symlink_install': False, 'test_result_base': None}
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_target' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.935s] DEBUG:colcon.colcon_core.verb:Building package 'green_object_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jordan/SDfR/assignment6/build/green_object_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jordan/SDfR/assignment6/install/green_object_detector', 'merge_install': False, 'path': '/home/jordan/SDfR/assignment6/src/green_object_detector', 'symlink_install': False, 'test_result_base': None}
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_target' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_clean_first' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_force_configure' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'ament_cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.936s] DEBUG:colcon.colcon_core.verb:Building package 'image_functions_sdfr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jordan/SDfR/assignment6/build/image_functions_sdfr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jordan/SDfR/assignment6/install/image_functions_sdfr', 'merge_install': False, 'path': '/home/jordan/SDfR/assignment6/src/image_functions_sdfr', 'symlink_install': False, 'test_result_base': None}
+[0.936s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.938s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jordan/SDfR/assignment6/src/cam2image_vm2ros' with build type 'ament_cmake'
+[0.938s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jordan/SDfR/assignment6/src/cam2image_vm2ros'
+[0.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.943s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.943s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.948s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jordan/SDfR/assignment6/src/green_object_detector' with build type 'ament_cmake'
+[0.948s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jordan/SDfR/assignment6/src/green_object_detector'
+[0.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.952s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jordan/SDfR/assignment6/src/image_functions_sdfr' with build type 'ament_cmake'
+[0.952s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jordan/SDfR/assignment6/src/image_functions_sdfr'
+[0.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/cam2image_vm2ros -- -j16 -l16
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jordan/SDfR/assignment6/build/green_object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/green_object_detector -- -j16 -l16
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/image_functions_sdfr -- -j16 -l16
+[1.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/image_functions_sdfr -- -j16 -l16
+[1.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/image_functions_sdfr
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/cam2image_vm2ros -- -j16 -l16
+[1.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/cam2image_vm2ros
+[1.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_functions_sdfr)
+[1.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/image_functions_sdfr
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr' for CMake module files
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr' for CMake config files
+[1.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'cmake_prefix_path')
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.ps1'
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.dsv'
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.sh'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib'
+[1.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'ld_library_path_lib')
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.sh'
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/bin'
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib/pkgconfig/image_functions_sdfr.pc'
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib/python3.10/site-packages'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/bin'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.sh'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.bash'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.zsh'
+[1.156s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/colcon-core/packages/image_functions_sdfr)
+[1.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_functions_sdfr)
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr' for CMake module files
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr' for CMake config files
+[1.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'cmake_prefix_path')
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.ps1'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.sh'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib'
+[1.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'ld_library_path_lib')
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.dsv'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.sh'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/bin'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib/pkgconfig/image_functions_sdfr.pc'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib/python3.10/site-packages'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/bin'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.ps1'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.sh'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.bash'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.zsh'
+[1.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/colcon-core/packages/image_functions_sdfr)
+[1.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam2image_vm2ros)
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros' for CMake module files
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/cam2image_vm2ros
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros' for CMake config files
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam2image_vm2ros', 'cmake_prefix_path')
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib'
+[1.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam2image_vm2ros', 'ld_library_path_lib')
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.dsv'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.sh'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/bin'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib/pkgconfig/cam2image_vm2ros.pc'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib/python3.10/site-packages'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/bin'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.sh'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.bash'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.zsh'
+[1.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/colcon-core/packages/cam2image_vm2ros)
+[1.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam2image_vm2ros)
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros' for CMake module files
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros' for CMake config files
+[1.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam2image_vm2ros', 'cmake_prefix_path')
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.sh'
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib'
+[1.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam2image_vm2ros', 'ld_library_path_lib')
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.ps1'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.sh'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib/pkgconfig/cam2image_vm2ros.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib/python3.10/site-packages'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/bin'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.dsv'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.sh'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.bash'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.zsh'
+[1.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/colcon-core/packages/cam2image_vm2ros)
+[12.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jordan/SDfR/assignment6/build/green_object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/green_object_detector -- -j16 -l16
+[12.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jordan/SDfR/assignment6/build/green_object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/green_object_detector
+[12.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(green_object_detector)
+[12.238s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector' for CMake module files
+[12.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jordan/SDfR/assignment6/build/green_object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/green_object_detector
+[12.239s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector' for CMake config files
+[12.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('green_object_detector', 'cmake_prefix_path')
+[12.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.ps1'
+[12.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.dsv'
+[12.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.sh'
+[12.242s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector/lib'
+[12.242s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector/bin'
+[12.242s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector/lib/pkgconfig/green_object_detector.pc'
+[12.242s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector/lib/python3.10/site-packages'
+[12.243s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector/bin'
+[12.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.ps1'
+[12.244s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.dsv'
+[12.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.sh'
+[12.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.bash'
+[12.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.zsh'
+[12.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jordan/SDfR/assignment6/install/green_object_detector/share/colcon-core/packages/green_object_detector)
+[12.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(green_object_detector)
+[12.247s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector' for CMake module files
+[12.247s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector' for CMake config files
+[12.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('green_object_detector', 'cmake_prefix_path')
+[12.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.ps1'
+[12.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.dsv'
+[12.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.sh'
+[12.249s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector/lib'
+[12.250s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector/bin'
+[12.250s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector/lib/pkgconfig/green_object_detector.pc'
+[12.250s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector/lib/python3.10/site-packages'
+[12.250s] Level 1:colcon.colcon_core.environment:checking '/home/jordan/SDfR/assignment6/install/green_object_detector/bin'
+[12.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.ps1'
+[12.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.dsv'
+[12.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.sh'
+[12.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.bash'
+[12.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.zsh'
+[12.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jordan/SDfR/assignment6/install/green_object_detector/share/colcon-core/packages/green_object_detector)
+[12.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.255s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.267s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.268s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[12.268s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jordan/SDfR/assignment6/install/local_setup.ps1'
+[12.270s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jordan/SDfR/assignment6/install/_local_setup_util_ps1.py'
+[12.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jordan/SDfR/assignment6/install/setup.ps1'
+[12.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jordan/SDfR/assignment6/install/local_setup.sh'
+[12.275s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jordan/SDfR/assignment6/install/_local_setup_util_sh.py'
+[12.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jordan/SDfR/assignment6/install/setup.sh'
+[12.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jordan/SDfR/assignment6/install/local_setup.bash'
+[12.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jordan/SDfR/assignment6/install/setup.bash'
+[12.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jordan/SDfR/assignment6/install/local_setup.zsh'
+[12.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jordan/SDfR/assignment6/install/setup.zsh'
