@@ -1,5 +1,6 @@
 #include "steering.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
+#include "geometry_msgs/msg/point_stamped.hpp"
 
 SteerRelbot::SteerRelbot() : Node("steer_relbot") {
     RCLCPP_INFO(this->get_logger(), "Init");
@@ -26,19 +27,46 @@ void SteerRelbot::create_topics() {
             current_y = msg->pose.position.y;
         });
 
-    // TODO: Add a subscriber to the green-object detector topic here.
-    // The callback should store the latest detected target coordinates for use in calculate_velocity().
+    // Position of the detected green object
+    target_subscriber = this->create_subscription<geometry_msgs::msg::PointStamped>(
+        "green_object_position", 10, [this](const geometry_msgs::msg::PointStamped::SharedPtr msg) {
+            target_x_raw = msg->point.x;
+            target_y_raw = msg->point.y;
+            has_target = true;
+        });
 }
 
 void SteerRelbot::calculate_velocity() {
-    // TODO: Replace this placeholder with the assignment 6 control law.
-    // Suggested implementation steps:
-    // 1. Stop the robot safely until a green-object target has been received.
-    // 2. Compute the error between the current robot pose and the target position.
-    // 3. Convert that error into left and right wheel setpoints.
+    // Time constant for the controller
+    double tau = 0.5; 
+    
+    // safely stop the robot if there is no target
+    if (!has_target) {
+        left_velocity = 0.0;
+        right_velocity = 0.0;
+        return;
+    }
 
-    left_velocity = 0.0;
-    right_velocity = 0.0;
+    // frame 300x200
+    center_x = 150.0;
+    center_y = 100.0;
+    double target_x = (target_x_raw - center_x) / center_x;
+    double target_y = (center_y - target_y_raw) / center_y;
+
+    double error_x = target_x - current_x;
+    double error_y = target_y - current_y;
+
+    double desired_angle = atan2(error_y, error_x);
+    double angle_error = desired_angle - current_angle;
+
+    double distance_error = sqrt(error_x * error_x + error_y * error_y);
+
+    double v = distance_error/tau;
+    double w = angle_error/tau;
+
+    left_velocity = v - w;
+    right_velocity = v + w;
+
 }
 
 void SteerRelbot::timer_callback() {

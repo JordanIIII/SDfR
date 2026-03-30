@@ -1,0 +1,50 @@
+[0.033s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment6/src/relbot_launch -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/relbot_launch
+[0.281s] -- The C compiler identification is GNU 11.4.0
+[0.916s] -- The CXX compiler identification is GNU 11.4.0
+[1.455s] -- Detecting C compiler ABI info
+[1.669s] -- Detecting C compiler ABI info - done
+[1.675s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.675s] -- Detecting C compile features
+[1.675s] -- Detecting C compile features - done
+[1.678s] -- Detecting CXX compiler ABI info
+[1.915s] -- Detecting CXX compiler ABI info - done
+[1.923s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.923s] -- Detecting CXX compile features
+[1.924s] -- Detecting CXX compile features - done
+[1.927s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.087s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.178s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.268s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.269s] -- Added test 'lint_cmake' to check CMake code style
+[2.270s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.272s] -- Added test 'xmllint' to check XML markup files
+[2.275s] -- Configuring done
+[2.283s] -- Generating done
+[2.285s] -- Build files have been written to: /home/jordan/SDfR/assignment6/build/relbot_launch
+[2.291s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment6/src/relbot_launch -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/relbot_launch
+[2.295s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot_launch -- -j16 -l16
+[2.344s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot_launch -- -j16 -l16
+[2.346s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/relbot_launch
+[2.355s] -- Install configuration: ""
+[2.355s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch//launch
+[2.356s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch//launch/relbot_system.launch.py
+[2.357s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch//launch/relbot_green_tracking.launch.py
+[2.357s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch//launch/relbot_to_turtle.launch.py
+[2.358s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch//launch/relbot_sequence_controller.launch.py
+[2.358s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch//launch/relbot_system_joystick.launch.py
+[2.360s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/ament_index/resource_index/package_run_dependencies/relbot_launch
+[2.360s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/ament_index/resource_index/parent_prefix_path/relbot_launch
+[2.361s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/environment/ament_prefix_path.sh
+[2.361s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/environment/ament_prefix_path.dsv
+[2.362s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/environment/path.sh
+[2.362s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/environment/path.dsv
+[2.362s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/local_setup.bash
+[2.363s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/local_setup.sh
+[2.363s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/local_setup.zsh
+[2.363s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/local_setup.dsv
+[2.363s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/package.dsv
+[2.364s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/ament_index/resource_index/packages/relbot_launch
+[2.365s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/cmake/relbot_launchConfig.cmake
+[2.365s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/cmake/relbot_launchConfig-version.cmake
+[2.365s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_launch/share/relbot_launch/package.xml
+[2.369s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/relbot_launch

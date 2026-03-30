@@ -2,6 +2,7 @@
 #define STEER_RELBOT_HPP_
 
 // CPP library headers
+#include <cmath>
 
 // ROS Client Library CPP
 #include "rclcpp/rclcpp.hpp"
@@ -11,6 +12,9 @@
 
 // message type for pose
 #include "geometry_msgs/msg/pose_stamped.hpp"
+
+// message type for target position
+#include "geometry_msgs/msg/point_stamped.hpp"
 
 class SteerRelbot : public rclcpp::Node
 {
@@ -23,9 +27,13 @@ private:
     rclcpp::Publisher<example_interfaces::msg::Float64>::SharedPtr left_wheel_topic_;
     rclcpp::Publisher<example_interfaces::msg::Float64>::SharedPtr right_wheel_topic_;
     rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr pose_subscriber;
-    // TODO: Add a subscriber for the green-object detector output here.
+    rclcpp::Subscription<geometry_msgs::msg::PointStamped>::SharedPtr target_subscriber; 
 
     rclcpp::TimerBase::SharedPtr timer_;
+
+    double target_x_raw = 0.0;
+    double target_y_raw = 0.0;
+    bool has_target = false;
 
     double left_velocity = 0.0;
     double right_velocity = 0.0;

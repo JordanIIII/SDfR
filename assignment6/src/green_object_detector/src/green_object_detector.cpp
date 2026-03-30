@@ -1,5 +1,6 @@
 #include <memory>
 
+#include "geometry_msgs/msg/point_stamped.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/image.hpp"
 
@@ -15,8 +16,8 @@ public:
     subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
         "image", 10, std::bind(&GreenObjectDetector::image_callback, this, std::placeholders::_1));
 
-    // TODO: Add a publisher here later for the detected green-object coordinates.
-    // Suggested output type for later: geometry_msgs::msg::PointStamped.
+    target_publisher_ = this->create_publisher<geometry_msgs::msg::PointStamped>(
+        "green_object_position", 10);
   }
 private:
   auto image_callback(const sensor_msgs::msg::Image::SharedPtr msg) -> void
@@ -40,7 +41,13 @@ private:
       int cx = static_cast<int>(m.m10 / m.m00);
       int cy = static_cast<int>(m.m01 / m.m00);
 
-      // TODO: Publish cx/cy here once you add the detector output publisher.
+      geometry_msgs::msg::PointStamped target_msg;
+      target_msg.header = msg->header;
+      target_msg.point.x = cx;
+      target_msg.point.y = cy;
+      target_msg.point.z = 0.0;
+
+      target_publisher_->publish(target_msg);
       RCLCPP_INFO(this->get_logger(), "Green object detected at: (%d, %d)", cx, cy);
     }
     else {
@@ -49,7 +56,7 @@ private:
   }
 
   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;
-  // TODO: Add a publisher member for the detected target coordinates here.
+  rclcpp::Publisher<geometry_msgs::msg::PointStamped>::SharedPtr target_publisher_;
 };
 
 

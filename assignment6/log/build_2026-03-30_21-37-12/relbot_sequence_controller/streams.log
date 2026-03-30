@@ -1,0 +1,14 @@
+[0.032s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot_sequence_controller -- -j16 -l16
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target relbot_sequence_controller[0m
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[2.790s] [01m[K/home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp:[m[K In member function ‘[01m[Kvoid SteerRelbot::calculate_velocity()[m[K’:
+[2.790s] [01m[K/home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter_x[m[K’ was not declared in this scope
+[2.790s]    51 |     [01;31m[Kcenter_x[m[K = 150.0;
+[2.791s]       |     [01;31m[K^~~~~~~~[m[K
+[2.796s] [01m[K/home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp:52:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter_y[m[K’ was not declared in this scope
+[2.796s]    52 |     [01;31m[Kcenter_y[m[K = 100.0;
+[2.796s]       |     [01;31m[K^~~~~~~~[m[K
+[6.177s] gmake[2]: *** [CMakeFiles/relbot_sequence_controller.dir/build.make:76: CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o] Error 1
+[6.177s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/relbot_sequence_controller.dir/all] Error 2
+[6.177s] gmake: *** [Makefile:146: all] Error 2
+[6.181s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot_sequence_controller -- -j16 -l16
