@@ -57,7 +57,7 @@ void SteerRelbot::calculate_velocity() {
         return;
     }
 
-    // frame 300x200
+    // frame 320x240
     const double center_x = 160.0;
     //const double center_y = 100
     
