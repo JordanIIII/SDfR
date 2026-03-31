@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000480] (-) JobUnselected: {'identifier': 'cam2image_vm2ros'}
+[0.000565] (-) JobUnselected: {'identifier': 'green_object_detector'}
+[0.000642] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.000726] (-) JobUnselected: {'identifier': 'relbot2turtlesim'}
+[0.000797] (-) JobUnselected: {'identifier': 'relbot_launch'}
+[0.000856] (-) JobUnselected: {'identifier': 'relbot_simulator'}
+[0.000951] (relbot_sequence_controller) JobQueued: {'identifier': 'relbot_sequence_controller', 'dependencies': OrderedDict()}
+[0.001638] (relbot_sequence_controller) JobStarted: {'identifier': 'relbot_sequence_controller'}
+[0.027820] (relbot_sequence_controller) JobProgress: {'identifier': 'relbot_sequence_controller', 'progress': 'cmake'}
+[0.030738] (relbot_sequence_controller) JobProgress: {'identifier': 'relbot_sequence_controller', 'progress': 'build'}
+[0.032048] (relbot_sequence_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller', '--', '-j16', '-l16'], 'cwd': '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/c/Program Files/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jordan'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/jordan/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/Jordan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jordan'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c1733736-012f-4bfa-b513-588690012c25.sock'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/417_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.codex/tmp/arg0/codex-arg0PpBvET:/home/jordan/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/bin/remote-cli:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin:/home/jordan/.vscode-server/extensions/openai.chatgpt-26.325.31654/bin/linux-x86_64'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d4385-5652-7fe3-87e0-75d7d8079572'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099512] (-) TimerEvent: {}
+[0.199876] (-) TimerEvent: {}
+[0.237253] (relbot_sequence_controller) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target relbot_sequence_controller\n'}
+[0.300040] (-) TimerEvent: {}
+[0.319144] (relbot_sequence_controller) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o\n'}
+[0.400241] (-) TimerEvent: {}
+[0.500549] (-) TimerEvent: {}
+[0.600841] (-) TimerEvent: {}
+[0.701176] (-) TimerEvent: {}
+[0.801509] (-) TimerEvent: {}
+[0.901920] (-) TimerEvent: {}
+[1.002320] (-) TimerEvent: {}
+[1.102697] (-) TimerEvent: {}
+[1.203051] (-) TimerEvent: {}
+[1.303348] (-) TimerEvent: {}
+[1.403665] (-) TimerEvent: {}
+[1.504003] (-) TimerEvent: {}
+[1.604486] (-) TimerEvent: {}
+[1.704844] (-) TimerEvent: {}
+[1.805209] (-) TimerEvent: {}
+[1.905539] (-) TimerEvent: {}
+[2.005816] (-) TimerEvent: {}
+[2.106102] (-) TimerEvent: {}
+[2.206388] (-) TimerEvent: {}
+[2.306720] (-) TimerEvent: {}
+[2.407027] (-) TimerEvent: {}
+[2.507363] (-) TimerEvent: {}
+[2.607816] (-) TimerEvent: {}
+[2.708138] (-) TimerEvent: {}
+[2.808479] (-) TimerEvent: {}
+[2.908850] (-) TimerEvent: {}
+[3.009366] (-) TimerEvent: {}
+[3.109772] (-) TimerEvent: {}
+[3.210164] (-) TimerEvent: {}
+[3.310511] (-) TimerEvent: {}
+[3.410894] (-) TimerEvent: {}
+[3.511211] (-) TimerEvent: {}
+[3.611551] (-) TimerEvent: {}
+[3.711890] (-) TimerEvent: {}
+[3.812223] (-) TimerEvent: {}
+[3.912562] (-) TimerEvent: {}
+[4.013003] (-) TimerEvent: {}
+[4.113367] (-) TimerEvent: {}
+[4.213685] (-) TimerEvent: {}
+[4.314097] (-) TimerEvent: {}
+[4.414543] (-) TimerEvent: {}
+[4.514866] (-) TimerEvent: {}
+[4.615348] (-) TimerEvent: {}
+[4.715702] (-) TimerEvent: {}
+[4.816112] (-) TimerEvent: {}
+[4.916506] (-) TimerEvent: {}
+[5.016901] (-) TimerEvent: {}
+[5.117474] (-) TimerEvent: {}
+[5.217912] (-) TimerEvent: {}
+[5.318325] (-) TimerEvent: {}
+[5.418638] (-) TimerEvent: {}
+[5.518891] (-) TimerEvent: {}
+[5.619220] (-) TimerEvent: {}
+[5.719565] (-) TimerEvent: {}
+[5.819898] (-) TimerEvent: {}
+[5.920258] (-) TimerEvent: {}
+[6.020609] (-) TimerEvent: {}
+[6.121054] (-) TimerEvent: {}
+[6.191905] (relbot_sequence_controller) StderrLine: {'line': b'/home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp: In member function \xe2\x80\x98void SteerRelbot::calculate_velocity()\xe2\x80\x99:\n'}
+[6.192401] (relbot_sequence_controller) StderrLine: {'line': b'/home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp:60:5: error: \xe2\x80\x98center_x\xe2\x80\x99 was not declared in this scope\n'}
+[6.192571] (relbot_sequence_controller) StderrLine: {'line': b'   60 |     center_x = 150.0;\n'}
+[6.192700] (relbot_sequence_controller) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[6.201880] (relbot_sequence_controller) StderrLine: {'line': b'/home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp:61:5: error: \xe2\x80\x98center_y\xe2\x80\x99 was not declared in this scope\n'}
+[6.202288] (relbot_sequence_controller) StderrLine: {'line': b'   61 |     center_y = 100.0;\n'}
+[6.202582] (relbot_sequence_controller) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[6.221232] (-) TimerEvent: {}
+[6.321577] (-) TimerEvent: {}
+[6.421999] (-) TimerEvent: {}
+[6.522377] (-) TimerEvent: {}
+[6.622750] (-) TimerEvent: {}
+[6.723081] (-) TimerEvent: {}
+[6.823475] (-) TimerEvent: {}
+[6.923835] (-) TimerEvent: {}
+[7.024163] (-) TimerEvent: {}
+[7.124478] (-) TimerEvent: {}
+[7.224866] (-) TimerEvent: {}
+[7.325178] (-) TimerEvent: {}
+[7.425521] (-) TimerEvent: {}
+[7.525858] (-) TimerEvent: {}
+[7.626247] (-) TimerEvent: {}
+[7.726642] (-) TimerEvent: {}
+[7.826946] (-) TimerEvent: {}
+[7.927259] (-) TimerEvent: {}
+[8.027605] (-) TimerEvent: {}
+[8.127979] (-) TimerEvent: {}
+[8.228325] (-) TimerEvent: {}
+[8.328638] (-) TimerEvent: {}
+[8.428971] (-) TimerEvent: {}
+[8.529337] (-) TimerEvent: {}
+[8.629696] (-) TimerEvent: {}
+[8.730001] (-) TimerEvent: {}
+[8.830340] (-) TimerEvent: {}
+[8.930709] (-) TimerEvent: {}
+[9.031125] (-) TimerEvent: {}
+[9.131550] (-) TimerEvent: {}
+[9.232108] (-) TimerEvent: {}
+[9.332448] (-) TimerEvent: {}
+[9.432764] (-) TimerEvent: {}
+[9.533092] (-) TimerEvent: {}
+[9.633576] (-) TimerEvent: {}
+[9.733942] (-) TimerEvent: {}
+[9.834293] (-) TimerEvent: {}
+[9.934641] (-) TimerEvent: {}
+[10.035058] (-) TimerEvent: {}
+[10.135474] (-) TimerEvent: {}
+[10.235884] (-) TimerEvent: {}
+[10.336235] (-) TimerEvent: {}
+[10.436579] (-) TimerEvent: {}
+[10.536901] (-) TimerEvent: {}
+[10.637371] (-) TimerEvent: {}
+[10.737736] (-) TimerEvent: {}
+[10.838096] (-) TimerEvent: {}
+[10.938401] (-) TimerEvent: {}
+[11.038746] (-) TimerEvent: {}
+[11.139118] (-) TimerEvent: {}
+[11.239476] (-) TimerEvent: {}
+[11.339829] (-) TimerEvent: {}
+[11.440131] (-) TimerEvent: {}
+[11.540439] (-) TimerEvent: {}
+[11.640847] (-) TimerEvent: {}
+[11.741290] (-) TimerEvent: {}
+[11.841689] (-) TimerEvent: {}
+[11.941983] (-) TimerEvent: {}
+[12.042275] (-) TimerEvent: {}
+[12.142601] (-) TimerEvent: {}
+[12.242885] (-) TimerEvent: {}
+[12.343212] (-) TimerEvent: {}
+[12.443524] (-) TimerEvent: {}
+[12.543854] (-) TimerEvent: {}
+[12.644209] (-) TimerEvent: {}
+[12.744571] (-) TimerEvent: {}
+[12.845003] (-) TimerEvent: {}
+[12.945307] (-) TimerEvent: {}
+[13.032093] (relbot_sequence_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/relbot_sequence_controller.dir/build.make:76: CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o] Error 1\n'}
+[13.032980] (relbot_sequence_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/relbot_sequence_controller.dir/all] Error 2\n'}
+[13.033623] (relbot_sequence_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.038607] (relbot_sequence_controller) CommandEnded: {'returncode': 2}
+[13.045522] (-) TimerEvent: {}
+[13.115973] (relbot_sequence_controller) JobEnded: {'identifier': 'relbot_sequence_controller', 'rc': 2}
+[13.126809] (-) EventReactorShutdown: {}

@@ -33,12 +33,22 @@ void SteerRelbot::create_topics() {
             target_x_raw = msg->point.x;
             target_y_raw = msg->point.y;
             has_target = true;
+            last_target_time_ = msg->header.stamp;
         });
 }
 
 void SteerRelbot::calculate_velocity() {
     // Time constant for the controller
-    double tau = 0.5; 
+    const double tau_w = 50; 
+    const double tau_v = 5;
+
+    if (has_target) {
+        const rclcpp::Time now = this->get_clock()->now();
+        const rclcpp::Duration time_since_last_target = now - last_target_time_;
+        if (time_since_last_target.seconds() > TARGET_TIMEOUT_SEC) {
+            has_target = false;
+        }
+    }
     
     // safely stop the robot if there is no target
     if (!has_target) {
@@ -48,24 +58,17 @@ void SteerRelbot::calculate_velocity() {
     }
 
     // frame 300x200
-    center_x = 150.0;
-    center_y = 100.0;
-    double target_x = (target_x_raw - center_x) / center_x;
-    double target_y = (center_y - target_y_raw) / center_y;
+    const double center_x = 160.0;
+    //const double center_y = 100
+    
+    double error_x = target_x_raw - center_x;
+    double error_y = target_y_raw - 240;
 
-    double error_x = target_x - current_x;
-    double error_y = target_y - current_y;
-
-    double desired_angle = atan2(error_y, error_x);
-    double angle_error = desired_angle - current_angle;
-
-    double distance_error = sqrt(error_x * error_x + error_y * error_y);
-
-    double v = distance_error/tau;
-    double w = angle_error/tau;
-
-    left_velocity = v - w;
-    right_velocity = v + w;
+    double w = error_x/tau_w;
+    double v = error_y/tau_v;
+    
+    left_velocity =   v -w;
+    right_velocity = -v -w;
 
 }
 

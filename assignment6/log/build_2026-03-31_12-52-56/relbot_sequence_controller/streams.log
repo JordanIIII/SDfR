@@ -1,0 +1,14 @@
+[0.034s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot_sequence_controller -- -j16 -l16
+[0.236s] Consolidate compiler generated dependencies of target relbot_sequence_controller
+[0.318s] [ 50%] Building CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o
+[6.191s] /home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp: In member function ‘void SteerRelbot::calculate_velocity()’:
+[6.191s] /home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp:60:5: error: ‘center_x’ was not declared in this scope
+[6.191s]    60 |     center_x = 150.0;
+[6.191s]       |     ^~~~~~~~
+[6.200s] /home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp:61:5: error: ‘center_y’ was not declared in this scope
+[6.201s]    61 |     center_y = 100.0;
+[6.201s]       |     ^~~~~~~~
+[13.031s] gmake[2]: *** [CMakeFiles/relbot_sequence_controller.dir/build.make:76: CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o] Error 1
+[13.032s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/relbot_sequence_controller.dir/all] Error 2
+[13.032s] gmake: *** [Makefile:146: all] Error 2
+[13.037s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot_sequence_controller -- -j16 -l16

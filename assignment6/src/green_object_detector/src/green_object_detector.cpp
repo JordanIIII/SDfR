@@ -50,9 +50,6 @@ private:
       target_publisher_->publish(target_msg);
       RCLCPP_INFO(this->get_logger(), "Green object detected at: (%d, %d)", cx, cy);
     }
-    else {
-      RCLCPP_INFO(this->get_logger(), "No green object detected.");
-    }
   }
 
   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;

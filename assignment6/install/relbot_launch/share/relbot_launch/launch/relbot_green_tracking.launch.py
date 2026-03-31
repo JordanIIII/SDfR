@@ -5,10 +5,10 @@ import os
 
 
 def generate_launch_description():
-    camera_params = os.path.join(
+    params_file = os.path.join(
         get_package_share_directory("cam2image_vm2ros"),
         "config",
-        "cam2image_relbot.yaml",
+        "cam2image.yaml",
     )
 
     relbot_simulator = Node(
@@ -30,12 +30,11 @@ def generate_launch_description():
         name="robotturtle",
     )
 
-    camera = Node(
+    cam2image_node = Node(
         package="cam2image_vm2ros",
         executable="cam2image",
         name="cam2image",
-        output="screen",
-        parameters=[camera_params],
+        parameters=[params_file],
     )
 
     detector = Node(
@@ -55,7 +54,7 @@ def generate_launch_description():
         relbot_simulator,
         relbot2turtlesim,
         turtlesim,
-        camera,
+        cam2image_node,
         detector,
         controller,
     ])

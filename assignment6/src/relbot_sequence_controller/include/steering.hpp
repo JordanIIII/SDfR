@@ -24,6 +24,8 @@ public:
     const double DEFAULT_SETPOINT_STREAM = 100;  // How often the velocities are published per second
 
 private:
+    static constexpr double TARGET_TIMEOUT_SEC = 0.25;
+
     rclcpp::Publisher<example_interfaces::msg::Float64>::SharedPtr left_wheel_topic_;
     rclcpp::Publisher<example_interfaces::msg::Float64>::SharedPtr right_wheel_topic_;
     rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr pose_subscriber;
@@ -41,6 +43,7 @@ private:
     double current_angle = 0.0;
     double current_x = 0.0;
     double current_y = 0.0;
+    rclcpp::Time last_target_time_{0, 0, RCL_ROS_TIME};
 
     // TODO: Add variables for the latest detected green-object target here.
     // Examples: target_x, target_y, target_received

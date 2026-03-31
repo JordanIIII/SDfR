@@ -1,0 +1,4 @@
+Invoking command in '/home/jordan/SDfR/assignment6/build/relbot2turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot2turtlesim -- -j16 -l16
+Invoked command in '/home/jordan/SDfR/assignment6/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot2turtlesim -- -j16 -l16
+Invoking command in '/home/jordan/SDfR/assignment6/build/relbot2turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/relbot2turtlesim
+Invoked command in '/home/jordan/SDfR/assignment6/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/relbot2turtlesim
