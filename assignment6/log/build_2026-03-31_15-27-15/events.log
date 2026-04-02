@@ -1,0 +1,311 @@
+[0.000000] (-) TimerEvent: {}
+[0.000205] (-) JobUnselected: {'identifier': 'cam2image_vm2ros'}
+[0.000243] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.000273] (-) JobUnselected: {'identifier': 'relbot2turtlesim'}
+[0.000302] (-) JobUnselected: {'identifier': 'relbot_launch'}
+[0.000330] (-) JobUnselected: {'identifier': 'relbot_simulator'}
+[0.000360] (green_object_detector) JobQueued: {'identifier': 'green_object_detector', 'dependencies': OrderedDict()}
+[0.000391] (relbot_sequence_controller) JobQueued: {'identifier': 'relbot_sequence_controller', 'dependencies': OrderedDict()}
+[0.000679] (green_object_detector) JobStarted: {'identifier': 'green_object_detector'}
+[0.006433] (relbot_sequence_controller) JobStarted: {'identifier': 'relbot_sequence_controller'}
+[0.010618] (green_object_detector) JobProgress: {'identifier': 'green_object_detector', 'progress': 'cmake'}
+[0.011563] (green_object_detector) JobProgress: {'identifier': 'green_object_detector', 'progress': 'build'}
+[0.012187] (green_object_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jordan/SDfR/assignment6/build/green_object_detector', '--', '-j16', '-l16'], 'cwd': '/home/jordan/SDfR/assignment6/build/green_object_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/c/Program Files/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jordan'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/jordan/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/Jordan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jordan'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c1733736-012f-4bfa-b513-588690012c25.sock'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/417_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.codex/tmp/arg0/codex-arg0PpBvET:/home/jordan/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/bin/remote-cli:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin:/home/jordan/.vscode-server/extensions/openai.chatgpt-26.325.31654/bin/linux-x86_64'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d440f-d53e-7a70-bb39-5fc6f7b3d309'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jordan/SDfR/assignment6/build/green_object_detector'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.015141] (relbot_sequence_controller) JobProgress: {'identifier': 'relbot_sequence_controller', 'progress': 'cmake'}
+[0.015718] (relbot_sequence_controller) JobProgress: {'identifier': 'relbot_sequence_controller', 'progress': 'build'}
+[0.016027] (relbot_sequence_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller', '--', '-j16', '-l16'], 'cwd': '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/c/Program Files/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jordan'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/jordan/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/Jordan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jordan'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c1733736-012f-4bfa-b513-588690012c25.sock'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/417_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.codex/tmp/arg0/codex-arg0PpBvET:/home/jordan/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/bin/remote-cli:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin:/home/jordan/.vscode-server/extensions/openai.chatgpt-26.325.31654/bin/linux-x86_64'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d440f-d53e-7a70-bb39-5fc6f7b3d309'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069339] (green_object_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099760] (-) TimerEvent: {}
+[0.100064] (relbot_sequence_controller) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o\n'}
+[0.199867] (-) TimerEvent: {}
+[0.241473] (green_object_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299929] (-) TimerEvent: {}
+[0.400117] (-) TimerEvent: {}
+[0.498613] (green_object_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.500161] (-) TimerEvent: {}
+[0.502784] (green_object_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.514507] (green_object_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.530511] (green_object_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.550307] (green_object_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600292] (-) TimerEvent: {}
+[0.600722] (green_object_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.604214] (green_object_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700385] (-) TimerEvent: {}
+[0.800616] (-) TimerEvent: {}
+[0.900878] (-) TimerEvent: {}
+[1.001114] (-) TimerEvent: {}
+[1.101297] (-) TimerEvent: {}
+[1.201565] (-) TimerEvent: {}
+[1.301804] (-) TimerEvent: {}
+[1.402016] (-) TimerEvent: {}
+[1.502215] (-) TimerEvent: {}
+[1.602433] (-) TimerEvent: {}
+[1.702643] (-) TimerEvent: {}
+[1.802959] (-) TimerEvent: {}
+[1.903213] (-) TimerEvent: {}
+[2.003420] (-) TimerEvent: {}
+[2.103618] (-) TimerEvent: {}
+[2.203802] (-) TimerEvent: {}
+[2.304003] (-) TimerEvent: {}
+[2.404216] (-) TimerEvent: {}
+[2.504498] (-) TimerEvent: {}
+[2.604736] (-) TimerEvent: {}
+[2.704979] (-) TimerEvent: {}
+[2.805183] (-) TimerEvent: {}
+[2.905445] (-) TimerEvent: {}
+[3.005694] (-) TimerEvent: {}
+[3.105904] (-) TimerEvent: {}
+[3.206097] (-) TimerEvent: {}
+[3.306350] (-) TimerEvent: {}
+[3.406590] (-) TimerEvent: {}
+[3.506844] (-) TimerEvent: {}
+[3.607067] (-) TimerEvent: {}
+[3.707293] (-) TimerEvent: {}
+[3.807488] (-) TimerEvent: {}
+[3.907700] (-) TimerEvent: {}
+[4.007872] (-) TimerEvent: {}
+[4.108060] (-) TimerEvent: {}
+[4.208290] (-) TimerEvent: {}
+[4.308540] (-) TimerEvent: {}
+[4.408767] (-) TimerEvent: {}
+[4.508926] (-) TimerEvent: {}
+[4.609107] (-) TimerEvent: {}
+[4.709273] (-) TimerEvent: {}
+[4.809506] (-) TimerEvent: {}
+[4.909724] (-) TimerEvent: {}
+[5.009963] (-) TimerEvent: {}
+[5.110187] (-) TimerEvent: {}
+[5.210394] (-) TimerEvent: {}
+[5.310612] (-) TimerEvent: {}
+[5.410820] (-) TimerEvent: {}
+[5.511025] (-) TimerEvent: {}
+[5.611246] (-) TimerEvent: {}
+[5.711469] (-) TimerEvent: {}
+[5.811686] (-) TimerEvent: {}
+[5.911904] (-) TimerEvent: {}
+[6.012179] (-) TimerEvent: {}
+[6.112452] (-) TimerEvent: {}
+[6.212712] (-) TimerEvent: {}
+[6.312902] (-) TimerEvent: {}
+[6.413070] (-) TimerEvent: {}
+[6.513287] (-) TimerEvent: {}
+[6.613461] (-) TimerEvent: {}
+[6.713726] (-) TimerEvent: {}
+[6.813973] (-) TimerEvent: {}
+[6.914193] (-) TimerEvent: {}
+[7.014402] (-) TimerEvent: {}
+[7.114621] (-) TimerEvent: {}
+[7.214842] (-) TimerEvent: {}
+[7.315015] (-) TimerEvent: {}
+[7.415203] (-) TimerEvent: {}
+[7.515427] (-) TimerEvent: {}
+[7.615671] (-) TimerEvent: {}
+[7.715884] (-) TimerEvent: {}
+[7.816085] (-) TimerEvent: {}
+[7.916289] (-) TimerEvent: {}
+[8.016481] (-) TimerEvent: {}
+[8.116725] (-) TimerEvent: {}
+[8.216928] (-) TimerEvent: {}
+[8.317127] (-) TimerEvent: {}
+[8.417351] (-) TimerEvent: {}
+[8.517560] (-) TimerEvent: {}
+[8.617742] (-) TimerEvent: {}
+[8.717949] (-) TimerEvent: {}
+[8.818190] (-) TimerEvent: {}
+[8.918417] (-) TimerEvent: {}
+[9.018611] (-) TimerEvent: {}
+[9.073610] (green_object_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.118713] (-) TimerEvent: {}
+[9.138486] (green_object_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[9.174992] (green_object_detector) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[9.190768] (green_object_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.218790] (-) TimerEvent: {}
+[9.269402] (green_object_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.269682] (green_object_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.269753] (green_object_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.270486] (green_object_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.271819] (green_object_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.271958] (green_object_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.272293] (green_object_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.274674] (green_object_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.301904] (green_object_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[9.309442] (green_object_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/jordan/SDfR/assignment6/build/green_object_detector\n'}
+[9.318927] (-) TimerEvent: {}
+[9.348614] (green_object_detector) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target green_object_detector\n'}
+[9.365512] (green_object_detector) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/green_object_detector.dir/src/green_object_detector.cpp.o\n'}
+[9.419023] (-) TimerEvent: {}
+[9.519217] (-) TimerEvent: {}
+[9.619393] (-) TimerEvent: {}
+[9.719579] (-) TimerEvent: {}
+[9.819830] (-) TimerEvent: {}
+[9.920048] (-) TimerEvent: {}
+[10.020232] (-) TimerEvent: {}
+[10.120419] (-) TimerEvent: {}
+[10.220666] (-) TimerEvent: {}
+[10.320865] (-) TimerEvent: {}
+[10.421027] (-) TimerEvent: {}
+[10.521223] (-) TimerEvent: {}
+[10.621459] (-) TimerEvent: {}
+[10.721695] (-) TimerEvent: {}
+[10.821934] (-) TimerEvent: {}
+[10.922182] (-) TimerEvent: {}
+[10.931544] (relbot_sequence_controller) StdoutLine: {'line': b'[100%] Linking CXX executable relbot_sequence_controller\n'}
+[11.022280] (-) TimerEvent: {}
+[11.122538] (-) TimerEvent: {}
+[11.222755] (-) TimerEvent: {}
+[11.323022] (-) TimerEvent: {}
+[11.423281] (-) TimerEvent: {}
+[11.523498] (-) TimerEvent: {}
+[11.623733] (-) TimerEvent: {}
+[11.650596] (relbot_sequence_controller) StdoutLine: {'line': b'[100%] Built target relbot_sequence_controller\n'}
+[11.665107] (relbot_sequence_controller) CommandEnded: {'returncode': 0}
+[11.665868] (relbot_sequence_controller) JobProgress: {'identifier': 'relbot_sequence_controller', 'progress': 'install'}
+[11.676255] (relbot_sequence_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller'], 'cwd': '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/c/Program Files/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jordan'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/jordan/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/Jordan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jordan'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c1733736-012f-4bfa-b513-588690012c25.sock'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/417_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.codex/tmp/arg0/codex-arg0PpBvET:/home/jordan/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/bin/remote-cli:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin:/home/jordan/.vscode-server/extensions/openai.chatgpt-26.325.31654/bin/linux-x86_64'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d440f-d53e-7a70-bb39-5fc6f7b3d309'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.685534] (relbot_sequence_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.686130] (relbot_sequence_controller) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller\n'}
+[11.695185] (relbot_sequence_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller" to ""\n'}
+[11.695501] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller\n'}
+[11.695663] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller\n'}
+[11.695798] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.sh\n'}
+[11.696136] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.dsv\n'}
+[11.696216] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.sh\n'}
+[11.696270] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.dsv\n'}
+[11.696347] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.bash\n'}
+[11.696398] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.sh\n'}
+[11.696445] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.zsh\n'}
+[11.696493] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.dsv\n'}
+[11.696555] (relbot_sequence_controller) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv\n'}
+[11.696637] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/ament_index/resource_index/packages/relbot_sequence_controller\n'}
+[11.696730] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig.cmake\n'}
+[11.696791] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig-version.cmake\n'}
+[11.696837] (relbot_sequence_controller) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/package.xml\n'}
+[11.698153] (relbot_sequence_controller) CommandEnded: {'returncode': 0}
+[11.716167] (relbot_sequence_controller) JobEnded: {'identifier': 'relbot_sequence_controller', 'rc': 0}
+[11.723830] (-) TimerEvent: {}
+[11.824086] (-) TimerEvent: {}
+[11.924310] (-) TimerEvent: {}
+[12.024525] (-) TimerEvent: {}
+[12.124796] (-) TimerEvent: {}
+[12.225112] (-) TimerEvent: {}
+[12.325334] (-) TimerEvent: {}
+[12.425578] (-) TimerEvent: {}
+[12.525839] (-) TimerEvent: {}
+[12.626078] (-) TimerEvent: {}
+[12.726281] (-) TimerEvent: {}
+[12.826474] (-) TimerEvent: {}
+[12.926682] (-) TimerEvent: {}
+[13.026901] (-) TimerEvent: {}
+[13.127119] (-) TimerEvent: {}
+[13.227331] (-) TimerEvent: {}
+[13.327519] (-) TimerEvent: {}
+[13.427740] (-) TimerEvent: {}
+[13.527926] (-) TimerEvent: {}
+[13.628120] (-) TimerEvent: {}
+[13.728329] (-) TimerEvent: {}
+[13.828536] (-) TimerEvent: {}
+[13.928797] (-) TimerEvent: {}
+[14.028963] (-) TimerEvent: {}
+[14.129134] (-) TimerEvent: {}
+[14.229344] (-) TimerEvent: {}
+[14.329562] (-) TimerEvent: {}
+[14.429761] (-) TimerEvent: {}
+[14.529960] (-) TimerEvent: {}
+[14.630161] (-) TimerEvent: {}
+[14.730330] (-) TimerEvent: {}
+[14.830534] (-) TimerEvent: {}
+[14.930722] (-) TimerEvent: {}
+[15.030910] (-) TimerEvent: {}
+[15.131112] (-) TimerEvent: {}
+[15.231307] (-) TimerEvent: {}
+[15.331473] (-) TimerEvent: {}
+[15.431655] (-) TimerEvent: {}
+[15.531854] (-) TimerEvent: {}
+[15.632014] (-) TimerEvent: {}
+[15.732191] (-) TimerEvent: {}
+[15.832398] (-) TimerEvent: {}
+[15.932587] (-) TimerEvent: {}
+[16.032773] (-) TimerEvent: {}
+[16.132985] (-) TimerEvent: {}
+[16.233174] (-) TimerEvent: {}
+[16.333386] (-) TimerEvent: {}
+[16.433587] (-) TimerEvent: {}
+[16.533780] (-) TimerEvent: {}
+[16.633985] (-) TimerEvent: {}
+[16.734202] (-) TimerEvent: {}
+[16.834439] (-) TimerEvent: {}
+[16.934666] (-) TimerEvent: {}
+[17.034864] (-) TimerEvent: {}
+[17.135071] (-) TimerEvent: {}
+[17.235279] (-) TimerEvent: {}
+[17.335460] (-) TimerEvent: {}
+[17.435656] (-) TimerEvent: {}
+[17.535858] (-) TimerEvent: {}
+[17.576752] (green_object_detector) StdoutLine: {'line': b'[100%] Linking CXX executable green_object_detector\n'}
+[17.635962] (-) TimerEvent: {}
+[17.736167] (-) TimerEvent: {}
+[17.836398] (-) TimerEvent: {}
+[17.936592] (-) TimerEvent: {}
+[18.037244] (-) TimerEvent: {}
+[18.138566] (-) TimerEvent: {}
+[18.241327] (-) TimerEvent: {}
+[18.342674] (-) TimerEvent: {}
+[18.443808] (-) TimerEvent: {}
+[18.545236] (-) TimerEvent: {}
+[18.646649] (-) TimerEvent: {}
+[18.750176] (-) TimerEvent: {}
+[18.851614] (-) TimerEvent: {}
+[18.953171] (-) TimerEvent: {}
+[19.054528] (-) TimerEvent: {}
+[19.155807] (-) TimerEvent: {}
+[19.257064] (-) TimerEvent: {}
+[19.358558] (-) TimerEvent: {}
+[19.460197] (-) TimerEvent: {}
+[19.561766] (-) TimerEvent: {}
+[19.663413] (-) TimerEvent: {}
+[19.765022] (-) TimerEvent: {}
+[19.866520] (-) TimerEvent: {}
+[19.967974] (-) TimerEvent: {}
+[20.071161] (-) TimerEvent: {}
+[20.173141] (-) TimerEvent: {}
+[20.274745] (-) TimerEvent: {}
+[20.377208] (-) TimerEvent: {}
+[20.483933] (-) TimerEvent: {}
+[20.585599] (-) TimerEvent: {}
+[20.690429] (-) TimerEvent: {}
+[20.791765] (-) TimerEvent: {}
+[20.893724] (-) TimerEvent: {}
+[20.995076] (-) TimerEvent: {}
+[21.096201] (-) TimerEvent: {}
+[21.196741] (-) TimerEvent: {}
+[21.297112] (-) TimerEvent: {}
+[21.397436] (-) TimerEvent: {}
+[21.497727] (-) TimerEvent: {}
+[21.598055] (-) TimerEvent: {}
+[21.698363] (-) TimerEvent: {}
+[21.798595] (-) TimerEvent: {}
+[21.816099] (green_object_detector) StdoutLine: {'line': b'[100%] Built target green_object_detector\n'}
+[21.837838] (green_object_detector) CommandEnded: {'returncode': 0}
+[21.839134] (green_object_detector) JobProgress: {'identifier': 'green_object_detector', 'progress': 'install'}
+[21.839984] (green_object_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jordan/SDfR/assignment6/build/green_object_detector'], 'cwd': '/home/jordan/SDfR/assignment6/build/green_object_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/c/Program Files/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jordan'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/jordan/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/Jordan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jordan'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c1733736-012f-4bfa-b513-588690012c25.sock'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/417_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.codex/tmp/arg0/codex-arg0PpBvET:/home/jordan/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/bin/remote-cli:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin:/home/jordan/.vscode-server/extensions/openai.chatgpt-26.325.31654/bin/linux-x86_64'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d440f-d53e-7a70-bb39-5fc6f7b3d309'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jordan/SDfR/assignment6/build/green_object_detector'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.854335] (green_object_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.854722] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/lib/green_object_detector/green_object_detector\n'}
+[21.865153] (green_object_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/green_object_detector/lib/green_object_detector/green_object_detector" to ""\n'}
+[21.865403] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/package_run_dependencies/green_object_detector\n'}
+[21.865802] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/parent_prefix_path/green_object_detector\n'}
+[21.866674] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/ament_prefix_path.sh\n'}
+[21.867058] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/ament_prefix_path.dsv\n'}
+[21.867339] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/path.sh\n'}
+[21.867506] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/path.dsv\n'}
+[21.867679] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.bash\n'}
+[21.868143] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.sh\n'}
+[21.868527] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.zsh\n'}
+[21.868718] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.dsv\n'}
+[21.868869] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.dsv\n'}
+[21.869245] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/packages/green_object_detector\n'}
+[21.869699] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/cmake/green_object_detectorConfig.cmake\n'}
+[21.869823] (green_object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/cmake/green_object_detectorConfig-version.cmake\n'}
+[21.869942] (green_object_detector) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.xml\n'}
+[21.873771] (green_object_detector) CommandEnded: {'returncode': 0}
+[21.898722] (-) TimerEvent: {}
+[21.904256] (green_object_detector) JobEnded: {'identifier': 'green_object_detector', 'rc': 0}
+[21.905449] (-) EventReactorShutdown: {}

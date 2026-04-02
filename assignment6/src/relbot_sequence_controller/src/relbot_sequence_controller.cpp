@@ -1,4 +1,5 @@
 #include "steering.hpp"
+#include <algorithm>
 #include "geometry_msgs/msg/pose_stamped.hpp"
 #include "geometry_msgs/msg/point_stamped.hpp"
 
@@ -32,6 +33,7 @@ void SteerRelbot::create_topics() {
         "green_object_position", 10, [this](const geometry_msgs::msg::PointStamped::SharedPtr msg) {
             target_x_raw = msg->point.x;
             target_y_raw = msg->point.y;
+            target_coverage = std::clamp(msg->point.z, 0.0, 1.0);
             has_target = true;
             last_target_time_ = msg->header.stamp;
         });
@@ -57,15 +59,26 @@ void SteerRelbot::calculate_velocity() {
         return;
     }
 
-    // frame 320x240
-    const double center_x = 160.0;
-    //const double center_y = 100
-    
+    // Detector now publishes normalized coordinates, so these values stay valid
+    // even when the simulator crops and rescales the camera image.
+    const double center_x = 0.5;
+
     double error_x = target_x_raw - center_x;
-    double error_y = target_y_raw - 240;
+    double error_y = target_y_raw - 1.0;
 
     double w = error_x/tau_w;
     double v = error_y/tau_v;
+
+    // Slow the forward component as the green object fills more of the view.
+    const double slowdown_start_coverage = 0.10;
+    const double stop_coverage = 0.35;
+    double approach_scale = 1.0;
+    if (target_coverage >= slowdown_start_coverage) {
+        approach_scale = std::clamp(
+            (stop_coverage - target_coverage) / (stop_coverage - slowdown_start_coverage),
+            0.0, 1.0);
+    }
+    v *= approach_scale;
     
     left_velocity =   v -w;
     right_velocity = -v -w;

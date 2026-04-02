@@ -1,0 +1,49 @@
+[0.014s] Invoking command in '/home/jordan/SDfR/assignment6/build/green_object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/green_object_detector -- -j16 -l16
+[0.069s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.241s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.498s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.502s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.514s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.600s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.604s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.073s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.138s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.174s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[9.190s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.269s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.269s] -- Configured cppcheck include dirs: 
+[9.269s] -- Configured cppcheck exclude dirs and/or files: 
+[9.270s] -- Added test 'lint_cmake' to check CMake code style
+[9.271s] -- Added test 'uncrustify' to check C / C++ code style
+[9.271s] -- Configured uncrustify additional arguments: 
+[9.272s] -- Added test 'xmllint' to check XML markup files
+[9.274s] -- Configuring done
+[9.301s] -- Generating done
+[9.309s] -- Build files have been written to: /home/jordan/SDfR/assignment6/build/green_object_detector
+[9.348s] Consolidate compiler generated dependencies of target green_object_detector
+[9.365s] [ 50%] Building CXX object CMakeFiles/green_object_detector.dir/src/green_object_detector.cpp.o
+[17.576s] [100%] Linking CXX executable green_object_detector
+[21.816s] [100%] Built target green_object_detector
+[21.838s] Invoked command in '/home/jordan/SDfR/assignment6/build/green_object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/green_object_detector -- -j16 -l16
+[21.841s] Invoking command in '/home/jordan/SDfR/assignment6/build/green_object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/green_object_detector
+[21.854s] -- Install configuration: ""
+[21.854s] -- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/lib/green_object_detector/green_object_detector
+[21.865s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/green_object_detector/lib/green_object_detector/green_object_detector" to ""
+[21.865s] -- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/package_run_dependencies/green_object_detector
+[21.866s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/parent_prefix_path/green_object_detector
+[21.866s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/ament_prefix_path.sh
+[21.866s] -- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/ament_prefix_path.dsv
+[21.867s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/path.sh
+[21.867s] -- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/path.dsv
+[21.867s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.bash
+[21.868s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.sh
+[21.868s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.zsh
+[21.868s] -- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.dsv
+[21.868s] -- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.dsv
+[21.869s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/packages/green_object_detector
+[21.869s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/cmake/green_object_detectorConfig.cmake
+[21.869s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/cmake/green_object_detectorConfig-version.cmake
+[21.869s] -- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.xml
+[21.874s] Invoked command in '/home/jordan/SDfR/assignment6/build/green_object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/green_object_detector

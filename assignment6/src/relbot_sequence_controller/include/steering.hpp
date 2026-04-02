@@ -35,6 +35,7 @@ private:
 
     double target_x_raw = 0.0;
     double target_y_raw = 0.0;
+    double target_coverage = 0.0;
     bool has_target = false;
 
     double left_velocity = 0.0;
