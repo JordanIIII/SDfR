@@ -1,0 +1,42 @@
+[0.073s] Invoking command in '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/cam2image_vm2ros -- -j16 -l16
+[0.244s] [ 40%] Built target cam2image
+[0.270s] [100%] Built target cam2image_vm2ros
+[0.339s] Invoked command in '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/cam2image_vm2ros -- -j16 -l16
+[0.346s] Invoking command in '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/cam2image_vm2ros
+[0.391s] -- Install configuration: ""
+[0.391s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib/cam2image_vm2ros/cam2image
+[0.392s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/lib/libcam2image_vm2ros.so
+[0.392s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros
+[0.392s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/cam2image.hpp
+[0.393s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/visibility_control.h
+[0.393s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/base64.hpp
+[0.394s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/remote_capture.hpp
+[0.394s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/config
+[0.395s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/config/cam2image_relbot.yaml
+[0.395s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/config/cam2image.yaml
+[0.396s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/launch
+[0.397s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/launch/vm_camera_test.launch.py
+[0.397s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/library_path.sh
+[0.398s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/library_path.dsv
+[0.398s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/package_run_dependencies/cam2image_vm2ros
+[0.398s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/parent_prefix_path/cam2image_vm2ros
+[0.399s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/ament_prefix_path.sh
+[0.399s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/ament_prefix_path.dsv
+[0.400s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/path.sh
+[0.400s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/path.dsv
+[0.401s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.bash
+[0.401s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.sh
+[0.402s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.zsh
+[0.402s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.dsv
+[0.402s] -- Installing: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.dsv
+[0.403s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/packages/cam2image_vm2ros
+[0.404s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/rclcpp_components/cam2image_vm2ros
+[0.404s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosExport.cmake
+[0.404s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosExport-noconfig.cmake
+[0.405s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/ament_cmake_export_libraries-extras.cmake
+[0.407s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/ament_cmake_export_targets-extras.cmake
+[0.407s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.408s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosConfig.cmake
+[0.409s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosConfig-version.cmake
+[0.409s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.xml
+[0.565s] Invoked command in '/home/jordan/SDfR/assignment6/build/cam2image_vm2ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/cam2image_vm2ros

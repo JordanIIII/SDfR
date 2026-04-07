@@ -32,6 +32,7 @@ void SteerRelbot::create_topics() {
         "green_object_position", 10, [this](const geometry_msgs::msg::PointStamped::SharedPtr msg) {
             target_x_raw = msg->point.x;
             target_y_raw = msg->point.y;
+            green_coverage = msg->point.z;
             has_target = true;
             last_target_time_ = msg->header.stamp;
         });
@@ -39,8 +40,9 @@ void SteerRelbot::create_topics() {
 
 void SteerRelbot::calculate_velocity() {
     // Time constant for the controller
-    const double tau_w = 50; 
-    const double tau_v = 5;
+    const double tau_w = 100; 
+    const double tau_v = 1;
+    const double min_green_coverage_val = 0.1; //prevent division by zero
 
     if (has_target) {
         const rclcpp::Time now = this->get_clock()->now();
@@ -59,16 +61,21 @@ void SteerRelbot::calculate_velocity() {
 
     // frame 320x240
     const double center_x = 160.0;
-    //const double center_y = 100
     
+    // Calculate error between target position and center of the image
     double error_x = target_x_raw - center_x;
-    double error_y = target_y_raw - 240;
+    //double error_y = target_y_raw - 240;
 
+    // Smaller target coverage means the object is further away, but clamp the
+    // minimum to avoid extremely large velocity spikes when the target is tiny.
+    double v = 1 / (tau_v * std::max(green_coverage, min_green_coverage_val));
+
+    // Angular velocity control proportional to horizontal error
     double w = error_x/tau_w;
-    double v = error_y/tau_v;
+    //double v = error_y/tau_v;
     
-    left_velocity =   v -w;
-    right_velocity = -v -w;
+    left_velocity =  -v -w;
+    right_velocity = v -w;
 
 }
 

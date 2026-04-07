@@ -36,6 +36,12 @@ private:
       green_mask
     );
 
+    // Count green pixels and express coverage as a percentage of the frame.
+    int green_pixels = cv::countNonZero(green_mask);
+
+    const double total_pixels = static_cast<double>(image.cols * image.rows);
+    double green_coverage = 100.0 * static_cast<double>(green_pixels) / total_pixels;
+
     cv::Moments m = cv::moments(green_mask, true);
     if (m.m00 > 0) {
       int cx = static_cast<int>(m.m10 / m.m00);
@@ -45,10 +51,11 @@ private:
       target_msg.header = msg->header;
       target_msg.point.x = cx;
       target_msg.point.y = cy;
-      target_msg.point.z = 0.0;
+      target_msg.point.z = green_coverage;
 
       target_publisher_->publish(target_msg);
       RCLCPP_INFO(this->get_logger(), "Green object detected at: (%d, %d)", cx, cy);
+      RCLCPP_INFO(this->get_logger(), "Green coverage: %.3f%%", green_coverage*100);
     }
   }
 
