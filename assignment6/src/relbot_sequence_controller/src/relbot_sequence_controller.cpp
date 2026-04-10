@@ -42,7 +42,7 @@ void SteerRelbot::calculate_velocity() {
     // Time constant for the controller
     const double tau_w = 100; 
     const double tau_v = 1;
-    const double min_green_coverage_val = 0.1; //prevent division by zero
+    const double min_green_coverage_val = 0.1; //prevent division by zero and extremely high velocities
 
     if (has_target) {
         const rclcpp::Time now = this->get_clock()->now();
@@ -66,8 +66,7 @@ void SteerRelbot::calculate_velocity() {
     double error_x = target_x_raw - center_x;
     //double error_y = target_y_raw - 240;
 
-    // Smaller target coverage means the object is further away, but clamp the
-    // minimum to avoid extremely large velocity spikes when the target is tiny.
+    // Smaller target coverage means the object is further away, so relbot should move faster (inverse relationship)
     double v = 1 / (tau_v * std::max(green_coverage, min_green_coverage_val));
 
     // Angular velocity control proportional to horizontal error
