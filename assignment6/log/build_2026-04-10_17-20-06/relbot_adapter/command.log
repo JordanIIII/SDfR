@@ -1,0 +1,1 @@
+Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter

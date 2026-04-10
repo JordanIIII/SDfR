@@ -1,0 +1,41 @@
+[0.055s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_msgs -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs
+[0.328s] -- The C compiler identification is GNU 11.4.0
+[0.651s] -- The CXX compiler identification is GNU 11.4.0
+[0.681s] -- Detecting C compiler ABI info
+[0.963s] -- Detecting C compiler ABI info - done
+[0.995s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.997s] -- Detecting C compile features
+[0.999s] -- Detecting C compile features - done
+[1.011s] -- Detecting CXX compiler ABI info
+[1.369s] -- Detecting CXX compiler ABI info - done
+[1.405s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.407s] -- Detecting CXX compile features
+[1.408s] -- Detecting CXX compile features - done
+[1.421s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.096s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.468s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.507s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.653s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.807s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[4.138s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[4.147s] -- Found ament_cmake_cpplint: 0.12.15 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[4.158s] -- Found ament_cmake_uncrustify: 0.12.15 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[4.169s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.177s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.524s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.625s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.645s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.790s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.793s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.794s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.796s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[6.877s] -- Found PythonExtra: .so  
+[7.165s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[7.174s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[7.494s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.585s] -- Added test 'lint_cmake' to check CMake code style
+[7.589s] -- Added test 'xmllint' to check XML markup files
+[7.612s] -- Configuring done
+[7.813s] -- Generating done
+[7.883s] -- Build files have been written to: /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs

@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5ce10951f889b9484593.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "relbot_msgs__py",
+					"jsonFile" : "directory-relbot_msgs__py-bcba5912df2ad408b001.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/relbot_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "relbot_msgs__rs",
+					"jsonFile" : "directory-relbot_msgs__rs-531d8024e40bbb77ffd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/relbot_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "relbot_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_relbot_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_relbot_msgs_egg-efc6c936beb7d55b6f67.json",
+					"name" : "ament_cmake_python_build_relbot_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_relbot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_relbot_msgs-e29c9c704ff3622a61cf.json",
+					"name" : "ament_cmake_python_copy_relbot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs-9c1bd21261590573f54a.json",
+					"name" : "relbot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__cpp-42b8a1c032780755ce36.json",
+					"name" : "relbot_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "relbot_msgs__py::@c645e63c4e7eda5b16c8",
+					"jsonFile" : "target-relbot_msgs__py-98ccc1712c697328efc5.json",
+					"name" : "relbot_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_generator_c-93bf279cc506f9a1addf.json",
+					"name" : "relbot_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_generator_py-e0153d3c8f9f34f23ae8.json",
+					"name" : "relbot_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_typesupport_c-e5f0753a4c26be9af6df.json",
+					"name" : "relbot_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_typesupport_c__pyext-5497fb9bdeacc81e47fe.json",
+					"name" : "relbot_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_typesupport_cpp-e9ce22658adf23059664.json",
+					"name" : "relbot_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_typesupport_fastrtps_c-4e8cadd049ec1a5b0c02.json",
+					"name" : "relbot_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_typesupport_fastrtps_c__pyext-37dab4182f32888cdc8a.json",
+					"name" : "relbot_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_typesupport_fastrtps_cpp-0bc0a37763c0bc3905b1.json",
+					"name" : "relbot_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_typesupport_introspection_c-0b3a76954633a3848d94.json",
+					"name" : "relbot_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_typesupport_introspection_c__pyext-29a36af78b86c8328874.json",
+					"name" : "relbot_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs__rosidl_typesupport_introspection_cpp-47bac8664c9f5e22f7c3.json",
+					"name" : "relbot_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "relbot_msgs__rs::@930d484201829f1fa4d3",
+					"jsonFile" : "target-relbot_msgs__rs-551b3d60577ad4207b11.json",
+					"name" : "relbot_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_msgs_uninstall-b94570487ee9847a1e35.json",
+					"name" : "relbot_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-163298b62eaf315834e7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs",
+		"source" : "/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

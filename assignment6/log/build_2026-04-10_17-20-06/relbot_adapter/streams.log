@@ -1,0 +1,52 @@
+[0.159s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter
+[0.520s] -- The C compiler identification is GNU 11.4.0
+[0.786s] -- The CXX compiler identification is GNU 11.4.0
+[0.814s] -- Detecting C compiler ABI info
+[1.128s] -- Detecting C compiler ABI info - done
+[1.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.164s] -- Detecting C compile features
+[1.166s] -- Detecting C compile features - done
+[1.187s] -- Detecting CXX compiler ABI info
+[1.546s] -- Detecting CXX compiler ABI info - done
+[1.577s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.578s] -- Detecting CXX compile features
+[1.579s] -- Detecting CXX compile features - done
+[1.605s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.317s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.749s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.916s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.941s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.986s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.256s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.268s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.517s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.597s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.724s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.766s] -- Looking for pthread.h
+[4.032s] -- Looking for pthread.h - found
+[4.034s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.340s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.343s] -- Found Threads: TRUE  
+[4.559s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.738s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.807s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[4.809s]   By not providing "Findrelbot_msgs.cmake" in CMAKE_MODULE_PATH this project
+[4.812s]   has asked CMake to find a package configuration file provided by
+[4.815s]   "relbot_msgs", but CMake did not find one.
+[4.818s] 
+[4.824s]   Could not find a package configuration file provided by "relbot_msgs" with
+[4.829s]   any of the following names:
+[4.833s] 
+[4.836s]     relbot_msgsConfig.cmake
+[4.838s]     relbot_msgs-config.cmake
+[4.843s] 
+[4.844s]   Add the installation prefix of "relbot_msgs" to CMAKE_PREFIX_PATH or set
+[4.845s]   "relbot_msgs_DIR" to a directory containing one of the above files.  If
+[4.846s]   "relbot_msgs" provides a separate development package or SDK, be sure it
+[4.848s]   has been installed.
+[4.849s] 
+[4.851s] [0m
+[4.852s] -- Configuring incomplete, errors occurred!
+[4.853s] See also "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter/CMakeFiles/CMakeOutput.log".

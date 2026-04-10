@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "relbot_msgs__rs",
+		"source" : "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/relbot_msgs__rs"
+	}
+}
