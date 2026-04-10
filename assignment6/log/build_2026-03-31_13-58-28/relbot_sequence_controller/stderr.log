@@ -1,7 +1,0 @@
-[01m[K/home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp:[m[K In member function ‘[01m[Kvoid SteerRelbot::calculate_velocity()[m[K’:
-[01m[K/home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp:61:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-   61 |     const double [01;35m[Kcenter_y[m[K = 100.0;
-      |                  [01;35m[K^~~~~~~~[m[K
-[01m[K/home/jordan/SDfR/assignment6/src/relbot_sequence_controller/src/relbot_sequence_controller.cpp:65:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-   65 |     double [01;35m[Kerror_x[m[K = target_x - current_x;
-      |            [01;35m[K^~~~~~~[m[K

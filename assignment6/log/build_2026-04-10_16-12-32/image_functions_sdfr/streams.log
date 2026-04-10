@@ -1,0 +1,74 @@
+[0.066s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/image_functions_sdfr -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr
+[1.730s] -- The C compiler identification is GNU 11.4.0
+[2.520s] -- The CXX compiler identification is GNU 11.4.0
+[2.544s] -- Detecting C compiler ABI info
+[2.912s] -- Detecting C compiler ABI info - done
+[2.953s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.955s] -- Detecting C compile features
+[2.956s] -- Detecting C compile features - done
+[2.967s] -- Detecting CXX compiler ABI info
+[3.365s] -- Detecting CXX compiler ABI info - done
+[3.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.406s] -- Detecting CXX compile features
+[3.407s] -- Detecting CXX compile features - done
+[3.421s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.337s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.874s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.910s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[5.066s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.089s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.133s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.553s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.571s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.892s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.977s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.091s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.134s] -- Looking for pthread.h
+[6.585s] -- Looking for pthread.h - found
+[6.588s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.927s] -- Found Threads: TRUE  
+[7.153s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.764s] -- Configuring done
+[7.835s] -- Generating done
+[7.878s] -- Build files have been written to: /home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr
+[7.921s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/image_functions_sdfr -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr
+[7.924s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr -- -j3 -l3
+[8.111s] [ 50%] [32mBuilding CXX object CMakeFiles/image_functions.dir/src/image_functions.cpp.o[0m
+[32.534s] [100%] [32m[1mLinking CXX shared library libimage_functions.so[0m
+[34.149s] [100%] Built target image_functions
+[34.189s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr -- -j3 -l3
+[34.278s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr
+[34.337s] -- Install configuration: ""
+[34.341s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/include
+[34.344s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr
+[34.348s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr/visibility_control.h
+[34.354s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr/image_functions.hpp
+[34.360s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/lib/libimage_functions.so
+[34.385s] -- Set runtime path of "/home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/lib/libimage_functions.so" to ""
+[34.392s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.sh
+[34.416s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.dsv
+[34.424s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/package_run_dependencies/image_functions_sdfr
+[34.431s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/parent_prefix_path/image_functions_sdfr
+[34.437s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.sh
+[34.447s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.dsv
+[34.452s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.sh
+[34.464s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.dsv
+[34.471s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.bash
+[34.486s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.sh
+[34.493s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.zsh
+[34.499s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.dsv
+[34.507s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv
+[34.516s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/packages/image_functions_sdfr
+[34.522s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport.cmake
+[34.529s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport-noconfig.cmake
+[34.534s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.540s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_libraries-extras.cmake
+[34.547s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_targets-extras.cmake
+[34.553s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.559s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig.cmake
+[34.565s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig-version.cmake
+[34.571s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.xml
+[34.586s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr

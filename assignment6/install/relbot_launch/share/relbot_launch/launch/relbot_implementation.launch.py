@@ -18,13 +18,6 @@ def generate_launch_description():
         parameters=[{"use_twist_cmd": False}],
     )
 
-    cam2image_node = Node(
-        package="cam2image_vm2ros",
-        executable="cam2image",
-        name="cam2image",
-        parameters=[params_file],
-    )
-
     detector = Node(
         package="green_object_detector",
         executable="green_object_detector",
@@ -40,7 +33,6 @@ def generate_launch_description():
 
     return LaunchDescription([
         relbot_simulator,
-        cam2image_node,
         detector,
         controller,
     ])

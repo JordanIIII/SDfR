@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jordan/SDfR/assignment6/src/image_functions_sdfr
+CMAKE_SOURCE_DIR = /home/sdfr-ppd-01/SDfR/assignment6/src/image_functions_sdfr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jordan/SDfR/assignment6/build/image_functions_sdfr
+CMAKE_BINARY_DIR = /home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/image_functions_sdfr/CMakeFiles /home/jordan/SDfR/assignment6/build/image_functions_sdfr//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr/CMakeFiles /home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/image_functions_sdfr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
