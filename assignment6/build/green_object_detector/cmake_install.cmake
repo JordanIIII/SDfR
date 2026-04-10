@@ -1,8 +1,8 @@
-# Install script for directory: /home/sdfr-ppd-01/SDfR/assignment6/src/green_object_detector
+# Install script for directory: /home/jordan/SDfR/assignment6/src/green_object_detector
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector")
+  set(CMAKE_INSTALL_PREFIX "/home/jordan/SDfR/assignment6/install/green_object_detector")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/green_object_detector" TYPE EXECUTABLE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/green_object_detector")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/green_object_detector" TYPE EXECUTABLE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/green_object_detector")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/green_object_detector/green_object_detector")
     file(RPATH_CHANGE
@@ -63,11 +63,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/green_object_detector")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/green_object_detector")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/green_object_detector")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/green_object_detector")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector/environment" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector/environment" TYPE FILE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -83,42 +83,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector/environment" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector/environment" TYPE FILE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_index/share/ament_index/resource_index/packages/green_object_detector")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_index/share/ament_index/resource_index/packages/green_object_detector")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector/cmake" TYPE FILE FILES
-    "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_core/green_object_detectorConfig.cmake"
-    "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_core/green_object_detectorConfig-version.cmake"
+    "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_core/green_object_detectorConfig.cmake"
+    "/home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_core/green_object_detectorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/sdfr-ppd-01/SDfR/assignment6/src/green_object_detector/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/green_object_detector" TYPE FILE FILES "/home/jordan/SDfR/assignment6/src/green_object_detector/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,5 +129,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jordan/SDfR/assignment6/build/green_object_detector/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

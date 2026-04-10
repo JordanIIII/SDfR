@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_msgs
+CMAKE_SOURCE_DIR = /home/jordan/SDfR/assignment6/src/relbot_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs
+CMAKE_BINARY_DIR = /home/jordan/SDfR/assignment6/build/relbot_msgs
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -77,12 +77,10 @@ all: CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all
 all: CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all
 all: CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/all
 all: relbot_msgs__py/all
-all: relbot_msgs__rs/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: relbot_msgs__py/preinstall
-preinstall: relbot_msgs__rs/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -104,7 +102,6 @@ clean: CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/clean
 clean: CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/clean
 clean: CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/clean
 clean: relbot_msgs__py/clean
-clean: relbot_msgs__rs/clean
 .PHONY : clean
 
 #=============================================================================
@@ -123,35 +120,20 @@ relbot_msgs__py/clean: relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/clean
 .PHONY : relbot_msgs__py/clean
 
 #=============================================================================
-# Directory level rules for directory relbot_msgs__rs
-
-# Recursive "all" directory target.
-relbot_msgs__rs/all: relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/all
-.PHONY : relbot_msgs__rs/all
-
-# Recursive "preinstall" directory target.
-relbot_msgs__rs/preinstall:
-.PHONY : relbot_msgs__rs/preinstall
-
-# Recursive "clean" directory target.
-relbot_msgs__rs/clean: relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/clean
-.PHONY : relbot_msgs__rs/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
 
 # All Build rule for target.
 CMakeFiles/uninstall.dir/all: CMakeFiles/relbot_msgs_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -170,14 +152,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/relbot_msgs_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs_uninstall.dir/build.make CMakeFiles/relbot_msgs_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs_uninstall.dir/build.make CMakeFiles/relbot_msgs_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num= "Built target relbot_msgs_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num= "Built target relbot_msgs_uninstall"
 .PHONY : CMakeFiles/relbot_msgs_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs_uninstall.dir/rule
 
 # Convenience name for target.
@@ -201,17 +183,16 @@ CMakeFiles/relbot_msgs.dir/all: CMakeFiles/relbot_msgs__cpp.dir/all
 CMakeFiles/relbot_msgs.dir/all: CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/all
 CMakeFiles/relbot_msgs.dir/all: CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/relbot_msgs.dir/all: CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/all
-CMakeFiles/relbot_msgs.dir/all: relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs.dir/build.make CMakeFiles/relbot_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs.dir/build.make CMakeFiles/relbot_msgs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num= "Built target relbot_msgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num= "Built target relbot_msgs"
 .PHONY : CMakeFiles/relbot_msgs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs.dir/rule
 
 # Convenience name for target.
@@ -230,14 +211,14 @@ CMakeFiles/relbot_msgs.dir/clean:
 CMakeFiles/relbot_msgs__rosidl_generator_c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/relbot_msgs__rosidl_generator_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/relbot_msgs__rosidl_generator_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=3,4,5,6 "Built target relbot_msgs__rosidl_generator_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=3,4,5,6 "Built target relbot_msgs__rosidl_generator_c"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_generator_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_generator_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_generator_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_generator_c.dir/rule
 
 # Convenience name for target.
@@ -256,14 +237,14 @@ CMakeFiles/relbot_msgs__rosidl_generator_c.dir/clean:
 CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/relbot_msgs__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=20,21,22,23 "Built target relbot_msgs__rosidl_typesupport_fastrtps_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=20,21,22,23 "Built target relbot_msgs__rosidl_typesupport_fastrtps_c"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/rule
 
 # Convenience name for target.
@@ -282,14 +263,14 @@ CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/clean:
 CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/relbot_msgs__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=30,31,32,33 "Built target relbot_msgs__rosidl_typesupport_introspection_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=30,31,32,33 "Built target relbot_msgs__rosidl_typesupport_introspection_c"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/rule
 
 # Convenience name for target.
@@ -308,14 +289,14 @@ CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/clean:
 CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/all: CMakeFiles/relbot_msgs__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=10,11,12,13 "Built target relbot_msgs__rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=10,11,12,13 "Built target relbot_msgs__rosidl_typesupport_c"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/rule
 
 # Convenience name for target.
@@ -334,14 +315,14 @@ CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/clean:
 CMakeFiles/relbot_msgs__cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__cpp.dir/build.make CMakeFiles/relbot_msgs__cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__cpp.dir/build.make CMakeFiles/relbot_msgs__cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=1 "Built target relbot_msgs__cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=1 "Built target relbot_msgs__cpp"
 .PHONY : CMakeFiles/relbot_msgs__cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__cpp.dir/rule
 
 # Convenience name for target.
@@ -360,14 +341,14 @@ CMakeFiles/relbot_msgs__cpp.dir/clean:
 CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/all: CMakeFiles/relbot_msgs__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=26,27,28,29 "Built target relbot_msgs__rosidl_typesupport_fastrtps_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=26,27,28,29 "Built target relbot_msgs__rosidl_typesupport_fastrtps_cpp"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rule
 
 # Convenience name for target.
@@ -386,14 +367,14 @@ CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/clean:
 CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/relbot_msgs__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=36,37,38,39 "Built target relbot_msgs__rosidl_typesupport_introspection_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=36,37,38,39 "Built target relbot_msgs__rosidl_typesupport_introspection_cpp"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/rule
 
 # Convenience name for target.
@@ -412,14 +393,14 @@ CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/clean:
 CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/all: CMakeFiles/relbot_msgs__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=16,17,18,19 "Built target relbot_msgs__rosidl_typesupport_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=16,17,18,19 "Built target relbot_msgs__rosidl_typesupport_cpp"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/rule
 
 # Convenience name for target.
@@ -438,14 +419,14 @@ CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/clean:
 CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_relbot_msgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_relbot_msgs"
 .PHONY : CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/rule
 
 # Convenience name for target.
@@ -464,14 +445,14 @@ CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/clean:
 CMakeFiles/ament_cmake_python_build_relbot_msgs_egg.dir/all: CMakeFiles/ament_cmake_python_copy_relbot_msgs.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_relbot_msgs_egg.dir/build.make CMakeFiles/ament_cmake_python_build_relbot_msgs_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_relbot_msgs_egg.dir/build.make CMakeFiles/ament_cmake_python_build_relbot_msgs_egg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num= "Built target ament_cmake_python_build_relbot_msgs_egg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num= "Built target ament_cmake_python_build_relbot_msgs_egg"
 .PHONY : CMakeFiles/ament_cmake_python_build_relbot_msgs_egg.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ament_cmake_python_build_relbot_msgs_egg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_build_relbot_msgs_egg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/ament_cmake_python_build_relbot_msgs_egg.dir/rule
 
 # Convenience name for target.
@@ -492,14 +473,14 @@ CMakeFiles/relbot_msgs__rosidl_generator_py.dir/all: CMakeFiles/relbot_msgs__ros
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/all: relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_generator_py.dir/build.make CMakeFiles/relbot_msgs__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_generator_py.dir/build.make CMakeFiles/relbot_msgs__rosidl_generator_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=7,8,9 "Built target relbot_msgs__rosidl_generator_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=7,8,9 "Built target relbot_msgs__rosidl_generator_py"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_generator_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rule
 
 # Convenience name for target.
@@ -522,14 +503,14 @@ CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles
 CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=24,25 "Built target relbot_msgs__rosidl_typesupport_fastrtps_c__pyext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=24,25 "Built target relbot_msgs__rosidl_typesupport_fastrtps_c__pyext"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rule
 
 # Convenience name for target.
@@ -552,14 +533,14 @@ CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMake
 CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=34,35 "Built target relbot_msgs__rosidl_typesupport_introspection_c__pyext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=34,35 "Built target relbot_msgs__rosidl_typesupport_introspection_c__pyext"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rule
 
 # Convenience name for target.
@@ -581,14 +562,14 @@ CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/relbot_m
 CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/all: relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=14,15 "Built target relbot_msgs__rosidl_typesupport_c__pyext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=14,15 "Built target relbot_msgs__rosidl_typesupport_c__pyext"
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/rule
 
 # Convenience name for target.
@@ -607,14 +588,14 @@ CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/clean:
 relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/all: CMakeFiles/relbot_msgs.dir/all
 	$(MAKE) $(MAKESILENT) -f relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/build.make relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/depend
 	$(MAKE) $(MAKESILENT) -f relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/build.make relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=2 "Built target relbot_msgs__py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=2 "Built target relbot_msgs__py"
 .PHONY : relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/all
 
 # Build rule for subdir invocation for target.
 relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
 .PHONY : relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/rule
 
 # Convenience name for target.
@@ -625,32 +606,6 @@ relbot_msgs__py: relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/rule
 relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/clean:
 	$(MAKE) $(MAKESILENT) -f relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/build.make relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/clean
 .PHONY : relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/clean
-
-#=============================================================================
-# Target rules for target relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir
-
-# All Build rule for target.
-relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/all:
-	$(MAKE) $(MAKESILENT) -f relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/build.make relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/depend
-	$(MAKE) $(MAKESILENT) -f relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/build.make relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=40 "Built target relbot_msgs__rs"
-.PHONY : relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/all
-
-# Build rule for subdir invocation for target.
-relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles 0
-.PHONY : relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/rule
-
-# Convenience name for target.
-relbot_msgs__rs: relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/rule
-.PHONY : relbot_msgs__rs
-
-# clean rule for target.
-relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/clean:
-	$(MAKE) $(MAKESILENT) -f relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/build.make relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/clean
-.PHONY : relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

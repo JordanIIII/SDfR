@@ -1,0 +1,16 @@
+/home/jordan/SDfR/assignment6/install/relbot_adapter/lib/relbot_adapter/relbot_adapter
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/package_run_dependencies/relbot_adapter
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/parent_prefix_path/relbot_adapter
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.sh
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.dsv
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.sh
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.dsv
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.bash
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.sh
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.zsh
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.dsv
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.dsv
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/packages/relbot_adapter
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig.cmake
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig-version.cmake
+/home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.xml
