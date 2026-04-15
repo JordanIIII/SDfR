@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs
+CMAKE_SOURCE_DIR = /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Common/XRF2_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jordan/SDfR/assignment6/build/xrf2_msgs
+CMAKE_BINARY_DIR = /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jordan/SDfR/assignment6/build/xrf2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs /home/jordan/SDfR/assignment6/build/xrf2_msgs /home/jordan/SDfR/assignment6/build/xrf2_msgs /home/jordan/SDfR/assignment6/build/xrf2_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Common/XRF2_msgs /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Common/XRF2_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

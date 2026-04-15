@@ -1,0 +1,73 @@
+[0.038s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter': CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.447s] -- The CXX compiler identification is GNU 11.4.0
+[0.482s] -- Detecting C compiler ABI info
+[0.754s] -- Detecting C compiler ABI info - done
+[0.812s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.814s] -- Detecting C compile features
+[0.816s] -- Detecting C compile features - done
+[0.830s] -- Detecting CXX compiler ABI info
+[1.103s] -- Detecting CXX compiler ABI info - done
+[1.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.165s] -- Detecting CXX compile features
+[1.167s] -- Detecting CXX compile features - done
+[1.182s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.790s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.204s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.353s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.372s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.401s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.653s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.663s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.916s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.001s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.104s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.136s] -- Looking for pthread.h
+[3.389s] -- Looking for pthread.h - found
+[3.396s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.688s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.696s] -- Found Threads: TRUE  
+[3.916s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.049s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.088s] -- Found relbot_msgs: 2025.2.0 (/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake)
+[4.157s] -- xrf2_msgs found, enabling related features
+[4.171s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.465s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.466s] -- Configured cppcheck include dirs: /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter/include;$<BUILD_INTERFACE:/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter/include>
+[4.468s] -- Configured cppcheck exclude dirs and/or files: 
+[4.469s] -- Added test 'lint_cmake' to check CMake code style
+[4.473s] -- Added test 'uncrustify' to check C / C++ code style
+[4.474s] -- Configured uncrustify additional arguments: 
+[4.475s] -- Added test 'xmllint' to check XML markup files
+[4.480s] -- Configuring done
+[4.530s] -- Generating done
+[4.558s] -- Build files have been written to: /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter
+[4.601s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter
+[4.609s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter': CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter -- -j3 -l3
+[5.072s] Consolidate compiler generated dependencies of target relbot_adapter
+[5.121s] [ 50%] Building CXX object CMakeFiles/relbot_adapter.dir/src/relbot_adapter.cpp.o
+[48.407s] [100%] Linking CXX executable relbot_adapter
+[51.699s] [100%] Built target relbot_adapter
+[51.730s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter -- -j3 -l3
+[51.767s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter': CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter
+[51.791s] -- Install configuration: ""
+[51.792s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/lib/relbot_adapter/relbot_adapter
+[52.021s] -- Set runtime path of "/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/lib/relbot_adapter/relbot_adapter" to ""
+[52.023s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/package_run_dependencies/relbot_adapter
+[52.024s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/parent_prefix_path/relbot_adapter
+[52.026s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.sh
+[52.027s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.dsv
+[52.029s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.sh
+[52.033s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.dsv
+[52.038s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.bash
+[52.045s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.sh
+[52.050s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.zsh
+[52.054s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.dsv
+[52.061s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.dsv
+[52.064s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/packages/relbot_adapter
+[52.068s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig.cmake
+[52.073s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig-version.cmake
+[52.079s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.xml
+[52.086s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter

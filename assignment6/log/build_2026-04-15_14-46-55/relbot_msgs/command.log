@@ -1,0 +1,4 @@
+Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs -- -j3 -l3
+Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs -- -j3 -l3
+Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs
+Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs

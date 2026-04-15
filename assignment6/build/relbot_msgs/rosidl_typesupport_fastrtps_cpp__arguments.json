@@ -1,10 +1,10 @@
 {
   "package_name": "relbot_msgs",
-  "output_dir": "/home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_typesupport_fastrtps_cpp/relbot_msgs",
+  "output_dir": "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_typesupport_fastrtps_cpp/relbot_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs:msg/RelbotMotors.idl",
-    "/home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs:msg/RelbotMotorsStamped.idl"
+    "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs:msg/RelbotMotors.idl",
+    "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs:msg/RelbotMotorsStamped.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -49,8 +49,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs/msg/RelbotMotors.idl",
-    "/home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs/msg/RelbotMotorsStamped.idl",
+    "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs/msg/RelbotMotors.idl",
+    "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs/msg/RelbotMotorsStamped.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

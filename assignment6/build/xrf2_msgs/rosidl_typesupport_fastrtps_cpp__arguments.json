@@ -1,10 +1,10 @@
 {
   "package_name": "xrf2_msgs",
-  "output_dir": "/home/jordan/SDfR/assignment6/build/xrf2_msgs/rosidl_typesupport_fastrtps_cpp/xrf2_msgs",
+  "output_dir": "/home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/rosidl_typesupport_fastrtps_cpp/xrf2_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/jordan/SDfR/assignment6/build/xrf2_msgs/rosidl_adapter/xrf2_msgs:msg/Ros2Xeno.idl",
-    "/home/jordan/SDfR/assignment6/build/xrf2_msgs/rosidl_adapter/xrf2_msgs:msg/Xeno2Ros.idl"
+    "/home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/rosidl_adapter/xrf2_msgs:msg/Ros2Xeno.idl",
+    "/home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/rosidl_adapter/xrf2_msgs:msg/Xeno2Ros.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -15,7 +15,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/jordan/SDfR/assignment6/build/xrf2_msgs/rosidl_adapter/xrf2_msgs/msg/Ros2Xeno.idl",
-    "/home/jordan/SDfR/assignment6/build/xrf2_msgs/rosidl_adapter/xrf2_msgs/msg/Xeno2Ros.idl"
+    "/home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/rosidl_adapter/xrf2_msgs/msg/Ros2Xeno.idl",
+    "/home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/rosidl_adapter/xrf2_msgs/msg/Xeno2Ros.idl"
   ]
 }

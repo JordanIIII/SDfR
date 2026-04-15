@@ -1,0 +1,917 @@
+[0.000000] (-) TimerEvent: {}
+[0.000626] (-) JobUnselected: {'identifier': 'cam2image_vm2ros'}
+[0.001484] (-) JobUnselected: {'identifier': 'green_object_detector'}
+[0.002080] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.002350] (-) JobUnselected: {'identifier': 'relbot2turtlesim'}
+[0.002873] (-) JobUnselected: {'identifier': 'relbot_launch'}
+[0.003191] (-) JobUnselected: {'identifier': 'relbot_msgs'}
+[0.003493] (-) JobUnselected: {'identifier': 'relbot_sequence_controller'}
+[0.003787] (-) JobUnselected: {'identifier': 'relbot_simulator'}
+[0.004027] (-) JobUnselected: {'identifier': 'template_20sim'}
+[0.004263] (-) JobUnselected: {'identifier': 'xrf2_msgs'}
+[0.004503] (demo) JobQueued: {'identifier': 'demo', 'dependencies': OrderedDict([('xrf2_msgs', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs')])}
+[0.005104] (relbot_adapter) JobQueued: {'identifier': 'relbot_adapter', 'dependencies': OrderedDict([('relbot_msgs', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs')])}
+[0.005424] (ros_xeno_bridge) JobQueued: {'identifier': 'ros_xeno_bridge', 'dependencies': OrderedDict([('xrf2_msgs', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs')])}
+[0.006084] (demo) JobStarted: {'identifier': 'demo'}
+[0.021483] (relbot_adapter) JobStarted: {'identifier': 'relbot_adapter'}
+[0.033955] (ros_xeno_bridge) JobStarted: {'identifier': 'ros_xeno_bridge'}
+[0.052584] (demo) JobProgress: {'identifier': 'demo', 'progress': 'cmake'}
+[0.054946] (demo) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/demo'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/demo'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs')]), 'shell': False}
+[0.063433] (relbot_adapter) JobProgress: {'identifier': 'relbot_adapter', 'progress': 'cmake'}
+[0.065792] (relbot_adapter) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble')]), 'shell': False}
+[0.084901] (ros_xeno_bridge) JobProgress: {'identifier': 'ros_xeno_bridge', 'progress': 'cmake'}
+[0.089179] (ros_xeno_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Ros/ros_xeno_bridge', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099324] (-) TimerEvent: {}
+[0.200117] (-) TimerEvent: {}
+[0.300802] (-) TimerEvent: {}
+[0.317793] (demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.344796] (ros_xeno_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.349746] (relbot_adapter) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401080] (-) TimerEvent: {}
+[0.502457] (-) TimerEvent: {}
+[0.578191] (demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.602628] (-) TimerEvent: {}
+[0.608561] (demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.614945] (relbot_adapter) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.634943] (ros_xeno_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.641732] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.659560] (ros_xeno_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702815] (-) TimerEvent: {}
+[0.803430] (-) TimerEvent: {}
+[0.904101] (-) TimerEvent: {}
+[0.941555] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.965203] (demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.976846] (relbot_adapter) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.979905] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.982983] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.000083] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.012168] (-) TimerEvent: {}
+[1.013648] (demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.018873] (demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.022458] (demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.027982] (ros_xeno_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.039331] (demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.061659] (ros_xeno_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.066274] (ros_xeno_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.071999] (ros_xeno_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.088448] (ros_xeno_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.112437] (-) TimerEvent: {}
+[1.213237] (-) TimerEvent: {}
+[1.314321] (-) TimerEvent: {}
+[1.415226] (-) TimerEvent: {}
+[1.431119] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.443075] (demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.460367] (relbot_adapter) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.463632] (ros_xeno_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.466216] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.468227] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.472469] (relbot_adapter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.475671] (demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.481318] (demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.483532] (demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.510790] (ros_xeno_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.515014] (ros_xeno_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.517350] (-) TimerEvent: {}
+[1.520336] (ros_xeno_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.535315] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.617676] (-) TimerEvent: {}
+[1.718851] (-) TimerEvent: {}
+[1.811095] (demo) StderrLine: {'line': b'TIME_STEP_SIZE_VALUE = 0.01\n'}
+[1.813850] (demo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.819117] (-) TimerEvent: {}
+[1.920422] (-) TimerEvent: {}
+[2.021209] (-) TimerEvent: {}
+[2.122078] (-) TimerEvent: {}
+[2.159403] (demo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.164247] (demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.222301] (-) TimerEvent: {}
+[2.256910] (relbot_adapter) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.322537] (-) TimerEvent: {}
+[2.358989] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.422687] (-) TimerEvent: {}
+[2.523442] (-) TimerEvent: {}
+[2.555199] (demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.559557] (demo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.564083] (demo) StdoutLine: {'line': b'-- Found xrf2_msgs: 0.0.0 (/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake)\n'}
+[2.626663] (-) TimerEvent: {}
+[2.714969] (relbot_adapter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.726938] (-) TimerEvent: {}
+[2.828079] (-) TimerEvent: {}
+[2.881917] (relbot_adapter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.894226] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.901398] (relbot_adapter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.928265] (-) TimerEvent: {}
+[2.929802] (relbot_adapter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.976749] (relbot_adapter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.028465] (-) TimerEvent: {}
+[3.066602] (relbot_adapter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.073208] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.088252] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.114588] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.128645] (-) TimerEvent: {}
+[3.161752] (ros_xeno_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.224493] (ros_xeno_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.228851] (-) TimerEvent: {}
+[3.256945] (relbot_adapter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.268907] (relbot_adapter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.329211] (-) TimerEvent: {}
+[3.340866] (demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.430766] (-) TimerEvent: {}
+[3.497904] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.499575] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.530945] (-) TimerEvent: {}
+[3.631729] (-) TimerEvent: {}
+[3.732894] (-) TimerEvent: {}
+[3.743157] (relbot_adapter) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.833097] (-) TimerEvent: {}
+[3.845206] (relbot_adapter) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.860483] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.905880] (demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.923284] (demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.933316] (-) TimerEvent: {}
+[3.937775] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.952623] (demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.962729] (relbot_adapter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.988973] (relbot_adapter) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.995060] (demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.033555] (-) TimerEvent: {}
+[4.055254] (demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.072882] (ros_xeno_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.099862] (demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.107122] (ros_xeno_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.133776] (-) TimerEvent: {}
+[4.234760] (-) TimerEvent: {}
+[4.257314] (relbot_adapter) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.260588] (relbot_adapter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.299931] (demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.309124] (demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.334839] (-) TimerEvent: {}
+[4.435735] (-) TimerEvent: {}
+[4.455430] (ros_xeno_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.461055] (ros_xeno_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.535973] (-) TimerEvent: {}
+[4.598834] (relbot_adapter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.602748] (relbot_adapter) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.636160] (-) TimerEvent: {}
+[4.653338] (demo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.732817] (demo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.736377] (-) TimerEvent: {}
+[4.781553] (ros_xeno_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.787728] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.813028] (relbot_adapter) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[4.836658] (-) TimerEvent: {}
+[4.860686] (demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.936878] (-) TimerEvent: {}
+[4.960297] (relbot_adapter) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.980336] (ros_xeno_bridge) StdoutLine: {'line': b'-- Found xrf2_msgs: 0.0.0 (/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake)\n'}
+[5.007151] (relbot_adapter) StdoutLine: {'line': b'-- Found relbot_msgs: 2025.2.0 (/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake)\n'}
+[5.037137] (-) TimerEvent: {}
+[5.082425] (relbot_adapter) StdoutLine: {'line': b'-- xrf2_msgs not found, building without xrf2 support.\n'}
+[5.088997] (demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.092413] (relbot_adapter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.137479] (-) TimerEvent: {}
+[5.167142] (demo) StdoutLine: {'line': b'-- Generating done\n'}
+[5.216041] (demo) StdoutLine: {'line': b'-- Build files have been written to: /home/sdfr-ppd-01/SDfR/assignment6/build/demo\n'}
+[5.237868] (-) TimerEvent: {}
+[5.339381] (-) TimerEvent: {}
+[5.412028] (ros_xeno_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.413306] (demo) CommandEnded: {'returncode': 0}
+[5.415465] (demo) JobProgress: {'identifier': 'demo', 'progress': 'build'}
+[5.415781] (demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdfr-ppd-01/SDfR/assignment6/build/demo', '--', '-j3', '-l3'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/demo'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs')]), 'shell': False}
+[5.441602] (-) TimerEvent: {}
+[5.473484] (ros_xeno_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[5.475497] (relbot_adapter) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.477434] (relbot_adapter) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter/include;$<BUILD_INTERFACE:/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter/include>\n'}
+[5.478777] (relbot_adapter) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.480428] (relbot_adapter) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.483642] (relbot_adapter) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.484923] (relbot_adapter) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.486546] (relbot_adapter) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.493941] (relbot_adapter) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.518305] (ros_xeno_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge\n'}
+[5.541957] (-) TimerEvent: {}
+[5.572010] (ros_xeno_bridge) CommandEnded: {'returncode': 0}
+[5.574560] (ros_xeno_bridge) JobProgress: {'identifier': 'ros_xeno_bridge', 'progress': 'build'}
+[5.574943] (ros_xeno_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge', '--', '-j3', '-l3'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[5.593260] (relbot_adapter) StdoutLine: {'line': b'-- Generating done\n'}
+[5.607395] (relbot_adapter) StdoutLine: {'line': b'-- Build files have been written to: /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter\n'}
+[5.642351] (-) TimerEvent: {}
+[5.649728] (demo) StdoutLine: {'line': b'[  4%] Building CXX object CMakeFiles/demo.dir/main.cpp.o\n'}
+[5.666281] (relbot_adapter) CommandEnded: {'returncode': 0}
+[5.670792] (relbot_adapter) JobProgress: {'identifier': 'relbot_adapter', 'progress': 'build'}
+[5.671544] (relbot_adapter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter', '--', '-j3', '-l3'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble')]), 'shell': False}
+[5.685250] (demo) StdoutLine: {'line': b'[  9%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/IcoIo.cpp.o\n'}
+[5.692383] (demo) StdoutLine: {'line': b'[ 13%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/FullStateMachine.cpp.o\n'}
+[5.742566] (-) TimerEvent: {}
+[5.829346] (ros_xeno_bridge) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/RosXenoBridge.dir/src/RosXenoBridge.cpp.o\n'}
+[5.842741] (-) TimerEvent: {}
+[5.927322] (relbot_adapter) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/relbot_adapter.dir/src/relbot_adapter.cpp.o\n'}
+[5.942957] (-) TimerEvent: {}
+[6.043810] (-) TimerEvent: {}
+[6.144975] (-) TimerEvent: {}
+[6.246017] (-) TimerEvent: {}
+[6.347221] (-) TimerEvent: {}
+[6.403671] (demo) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp.o\n'}
+[6.447457] (-) TimerEvent: {}
+[6.548305] (-) TimerEvent: {}
+[6.649198] (-) TimerEvent: {}
+[6.750280] (-) TimerEvent: {}
+[6.851131] (-) TimerEvent: {}
+[6.952006] (-) TimerEvent: {}
+[7.052974] (-) TimerEvent: {}
+[7.153993] (-) TimerEvent: {}
+[7.255050] (-) TimerEvent: {}
+[7.355917] (-) TimerEvent: {}
+[7.456744] (-) TimerEvent: {}
+[7.557590] (-) TimerEvent: {}
+[7.658519] (-) TimerEvent: {}
+[7.759412] (-) TimerEvent: {}
+[7.860147] (-) TimerEvent: {}
+[7.921752] (demo) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp.o\n'}
+[7.960373] (-) TimerEvent: {}
+[8.061067] (-) TimerEvent: {}
+[8.161800] (-) TimerEvent: {}
+[8.262869] (-) TimerEvent: {}
+[8.366696] (-) TimerEvent: {}
+[8.467329] (-) TimerEvent: {}
+[8.568307] (-) TimerEvent: {}
+[8.670807] (-) TimerEvent: {}
+[8.771828] (-) TimerEvent: {}
+[8.872769] (-) TimerEvent: {}
+[8.973694] (-) TimerEvent: {}
+[9.074622] (-) TimerEvent: {}
+[9.176061] (-) TimerEvent: {}
+[9.276996] (-) TimerEvent: {}
+[9.311736] (demo) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp.o\n'}
+[9.377207] (-) TimerEvent: {}
+[9.478019] (-) TimerEvent: {}
+[9.579020] (-) TimerEvent: {}
+[9.680165] (-) TimerEvent: {}
+[9.781108] (-) TimerEvent: {}
+[9.882093] (-) TimerEvent: {}
+[9.983075] (-) TimerEvent: {}
+[10.084072] (-) TimerEvent: {}
+[10.185163] (-) TimerEvent: {}
+[10.286231] (-) TimerEvent: {}
+[10.387310] (-) TimerEvent: {}
+[10.488289] (-) TimerEvent: {}
+[10.589307] (-) TimerEvent: {}
+[10.690356] (-) TimerEvent: {}
+[10.799821] (-) TimerEvent: {}
+[10.900463] (-) TimerEvent: {}
+[11.001212] (-) TimerEvent: {}
+[11.106824] (-) TimerEvent: {}
+[11.207573] (-) TimerEvent: {}
+[11.308566] (-) TimerEvent: {}
+[11.414692] (-) TimerEvent: {}
+[11.522655] (-) TimerEvent: {}
+[11.623104] (demo) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp.o\n'}
+[11.624600] (-) TimerEvent: {}
+[11.690918] (demo) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp.o\n'}
+[11.724826] (-) TimerEvent: {}
+[11.825449] (-) TimerEvent: {}
+[11.926291] (-) TimerEvent: {}
+[12.027624] (-) TimerEvent: {}
+[12.128556] (-) TimerEvent: {}
+[12.174098] (demo) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFrt20Sim.cpp.o\n'}
+[12.228779] (-) TimerEvent: {}
+[12.329446] (-) TimerEvent: {}
+[12.430144] (-) TimerEvent: {}
+[12.530872] (-) TimerEvent: {}
+[12.631550] (-) TimerEvent: {}
+[12.732210] (-) TimerEvent: {}
+[12.832897] (-) TimerEvent: {}
+[12.933605] (-) TimerEvent: {}
+[13.013530] (demo) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommunication.cpp.o\n'}
+[13.033851] (-) TimerEvent: {}
+[13.134663] (-) TimerEvent: {}
+[13.235696] (-) TimerEvent: {}
+[13.336333] (-) TimerEvent: {}
+[13.437184] (-) TimerEvent: {}
+[13.538005] (-) TimerEvent: {}
+[13.638931] (-) TimerEvent: {}
+[13.739964] (-) TimerEvent: {}
+[13.812392] (demo) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommandBridge.cpp.o\n'}
+[13.840187] (-) TimerEvent: {}
+[13.941163] (-) TimerEvent: {}
+[14.042233] (-) TimerEvent: {}
+[14.143118] (-) TimerEvent: {}
+[14.243956] (-) TimerEvent: {}
+[14.344852] (-) TimerEvent: {}
+[14.445731] (-) TimerEvent: {}
+[14.546661] (-) TimerEvent: {}
+[14.647500] (-) TimerEvent: {}
+[14.748351] (-) TimerEvent: {}
+[14.849281] (-) TimerEvent: {}
+[14.950201] (-) TimerEvent: {}
+[15.051128] (-) TimerEvent: {}
+[15.152148] (-) TimerEvent: {}
+[15.253166] (-) TimerEvent: {}
+[15.354080] (-) TimerEvent: {}
+[15.455060] (-) TimerEvent: {}
+[15.555933] (-) TimerEvent: {}
+[15.656894] (-) TimerEvent: {}
+[15.757892] (-) TimerEvent: {}
+[15.858910] (-) TimerEvent: {}
+[15.970294] (-) TimerEvent: {}
+[16.071035] (-) TimerEvent: {}
+[16.171921] (-) TimerEvent: {}
+[16.272808] (-) TimerEvent: {}
+[16.373710] (-) TimerEvent: {}
+[16.474713] (-) TimerEvent: {}
+[16.578815] (-) TimerEvent: {}
+[16.679633] (-) TimerEvent: {}
+[16.782696] (-) TimerEvent: {}
+[16.883491] (-) TimerEvent: {}
+[16.984282] (-) TimerEvent: {}
+[17.086717] (-) TimerEvent: {}
+[17.187502] (-) TimerEvent: {}
+[17.288239] (-) TimerEvent: {}
+[17.389150] (-) TimerEvent: {}
+[17.490107] (-) TimerEvent: {}
+[17.591089] (-) TimerEvent: {}
+[17.729501] (-) TimerEvent: {}
+[17.830390] (-) TimerEvent: {}
+[17.930994] (-) TimerEvent: {}
+[18.031964] (-) TimerEvent: {}
+[18.132635] (-) TimerEvent: {}
+[18.233307] (-) TimerEvent: {}
+[18.334105] (-) TimerEvent: {}
+[18.435146] (-) TimerEvent: {}
+[18.529936] (demo) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoRosDataBridge.cpp.o\n'}
+[18.535342] (-) TimerEvent: {}
+[18.636035] (-) TimerEvent: {}
+[18.736924] (-) TimerEvent: {}
+[18.837883] (-) TimerEvent: {}
+[18.938835] (-) TimerEvent: {}
+[19.039862] (-) TimerEvent: {}
+[19.140832] (-) TimerEvent: {}
+[19.241816] (-) TimerEvent: {}
+[19.343569] (-) TimerEvent: {}
+[19.380525] (demo) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoSpiControllerHandler.cpp.o\n'}
+[19.443809] (-) TimerEvent: {}
+[19.544778] (-) TimerEvent: {}
+[19.645624] (-) TimerEvent: {}
+[19.758714] (-) TimerEvent: {}
+[19.859349] (-) TimerEvent: {}
+[19.960262] (-) TimerEvent: {}
+[20.061247] (-) TimerEvent: {}
+[20.162179] (-) TimerEvent: {}
+[20.263115] (-) TimerEvent: {}
+[20.364021] (-) TimerEvent: {}
+[20.430187] (demo) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/demo.dir/src/RelBotDemo.cpp.o\n'}
+[20.464215] (-) TimerEvent: {}
+[20.565039] (-) TimerEvent: {}
+[20.665731] (-) TimerEvent: {}
+[20.766460] (-) TimerEvent: {}
+[20.867437] (-) TimerEvent: {}
+[20.968139] (-) TimerEvent: {}
+[21.068855] (-) TimerEvent: {}
+[21.169808] (-) TimerEvent: {}
+[21.270950] (-) TimerEvent: {}
+[21.371933] (-) TimerEvent: {}
+[21.472805] (-) TimerEvent: {}
+[21.573719] (-) TimerEvent: {}
+[21.674633] (-) TimerEvent: {}
+[21.691986] (demo) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/demo.dir/controller/LoopController.cpp.o\n'}
+[21.774830] (-) TimerEvent: {}
+[21.875747] (-) TimerEvent: {}
+[21.976597] (-) TimerEvent: {}
+[22.077436] (-) TimerEvent: {}
+[22.178324] (-) TimerEvent: {}
+[22.279319] (-) TimerEvent: {}
+[22.380475] (-) TimerEvent: {}
+[22.481507] (-) TimerEvent: {}
+[22.582395] (-) TimerEvent: {}
+[22.683318] (-) TimerEvent: {}
+[22.784226] (-) TimerEvent: {}
+[22.885587] (-) TimerEvent: {}
+[22.986536] (-) TimerEvent: {}
+[23.087392] (-) TimerEvent: {}
+[23.188312] (-) TimerEvent: {}
+[23.289317] (-) TimerEvent: {}
+[23.390224] (-) TimerEvent: {}
+[23.500374] (-) TimerEvent: {}
+[23.602762] (-) TimerEvent: {}
+[23.703521] (-) TimerEvent: {}
+[23.716263] (demo) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/demo.dir/controller/common/EulerAngles.cpp.o\n'}
+[23.803772] (-) TimerEvent: {}
+[23.904703] (-) TimerEvent: {}
+[24.005591] (-) TimerEvent: {}
+[24.066301] (demo) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/demo.dir/controller/common/MotionProfiles.cpp.o\n'}
+[24.105807] (-) TimerEvent: {}
+[24.206619] (-) TimerEvent: {}
+[24.298018] (demo) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/demo.dir/controller/common/xxfuncs.cpp.o\n'}
+[24.306811] (-) TimerEvent: {}
+[24.407501] (-) TimerEvent: {}
+[24.508191] (-) TimerEvent: {}
+[24.608887] (-) TimerEvent: {}
+[24.709597] (-) TimerEvent: {}
+[24.810328] (-) TimerEvent: {}
+[24.911052] (-) TimerEvent: {}
+[25.011868] (-) TimerEvent: {}
+[25.084695] (demo) StdoutLine: {'line': b'[ 86%] Building CXX object CMakeFiles/demo.dir/controller/common/xxinteg.cpp.o\n'}
+[25.114764] (-) TimerEvent: {}
+[25.218717] (-) TimerEvent: {}
+[25.319338] (-) TimerEvent: {}
+[25.420016] (-) TimerEvent: {}
+[25.520890] (-) TimerEvent: {}
+[25.622263] (-) TimerEvent: {}
+[25.723266] (-) TimerEvent: {}
+[25.824196] (-) TimerEvent: {}
+[25.924959] (-) TimerEvent: {}
+[26.026422] (-) TimerEvent: {}
+[26.127331] (-) TimerEvent: {}
+[26.228448] (-) TimerEvent: {}
+[26.329471] (-) TimerEvent: {}
+[26.430433] (-) TimerEvent: {}
+[26.531496] (-) TimerEvent: {}
+[26.632723] (-) TimerEvent: {}
+[26.733864] (-) TimerEvent: {}
+[26.834767] (-) TimerEvent: {}
+[26.935649] (-) TimerEvent: {}
+[27.036563] (-) TimerEvent: {}
+[27.137489] (-) TimerEvent: {}
+[27.238433] (-) TimerEvent: {}
+[27.339377] (-) TimerEvent: {}
+[27.440251] (-) TimerEvent: {}
+[27.468106] (demo) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/demo.dir/controller/common/xxmatrix.cpp.o\n'}
+[27.540485] (-) TimerEvent: {}
+[27.641427] (-) TimerEvent: {}
+[27.742789] (-) TimerEvent: {}
+[27.843703] (-) TimerEvent: {}
+[27.944631] (-) TimerEvent: {}
+[28.045565] (-) TimerEvent: {}
+[28.146476] (-) TimerEvent: {}
+[28.247457] (-) TimerEvent: {}
+[28.348385] (-) TimerEvent: {}
+[28.449304] (-) TimerEvent: {}
+[28.503950] (demo) StdoutLine: {'line': b'[ 95%] Building CXX object CMakeFiles/demo.dir/controller/common/xxinverse.cpp.o\n'}
+[28.549540] (-) TimerEvent: {}
+[28.650459] (-) TimerEvent: {}
+[28.751424] (-) TimerEvent: {}
+[28.852349] (-) TimerEvent: {}
+[28.953259] (-) TimerEvent: {}
+[29.054178] (-) TimerEvent: {}
+[29.155081] (-) TimerEvent: {}
+[29.256020] (-) TimerEvent: {}
+[29.319449] (demo) StdoutLine: {'line': b'[100%] Linking CXX executable demo\n'}
+[29.356228] (-) TimerEvent: {}
+[29.457162] (-) TimerEvent: {}
+[29.558110] (-) TimerEvent: {}
+[29.659066] (-) TimerEvent: {}
+[29.759910] (-) TimerEvent: {}
+[29.825453] (demo) StdoutLine: {'line': b'[100%] Built target demo\n'}
+[29.860152] (-) TimerEvent: {}
+[29.961139] (-) TimerEvent: {}
+[30.005939] (demo) CommandEnded: {'returncode': 0}
+[30.072119] (-) TimerEvent: {}
+[30.106991] (demo) JobEnded: {'identifier': 'demo', 'rc': 0}
+[30.172340] (-) TimerEvent: {}
+[30.273344] (-) TimerEvent: {}
+[30.374229] (-) TimerEvent: {}
+[30.475156] (-) TimerEvent: {}
+[30.579462] (-) TimerEvent: {}
+[30.680132] (-) TimerEvent: {}
+[30.780970] (-) TimerEvent: {}
+[30.881649] (-) TimerEvent: {}
+[30.982303] (-) TimerEvent: {}
+[31.083011] (-) TimerEvent: {}
+[31.183679] (-) TimerEvent: {}
+[31.284389] (-) TimerEvent: {}
+[31.385298] (-) TimerEvent: {}
+[31.487011] (-) TimerEvent: {}
+[31.587693] (-) TimerEvent: {}
+[31.688559] (-) TimerEvent: {}
+[31.789389] (-) TimerEvent: {}
+[31.890232] (-) TimerEvent: {}
+[31.990972] (-) TimerEvent: {}
+[32.091648] (-) TimerEvent: {}
+[32.192328] (-) TimerEvent: {}
+[32.297275] (-) TimerEvent: {}
+[32.398605] (-) TimerEvent: {}
+[32.499309] (-) TimerEvent: {}
+[32.600026] (-) TimerEvent: {}
+[32.700725] (-) TimerEvent: {}
+[32.801637] (-) TimerEvent: {}
+[32.902535] (-) TimerEvent: {}
+[33.003360] (-) TimerEvent: {}
+[33.104073] (-) TimerEvent: {}
+[33.204826] (-) TimerEvent: {}
+[33.305639] (-) TimerEvent: {}
+[33.406339] (-) TimerEvent: {}
+[33.507028] (-) TimerEvent: {}
+[33.607723] (-) TimerEvent: {}
+[33.709187] (-) TimerEvent: {}
+[33.809914] (-) TimerEvent: {}
+[33.910652] (-) TimerEvent: {}
+[34.011365] (-) TimerEvent: {}
+[34.112102] (-) TimerEvent: {}
+[34.212822] (-) TimerEvent: {}
+[34.313602] (-) TimerEvent: {}
+[34.414313] (-) TimerEvent: {}
+[34.515121] (-) TimerEvent: {}
+[34.615862] (-) TimerEvent: {}
+[34.716627] (-) TimerEvent: {}
+[34.817377] (-) TimerEvent: {}
+[34.918112] (-) TimerEvent: {}
+[35.018825] (-) TimerEvent: {}
+[35.119511] (-) TimerEvent: {}
+[35.220227] (-) TimerEvent: {}
+[35.320924] (-) TimerEvent: {}
+[35.421605] (-) TimerEvent: {}
+[35.522311] (-) TimerEvent: {}
+[35.623034] (-) TimerEvent: {}
+[35.723717] (-) TimerEvent: {}
+[35.824387] (-) TimerEvent: {}
+[35.925059] (-) TimerEvent: {}
+[36.025722] (-) TimerEvent: {}
+[36.126390] (-) TimerEvent: {}
+[36.227099] (-) TimerEvent: {}
+[36.327758] (-) TimerEvent: {}
+[36.428439] (-) TimerEvent: {}
+[36.529105] (-) TimerEvent: {}
+[36.629825] (-) TimerEvent: {}
+[36.730558] (-) TimerEvent: {}
+[36.831240] (-) TimerEvent: {}
+[36.931919] (-) TimerEvent: {}
+[37.032607] (-) TimerEvent: {}
+[37.133276] (-) TimerEvent: {}
+[37.233938] (-) TimerEvent: {}
+[37.334665] (-) TimerEvent: {}
+[37.435326] (-) TimerEvent: {}
+[37.536083] (-) TimerEvent: {}
+[37.636740] (-) TimerEvent: {}
+[37.738851] (-) TimerEvent: {}
+[37.839522] (-) TimerEvent: {}
+[37.940188] (-) TimerEvent: {}
+[38.040835] (-) TimerEvent: {}
+[38.145472] (-) TimerEvent: {}
+[38.246148] (-) TimerEvent: {}
+[38.346839] (-) TimerEvent: {}
+[38.447498] (-) TimerEvent: {}
+[38.548157] (-) TimerEvent: {}
+[38.648838] (-) TimerEvent: {}
+[38.749515] (-) TimerEvent: {}
+[38.856818] (-) TimerEvent: {}
+[38.958789] (-) TimerEvent: {}
+[39.066766] (-) TimerEvent: {}
+[39.167717] (-) TimerEvent: {}
+[39.270700] (-) TimerEvent: {}
+[39.371347] (-) TimerEvent: {}
+[39.472008] (-) TimerEvent: {}
+[39.572786] (-) TimerEvent: {}
+[39.673556] (-) TimerEvent: {}
+[39.774335] (-) TimerEvent: {}
+[39.875210] (-) TimerEvent: {}
+[39.976040] (-) TimerEvent: {}
+[40.076889] (-) TimerEvent: {}
+[40.177498] (-) TimerEvent: {}
+[40.278097] (-) TimerEvent: {}
+[40.378751] (-) TimerEvent: {}
+[40.479479] (-) TimerEvent: {}
+[40.580134] (-) TimerEvent: {}
+[40.680769] (-) TimerEvent: {}
+[40.781403] (-) TimerEvent: {}
+[40.882068] (-) TimerEvent: {}
+[40.982793] (-) TimerEvent: {}
+[41.083476] (-) TimerEvent: {}
+[41.184163] (-) TimerEvent: {}
+[41.285061] (-) TimerEvent: {}
+[41.386147] (-) TimerEvent: {}
+[41.487030] (-) TimerEvent: {}
+[41.590529] (-) TimerEvent: {}
+[41.691192] (-) TimerEvent: {}
+[41.791876] (-) TimerEvent: {}
+[41.892565] (-) TimerEvent: {}
+[41.993275] (-) TimerEvent: {}
+[42.093966] (-) TimerEvent: {}
+[42.194749] (-) TimerEvent: {}
+[42.295587] (-) TimerEvent: {}
+[42.396447] (-) TimerEvent: {}
+[42.497469] (-) TimerEvent: {}
+[42.598289] (-) TimerEvent: {}
+[42.699134] (-) TimerEvent: {}
+[42.799970] (-) TimerEvent: {}
+[42.900842] (-) TimerEvent: {}
+[43.001656] (-) TimerEvent: {}
+[43.102289] (-) TimerEvent: {}
+[43.203170] (-) TimerEvent: {}
+[43.304412] (-) TimerEvent: {}
+[43.405447] (-) TimerEvent: {}
+[43.506391] (-) TimerEvent: {}
+[43.608440] (-) TimerEvent: {}
+[43.709459] (-) TimerEvent: {}
+[43.810214] (-) TimerEvent: {}
+[43.911169] (-) TimerEvent: {}
+[44.011857] (-) TimerEvent: {}
+[44.112555] (-) TimerEvent: {}
+[44.213238] (-) TimerEvent: {}
+[44.313951] (-) TimerEvent: {}
+[44.414653] (-) TimerEvent: {}
+[44.518715] (-) TimerEvent: {}
+[44.619410] (-) TimerEvent: {}
+[44.720129] (-) TimerEvent: {}
+[44.820821] (-) TimerEvent: {}
+[44.926721] (-) TimerEvent: {}
+[45.027411] (-) TimerEvent: {}
+[45.128120] (-) TimerEvent: {}
+[45.228810] (-) TimerEvent: {}
+[45.329521] (-) TimerEvent: {}
+[45.430290] (-) TimerEvent: {}
+[45.530963] (-) TimerEvent: {}
+[45.638796] (-) TimerEvent: {}
+[45.740852] (-) TimerEvent: {}
+[45.841792] (-) TimerEvent: {}
+[45.942432] (-) TimerEvent: {}
+[46.043491] (-) TimerEvent: {}
+[46.144184] (-) TimerEvent: {}
+[46.244846] (-) TimerEvent: {}
+[46.345683] (-) TimerEvent: {}
+[46.446556] (-) TimerEvent: {}
+[46.547210] (-) TimerEvent: {}
+[46.647869] (-) TimerEvent: {}
+[46.748778] (-) TimerEvent: {}
+[46.854760] (-) TimerEvent: {}
+[46.955451] (-) TimerEvent: {}
+[47.056618] (-) TimerEvent: {}
+[47.157425] (-) TimerEvent: {}
+[47.258065] (-) TimerEvent: {}
+[47.358784] (-) TimerEvent: {}
+[47.459467] (-) TimerEvent: {}
+[47.560149] (-) TimerEvent: {}
+[47.660840] (-) TimerEvent: {}
+[47.761514] (-) TimerEvent: {}
+[47.862162] (-) TimerEvent: {}
+[47.962829] (-) TimerEvent: {}
+[48.063501] (-) TimerEvent: {}
+[48.164123] (-) TimerEvent: {}
+[48.264751] (-) TimerEvent: {}
+[48.365443] (-) TimerEvent: {}
+[48.466116] (-) TimerEvent: {}
+[48.566860] (-) TimerEvent: {}
+[48.667539] (-) TimerEvent: {}
+[48.768223] (-) TimerEvent: {}
+[48.868910] (-) TimerEvent: {}
+[48.969547] (-) TimerEvent: {}
+[49.070222] (-) TimerEvent: {}
+[49.170888] (-) TimerEvent: {}
+[49.271531] (-) TimerEvent: {}
+[49.372219] (-) TimerEvent: {}
+[49.472869] (-) TimerEvent: {}
+[49.573708] (-) TimerEvent: {}
+[49.674357] (-) TimerEvent: {}
+[49.775082] (-) TimerEvent: {}
+[49.875769] (-) TimerEvent: {}
+[49.976446] (-) TimerEvent: {}
+[50.077149] (-) TimerEvent: {}
+[50.177793] (-) TimerEvent: {}
+[50.278639] (-) TimerEvent: {}
+[50.379261] (-) TimerEvent: {}
+[50.479948] (-) TimerEvent: {}
+[50.580646] (-) TimerEvent: {}
+[50.681459] (-) TimerEvent: {}
+[50.782133] (-) TimerEvent: {}
+[50.882854] (-) TimerEvent: {}
+[50.983535] (-) TimerEvent: {}
+[51.084192] (-) TimerEvent: {}
+[51.184828] (-) TimerEvent: {}
+[51.285480] (-) TimerEvent: {}
+[51.390801] (-) TimerEvent: {}
+[51.491474] (-) TimerEvent: {}
+[51.592360] (-) TimerEvent: {}
+[51.693039] (-) TimerEvent: {}
+[51.793718] (-) TimerEvent: {}
+[51.894417] (-) TimerEvent: {}
+[51.995203] (-) TimerEvent: {}
+[52.095875] (-) TimerEvent: {}
+[52.196547] (-) TimerEvent: {}
+[52.297225] (-) TimerEvent: {}
+[52.397882] (-) TimerEvent: {}
+[52.498743] (-) TimerEvent: {}
+[52.599404] (-) TimerEvent: {}
+[52.700209] (-) TimerEvent: {}
+[52.800886] (-) TimerEvent: {}
+[52.901687] (-) TimerEvent: {}
+[53.002413] (-) TimerEvent: {}
+[53.103090] (-) TimerEvent: {}
+[53.203792] (-) TimerEvent: {}
+[53.304618] (-) TimerEvent: {}
+[53.405280] (-) TimerEvent: {}
+[53.506099] (-) TimerEvent: {}
+[53.606776] (-) TimerEvent: {}
+[53.707569] (-) TimerEvent: {}
+[53.808439] (-) TimerEvent: {}
+[53.909112] (-) TimerEvent: {}
+[54.009910] (-) TimerEvent: {}
+[54.110679] (-) TimerEvent: {}
+[54.211495] (-) TimerEvent: {}
+[54.312308] (-) TimerEvent: {}
+[54.412990] (-) TimerEvent: {}
+[54.513687] (-) TimerEvent: {}
+[54.614394] (-) TimerEvent: {}
+[54.715094] (-) TimerEvent: {}
+[54.815812] (-) TimerEvent: {}
+[54.916455] (-) TimerEvent: {}
+[55.017159] (-) TimerEvent: {}
+[55.117850] (-) TimerEvent: {}
+[55.218678] (-) TimerEvent: {}
+[55.319608] (-) TimerEvent: {}
+[55.420302] (-) TimerEvent: {}
+[55.520992] (-) TimerEvent: {}
+[55.621647] (-) TimerEvent: {}
+[55.722334] (-) TimerEvent: {}
+[55.823071] (-) TimerEvent: {}
+[55.923770] (-) TimerEvent: {}
+[56.024456] (-) TimerEvent: {}
+[56.125147] (-) TimerEvent: {}
+[56.225795] (-) TimerEvent: {}
+[56.326527] (-) TimerEvent: {}
+[56.427170] (-) TimerEvent: {}
+[56.527832] (-) TimerEvent: {}
+[56.628516] (-) TimerEvent: {}
+[56.729256] (-) TimerEvent: {}
+[56.830024] (-) TimerEvent: {}
+[56.930782] (-) TimerEvent: {}
+[57.031508] (-) TimerEvent: {}
+[57.132249] (-) TimerEvent: {}
+[57.232994] (-) TimerEvent: {}
+[57.333753] (-) TimerEvent: {}
+[57.434602] (-) TimerEvent: {}
+[57.535418] (-) TimerEvent: {}
+[57.636109] (-) TimerEvent: {}
+[57.736830] (-) TimerEvent: {}
+[57.838077] (-) TimerEvent: {}
+[57.938834] (-) TimerEvent: {}
+[58.039559] (-) TimerEvent: {}
+[58.140309] (-) TimerEvent: {}
+[58.244759] (-) TimerEvent: {}
+[58.350693] (-) TimerEvent: {}
+[58.451360] (-) TimerEvent: {}
+[58.552121] (-) TimerEvent: {}
+[58.652807] (-) TimerEvent: {}
+[58.754016] (-) TimerEvent: {}
+[58.854705] (-) TimerEvent: {}
+[59.001511] (-) TimerEvent: {}
+[59.102400] (-) TimerEvent: {}
+[59.203097] (-) TimerEvent: {}
+[59.303735] (-) TimerEvent: {}
+[59.404587] (-) TimerEvent: {}
+[59.509766] (-) TimerEvent: {}
+[59.611691] (-) TimerEvent: {}
+[59.712388] (-) TimerEvent: {}
+[59.813045] (-) TimerEvent: {}
+[59.913975] (-) TimerEvent: {}
+[60.014811] (-) TimerEvent: {}
+[60.115667] (-) TimerEvent: {}
+[60.216558] (-) TimerEvent: {}
+[60.317246] (-) TimerEvent: {}
+[60.418183] (-) TimerEvent: {}
+[60.519094] (-) TimerEvent: {}
+[60.619905] (-) TimerEvent: {}
+[60.720699] (-) TimerEvent: {}
+[60.821552] (-) TimerEvent: {}
+[60.922355] (-) TimerEvent: {}
+[61.023368] (-) TimerEvent: {}
+[61.124029] (-) TimerEvent: {}
+[61.224662] (-) TimerEvent: {}
+[61.325343] (-) TimerEvent: {}
+[61.426174] (-) TimerEvent: {}
+[61.526967] (-) TimerEvent: {}
+[61.627870] (-) TimerEvent: {}
+[61.728493] (-) TimerEvent: {}
+[61.829082] (-) TimerEvent: {}
+[61.929650] (-) TimerEvent: {}
+[62.030282] (-) TimerEvent: {}
+[62.130943] (-) TimerEvent: {}
+[62.231830] (-) TimerEvent: {}
+[62.332814] (-) TimerEvent: {}
+[62.433821] (-) TimerEvent: {}
+[62.534464] (-) TimerEvent: {}
+[62.635144] (-) TimerEvent: {}
+[62.735767] (-) TimerEvent: {}
+[62.836395] (-) TimerEvent: {}
+[62.937039] (-) TimerEvent: {}
+[63.037712] (-) TimerEvent: {}
+[63.146773] (-) TimerEvent: {}
+[63.247410] (-) TimerEvent: {}
+[63.348044] (-) TimerEvent: {}
+[63.448658] (-) TimerEvent: {}
+[63.549300] (-) TimerEvent: {}
+[63.649939] (-) TimerEvent: {}
+[63.750601] (-) TimerEvent: {}
+[63.851235] (-) TimerEvent: {}
+[63.951860] (-) TimerEvent: {}
+[64.052507] (-) TimerEvent: {}
+[64.153140] (-) TimerEvent: {}
+[64.253779] (-) TimerEvent: {}
+[64.354466] (-) TimerEvent: {}
+[64.455338] (-) TimerEvent: {}
+[64.556347] (-) TimerEvent: {}
+[64.657169] (-) TimerEvent: {}
+[64.757831] (-) TimerEvent: {}
+[64.858529] (-) TimerEvent: {}
+[64.959253] (-) TimerEvent: {}
+[65.060050] (-) TimerEvent: {}
+[65.160977] (-) TimerEvent: {}
+[65.262453] (-) TimerEvent: {}
+[65.364677] (-) TimerEvent: {}
+[65.465753] (-) TimerEvent: {}
+[65.566551] (-) TimerEvent: {}
+[65.667130] (-) TimerEvent: {}
+[65.767894] (-) TimerEvent: {}
+[65.868702] (-) TimerEvent: {}
+[65.969857] (-) TimerEvent: {}
+[66.070946] (-) TimerEvent: {}
+[66.171464] (-) TimerEvent: {}
+[66.272009] (-) TimerEvent: {}
+[66.372540] (-) TimerEvent: {}
+[66.422631] (relbot_adapter) StdoutLine: {'line': b'[100%] Linking CXX executable relbot_adapter\n'}
+[66.472744] (-) TimerEvent: {}
+[66.573410] (-) TimerEvent: {}
+[66.674172] (-) TimerEvent: {}
+[66.774840] (-) TimerEvent: {}
+[66.875578] (-) TimerEvent: {}
+[66.977969] (-) TimerEvent: {}
+[67.078958] (-) TimerEvent: {}
+[67.172985] (ros_xeno_bridge) StdoutLine: {'line': b'[100%] Linking CXX executable RosXenoBridge\n'}
+[67.179226] (-) TimerEvent: {}
+[67.280621] (-) TimerEvent: {}
+[67.382345] (-) TimerEvent: {}
+[67.483881] (-) TimerEvent: {}
+[67.590384] (-) TimerEvent: {}
+[67.692125] (-) TimerEvent: {}
+[67.794215] (-) TimerEvent: {}
+[67.896490] (-) TimerEvent: {}
+[67.998991] (-) TimerEvent: {}
+[68.102851] (-) TimerEvent: {}
+[68.203919] (-) TimerEvent: {}
+[68.304835] (-) TimerEvent: {}
+[68.406798] (-) TimerEvent: {}
+[68.508378] (-) TimerEvent: {}
+[68.609444] (-) TimerEvent: {}
+[68.710200] (-) TimerEvent: {}
+[68.810907] (-) TimerEvent: {}
+[68.911685] (-) TimerEvent: {}
+[69.013145] (-) TimerEvent: {}
+[69.113855] (-) TimerEvent: {}
+[69.214477] (-) TimerEvent: {}
+[69.895641] (-) TimerEvent: {}
+[69.996150] (-) TimerEvent: {}
+[70.096827] (-) TimerEvent: {}
+[70.197421] (-) TimerEvent: {}
+[70.222706] (relbot_adapter) StdoutLine: {'line': b'[100%] Built target relbot_adapter\n'}
+[70.250212] (relbot_adapter) CommandEnded: {'returncode': 0}
+[70.254006] (relbot_adapter) JobProgress: {'identifier': 'relbot_adapter', 'progress': 'install'}
+[70.273612] (relbot_adapter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble')]), 'shell': False}
+[70.296201] (relbot_adapter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[70.297708] (-) TimerEvent: {}
+[70.298018] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/lib/relbot_adapter/relbot_adapter\n'}
+[70.397937] (-) TimerEvent: {}
+[70.406845] (ros_xeno_bridge) StdoutLine: {'line': b'[100%] Built target RosXenoBridge\n'}
+[70.435852] (ros_xeno_bridge) CommandEnded: {'returncode': 0}
+[70.439243] (ros_xeno_bridge) JobProgress: {'identifier': 'ros_xeno_bridge', 'progress': 'install'}
+[70.440795] (ros_xeno_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[70.459985] (ros_xeno_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[70.462612] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/lib/ros_xeno_bridge/RosXenoBridge\n'}
+[70.498100] (-) TimerEvent: {}
+[70.522889] (relbot_adapter) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/lib/relbot_adapter/relbot_adapter" to ""\n'}
+[70.524494] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/package_run_dependencies/relbot_adapter\n'}
+[70.526868] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/parent_prefix_path/relbot_adapter\n'}
+[70.528054] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.sh\n'}
+[70.530775] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.dsv\n'}
+[70.535554] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.sh\n'}
+[70.540332] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.dsv\n'}
+[70.543522] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.bash\n'}
+[70.556246] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.sh\n'}
+[70.559962] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.zsh\n'}
+[70.563313] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.dsv\n'}
+[70.568504] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.dsv\n'}
+[70.571437] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/packages/relbot_adapter\n'}
+[70.574398] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig.cmake\n'}
+[70.577407] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig-version.cmake\n'}
+[70.580598] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.xml\n'}
+[70.583281] (relbot_adapter) CommandEnded: {'returncode': 0}
+[70.598351] (-) TimerEvent: {}
+[70.625890] (relbot_adapter) JobEnded: {'identifier': 'relbot_adapter', 'rc': 0}
+[70.698557] (-) TimerEvent: {}
+[70.701047] (ros_xeno_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/lib/ros_xeno_bridge/RosXenoBridge" to ""\n'}
+[70.702528] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ament_index/resource_index/package_run_dependencies/ros_xeno_bridge\n'}
+[70.703890] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ament_index/resource_index/parent_prefix_path/ros_xeno_bridge\n'}
+[70.705308] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/ament_prefix_path.sh\n'}
+[70.706784] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/ament_prefix_path.dsv\n'}
+[70.708112] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/path.sh\n'}
+[70.709602] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/path.dsv\n'}
+[70.710806] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.bash\n'}
+[70.712299] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.sh\n'}
+[70.713451] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.zsh\n'}
+[70.714775] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.dsv\n'}
+[70.716143] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/package.dsv\n'}
+[70.717216] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ament_index/resource_index/packages/ros_xeno_bridge\n'}
+[70.718967] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/cmake/ros_xeno_bridgeConfig.cmake\n'}
+[70.720239] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/cmake/ros_xeno_bridgeConfig-version.cmake\n'}
+[70.722214] (ros_xeno_bridge) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/package.xml\n'}
+[70.725710] (ros_xeno_bridge) CommandEnded: {'returncode': 0}
+[70.798761] (-) TimerEvent: {}
+[70.803799] (ros_xeno_bridge) JobEnded: {'identifier': 'ros_xeno_bridge', 'rc': 0}
+[70.806813] (-) EventReactorShutdown: {}

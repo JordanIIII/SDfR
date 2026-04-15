@@ -1,0 +1,11 @@
+[0.096s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_simulator -- -j3 -l3
+[0.389s] [ 11%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/src/relbot_simulator.cpp.o[0m
+[0.433s] [ 22%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/src/Plant.cpp.o[0m
+[0.435s] [ 33%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/EulerAngles.cpp.o[0m
+[0.607s] [ 44%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/MotionProfiles.cpp.o[0m
+[0.744s] [ 55%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/xxfuncs.cpp.o[0m
+[2.376s] [ 66%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/xxinteg.cpp.o[0m
+[2.480s] [ 77%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/xxinverse.cpp.o[0m
+[4.531s] [ 88%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/xxmatrix.cpp.o[0m
+[67.433s] [100%] [32m[1mLinking CXX executable relbot_simulator[0m
+[72.353s] [100%] Built target relbot_simulator

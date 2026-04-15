@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1f5fb7dca36aeb3e97ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "relbot_sequence_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_sequence_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_sequence_controller-5defd187f4d5b3d9188c.json",
+					"name" : "relbot_sequence_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_sequence_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_sequence_controller_uninstall-e90d658496677ba31e55.json",
+					"name" : "relbot_sequence_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4e8203ec8b6f28468cfc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller",
+		"source" : "/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_sequence_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

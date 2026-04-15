@@ -1,6 +1,6 @@
-/home/jordan/SDfR/assignment6/build/demo/CMakeFiles/uninstall.dir
-/home/jordan/SDfR/assignment6/build/demo/CMakeFiles/demo_uninstall.dir
-/home/jordan/SDfR/assignment6/build/demo/CMakeFiles/demo.dir
-/home/jordan/SDfR/assignment6/build/demo/CMakeFiles/test.dir
-/home/jordan/SDfR/assignment6/build/demo/CMakeFiles/edit_cache.dir
-/home/jordan/SDfR/assignment6/build/demo/CMakeFiles/rebuild_cache.dir
+/home/sdfr-ppd-01/SDfR/assignment6/build/demo/CMakeFiles/uninstall.dir
+/home/sdfr-ppd-01/SDfR/assignment6/build/demo/CMakeFiles/demo_uninstall.dir
+/home/sdfr-ppd-01/SDfR/assignment6/build/demo/CMakeFiles/demo.dir
+/home/sdfr-ppd-01/SDfR/assignment6/build/demo/CMakeFiles/test.dir
+/home/sdfr-ppd-01/SDfR/assignment6/build/demo/CMakeFiles/edit_cache.dir
+/home/sdfr-ppd-01/SDfR/assignment6/build/demo/CMakeFiles/rebuild_cache.dir

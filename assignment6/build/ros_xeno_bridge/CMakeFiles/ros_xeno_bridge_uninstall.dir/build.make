@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge
+CMAKE_SOURCE_DIR = /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Ros/ros_xeno_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jordan/SDfR/assignment6/build/ros_xeno_bridge
+CMAKE_BINARY_DIR = /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge
 
 # Utility rule file for ros_xeno_bridge_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ros_xeno_bridge_uninstall.dir/compiler_depend.make
 include CMakeFiles/ros_xeno_bridge_uninstall.dir/progress.make
 
 CMakeFiles/ros_xeno_bridge_uninstall:
-	/usr/bin/cmake -P /home/jordan/SDfR/assignment6/build/ros_xeno_bridge/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ros_xeno_bridge_uninstall: CMakeFiles/ros_xeno_bridge_uninstall
 ros_xeno_bridge_uninstall: CMakeFiles/ros_xeno_bridge_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ros_xeno_bridge_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros_xeno_bridge_uninstall.dir/clean
 
 CMakeFiles/ros_xeno_bridge_uninstall.dir/depend:
-	cd /home/jordan/SDfR/assignment6/build/ros_xeno_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge /home/jordan/SDfR/assignment6/build/ros_xeno_bridge /home/jordan/SDfR/assignment6/build/ros_xeno_bridge /home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/ros_xeno_bridge_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Ros/ros_xeno_bridge /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Ros/ros_xeno_bridge /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/ros_xeno_bridge_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros_xeno_bridge_uninstall.dir/depend
 

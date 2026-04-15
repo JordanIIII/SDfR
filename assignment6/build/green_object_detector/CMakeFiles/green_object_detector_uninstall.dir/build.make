@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jordan/SDfR/assignment6/src/green_object_detector
+CMAKE_SOURCE_DIR = /home/sdfr-ppd-01/SDfR/assignment6/src/green_object_detector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jordan/SDfR/assignment6/build/green_object_detector
+CMAKE_BINARY_DIR = /home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector
 
 # Utility rule file for green_object_detector_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/green_object_detector_uninstall.dir/compiler_depend.make
 include CMakeFiles/green_object_detector_uninstall.dir/progress.make
 
 CMakeFiles/green_object_detector_uninstall:
-	/usr/bin/cmake -P /home/jordan/SDfR/assignment6/build/green_object_detector/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 green_object_detector_uninstall: CMakeFiles/green_object_detector_uninstall
 green_object_detector_uninstall: CMakeFiles/green_object_detector_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/green_object_detector_uninstall.dir/clean:
 .PHONY : CMakeFiles/green_object_detector_uninstall.dir/clean
 
 CMakeFiles/green_object_detector_uninstall.dir/depend:
-	cd /home/jordan/SDfR/assignment6/build/green_object_detector && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jordan/SDfR/assignment6/src/green_object_detector /home/jordan/SDfR/assignment6/src/green_object_detector /home/jordan/SDfR/assignment6/build/green_object_detector /home/jordan/SDfR/assignment6/build/green_object_detector /home/jordan/SDfR/assignment6/build/green_object_detector/CMakeFiles/green_object_detector_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sdfr-ppd-01/SDfR/assignment6/src/green_object_detector /home/sdfr-ppd-01/SDfR/assignment6/src/green_object_detector /home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector /home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector /home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector/CMakeFiles/green_object_detector_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/green_object_detector_uninstall.dir/depend
 

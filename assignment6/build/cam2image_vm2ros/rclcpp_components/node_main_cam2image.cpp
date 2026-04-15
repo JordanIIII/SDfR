@@ -40,7 +40,8 @@ int main(int argc, char * argv[])
   auto loader = new class_loader::ClassLoader(library_name);
   auto classes = loader->getAvailableClasses<rclcpp_components::NodeFactory>();
   for (const auto & clazz : classes) {
-    if (clazz.compare(class_name) == 0) {
+    std::string name = clazz.c_str();
+    if (name.compare(class_name) == 0) {
       RCLCPP_DEBUG(logger, "Instantiate class %s", clazz.c_str());
       std::shared_ptr<rclcpp_components::NodeFactory> node_factory = nullptr;
       try {

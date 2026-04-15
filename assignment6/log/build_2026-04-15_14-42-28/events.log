@@ -1,0 +1,611 @@
+[0.000000] (-) TimerEvent: {}
+[0.000611] (-) JobUnselected: {'identifier': 'cam2image_vm2ros'}
+[0.001535] (-) JobUnselected: {'identifier': 'demo'}
+[0.002155] (-) JobUnselected: {'identifier': 'green_object_detector'}
+[0.002403] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.003060] (-) JobUnselected: {'identifier': 'relbot2turtlesim'}
+[0.003495] (-) JobUnselected: {'identifier': 'relbot_launch'}
+[0.003913] (-) JobUnselected: {'identifier': 'relbot_msgs'}
+[0.004338] (-) JobUnselected: {'identifier': 'relbot_sequence_controller'}
+[0.004763] (-) JobUnselected: {'identifier': 'relbot_simulator'}
+[0.005033] (-) JobUnselected: {'identifier': 'ros_xeno_bridge'}
+[0.005613] (-) JobUnselected: {'identifier': 'template_20sim'}
+[0.006359] (-) JobUnselected: {'identifier': 'xrf2_msgs'}
+[0.007391] (relbot_adapter) JobQueued: {'identifier': 'relbot_adapter', 'dependencies': OrderedDict([('relbot_msgs', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs')])}
+[0.008245] (relbot_adapter) JobStarted: {'identifier': 'relbot_adapter'}
+[0.040886] (relbot_adapter) JobProgress: {'identifier': 'relbot_adapter', 'progress': 'cmake'}
+[0.042638] (relbot_adapter) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble')]), 'shell': False}
+[0.099011] (-) TimerEvent: {}
+[0.199652] (-) TimerEvent: {}
+[0.244686] (relbot_adapter) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299904] (-) TimerEvent: {}
+[0.400792] (-) TimerEvent: {}
+[0.454379] (relbot_adapter) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.488948] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500969] (-) TimerEvent: {}
+[0.601949] (-) TimerEvent: {}
+[0.703203] (-) TimerEvent: {}
+[0.759624] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.803406] (-) TimerEvent: {}
+[0.819629] (relbot_adapter) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.821804] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.823928] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.837299] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.903597] (-) TimerEvent: {}
+[1.004308] (-) TimerEvent: {}
+[1.105038] (-) TimerEvent: {}
+[1.110889] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.170092] (relbot_adapter) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.172336] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.174677] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.189628] (relbot_adapter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.205220] (-) TimerEvent: {}
+[1.305798] (-) TimerEvent: {}
+[1.406536] (-) TimerEvent: {}
+[1.507577] (-) TimerEvent: {}
+[1.608660] (-) TimerEvent: {}
+[1.709338] (-) TimerEvent: {}
+[1.796047] (relbot_adapter) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.809701] (-) TimerEvent: {}
+[1.910795] (-) TimerEvent: {}
+[2.011536] (-) TimerEvent: {}
+[2.112450] (-) TimerEvent: {}
+[2.212045] (relbot_adapter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.213701] (-) TimerEvent: {}
+[2.314239] (-) TimerEvent: {}
+[2.360954] (relbot_adapter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.380380] (relbot_adapter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.409244] (relbot_adapter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.414333] (-) TimerEvent: {}
+[2.450986] (relbot_adapter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.507034] (relbot_adapter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.514506] (-) TimerEvent: {}
+[2.615061] (-) TimerEvent: {}
+[2.660584] (relbot_adapter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.671314] (relbot_adapter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.715219] (-) TimerEvent: {}
+[2.815783] (-) TimerEvent: {}
+[2.916638] (-) TimerEvent: {}
+[2.923719] (relbot_adapter) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.008848] (relbot_adapter) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.016793] (-) TimerEvent: {}
+[3.112396] (relbot_adapter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.116950] (-) TimerEvent: {}
+[3.143701] (relbot_adapter) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.217308] (-) TimerEvent: {}
+[3.318085] (-) TimerEvent: {}
+[3.395572] (relbot_adapter) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.403038] (relbot_adapter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.418320] (-) TimerEvent: {}
+[3.519343] (-) TimerEvent: {}
+[3.620005] (-) TimerEvent: {}
+[3.694754] (relbot_adapter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.703102] (relbot_adapter) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.720275] (-) TimerEvent: {}
+[3.821293] (-) TimerEvent: {}
+[3.921893] (-) TimerEvent: {}
+[3.923816] (relbot_adapter) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[4.022076] (-) TimerEvent: {}
+[4.057433] (relbot_adapter) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.096368] (relbot_adapter) StdoutLine: {'line': b'-- Found relbot_msgs: 2025.2.0 (/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake)\n'}
+[4.122244] (-) TimerEvent: {}
+[4.165447] (relbot_adapter) StdoutLine: {'line': b'-- xrf2_msgs found, enabling related features\n'}
+[4.179505] (relbot_adapter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.222404] (-) TimerEvent: {}
+[4.322983] (-) TimerEvent: {}
+[4.423561] (-) TimerEvent: {}
+[4.472853] (relbot_adapter) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.474597] (relbot_adapter) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter/include;$<BUILD_INTERFACE:/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter/include>\n'}
+[4.475757] (relbot_adapter) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.477244] (relbot_adapter) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.480780] (relbot_adapter) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.482050] (relbot_adapter) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.483544] (relbot_adapter) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.488127] (relbot_adapter) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.523764] (-) TimerEvent: {}
+[4.538464] (relbot_adapter) StdoutLine: {'line': b'-- Generating done\n'}
+[4.565995] (relbot_adapter) StdoutLine: {'line': b'-- Build files have been written to: /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter\n'}
+[4.602218] (relbot_adapter) CommandEnded: {'returncode': 0}
+[4.614618] (relbot_adapter) JobProgress: {'identifier': 'relbot_adapter', 'progress': 'build'}
+[4.615535] (relbot_adapter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter', '--', '-j3', '-l3'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble')]), 'shell': False}
+[4.623951] (-) TimerEvent: {}
+[4.724619] (-) TimerEvent: {}
+[4.825291] (-) TimerEvent: {}
+[4.925782] (-) TimerEvent: {}
+[5.026256] (-) TimerEvent: {}
+[5.079818] (relbot_adapter) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target relbot_adapter\n'}
+[5.126466] (-) TimerEvent: {}
+[5.128062] (relbot_adapter) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/relbot_adapter.dir/src/relbot_adapter.cpp.o\n'}
+[5.226660] (-) TimerEvent: {}
+[5.327302] (-) TimerEvent: {}
+[5.427883] (-) TimerEvent: {}
+[5.528521] (-) TimerEvent: {}
+[5.629134] (-) TimerEvent: {}
+[5.729771] (-) TimerEvent: {}
+[5.830369] (-) TimerEvent: {}
+[5.931026] (-) TimerEvent: {}
+[6.031643] (-) TimerEvent: {}
+[6.132278] (-) TimerEvent: {}
+[6.232947] (-) TimerEvent: {}
+[6.333659] (-) TimerEvent: {}
+[6.434285] (-) TimerEvent: {}
+[6.534902] (-) TimerEvent: {}
+[6.635576] (-) TimerEvent: {}
+[6.736209] (-) TimerEvent: {}
+[6.836887] (-) TimerEvent: {}
+[6.937499] (-) TimerEvent: {}
+[7.038101] (-) TimerEvent: {}
+[7.138782] (-) TimerEvent: {}
+[7.239414] (-) TimerEvent: {}
+[7.340019] (-) TimerEvent: {}
+[7.440648] (-) TimerEvent: {}
+[7.541329] (-) TimerEvent: {}
+[7.641937] (-) TimerEvent: {}
+[7.742577] (-) TimerEvent: {}
+[7.843243] (-) TimerEvent: {}
+[7.943881] (-) TimerEvent: {}
+[8.044527] (-) TimerEvent: {}
+[8.145142] (-) TimerEvent: {}
+[8.245844] (-) TimerEvent: {}
+[8.346445] (-) TimerEvent: {}
+[8.447093] (-) TimerEvent: {}
+[8.547721] (-) TimerEvent: {}
+[8.648359] (-) TimerEvent: {}
+[8.748988] (-) TimerEvent: {}
+[8.849650] (-) TimerEvent: {}
+[8.950287] (-) TimerEvent: {}
+[9.050897] (-) TimerEvent: {}
+[9.151544] (-) TimerEvent: {}
+[9.252151] (-) TimerEvent: {}
+[9.352770] (-) TimerEvent: {}
+[9.453433] (-) TimerEvent: {}
+[9.554101] (-) TimerEvent: {}
+[9.654770] (-) TimerEvent: {}
+[9.755407] (-) TimerEvent: {}
+[9.856028] (-) TimerEvent: {}
+[9.956673] (-) TimerEvent: {}
+[10.057332] (-) TimerEvent: {}
+[10.157977] (-) TimerEvent: {}
+[10.258592] (-) TimerEvent: {}
+[10.359203] (-) TimerEvent: {}
+[10.459825] (-) TimerEvent: {}
+[10.560463] (-) TimerEvent: {}
+[10.661092] (-) TimerEvent: {}
+[10.761752] (-) TimerEvent: {}
+[10.862377] (-) TimerEvent: {}
+[10.963014] (-) TimerEvent: {}
+[11.063650] (-) TimerEvent: {}
+[11.164301] (-) TimerEvent: {}
+[11.264956] (-) TimerEvent: {}
+[11.365630] (-) TimerEvent: {}
+[11.466260] (-) TimerEvent: {}
+[11.566887] (-) TimerEvent: {}
+[11.667509] (-) TimerEvent: {}
+[11.768149] (-) TimerEvent: {}
+[11.868786] (-) TimerEvent: {}
+[11.969446] (-) TimerEvent: {}
+[12.070097] (-) TimerEvent: {}
+[12.170771] (-) TimerEvent: {}
+[12.271415] (-) TimerEvent: {}
+[12.372063] (-) TimerEvent: {}
+[12.472745] (-) TimerEvent: {}
+[12.573490] (-) TimerEvent: {}
+[12.674098] (-) TimerEvent: {}
+[12.774732] (-) TimerEvent: {}
+[12.875482] (-) TimerEvent: {}
+[12.976326] (-) TimerEvent: {}
+[13.077018] (-) TimerEvent: {}
+[13.177701] (-) TimerEvent: {}
+[13.278335] (-) TimerEvent: {}
+[13.378997] (-) TimerEvent: {}
+[13.479704] (-) TimerEvent: {}
+[13.580334] (-) TimerEvent: {}
+[13.681002] (-) TimerEvent: {}
+[13.781633] (-) TimerEvent: {}
+[13.882253] (-) TimerEvent: {}
+[13.982934] (-) TimerEvent: {}
+[14.083606] (-) TimerEvent: {}
+[14.184221] (-) TimerEvent: {}
+[14.284862] (-) TimerEvent: {}
+[14.385511] (-) TimerEvent: {}
+[14.486145] (-) TimerEvent: {}
+[14.586777] (-) TimerEvent: {}
+[14.687402] (-) TimerEvent: {}
+[14.788034] (-) TimerEvent: {}
+[14.888672] (-) TimerEvent: {}
+[14.989321] (-) TimerEvent: {}
+[15.089937] (-) TimerEvent: {}
+[15.190560] (-) TimerEvent: {}
+[15.291193] (-) TimerEvent: {}
+[15.391811] (-) TimerEvent: {}
+[15.492442] (-) TimerEvent: {}
+[15.593047] (-) TimerEvent: {}
+[15.693883] (-) TimerEvent: {}
+[15.794505] (-) TimerEvent: {}
+[15.895121] (-) TimerEvent: {}
+[15.995752] (-) TimerEvent: {}
+[16.096386] (-) TimerEvent: {}
+[16.197013] (-) TimerEvent: {}
+[16.297681] (-) TimerEvent: {}
+[16.398299] (-) TimerEvent: {}
+[16.498920] (-) TimerEvent: {}
+[16.599527] (-) TimerEvent: {}
+[16.700159] (-) TimerEvent: {}
+[16.800778] (-) TimerEvent: {}
+[16.901416] (-) TimerEvent: {}
+[17.002017] (-) TimerEvent: {}
+[17.102640] (-) TimerEvent: {}
+[17.203267] (-) TimerEvent: {}
+[17.303897] (-) TimerEvent: {}
+[17.404507] (-) TimerEvent: {}
+[17.505159] (-) TimerEvent: {}
+[17.605842] (-) TimerEvent: {}
+[17.706546] (-) TimerEvent: {}
+[17.807201] (-) TimerEvent: {}
+[17.907852] (-) TimerEvent: {}
+[18.008470] (-) TimerEvent: {}
+[18.109100] (-) TimerEvent: {}
+[18.209780] (-) TimerEvent: {}
+[18.310392] (-) TimerEvent: {}
+[18.411011] (-) TimerEvent: {}
+[18.511648] (-) TimerEvent: {}
+[18.612272] (-) TimerEvent: {}
+[18.712909] (-) TimerEvent: {}
+[18.813558] (-) TimerEvent: {}
+[18.914200] (-) TimerEvent: {}
+[19.014907] (-) TimerEvent: {}
+[19.115700] (-) TimerEvent: {}
+[19.216371] (-) TimerEvent: {}
+[19.317036] (-) TimerEvent: {}
+[19.417765] (-) TimerEvent: {}
+[19.518463] (-) TimerEvent: {}
+[19.619071] (-) TimerEvent: {}
+[19.719721] (-) TimerEvent: {}
+[19.820378] (-) TimerEvent: {}
+[19.921031] (-) TimerEvent: {}
+[20.021684] (-) TimerEvent: {}
+[20.122326] (-) TimerEvent: {}
+[20.222956] (-) TimerEvent: {}
+[20.323582] (-) TimerEvent: {}
+[20.424223] (-) TimerEvent: {}
+[20.524845] (-) TimerEvent: {}
+[20.625495] (-) TimerEvent: {}
+[20.726131] (-) TimerEvent: {}
+[20.826769] (-) TimerEvent: {}
+[20.927407] (-) TimerEvent: {}
+[21.028028] (-) TimerEvent: {}
+[21.128647] (-) TimerEvent: {}
+[21.229345] (-) TimerEvent: {}
+[21.329955] (-) TimerEvent: {}
+[21.430581] (-) TimerEvent: {}
+[21.531204] (-) TimerEvent: {}
+[21.631847] (-) TimerEvent: {}
+[21.732493] (-) TimerEvent: {}
+[21.833140] (-) TimerEvent: {}
+[21.933766] (-) TimerEvent: {}
+[22.034404] (-) TimerEvent: {}
+[22.135022] (-) TimerEvent: {}
+[22.235637] (-) TimerEvent: {}
+[22.336259] (-) TimerEvent: {}
+[22.436893] (-) TimerEvent: {}
+[22.537558] (-) TimerEvent: {}
+[22.638313] (-) TimerEvent: {}
+[22.738936] (-) TimerEvent: {}
+[22.839562] (-) TimerEvent: {}
+[22.940193] (-) TimerEvent: {}
+[23.040804] (-) TimerEvent: {}
+[23.141446] (-) TimerEvent: {}
+[23.242056] (-) TimerEvent: {}
+[23.342676] (-) TimerEvent: {}
+[23.443296] (-) TimerEvent: {}
+[23.543917] (-) TimerEvent: {}
+[23.644545] (-) TimerEvent: {}
+[23.745217] (-) TimerEvent: {}
+[23.845837] (-) TimerEvent: {}
+[23.946465] (-) TimerEvent: {}
+[24.047088] (-) TimerEvent: {}
+[24.147696] (-) TimerEvent: {}
+[24.248281] (-) TimerEvent: {}
+[24.348869] (-) TimerEvent: {}
+[24.449458] (-) TimerEvent: {}
+[24.550043] (-) TimerEvent: {}
+[24.650609] (-) TimerEvent: {}
+[24.751184] (-) TimerEvent: {}
+[24.851792] (-) TimerEvent: {}
+[24.952464] (-) TimerEvent: {}
+[25.053126] (-) TimerEvent: {}
+[25.153766] (-) TimerEvent: {}
+[25.254400] (-) TimerEvent: {}
+[25.355041] (-) TimerEvent: {}
+[25.455687] (-) TimerEvent: {}
+[25.556347] (-) TimerEvent: {}
+[25.657020] (-) TimerEvent: {}
+[25.757675] (-) TimerEvent: {}
+[25.858303] (-) TimerEvent: {}
+[25.958966] (-) TimerEvent: {}
+[26.059618] (-) TimerEvent: {}
+[26.160273] (-) TimerEvent: {}
+[26.260898] (-) TimerEvent: {}
+[26.361575] (-) TimerEvent: {}
+[26.462241] (-) TimerEvent: {}
+[26.562936] (-) TimerEvent: {}
+[26.663551] (-) TimerEvent: {}
+[26.764215] (-) TimerEvent: {}
+[26.864987] (-) TimerEvent: {}
+[26.965775] (-) TimerEvent: {}
+[27.066483] (-) TimerEvent: {}
+[27.167204] (-) TimerEvent: {}
+[27.267869] (-) TimerEvent: {}
+[27.368550] (-) TimerEvent: {}
+[27.469193] (-) TimerEvent: {}
+[27.569821] (-) TimerEvent: {}
+[27.670512] (-) TimerEvent: {}
+[27.771127] (-) TimerEvent: {}
+[27.871738] (-) TimerEvent: {}
+[27.972390] (-) TimerEvent: {}
+[28.073015] (-) TimerEvent: {}
+[28.173665] (-) TimerEvent: {}
+[28.274297] (-) TimerEvent: {}
+[28.374877] (-) TimerEvent: {}
+[28.475484] (-) TimerEvent: {}
+[28.576076] (-) TimerEvent: {}
+[28.676697] (-) TimerEvent: {}
+[28.777332] (-) TimerEvent: {}
+[28.877952] (-) TimerEvent: {}
+[28.978902] (-) TimerEvent: {}
+[29.079501] (-) TimerEvent: {}
+[29.180147] (-) TimerEvent: {}
+[29.280781] (-) TimerEvent: {}
+[29.381352] (-) TimerEvent: {}
+[29.481907] (-) TimerEvent: {}
+[29.582609] (-) TimerEvent: {}
+[29.683247] (-) TimerEvent: {}
+[29.783873] (-) TimerEvent: {}
+[29.884505] (-) TimerEvent: {}
+[29.985135] (-) TimerEvent: {}
+[30.085767] (-) TimerEvent: {}
+[30.186381] (-) TimerEvent: {}
+[30.286991] (-) TimerEvent: {}
+[30.387629] (-) TimerEvent: {}
+[30.488249] (-) TimerEvent: {}
+[30.588887] (-) TimerEvent: {}
+[30.689543] (-) TimerEvent: {}
+[30.790119] (-) TimerEvent: {}
+[30.890753] (-) TimerEvent: {}
+[30.991365] (-) TimerEvent: {}
+[31.091992] (-) TimerEvent: {}
+[31.192623] (-) TimerEvent: {}
+[31.293269] (-) TimerEvent: {}
+[31.393893] (-) TimerEvent: {}
+[31.494504] (-) TimerEvent: {}
+[31.595122] (-) TimerEvent: {}
+[31.695748] (-) TimerEvent: {}
+[31.796342] (-) TimerEvent: {}
+[31.896935] (-) TimerEvent: {}
+[31.997566] (-) TimerEvent: {}
+[32.098163] (-) TimerEvent: {}
+[32.198778] (-) TimerEvent: {}
+[32.299376] (-) TimerEvent: {}
+[32.399993] (-) TimerEvent: {}
+[32.500612] (-) TimerEvent: {}
+[32.601276] (-) TimerEvent: {}
+[32.701897] (-) TimerEvent: {}
+[32.802535] (-) TimerEvent: {}
+[32.903164] (-) TimerEvent: {}
+[33.003757] (-) TimerEvent: {}
+[33.104389] (-) TimerEvent: {}
+[33.205024] (-) TimerEvent: {}
+[33.305678] (-) TimerEvent: {}
+[33.406288] (-) TimerEvent: {}
+[33.506916] (-) TimerEvent: {}
+[33.607539] (-) TimerEvent: {}
+[33.708245] (-) TimerEvent: {}
+[33.808865] (-) TimerEvent: {}
+[33.909512] (-) TimerEvent: {}
+[34.010106] (-) TimerEvent: {}
+[34.110730] (-) TimerEvent: {}
+[34.211365] (-) TimerEvent: {}
+[34.311969] (-) TimerEvent: {}
+[34.412613] (-) TimerEvent: {}
+[34.513305] (-) TimerEvent: {}
+[34.613945] (-) TimerEvent: {}
+[34.714544] (-) TimerEvent: {}
+[34.815203] (-) TimerEvent: {}
+[34.915840] (-) TimerEvent: {}
+[35.016455] (-) TimerEvent: {}
+[35.117088] (-) TimerEvent: {}
+[35.217722] (-) TimerEvent: {}
+[35.318344] (-) TimerEvent: {}
+[35.418976] (-) TimerEvent: {}
+[35.519604] (-) TimerEvent: {}
+[35.620220] (-) TimerEvent: {}
+[35.720846] (-) TimerEvent: {}
+[35.821469] (-) TimerEvent: {}
+[35.922091] (-) TimerEvent: {}
+[36.022697] (-) TimerEvent: {}
+[36.123402] (-) TimerEvent: {}
+[36.224020] (-) TimerEvent: {}
+[36.324609] (-) TimerEvent: {}
+[36.425267] (-) TimerEvent: {}
+[36.525863] (-) TimerEvent: {}
+[36.626463] (-) TimerEvent: {}
+[36.727087] (-) TimerEvent: {}
+[36.827727] (-) TimerEvent: {}
+[36.928329] (-) TimerEvent: {}
+[37.028946] (-) TimerEvent: {}
+[37.129587] (-) TimerEvent: {}
+[37.256974] (-) TimerEvent: {}
+[37.357604] (-) TimerEvent: {}
+[37.458258] (-) TimerEvent: {}
+[37.558898] (-) TimerEvent: {}
+[37.659529] (-) TimerEvent: {}
+[37.760159] (-) TimerEvent: {}
+[37.860773] (-) TimerEvent: {}
+[37.961420] (-) TimerEvent: {}
+[38.062936] (-) TimerEvent: {}
+[38.163604] (-) TimerEvent: {}
+[38.264253] (-) TimerEvent: {}
+[38.364921] (-) TimerEvent: {}
+[38.465591] (-) TimerEvent: {}
+[38.566276] (-) TimerEvent: {}
+[38.666936] (-) TimerEvent: {}
+[38.767597] (-) TimerEvent: {}
+[38.868346] (-) TimerEvent: {}
+[38.969067] (-) TimerEvent: {}
+[39.069727] (-) TimerEvent: {}
+[39.170341] (-) TimerEvent: {}
+[39.270958] (-) TimerEvent: {}
+[39.371578] (-) TimerEvent: {}
+[39.472210] (-) TimerEvent: {}
+[39.572834] (-) TimerEvent: {}
+[39.673458] (-) TimerEvent: {}
+[39.774082] (-) TimerEvent: {}
+[39.874684] (-) TimerEvent: {}
+[39.975298] (-) TimerEvent: {}
+[40.075922] (-) TimerEvent: {}
+[40.176512] (-) TimerEvent: {}
+[40.277138] (-) TimerEvent: {}
+[40.377767] (-) TimerEvent: {}
+[40.478369] (-) TimerEvent: {}
+[40.578996] (-) TimerEvent: {}
+[40.679649] (-) TimerEvent: {}
+[40.780240] (-) TimerEvent: {}
+[40.880856] (-) TimerEvent: {}
+[40.981501] (-) TimerEvent: {}
+[41.082080] (-) TimerEvent: {}
+[41.182714] (-) TimerEvent: {}
+[41.283333] (-) TimerEvent: {}
+[41.383961] (-) TimerEvent: {}
+[41.484613] (-) TimerEvent: {}
+[41.585329] (-) TimerEvent: {}
+[41.685926] (-) TimerEvent: {}
+[41.786555] (-) TimerEvent: {}
+[41.887165] (-) TimerEvent: {}
+[41.987821] (-) TimerEvent: {}
+[42.088459] (-) TimerEvent: {}
+[42.189074] (-) TimerEvent: {}
+[42.289908] (-) TimerEvent: {}
+[42.390503] (-) TimerEvent: {}
+[42.491150] (-) TimerEvent: {}
+[42.591773] (-) TimerEvent: {}
+[42.692371] (-) TimerEvent: {}
+[42.792975] (-) TimerEvent: {}
+[42.893606] (-) TimerEvent: {}
+[42.994290] (-) TimerEvent: {}
+[43.095099] (-) TimerEvent: {}
+[43.195765] (-) TimerEvent: {}
+[43.296352] (-) TimerEvent: {}
+[43.396971] (-) TimerEvent: {}
+[43.497631] (-) TimerEvent: {}
+[43.598250] (-) TimerEvent: {}
+[43.698847] (-) TimerEvent: {}
+[43.799480] (-) TimerEvent: {}
+[43.900139] (-) TimerEvent: {}
+[44.000853] (-) TimerEvent: {}
+[44.101528] (-) TimerEvent: {}
+[44.202167] (-) TimerEvent: {}
+[44.302763] (-) TimerEvent: {}
+[44.403362] (-) TimerEvent: {}
+[44.504113] (-) TimerEvent: {}
+[44.604747] (-) TimerEvent: {}
+[44.705365] (-) TimerEvent: {}
+[44.805985] (-) TimerEvent: {}
+[44.906599] (-) TimerEvent: {}
+[45.007371] (-) TimerEvent: {}
+[45.107998] (-) TimerEvent: {}
+[45.208597] (-) TimerEvent: {}
+[45.309261] (-) TimerEvent: {}
+[45.409865] (-) TimerEvent: {}
+[45.510475] (-) TimerEvent: {}
+[45.611097] (-) TimerEvent: {}
+[45.711723] (-) TimerEvent: {}
+[45.812351] (-) TimerEvent: {}
+[45.912983] (-) TimerEvent: {}
+[46.013634] (-) TimerEvent: {}
+[46.114231] (-) TimerEvent: {}
+[46.214840] (-) TimerEvent: {}
+[46.315446] (-) TimerEvent: {}
+[46.416054] (-) TimerEvent: {}
+[46.516691] (-) TimerEvent: {}
+[46.617500] (-) TimerEvent: {}
+[46.718542] (-) TimerEvent: {}
+[46.819509] (-) TimerEvent: {}
+[46.920211] (-) TimerEvent: {}
+[47.020837] (-) TimerEvent: {}
+[47.121564] (-) TimerEvent: {}
+[47.222342] (-) TimerEvent: {}
+[47.323065] (-) TimerEvent: {}
+[47.423730] (-) TimerEvent: {}
+[47.524251] (-) TimerEvent: {}
+[47.624743] (-) TimerEvent: {}
+[47.725254] (-) TimerEvent: {}
+[47.825751] (-) TimerEvent: {}
+[47.926295] (-) TimerEvent: {}
+[48.026899] (-) TimerEvent: {}
+[48.127414] (-) TimerEvent: {}
+[48.227918] (-) TimerEvent: {}
+[48.328490] (-) TimerEvent: {}
+[48.413811] (relbot_adapter) StdoutLine: {'line': b'[100%] Linking CXX executable relbot_adapter\n'}
+[48.428710] (-) TimerEvent: {}
+[48.529693] (-) TimerEvent: {}
+[48.630349] (-) TimerEvent: {}
+[48.731098] (-) TimerEvent: {}
+[48.832000] (-) TimerEvent: {}
+[48.932814] (-) TimerEvent: {}
+[49.033814] (-) TimerEvent: {}
+[49.134913] (-) TimerEvent: {}
+[49.235864] (-) TimerEvent: {}
+[49.336590] (-) TimerEvent: {}
+[49.437367] (-) TimerEvent: {}
+[49.538063] (-) TimerEvent: {}
+[49.638865] (-) TimerEvent: {}
+[49.739769] (-) TimerEvent: {}
+[49.840804] (-) TimerEvent: {}
+[49.941771] (-) TimerEvent: {}
+[50.042451] (-) TimerEvent: {}
+[50.143055] (-) TimerEvent: {}
+[50.243788] (-) TimerEvent: {}
+[50.344673] (-) TimerEvent: {}
+[50.445437] (-) TimerEvent: {}
+[50.545995] (-) TimerEvent: {}
+[50.646539] (-) TimerEvent: {}
+[50.747321] (-) TimerEvent: {}
+[50.848430] (-) TimerEvent: {}
+[50.949420] (-) TimerEvent: {}
+[51.049921] (-) TimerEvent: {}
+[51.150426] (-) TimerEvent: {}
+[51.250918] (-) TimerEvent: {}
+[51.351471] (-) TimerEvent: {}
+[51.452086] (-) TimerEvent: {}
+[51.552593] (-) TimerEvent: {}
+[51.653112] (-) TimerEvent: {}
+[51.706711] (relbot_adapter) StdoutLine: {'line': b'[100%] Built target relbot_adapter\n'}
+[51.737944] (relbot_adapter) CommandEnded: {'returncode': 0}
+[51.741777] (relbot_adapter) JobProgress: {'identifier': 'relbot_adapter', 'progress': 'install'}
+[51.753329] (-) TimerEvent: {}
+[51.773692] (relbot_adapter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter'], 'cwd': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sdfr-ppd-01'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'sdfr-ppd-01'), ('SSH_CLIENT', '10.0.100.29 43408 22'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-01'), ('OLDPWD', '/home/sdfr-ppd-01/.vscode-server'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1101/vscode-ipc-4d94ff27-c4c8-46af-ba8d-3d0c7b3c89c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1101/bus'), ('COLORTERM', ''), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-01'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '5e36bceb-d94a-439c-8625-7e2c80a2def6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sdfr-ppd-01/.codex/tmp/arg0/codex-arg04AliPh:/home/sdfr-ppd-01/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin:/home/sdfr-ppd-01/.vscode-server/extensions/openai.chatgpt-26.409.20454-linux-arm64/bin/linux-aarch64'), ('VSCODE_AGENT_FOLDER', '/home/sdfr-ppd-01/.vscode-server'), ('XDG_RUNTIME_DIR', '/run/user/1101'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9123-a0ba-7ee3-aee8-1d6ae9f1fcf3'), ('GIT_PAGER', 'cat'), ('PWD', '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '10.0.100.29 43408 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge:/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter:/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim:/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector:/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros:/opt/ros/humble')]), 'shell': False}
+[51.797997] (relbot_adapter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.800330] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/lib/relbot_adapter/relbot_adapter\n'}
+[51.853493] (-) TimerEvent: {}
+[51.954023] (-) TimerEvent: {}
+[52.028368] (relbot_adapter) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/lib/relbot_adapter/relbot_adapter" to ""\n'}
+[52.030332] (relbot_adapter) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/package_run_dependencies/relbot_adapter\n'}
+[52.031947] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/parent_prefix_path/relbot_adapter\n'}
+[52.033694] (relbot_adapter) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.sh\n'}
+[52.035701] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.dsv\n'}
+[52.036885] (relbot_adapter) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.sh\n'}
+[52.038356] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.dsv\n'}
+[52.043090] (relbot_adapter) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.bash\n'}
+[52.048501] (relbot_adapter) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.sh\n'}
+[52.054895] (-) TimerEvent: {}
+[52.055798] (relbot_adapter) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.zsh\n'}
+[52.060296] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.dsv\n'}
+[52.063668] (relbot_adapter) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.dsv\n'}
+[52.071232] (relbot_adapter) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/packages/relbot_adapter\n'}
+[52.074188] (relbot_adapter) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig.cmake\n'}
+[52.077590] (relbot_adapter) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig-version.cmake\n'}
+[52.083337] (relbot_adapter) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.xml\n'}
+[52.090080] (relbot_adapter) CommandEnded: {'returncode': 0}
+[52.155039] (-) TimerEvent: {}
+[52.191980] (relbot_adapter) JobEnded: {'identifier': 'relbot_adapter', 'rc': 0}
+[52.196102] (-) EventReactorShutdown: {}

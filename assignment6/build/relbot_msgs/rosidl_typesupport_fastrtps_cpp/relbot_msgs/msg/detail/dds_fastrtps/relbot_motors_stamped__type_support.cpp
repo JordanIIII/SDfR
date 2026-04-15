@@ -106,7 +106,7 @@ cdr_deserialize(
     cdr, ros_message.motor_cmd);
 
   return true;
-}  // NOLINT(readability/fn_size)
+}
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_relbot_msgs

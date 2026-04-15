@@ -1,0 +1,61 @@
+[0.056s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/demo': AMENT_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/demo
+[0.313s] -- The C compiler identification is GNU 11.4.0
+[0.573s] -- The CXX compiler identification is GNU 11.4.0
+[0.603s] -- Detecting C compiler ABI info
+[0.960s] -- Detecting C compiler ABI info - done
+[1.012s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.015s] -- Detecting C compile features
+[1.020s] -- Detecting C compile features - done
+[1.035s] -- Detecting CXX compiler ABI info
+[1.438s] -- Detecting CXX compiler ABI info - done
+[1.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.477s] -- Detecting CXX compile features
+[1.479s] -- Detecting CXX compile features - done
+[1.807s] TIME_STEP_SIZE_VALUE = 0.01
+[1.809s] -- Looking for pthread.h
+[2.155s] -- Looking for pthread.h - found
+[2.160s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.551s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.556s] -- Found Threads: TRUE  
+[2.560s] -- Found xrf2_msgs: 0.0.0 (/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake)
+[3.336s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.901s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.918s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.948s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.051s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.095s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[4.295s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.305s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.649s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.728s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.856s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.084s] -- Configuring done
+[5.163s] -- Generating done
+[5.212s] -- Build files have been written to: /home/sdfr-ppd-01/SDfR/assignment6/build/demo
+[5.408s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/demo' returned '0': AMENT_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/demo
+[5.411s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/demo': AMENT_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/demo -- -j3 -l3
+[5.645s] [  4%] Building CXX object CMakeFiles/demo.dir/main.cpp.o
+[5.681s] [  9%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/IcoIo.cpp.o
+[5.688s] [ 13%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/FullStateMachine.cpp.o
+[6.399s] [ 18%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp.o
+[7.917s] [ 22%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp.o
+[9.308s] [ 27%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp.o
+[11.618s] [ 31%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp.o
+[11.686s] [ 36%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp.o
+[12.169s] [ 40%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoFrt20Sim.cpp.o
+[13.008s] [ 45%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommunication.cpp.o
+[13.808s] [ 50%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommandBridge.cpp.o
+[18.526s] [ 54%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoRosDataBridge.cpp.o
+[19.377s] [ 59%] Building CXX object CMakeFiles/demo.dir/home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Xenomai/src/XenoSpiControllerHandler.cpp.o
+[20.426s] [ 63%] Building CXX object CMakeFiles/demo.dir/src/RelBotDemo.cpp.o
+[21.687s] [ 68%] Building CXX object CMakeFiles/demo.dir/controller/LoopController.cpp.o
+[23.712s] [ 72%] Building CXX object CMakeFiles/demo.dir/controller/common/EulerAngles.cpp.o
+[24.061s] [ 77%] Building CXX object CMakeFiles/demo.dir/controller/common/MotionProfiles.cpp.o
+[24.293s] [ 81%] Building CXX object CMakeFiles/demo.dir/controller/common/xxfuncs.cpp.o
+[25.080s] [ 86%] Building CXX object CMakeFiles/demo.dir/controller/common/xxinteg.cpp.o
+[27.464s] [ 90%] Building CXX object CMakeFiles/demo.dir/controller/common/xxmatrix.cpp.o
+[28.500s] [ 95%] Building CXX object CMakeFiles/demo.dir/controller/common/xxinverse.cpp.o
+[29.315s] [100%] Linking CXX executable demo
+[29.821s] [100%] Built target demo
+[30.002s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/demo' returned '0': AMENT_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/demo -- -j3 -l3

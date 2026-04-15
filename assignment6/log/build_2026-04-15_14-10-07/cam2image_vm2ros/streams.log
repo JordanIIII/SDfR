@@ -1,0 +1,88 @@
+[0.055s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/cam2image_vm2ros -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros
+[0.365s] -- The C compiler identification is GNU 11.4.0
+[0.603s] -- The CXX compiler identification is GNU 11.4.0
+[0.630s] -- Detecting C compiler ABI info
+[1.185s] -- Detecting C compiler ABI info - done
+[1.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.220s] -- Detecting C compile features
+[1.222s] -- Detecting C compile features - done
+[1.238s] -- Detecting CXX compiler ABI info
+[1.643s] -- Detecting CXX compiler ABI info - done
+[1.679s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.682s] -- Detecting CXX compile features
+[1.684s] -- Detecting CXX compile features - done
+[1.697s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.583s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.088s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.219s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.234s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.260s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.691s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.890s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.897s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.196s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.276s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.417s] -- Looking for pthread.h
+[4.764s] -- Looking for pthread.h - found
+[4.766s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.134s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.141s] -- Found Threads: TRUE  
+[5.373s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.458s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.577s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[5.615s] -- Found OpenCV: /usr (found version "4.5.4") found components: core highgui imgcodecs imgproc videoio 
+[5.998s] -- Configuring done
+[6.122s] -- Generating done
+[6.163s] -- Build files have been written to: /home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros
+[6.214s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/cam2image_vm2ros -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros
+[6.222s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros -- -j3 -l3
+[6.428s] [ 20%] [32mBuilding CXX object CMakeFiles/cam2image_vm2ros.dir/src/cam2image.cpp.o[0m
+[6.435s] [ 40%] [32mBuilding CXX object CMakeFiles/cam2image.dir/rclcpp_components/node_main_cam2image.cpp.o[0m
+[6.446s] [ 60%] [32mBuilding CXX object CMakeFiles/cam2image_vm2ros.dir/src/remote_capture.cpp.o[0m
+[35.741s] [ 80%] [32m[1mLinking CXX executable cam2image[0m
+[36.604s] [ 80%] Built target cam2image
+[83.305s] [100%] [32m[1mLinking CXX shared library libcam2image_vm2ros.so[0m
+[88.507s] [100%] Built target cam2image_vm2ros
+[88.545s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros -- -j3 -l3
+[88.551s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros
+[88.580s] -- Install configuration: ""
+[88.581s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib/cam2image_vm2ros/cam2image
+[88.594s] -- Set runtime path of "/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib/cam2image_vm2ros/cam2image" to ""
+[88.595s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib/libcam2image_vm2ros.so
+[88.970s] -- Set runtime path of "/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib/libcam2image_vm2ros.so" to ""
+[88.971s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros
+[88.973s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/base64.hpp
+[88.975s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/cam2image.hpp
+[88.977s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/remote_capture.hpp
+[88.978s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/include/cam2image_vm2ros/visibility_control.h
+[88.980s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/config
+[88.983s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/config/cam2image_relbot.yaml
+[88.986s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/config/cam2image.yaml
+[88.990s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/launch
+[88.993s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/launch/vm_camera_test.launch.py
+[88.996s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/library_path.sh
+[89.000s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/library_path.dsv
+[89.003s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/package_run_dependencies/cam2image_vm2ros
+[89.006s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/parent_prefix_path/cam2image_vm2ros
+[89.009s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/ament_prefix_path.sh
+[89.014s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/ament_prefix_path.dsv
+[89.016s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/path.sh
+[89.028s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/path.dsv
+[89.031s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.bash
+[89.034s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.sh
+[89.037s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.zsh
+[89.039s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.dsv
+[89.042s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.dsv
+[89.045s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/packages/cam2image_vm2ros
+[89.048s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/ament_index/resource_index/rclcpp_components/cam2image_vm2ros
+[89.051s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosExport.cmake
+[89.061s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosExport-noconfig.cmake
+[89.067s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/ament_cmake_export_libraries-extras.cmake
+[89.071s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/ament_cmake_export_targets-extras.cmake
+[89.074s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[89.078s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosConfig.cmake
+[89.080s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosConfig-version.cmake
+[89.082s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.xml
+[89.093s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros

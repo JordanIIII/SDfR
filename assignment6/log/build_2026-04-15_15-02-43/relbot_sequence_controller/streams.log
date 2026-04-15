@@ -1,0 +1,26 @@
+[0.075s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller -- -j3 -l3
+[0.323s] [35m[1mConsolidate compiler generated dependencies of target relbot_sequence_controller[0m
+[1.249s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[43.482s] [100%] [32m[1mLinking CXX executable relbot_sequence_controller[0m
+[46.422s] [100%] Built target relbot_sequence_controller
+[46.459s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller -- -j3 -l3
+[46.465s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller
+[46.483s] -- Install configuration: ""
+[46.484s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller
+[46.705s] -- Set runtime path of "/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller" to ""
+[46.706s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller
+[46.708s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller
+[46.709s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.sh
+[46.710s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.dsv
+[46.712s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.sh
+[46.717s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.dsv
+[46.719s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.bash
+[46.722s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.sh
+[46.727s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.zsh
+[46.731s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.dsv
+[46.736s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv
+[46.741s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/ament_index/resource_index/packages/relbot_sequence_controller
+[46.747s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig.cmake
+[46.750s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig-version.cmake
+[46.757s] -- Up-to-date: /home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/package.xml
+[46.761s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller

@@ -1,0 +1,525 @@
+[0.374s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.375s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9525cb80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff95409ae0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff95409ae0>>, mixin_verb=('build',))
+[0.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.999s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sdfr-ppd-01/SDfR/assignment6'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extensions ['ignore', 'ignore_ament_install']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extension 'ignore'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extension 'ignore_ament_install'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extensions ['colcon_pkg']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extension 'colcon_meta'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extensions ['ros']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extension 'ros'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extensions ['cmake', 'python']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extension 'cmake'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/Template-20sim) by extension 'python'
+[1.066s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Template-20sim' with type 'cmake' and name 'template_20sim'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extensions ['ignore', 'ignore_ament_install']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extension 'ignore'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extension 'ignore_ament_install'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extensions ['colcon_pkg']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extension 'colcon_pkg'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extensions ['colcon_meta']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extension 'colcon_meta'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extensions ['ros']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extension 'ros'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extensions ['cmake', 'python']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extension 'cmake'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xenomai) by extension 'python'
+[1.073s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Xenomai' with type 'cmake' and name 'demo'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['ignore', 'ignore_ament_install']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'ignore'
+[1.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'ignore_ament_install'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['colcon_pkg']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'colcon_pkg'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['colcon_meta']
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'colcon_meta'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['ros']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'ros'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['cmake', 'python']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'cmake'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'python'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extensions ['python_setup_py']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_host2vm) by extension 'python_setup_py'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extensions ['ignore', 'ignore_ament_install']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extension 'ignore'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extension 'ignore_ament_install'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extensions ['colcon_pkg']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extension 'colcon_pkg'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extensions ['colcon_meta']
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extension 'colcon_meta'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extensions ['ros']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam2image_vm2ros) by extension 'ros'
+[1.094s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam2image_vm2ros' with type 'ros.ament_cmake' and name 'cam2image_vm2ros'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extensions ['ignore', 'ignore_ament_install']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extension 'ignore'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extension 'ignore_ament_install'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extensions ['colcon_pkg']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extension 'colcon_pkg'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extensions ['colcon_meta']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extension 'colcon_meta'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extensions ['ros']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/green_object_detector) by extension 'ros'
+[1.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/green_object_detector' with type 'ros.ament_cmake' and name 'green_object_detector'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['ignore', 'ignore_ament_install']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ignore'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ignore_ament_install'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['colcon_pkg']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'colcon_pkg'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['colcon_meta']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'colcon_meta'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['ros']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ros'
+[1.107s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_functions_sdfr' with type 'ros.ament_cmake' and name 'image_functions_sdfr'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'ignore'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'ignore_ament_install'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extensions ['colcon_pkg']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'colcon_pkg'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extensions ['colcon_meta']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'colcon_meta'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extensions ['ros']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'ros'
+[1.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot2turtlesim' with type 'ros.ament_cmake' and name 'relbot2turtlesim'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extensions ['ignore', 'ignore_ament_install']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extension 'ignore'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extensions ['colcon_meta']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extension 'colcon_meta'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extensions ['ros']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extension 'ros'
+[1.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot_adapter' with type 'ros.ament_cmake' and name 'relbot_adapter'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extensions ['ignore', 'ignore_ament_install']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'ignore'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'ignore_ament_install'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extensions ['colcon_pkg']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'colcon_pkg'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extensions ['colcon_meta']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'colcon_meta'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extensions ['ros']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'ros'
+[1.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot_launch' with type 'ros.ament_cmake' and name 'relbot_launch'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extension 'ignore'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extension 'ignore_ament_install'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extensions ['colcon_pkg']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extension 'colcon_pkg'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extensions ['colcon_meta']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extension 'colcon_meta'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extensions ['ros']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extension 'ros'
+[1.133s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot_msgs' with type 'ros.ament_cmake' and name 'relbot_msgs'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'ignore'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'ignore_ament_install'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extensions ['colcon_pkg']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'colcon_pkg'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extensions ['colcon_meta']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'colcon_meta'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extensions ['ros']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'ros'
+[1.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot_sequence_controller' with type 'ros.ament_cmake' and name 'relbot_sequence_controller'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extension 'ignore'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extension 'ignore_ament_install'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extensions ['colcon_pkg']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extension 'colcon_pkg'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extensions ['colcon_meta']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extension 'colcon_meta'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extensions ['ros']
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extension 'ros'
+[1.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot_simulator' with type 'ros.ament_cmake' and name 'relbot_simulator'
+[1.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[1.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_args' from command line to 'None'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_target' from command line to 'None'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'cam2image_vm2ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.419s] DEBUG:colcon.colcon_core.verb:Building package 'cam2image_vm2ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/cam2image_vm2ros', 'symlink_install': False, 'test_result_base': None}
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_args' from command line to 'None'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_target' from command line to 'None'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_clean_first' from command line to 'False'
+[1.423s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_force_configure' from command line to 'False'
+[1.423s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'ament_cmake_args' from command line to 'None'
+[1.423s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.423s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.424s] DEBUG:colcon.colcon_core.verb:Building package 'demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/demo', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai', 'symlink_install': False, 'test_result_base': None}
+[1.425s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_args' from command line to 'None'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_target' from command line to 'None'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_clean_first' from command line to 'False'
+[1.427s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'cmake_force_configure' from command line to 'False'
+[1.427s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'ament_cmake_args' from command line to 'None'
+[1.427s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[1.427s] Level 5:colcon.colcon_core.verb:set package 'green_object_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.428s] DEBUG:colcon.colcon_core.verb:Building package 'green_object_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/green_object_detector', 'symlink_install': False, 'test_result_base': None}
+[1.429s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_args' from command line to 'None'
+[1.430s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_target' from command line to 'None'
+[1.430s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.430s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_clean_cache' from command line to 'False'
+[1.431s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_clean_first' from command line to 'False'
+[1.431s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_force_configure' from command line to 'False'
+[1.431s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'ament_cmake_args' from command line to 'None'
+[1.431s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'catkin_cmake_args' from command line to 'None'
+[1.431s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.432s] DEBUG:colcon.colcon_core.verb:Building package 'image_functions_sdfr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/image_functions_sdfr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/image_functions_sdfr', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/image_functions_sdfr', 'symlink_install': False, 'test_result_base': None}
+[1.433s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_args' from command line to 'None'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_target' from command line to 'None'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.434s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.436s] DEBUG:colcon.colcon_core.verb:Building package 'relbot2turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot2turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot2turtlesim', 'symlink_install': False, 'test_result_base': None}
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_args' from command line to 'None'
+[1.438s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_target' from command line to 'None'
+[1.438s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.438s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.438s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.439s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.439s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.439s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.440s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_args' from command line to 'None'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_target' from command line to 'None'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.443s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.443s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.443s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.443s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.444s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.444s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_sequence_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_sequence_controller', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_sequence_controller', 'symlink_install': False, 'test_result_base': None}
+[1.445s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_args' from command line to 'None'
+[1.446s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_target' from command line to 'None'
+[1.446s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.446s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.447s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[1.447s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[1.447s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[1.447s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.448s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.448s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_simulator', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_simulator', 'symlink_install': False, 'test_result_base': None}
+[1.449s] Level 5:colcon.colcon_core.verb:set package 'template_20sim' build argument 'cmake_args' from command line to 'None'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'template_20sim' build argument 'cmake_target' from command line to 'None'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'template_20sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'template_20sim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.451s] Level 5:colcon.colcon_core.verb:set package 'template_20sim' build argument 'cmake_clean_first' from command line to 'False'
+[1.451s] Level 5:colcon.colcon_core.verb:set package 'template_20sim' build argument 'cmake_force_configure' from command line to 'False'
+[1.451s] Level 5:colcon.colcon_core.verb:set package 'template_20sim' build argument 'ament_cmake_args' from command line to 'None'
+[1.451s] Level 5:colcon.colcon_core.verb:set package 'template_20sim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'template_20sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.452s] DEBUG:colcon.colcon_core.verb:Building package 'template_20sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/template_20sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/template_20sim', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/Template-20sim', 'symlink_install': False, 'test_result_base': None}
+[1.453s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_args' from command line to 'None'
+[1.454s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_target' from command line to 'None'
+[1.454s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.454s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_clean_cache' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_clean_first' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_force_configure' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'ament_cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'catkin_cmake_args' from command line to 'None'
+[1.456s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.456s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_adapter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_adapter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_adapter', 'symlink_install': False, 'test_result_base': None}
+[1.458s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_args' from command line to 'None'
+[1.458s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_target' from command line to 'None'
+[1.458s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_clean_first' from command line to 'False'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_force_configure' from command line to 'False'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'ament_cmake_args' from command line to 'None'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.460s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_launch', 'merge_install': False, 'path': '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_launch', 'symlink_install': False, 'test_result_base': None}
+[1.461s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.465s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sdfr-ppd-01/SDfR/assignment6/src/cam2image_vm2ros' with build type 'ament_cmake'
+[1.466s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sdfr-ppd-01/SDfR/assignment6/src/cam2image_vm2ros'
+[1.475s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sdfr-ppd-01/SDfR/assignment6/src/green_object_detector' with build type 'ament_cmake'
+[1.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sdfr-ppd-01/SDfR/assignment6/src/green_object_detector'
+[1.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot2turtlesim' with build type 'ament_cmake'
+[1.499s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot2turtlesim'
+[1.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros -- -j3 -l3
+[1.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector -- -j3 -l3
+[1.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot2turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot2turtlesim -- -j3 -l3
+[2.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot2turtlesim -- -j3 -l3
+[2.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot2turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/relbot2turtlesim
+[2.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot2turtlesim)
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim' for CMake module files
+[2.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/relbot2turtlesim
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim' for CMake config files
+[2.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot2turtlesim', 'cmake_prefix_path')
+[2.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.ps1'
+[2.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.dsv'
+[2.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.sh'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/lib'
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/bin'
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/lib/pkgconfig/relbot2turtlesim.pc'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/lib/python3.10/site-packages'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/bin'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.ps1'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.sh'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.bash'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.zsh'
+[2.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/colcon-core/packages/relbot2turtlesim)
+[2.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot2turtlesim)
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim' for CMake module files
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim' for CMake config files
+[2.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot2turtlesim', 'cmake_prefix_path')
+[2.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.ps1'
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.dsv'
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.sh'
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/lib'
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/bin'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/lib/pkgconfig/relbot2turtlesim.pc'
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/lib/python3.10/site-packages'
+[2.498s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/bin'
+[2.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.ps1'
+[2.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv'
+[2.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.sh'
+[2.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.bash'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.zsh'
+[2.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdfr-ppd-01/SDfR/assignment6/install/relbot2turtlesim/share/colcon-core/packages/relbot2turtlesim)
+[2.513s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_msgs' with build type 'ament_cmake'
+[2.514s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_msgs'
+[2.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector -- -j3 -l3
+[2.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector
+[2.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs -- -j3 -l3
+[2.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(green_object_detector)
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector' for CMake module files
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector' for CMake config files
+[2.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('green_object_detector', 'cmake_prefix_path')
+[2.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.ps1'
+[2.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.dsv'
+[2.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.sh'
+[2.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/green_object_detector
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/lib'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/bin'
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/lib/pkgconfig/green_object_detector.pc'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/lib/python3.10/site-packages'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/bin'
+[2.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.ps1'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.dsv'
+[2.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.sh'
+[2.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.bash'
+[2.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.zsh'
+[2.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/colcon-core/packages/green_object_detector)
+[2.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(green_object_detector)
+[2.649s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector' for CMake module files
+[2.651s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector' for CMake config files
+[2.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('green_object_detector', 'cmake_prefix_path')
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.ps1'
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.dsv'
+[2.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/hook/cmake_prefix_path.sh'
+[2.662s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/lib'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/bin'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/lib/pkgconfig/green_object_detector.pc'
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/lib/python3.10/site-packages'
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/bin'
+[2.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.ps1'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.dsv'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.sh'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.bash'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.zsh'
+[2.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdfr-ppd-01/SDfR/assignment6/install/green_object_detector/share/colcon-core/packages/green_object_detector)
+[2.687s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_sequence_controller' with build type 'ament_cmake'
+[2.689s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_sequence_controller'
+[2.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller -- -j3 -l3
+[3.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros -- -j3 -l3
+[3.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros
+[3.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam2image_vm2ros)
+[3.616s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros' for CMake module files
+[3.619s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros' for CMake config files
+[3.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam2image_vm2ros', 'cmake_prefix_path')
+[3.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.ps1'
+[3.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.dsv'
+[3.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.sh'
+[3.663s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib'
+[3.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam2image_vm2ros', 'ld_library_path_lib')
+[3.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.ps1'
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.dsv'
+[3.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.sh'
+[3.782s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/bin'
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib/pkgconfig/cam2image_vm2ros.pc'
+[3.796s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib/python3.10/site-packages'
+[3.802s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/bin'
+[3.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.ps1'
+[3.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.dsv'
+[3.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.sh'
+[3.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.bash'
+[3.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.zsh'
+[3.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/colcon-core/packages/cam2image_vm2ros)
+[3.888s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam2image_vm2ros)
+[3.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/cam2image_vm2ros
+[3.895s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros' for CMake module files
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros' for CMake config files
+[3.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam2image_vm2ros', 'cmake_prefix_path')
+[3.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.ps1'
+[3.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.dsv'
+[3.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/cmake_prefix_path.sh'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib'
+[3.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam2image_vm2ros', 'ld_library_path_lib')
+[3.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.ps1'
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.dsv'
+[3.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/hook/ld_library_path_lib.sh'
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/bin'
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib/pkgconfig/cam2image_vm2ros.pc'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/lib/python3.10/site-packages'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/bin'
+[4.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.ps1'
+[4.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.dsv'
+[4.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.sh'
+[4.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.bash'
+[4.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/cam2image_vm2ros/package.zsh'
+[4.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros/share/colcon-core/packages/cam2image_vm2ros)
+[4.094s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_simulator' with build type 'ament_cmake'
+[4.098s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sdfr-ppd-01/SDfR/assignment6/src/relbot_simulator'
+[4.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_simulator -- -j3 -l3
+[7.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs -- -j3 -l3
+[7.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs
+[7.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_msgs)
+[7.973s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs' for CMake module files
+[7.978s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs' for CMake config files
+[7.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'cmake_prefix_path')
+[8.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.ps1'
+[8.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.dsv'
+[8.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.sh'
+[8.045s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib'
+[8.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'ld_library_path_lib')
+[8.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.ps1'
+[8.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.dsv'
+[8.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs
+[8.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.sh'
+[8.083s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/bin'
+[8.086s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib/pkgconfig/relbot_msgs.pc'
+[8.088s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib/python3.10/site-packages'
+[8.090s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/bin'
+[8.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.ps1'
+[8.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.dsv'
+[8.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.sh'
+[8.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.bash'
+[8.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.zsh'
+[8.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/colcon-core/packages/relbot_msgs)
+[8.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_msgs)
+[8.148s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs' for CMake module files
+[8.157s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs' for CMake config files
+[8.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'cmake_prefix_path')
+[8.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.ps1'
+[8.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.dsv'
+[8.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.sh'
+[8.198s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib'
+[8.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'ld_library_path_lib')
+[8.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.ps1'
+[8.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.dsv'
+[8.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.sh'
+[8.227s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/bin'
+[8.228s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib/pkgconfig/relbot_msgs.pc'
+[8.230s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/lib/python3.10/site-packages'
+[8.232s] Level 1:colcon.colcon_core.environment:checking '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/bin'
+[8.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.ps1'
+[8.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.dsv'
+[8.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.sh'
+[8.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.bash'
+[8.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.zsh'
+[8.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_msgs/share/colcon-core/packages/relbot_msgs)
+[8.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai'
+[8.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.303s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/demo': /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/demo
+[8.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/demo' returned '1': /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/demo
+[76.489s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[76.491s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[76.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[76.493s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[76.535s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[76.536s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[76.537s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[76.538s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[76.544s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[76.546s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[76.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdfr-ppd-01/SDfR/assignment6/install/local_setup.ps1'
+[76.560s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sdfr-ppd-01/SDfR/assignment6/install/_local_setup_util_ps1.py'
+[76.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdfr-ppd-01/SDfR/assignment6/install/setup.ps1'
+[76.587s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdfr-ppd-01/SDfR/assignment6/install/local_setup.sh'
+[76.594s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sdfr-ppd-01/SDfR/assignment6/install/_local_setup_util_sh.py'
+[76.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdfr-ppd-01/SDfR/assignment6/install/setup.sh'
+[76.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdfr-ppd-01/SDfR/assignment6/install/local_setup.bash'
+[76.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdfr-ppd-01/SDfR/assignment6/install/setup.bash'
+[76.620s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdfr-ppd-01/SDfR/assignment6/install/local_setup.zsh'
+[76.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdfr-ppd-01/SDfR/assignment6/install/setup.zsh'

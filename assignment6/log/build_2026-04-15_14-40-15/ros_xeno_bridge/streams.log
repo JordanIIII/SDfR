@@ -1,0 +1,61 @@
+[0.060s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge': AMENT_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Ros/ros_xeno_bridge -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge
+[0.312s] -- The C compiler identification is GNU 11.4.0
+[0.602s] -- The CXX compiler identification is GNU 11.4.0
+[0.627s] -- Detecting C compiler ABI info
+[1.005s] -- Detecting C compiler ABI info - done
+[1.029s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.034s] -- Detecting C compile features
+[1.040s] -- Detecting C compile features - done
+[1.056s] -- Detecting CXX compiler ABI info
+[1.431s] -- Detecting CXX compiler ABI info - done
+[1.479s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.483s] -- Detecting CXX compile features
+[1.488s] -- Detecting CXX compile features - done
+[1.504s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.326s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.862s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.041s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.055s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.082s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.465s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.466s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.828s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.906s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.041s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.075s] -- Looking for pthread.h
+[4.423s] -- Looking for pthread.h - found
+[4.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.749s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.755s] -- Found Threads: TRUE  
+[4.948s] -- Found xrf2_msgs: 0.0.0 (/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake)
+[5.379s] -- Configuring done
+[5.440s] -- Generating done
+[5.485s] -- Build files have been written to: /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge
+[5.539s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge' returned '0': AMENT_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Ros/ros_xeno_bridge -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge
+[5.542s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge': AMENT_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge -- -j3 -l3
+[5.797s] [ 50%] Building CXX object CMakeFiles/RosXenoBridge.dir/src/RosXenoBridge.cpp.o
+[67.142s] [100%] Linking CXX executable RosXenoBridge
+[70.374s] [100%] Built target RosXenoBridge
+[70.403s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge' returned '0': AMENT_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge -- -j3 -l3
+[70.408s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge': AMENT_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge
+[70.427s] -- Install configuration: ""
+[70.429s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/lib/ros_xeno_bridge/RosXenoBridge
+[70.668s] -- Set runtime path of "/home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/lib/ros_xeno_bridge/RosXenoBridge" to ""
+[70.669s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ament_index/resource_index/package_run_dependencies/ros_xeno_bridge
+[70.671s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ament_index/resource_index/parent_prefix_path/ros_xeno_bridge
+[70.672s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/ament_prefix_path.sh
+[70.674s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/ament_prefix_path.dsv
+[70.675s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/path.sh
+[70.676s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/path.dsv
+[70.677s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.bash
+[70.679s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.sh
+[70.680s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.zsh
+[70.682s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.dsv
+[70.683s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/package.dsv
+[70.684s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ament_index/resource_index/packages/ros_xeno_bridge
+[70.686s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/cmake/ros_xeno_bridgeConfig.cmake
+[70.688s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/cmake/ros_xeno_bridgeConfig-version.cmake
+[70.690s] -- Installing: /home/sdfr-ppd-01/SDfR/assignment6/install/ros_xeno_bridge/share/ros_xeno_bridge/package.xml
+[70.694s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge' returned '0': AMENT_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sdfr-ppd-01/SDfR/assignment6/build/ros_xeno_bridge

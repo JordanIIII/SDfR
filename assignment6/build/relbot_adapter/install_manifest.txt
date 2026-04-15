@@ -1,0 +1,16 @@
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/lib/relbot_adapter/relbot_adapter
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/package_run_dependencies/relbot_adapter
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/parent_prefix_path/relbot_adapter
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.sh
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.dsv
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.sh
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.dsv
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.bash
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.sh
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.zsh
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.dsv
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.dsv
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/packages/relbot_adapter
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig.cmake
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig-version.cmake
+/home/sdfr-ppd-01/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.xml

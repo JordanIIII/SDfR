@@ -73,7 +73,7 @@ void SteerRelbot::calculate_velocity() {
     double w = error_x/tau_w;
     //double v = error_y/tau_v;
     
-    left_velocity =  -v -w;
+    left_velocity =  v +w;
     right_velocity = v -w;
 
 }

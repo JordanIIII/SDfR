@@ -1,8 +1,8 @@
-# Install script for directory: /home/jordan/SDfR/assignment6/src/Xenomai
+# Install script for directory: /home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jordan/SDfR/assignment6/install/demo")
+  set(CMAKE_INSTALL_PREFIX "/home/sdfr-ppd-01/SDfR/assignment6/install/demo")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jordan/SDfR/assignment6/build/demo/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sdfr-ppd-01/SDfR/assignment6/build/demo/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

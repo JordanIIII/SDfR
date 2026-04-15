@@ -1,0 +1,40 @@
+[0.038s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/demo': /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/demo
+[0.288s] -- The C compiler identification is GNU 11.4.0
+[0.537s] -- The CXX compiler identification is GNU 11.4.0
+[0.566s] -- Detecting C compiler ABI info
+[0.876s] -- Detecting C compiler ABI info - done
+[0.907s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.910s] -- Detecting C compile features
+[0.913s] -- Detecting C compile features - done
+[0.933s] -- Detecting CXX compiler ABI info
+[1.288s] -- Detecting CXX compiler ABI info - done
+[1.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.325s] -- Detecting CXX compile features
+[1.330s] -- Detecting CXX compile features - done
+[1.421s] python3: can't open file '/home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai/../../XRF2/XenoRosFramework/Common/python_script/extracte_token_time_step.py': [Errno 2] No such file or directory
+[1.445s] [0mTIME_STEP_SIZE_VALUE = [0m
+[1.452s] -- Looking for pthread.h
+[1.792s] -- Looking for pthread.h - found
+[1.796s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.134s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.137s] -- Found Threads: TRUE  
+[2.160s] [31mCMake Error at CMakeLists.txt:27 (find_package):
+[2.162s]   By not providing "Findxrf2_msgs.cmake" in CMAKE_MODULE_PATH this project
+[2.164s]   has asked CMake to find a package configuration file provided by
+[2.165s]   "xrf2_msgs", but CMake did not find one.
+[2.166s] 
+[2.168s]   Could not find a package configuration file provided by "xrf2_msgs" with
+[2.169s]   any of the following names:
+[2.171s] 
+[2.172s]     xrf2_msgsConfig.cmake
+[2.182s]     xrf2_msgs-config.cmake
+[2.185s] 
+[2.186s]   Add the installation prefix of "xrf2_msgs" to CMAKE_PREFIX_PATH or set
+[2.188s]   "xrf2_msgs_DIR" to a directory containing one of the above files.  If
+[2.189s]   "xrf2_msgs" provides a separate development package or SDK, be sure it has
+[2.191s]   been installed.
+[2.192s] 
+[2.193s] [0m
+[2.195s] -- Configuring incomplete, errors occurred!
+[2.199s] See also "/home/sdfr-ppd-01/SDfR/assignment6/build/demo/CMakeFiles/CMakeOutput.log".
+[2.200s] Invoked command in '/home/sdfr-ppd-01/SDfR/assignment6/build/demo' returned '1': /usr/bin/cmake /home/sdfr-ppd-01/SDfR/assignment6/src/Xenomai -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-01/SDfR/assignment6/install/demo

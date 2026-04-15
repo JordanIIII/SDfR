@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs
+CMAKE_SOURCE_DIR = /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Common/XRF2_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jordan/SDfR/assignment6/build/xrf2_msgs
+CMAKE_BINARY_DIR = /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs
 
 # Utility rule file for xrf2_msgs__cpp.
 
@@ -95,8 +95,8 @@ rosidl_generator_cpp/xrf2_msgs/msg/ros2_xeno.hpp: /opt/ros/humble/share/rosidl_g
 rosidl_generator_cpp/xrf2_msgs/msg/ros2_xeno.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/xrf2_msgs/msg/ros2_xeno.hpp: rosidl_adapter/xrf2_msgs/msg/Ros2Xeno.idl
 rosidl_generator_cpp/xrf2_msgs/msg/ros2_xeno.hpp: rosidl_adapter/xrf2_msgs/msg/Xeno2Ros.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jordan/SDfR/assignment6/build/xrf2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/jordan/SDfR/assignment6/build/xrf2_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/xrf2_msgs/msg/detail/ros2_xeno__builder.hpp: rosidl_generator_cpp/xrf2_msgs/msg/ros2_xeno.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/xrf2_msgs/msg/detail/ros2_xeno__builder.hpp
@@ -148,6 +148,6 @@ CMakeFiles/xrf2_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/xrf2_msgs__cpp.dir/clean
 
 CMakeFiles/xrf2_msgs__cpp.dir/depend:
-	cd /home/jordan/SDfR/assignment6/build/xrf2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs /home/jordan/SDfR/assignment6/build/xrf2_msgs /home/jordan/SDfR/assignment6/build/xrf2_msgs /home/jordan/SDfR/assignment6/build/xrf2_msgs/CMakeFiles/xrf2_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Common/XRF2_msgs /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Common/XRF2_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/CMakeFiles/xrf2_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xrf2_msgs__cpp.dir/depend
 

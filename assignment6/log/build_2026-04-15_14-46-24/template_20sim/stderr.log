@@ -1,0 +1,16 @@
+python3: can't open file '/home/sdfr-ppd-01/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Common/python_script/extracte_token_time_step.py': [Errno 2] No such file or directory
+[0mTIME_STEP_SIZE_VALUE = [0m
+[31mCMake Error at CMakeLists.txt:45 (add_executable):
+  Cannot find source file:
+
+    ../XRF2/XenoRosFramework/Xenomai/src/FullStateMachine.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:45 (add_executable):
+  No SOURCES given to target: template_20sim
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
