@@ -1,1 +1,0 @@
-Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment6/src/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/relbot_sequence_controller

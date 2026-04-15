@@ -8,14 +8,39 @@ def generate_launch_description():
     params_file = os.path.join(
         get_package_share_directory("cam2image_vm2ros"),
         "config",
-        "cam2image.yaml",
+        "cam2image_relbot.yaml",
     )
 
-    relbot_simulator = Node(
-        package="relbot_simulator",
-        executable="relbot_simulator",
-        name="relbot_sim",
-        parameters=[{"use_twist_cmd": False}],
+    cam2image_node = Node(
+        package="cam2image_vm2ros",
+        executable="cam2image",
+        name="cam2image",
+        parameters=[
+            params_file,
+            {"show_camera": False},
+        ],
+        output="screen",
+    )
+
+    ros_xeno_bridge = Node(
+        package="ros_xeno_bridge",
+        executable="RosXenoBridge",
+        name="ros_xeno_bridge",
+        output="screen",
+    )
+
+    relbot_adapter = Node(
+        package="relbot_adapter",
+        executable="relbot_adapter",
+        name="relbot_adapter",
+        parameters=[
+            {
+                "robotmode": "real",
+                "use_twist_cmd": False,
+                "max_speed_mps": 0.05,
+            },
+        ],
+        output="screen",
     )
 
     detector = Node(
@@ -29,10 +54,13 @@ def generate_launch_description():
         package="relbot_sequence_controller",
         executable="relbot_sequence_controller",
         name="relbot_sequence_controller",
+        output="screen",
     )
 
     return LaunchDescription([
-        relbot_simulator,
+        cam2image_node,
+        ros_xeno_bridge,
+        relbot_adapter,
         detector,
         controller,
     ])

@@ -1,2 +1,0 @@
-Invoking command in '/home/jordan/SDfR/assignment6/build/demo': /usr/bin/cmake /home/jordan/SDfR/assignment6/src/Xenomai -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/demo
-Invoked command in '/home/jordan/SDfR/assignment6/build/demo' returned '1': /usr/bin/cmake /home/jordan/SDfR/assignment6/src/Xenomai -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/demo

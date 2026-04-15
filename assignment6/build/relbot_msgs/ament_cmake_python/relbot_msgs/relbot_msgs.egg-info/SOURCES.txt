@@ -1,6 +1,0 @@
-setup.py
-relbot_msgs/__init__.py
-relbot_msgs.egg-info/PKG-INFO
-relbot_msgs.egg-info/SOURCES.txt
-relbot_msgs.egg-info/dependency_links.txt
-relbot_msgs.egg-info/top_level.txt
