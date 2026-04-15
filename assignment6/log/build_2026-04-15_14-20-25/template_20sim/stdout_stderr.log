@@ -1,0 +1,125 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+TIME_STEP_SIZE_VALUE = 0.01
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found xrf2_msgs: 0.0.0 (/home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jordan/SDfR/assignment6/build/template_20sim
+[  4%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/IcoIo.cpp.o
+[  9%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp.o
+[ 13%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp.o
+[ 18%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/FullStateMachine.cpp.o
+[ 22%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommunication.cpp.o
+[ 27%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoSpiControllerHandler.cpp.o
+[ 31%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp.o
+[ 36%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp.o
+[ 40%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp.o
+[ 45%] Building CXX object CMakeFiles/template_20sim.dir/main.cpp.o
+[ 50%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrt20Sim.cpp.o
+[ 54%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosDataBridge.cpp.o
+[ 59%] Building CXX object CMakeFiles/template_20sim.dir/controller/LoopController.cpp.o
+[ 63%] Building CXX object CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommandBridge.cpp.o
+[ 68%] Building CXX object CMakeFiles/template_20sim.dir/src/Template20Sim.cpp.o
+[ 72%] Building CXX object CMakeFiles/template_20sim.dir/controller/common/EulerAngles.cpp.o
+In file included from /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommunication.cpp:1:
+/home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoRosCommunication.hpp:4:10: fatal error: evl/evl.h: No such file or directory
+    4 | #include <evl/evl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:188: CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommunication.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp:6:
+/home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtMonitor.hpp:12:10: fatal error: evl/evl.h: No such file or directory
+   12 | #include "evl/evl.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:160: CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp.o] Error 1
+In file included from /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp:1:
+/home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtLoop.hpp:6:10: fatal error: evl/evl.h: No such file or directory
+    6 | #include <evl/evl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:146: CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp.o] Error 1
+In file included from /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommandBridge.cpp:1:
+/home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoRosCommandBridge.hpp:17:10: fatal error: evl/evl.h: No such file or directory
+   17 | #include <evl/evl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:202: CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommandBridge.cpp.o] Error 1
+In file included from /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoSpiControllerHandler.cpp:1:
+/home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoSpiControllerHandler.hpp:21:10: fatal error: evl/evl.h: No such file or directory
+   21 | #include <evl/evl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:230: CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoSpiControllerHandler.cpp.o] Error 1
+In file included from /home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtRosIco.hpp:10,
+                 from /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp:1:
+/home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtLoop.hpp:6:10: fatal error: evl/evl.h: No such file or directory
+    6 | #include <evl/evl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:174: CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp.o] Error 1
+In file included from /home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtRosIco.hpp:10,
+                 from /home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrt20Sim.hpp:4,
+                 from /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrt20Sim.cpp:1:
+/home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtLoop.hpp:6:10: fatal error: evl/evl.h: No such file or directory
+    6 | #include <evl/evl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:244: CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrt20Sim.cpp.o] Error 1
+In file included from /home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtRosIco.hpp:10,
+                 from /home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrt20Sim.hpp:4,
+                 from /home/jordan/SDfR/assignment6/src/Template-20sim/include/Template20Sim.hpp:4,
+                 from /home/jordan/SDfR/assignment6/src/Template-20sim/src/Template20Sim.cpp:1:
+/home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtLoop.hpp:6:10: fatal error: evl/evl.h: No such file or directory
+    6 | #include <evl/evl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:258: CMakeFiles/template_20sim.dir/src/Template20Sim.cpp.o] Error 1
+/home/jordan/SDfR/assignment6/src/Template-20sim/main.cpp:7:10: fatal error: Template20sim.hpp: No such file or directory
+    7 | #include "Template20sim.hpp"
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:76: CMakeFiles/template_20sim.dir/main.cpp.o] Error 1
+In file included from /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp:1:
+/home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFileHandler.hpp:16:10: fatal error: evl/evl.h: No such file or directory
+   16 | #include <evl/evl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:118: CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp.o] Error 1
+In file included from /home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtLogger.hpp:4,
+                 from /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp:1:
+/home/jordan/SDfR/assignment6/src/Template-20sim/../XRF2/XenoRosFramework/Xenomai/include/XenoFileHandler.hpp:16:10: fatal error: evl/evl.h: No such file or directory
+   16 | #include <evl/evl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/template_20sim.dir/build.make:132: CMakeFiles/template_20sim.dir/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/template_20sim.dir/all] Error 2
+gmake: *** [Makefile:101: all] Error 2

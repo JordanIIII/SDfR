@@ -1,0 +1,8 @@
+[0.330s] Invoking command in '/home/jordan/SDfR/assignment6/build/ros_xeno_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/ros_xeno_bridge -- -j16 -l16
+[0.473s] [35m[1mConsolidate compiler generated dependencies of target RosXenoBridge[0m
+[0.534s] [ 50%] [32m[1mLinking CXX executable RosXenoBridge[0m
+[1.442s] /usr/bin/ld: cannot find -levl: No such file or directory
+[1.706s] collect2: error: ld returned 1 exit status
+[1.710s] gmake[2]: *** [CMakeFiles/RosXenoBridge.dir/build.make:167: RosXenoBridge] Error 1
+[1.711s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/RosXenoBridge.dir/all] Error 2
+[1.711s] gmake: *** [Makefile:146: all] Error 2

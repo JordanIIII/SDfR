@@ -1,0 +1,1173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000260] (-) JobUnselected: {'identifier': 'cam2image_vm2ros'}
+[0.000368] (-) JobUnselected: {'identifier': 'demo'}
+[0.001318] (-) JobUnselected: {'identifier': 'green_object_detector'}
+[0.001443] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.002108] (-) JobUnselected: {'identifier': 'relbot2turtlesim'}
+[0.002392] (-) JobUnselected: {'identifier': 'relbot_adapter'}
+[0.002858] (-) JobUnselected: {'identifier': 'relbot_launch'}
+[0.003014] (-) JobUnselected: {'identifier': 'relbot_msgs'}
+[0.003083] (-) JobUnselected: {'identifier': 'relbot_sequence_controller'}
+[0.003146] (-) JobUnselected: {'identifier': 'relbot_simulator'}
+[0.003313] (-) JobUnselected: {'identifier': 'ros_xeno_bridge'}
+[0.004043] (-) JobUnselected: {'identifier': 'template_20sim'}
+[0.004178] (xrf2_msgs) JobQueued: {'identifier': 'xrf2_msgs', 'dependencies': OrderedDict()}
+[0.004233] (xrf2_msgs) JobStarted: {'identifier': 'xrf2_msgs'}
+[0.031332] (xrf2_msgs) JobProgress: {'identifier': 'xrf2_msgs', 'progress': 'cmake'}
+[0.039214] (xrf2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs', '-DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/xrf2_msgs'], 'cwd': '/home/jordan/SDfR/assignment6/build/xrf2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/c/Program Files/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jordan'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/jordan/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/Jordan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jordan'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d3efba36-5092-433b-a371-3314d2095e48.sock'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/422_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.codex/tmp/arg0/codex-arg0qVyHqV:/home/jordan/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin:/home/jordan/.vscode-server/extensions/openai.chatgpt-26.406.31014-linux-x64/bin/linux-x86_64'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9113-c50e-7651-9900-d52dde90836e'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jordan/SDfR/assignment6/build/xrf2_msgs'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099256] (-) TimerEvent: {}
+[0.199732] (-) TimerEvent: {}
+[0.300160] (-) TimerEvent: {}
+[0.400607] (-) TimerEvent: {}
+[0.501085] (-) TimerEvent: {}
+[0.601537] (-) TimerEvent: {}
+[0.701936] (-) TimerEvent: {}
+[0.802345] (-) TimerEvent: {}
+[0.902780] (-) TimerEvent: {}
+[0.948677] (xrf2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.003020] (-) TimerEvent: {}
+[1.103508] (-) TimerEvent: {}
+[1.204025] (-) TimerEvent: {}
+[1.304523] (-) TimerEvent: {}
+[1.405006] (-) TimerEvent: {}
+[1.505394] (-) TimerEvent: {}
+[1.605870] (-) TimerEvent: {}
+[1.706357] (-) TimerEvent: {}
+[1.806817] (-) TimerEvent: {}
+[1.907243] (-) TimerEvent: {}
+[2.007623] (-) TimerEvent: {}
+[2.108083] (-) TimerEvent: {}
+[2.208442] (-) TimerEvent: {}
+[2.308808] (-) TimerEvent: {}
+[2.409296] (-) TimerEvent: {}
+[2.509736] (-) TimerEvent: {}
+[2.610218] (-) TimerEvent: {}
+[2.710594] (-) TimerEvent: {}
+[2.810966] (-) TimerEvent: {}
+[2.911331] (-) TimerEvent: {}
+[3.011698] (-) TimerEvent: {}
+[3.112105] (-) TimerEvent: {}
+[3.212514] (-) TimerEvent: {}
+[3.312939] (-) TimerEvent: {}
+[3.413394] (-) TimerEvent: {}
+[3.513911] (-) TimerEvent: {}
+[3.614328] (-) TimerEvent: {}
+[3.714829] (-) TimerEvent: {}
+[3.815360] (-) TimerEvent: {}
+[3.887014] (xrf2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.915668] (-) TimerEvent: {}
+[4.016170] (-) TimerEvent: {}
+[4.116676] (-) TimerEvent: {}
+[4.217177] (-) TimerEvent: {}
+[4.317657] (-) TimerEvent: {}
+[4.418131] (-) TimerEvent: {}
+[4.518586] (-) TimerEvent: {}
+[4.619098] (-) TimerEvent: {}
+[4.719598] (-) TimerEvent: {}
+[4.820028] (-) TimerEvent: {}
+[4.920599] (-) TimerEvent: {}
+[5.021036] (-) TimerEvent: {}
+[5.121512] (-) TimerEvent: {}
+[5.221938] (-) TimerEvent: {}
+[5.322332] (-) TimerEvent: {}
+[5.422715] (-) TimerEvent: {}
+[5.523124] (-) TimerEvent: {}
+[5.623587] (-) TimerEvent: {}
+[5.723964] (-) TimerEvent: {}
+[5.824347] (-) TimerEvent: {}
+[5.924744] (-) TimerEvent: {}
+[6.025214] (-) TimerEvent: {}
+[6.125764] (-) TimerEvent: {}
+[6.172489] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.226081] (-) TimerEvent: {}
+[6.326620] (-) TimerEvent: {}
+[6.427125] (-) TimerEvent: {}
+[6.527605] (-) TimerEvent: {}
+[6.628112] (-) TimerEvent: {}
+[6.728564] (-) TimerEvent: {}
+[6.829034] (-) TimerEvent: {}
+[6.913570] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.927395] (xrf2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.929230] (-) TimerEvent: {}
+[6.964815] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.966148] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.974920] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.029435] (-) TimerEvent: {}
+[7.129852] (-) TimerEvent: {}
+[7.230250] (-) TimerEvent: {}
+[7.330669] (-) TimerEvent: {}
+[7.431108] (-) TimerEvent: {}
+[7.531621] (-) TimerEvent: {}
+[7.631985] (-) TimerEvent: {}
+[7.687114] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.714992] (xrf2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.715750] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.716773] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.732168] (-) TimerEvent: {}
+[7.773798] (xrf2_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.832383] (-) TimerEvent: {}
+[7.932779] (-) TimerEvent: {}
+[8.033216] (-) TimerEvent: {}
+[8.133628] (-) TimerEvent: {}
+[8.144669] (xrf2_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[8.233822] (-) TimerEvent: {}
+[8.334194] (-) TimerEvent: {}
+[8.401057] (xrf2_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[8.413302] (xrf2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.434180] (xrf2_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.434747] (-) TimerEvent: {}
+[8.535085] (-) TimerEvent: {}
+[8.635482] (-) TimerEvent: {}
+[8.735985] (-) TimerEvent: {}
+[8.836450] (-) TimerEvent: {}
+[8.936837] (-) TimerEvent: {}
+[9.037425] (-) TimerEvent: {}
+[9.137846] (-) TimerEvent: {}
+[9.238259] (-) TimerEvent: {}
+[9.262175] (xrf2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.338522] (-) TimerEvent: {}
+[9.438951] (-) TimerEvent: {}
+[9.539348] (-) TimerEvent: {}
+[9.639728] (-) TimerEvent: {}
+[9.740116] (-) TimerEvent: {}
+[9.840545] (-) TimerEvent: {}
+[9.928303] (xrf2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.940837] (-) TimerEvent: {}
+[10.041239] (-) TimerEvent: {}
+[10.141687] (-) TimerEvent: {}
+[10.242066] (-) TimerEvent: {}
+[10.342426] (-) TimerEvent: {}
+[10.364088] (xrf2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.442725] (-) TimerEvent: {}
+[10.543126] (-) TimerEvent: {}
+[10.643639] (-) TimerEvent: {}
+[10.744056] (-) TimerEvent: {}
+[10.844460] (-) TimerEvent: {}
+[10.944824] (-) TimerEvent: {}
+[10.961652] (xrf2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.045019] (-) TimerEvent: {}
+[11.145378] (-) TimerEvent: {}
+[11.245738] (-) TimerEvent: {}
+[11.346117] (-) TimerEvent: {}
+[11.446536] (-) TimerEvent: {}
+[11.546941] (-) TimerEvent: {}
+[11.647258] (-) TimerEvent: {}
+[11.689723] (xrf2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[11.731947] (xrf2_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.747473] (-) TimerEvent: {}
+[11.847989] (-) TimerEvent: {}
+[11.948450] (-) TimerEvent: {}
+[12.048827] (-) TimerEvent: {}
+[12.149268] (-) TimerEvent: {}
+[12.249682] (-) TimerEvent: {}
+[12.350155] (-) TimerEvent: {}
+[12.450567] (-) TimerEvent: {}
+[12.551118] (-) TimerEvent: {}
+[12.651473] (-) TimerEvent: {}
+[12.753585] (-) TimerEvent: {}
+[12.854020] (-) TimerEvent: {}
+[12.954604] (-) TimerEvent: {}
+[13.055077] (-) TimerEvent: {}
+[13.155606] (-) TimerEvent: {}
+[13.256011] (-) TimerEvent: {}
+[13.356422] (-) TimerEvent: {}
+[13.456867] (-) TimerEvent: {}
+[13.557325] (-) TimerEvent: {}
+[13.657693] (-) TimerEvent: {}
+[13.758093] (-) TimerEvent: {}
+[13.858500] (-) TimerEvent: {}
+[13.958884] (-) TimerEvent: {}
+[14.059284] (-) TimerEvent: {}
+[14.159698] (-) TimerEvent: {}
+[14.191804] (xrf2_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[14.192438] (xrf2_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.192723] (xrf2_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[14.192983] (xrf2_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[14.238288] (xrf2_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[14.259861] (-) TimerEvent: {}
+[14.360243] (-) TimerEvent: {}
+[14.460685] (-) TimerEvent: {}
+[14.553256] (xrf2_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.560819] (-) TimerEvent: {}
+[14.638705] (xrf2_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.644512] (xrf2_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.656260] (xrf2_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.660995] (-) TimerEvent: {}
+[14.761346] (-) TimerEvent: {}
+[14.836667] (xrf2_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[14.861565] (-) TimerEvent: {}
+[14.869545] (xrf2_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/jordan/SDfR/assignment6/build/xrf2_msgs\n'}
+[14.961869] (-) TimerEvent: {}
+[15.062341] (-) TimerEvent: {}
+[15.162783] (-) TimerEvent: {}
+[15.263249] (-) TimerEvent: {}
+[15.363699] (-) TimerEvent: {}
+[15.464199] (-) TimerEvent: {}
+[15.564658] (-) TimerEvent: {}
+[15.665065] (-) TimerEvent: {}
+[15.765542] (-) TimerEvent: {}
+[15.865980] (-) TimerEvent: {}
+[15.966729] (-) TimerEvent: {}
+[16.067212] (-) TimerEvent: {}
+[16.167685] (-) TimerEvent: {}
+[16.268175] (-) TimerEvent: {}
+[16.368631] (-) TimerEvent: {}
+[16.469156] (-) TimerEvent: {}
+[16.569606] (-) TimerEvent: {}
+[16.670053] (-) TimerEvent: {}
+[16.770493] (-) TimerEvent: {}
+[16.870889] (-) TimerEvent: {}
+[16.971362] (-) TimerEvent: {}
+[17.071911] (-) TimerEvent: {}
+[17.172466] (-) TimerEvent: {}
+[17.272865] (-) TimerEvent: {}
+[17.373287] (-) TimerEvent: {}
+[17.473796] (-) TimerEvent: {}
+[17.574198] (-) TimerEvent: {}
+[17.674613] (-) TimerEvent: {}
+[17.775003] (-) TimerEvent: {}
+[17.875697] (-) TimerEvent: {}
+[17.976129] (-) TimerEvent: {}
+[18.076637] (-) TimerEvent: {}
+[18.177111] (-) TimerEvent: {}
+[18.277601] (-) TimerEvent: {}
+[18.378114] (-) TimerEvent: {}
+[18.478519] (-) TimerEvent: {}
+[18.578948] (-) TimerEvent: {}
+[18.679437] (-) TimerEvent: {}
+[18.779949] (-) TimerEvent: {}
+[18.880445] (-) TimerEvent: {}
+[18.980898] (-) TimerEvent: {}
+[19.081312] (-) TimerEvent: {}
+[19.181720] (-) TimerEvent: {}
+[19.282121] (-) TimerEvent: {}
+[19.382526] (-) TimerEvent: {}
+[19.482974] (-) TimerEvent: {}
+[19.583487] (-) TimerEvent: {}
+[19.684001] (-) TimerEvent: {}
+[19.784421] (-) TimerEvent: {}
+[19.884832] (-) TimerEvent: {}
+[19.985345] (-) TimerEvent: {}
+[20.085811] (-) TimerEvent: {}
+[20.186286] (-) TimerEvent: {}
+[20.286798] (-) TimerEvent: {}
+[20.387224] (-) TimerEvent: {}
+[20.487777] (-) TimerEvent: {}
+[20.588267] (-) TimerEvent: {}
+[20.688719] (-) TimerEvent: {}
+[20.789161] (-) TimerEvent: {}
+[20.889581] (-) TimerEvent: {}
+[20.990386] (-) TimerEvent: {}
+[21.090849] (-) TimerEvent: {}
+[21.191643] (-) TimerEvent: {}
+[21.292280] (-) TimerEvent: {}
+[21.392806] (-) TimerEvent: {}
+[21.493236] (-) TimerEvent: {}
+[21.593670] (-) TimerEvent: {}
+[21.694155] (-) TimerEvent: {}
+[21.794564] (-) TimerEvent: {}
+[21.894940] (-) TimerEvent: {}
+[21.995327] (-) TimerEvent: {}
+[22.095839] (-) TimerEvent: {}
+[22.196420] (-) TimerEvent: {}
+[22.296876] (-) TimerEvent: {}
+[22.397696] (-) TimerEvent: {}
+[22.498113] (-) TimerEvent: {}
+[22.598514] (-) TimerEvent: {}
+[22.698916] (-) TimerEvent: {}
+[22.799314] (-) TimerEvent: {}
+[22.899766] (-) TimerEvent: {}
+[23.000282] (-) TimerEvent: {}
+[23.101005] (-) TimerEvent: {}
+[23.201594] (-) TimerEvent: {}
+[23.302052] (-) TimerEvent: {}
+[23.402535] (-) TimerEvent: {}
+[23.502939] (-) TimerEvent: {}
+[23.603467] (-) TimerEvent: {}
+[23.703962] (-) TimerEvent: {}
+[23.804366] (-) TimerEvent: {}
+[23.904851] (-) TimerEvent: {}
+[24.005246] (-) TimerEvent: {}
+[24.105606] (-) TimerEvent: {}
+[24.206023] (-) TimerEvent: {}
+[24.306479] (-) TimerEvent: {}
+[24.406922] (-) TimerEvent: {}
+[24.507333] (-) TimerEvent: {}
+[24.607824] (-) TimerEvent: {}
+[24.708300] (-) TimerEvent: {}
+[24.809131] (-) TimerEvent: {}
+[24.909551] (-) TimerEvent: {}
+[25.010065] (-) TimerEvent: {}
+[25.110543] (-) TimerEvent: {}
+[25.210986] (-) TimerEvent: {}
+[25.311381] (-) TimerEvent: {}
+[25.411900] (-) TimerEvent: {}
+[25.512369] (-) TimerEvent: {}
+[25.612808] (-) TimerEvent: {}
+[25.713285] (-) TimerEvent: {}
+[25.813883] (-) TimerEvent: {}
+[25.914370] (-) TimerEvent: {}
+[26.014796] (-) TimerEvent: {}
+[26.115220] (-) TimerEvent: {}
+[26.215631] (-) TimerEvent: {}
+[26.316072] (-) TimerEvent: {}
+[26.416504] (-) TimerEvent: {}
+[26.516962] (-) TimerEvent: {}
+[26.617349] (-) TimerEvent: {}
+[26.717759] (-) TimerEvent: {}
+[26.818175] (-) TimerEvent: {}
+[26.918701] (-) TimerEvent: {}
+[27.019132] (-) TimerEvent: {}
+[27.119613] (-) TimerEvent: {}
+[27.220124] (-) TimerEvent: {}
+[27.320601] (-) TimerEvent: {}
+[27.421054] (-) TimerEvent: {}
+[27.521426] (-) TimerEvent: {}
+[27.621771] (-) TimerEvent: {}
+[27.722183] (-) TimerEvent: {}
+[27.822607] (-) TimerEvent: {}
+[27.923033] (-) TimerEvent: {}
+[28.023583] (-) TimerEvent: {}
+[28.124102] (-) TimerEvent: {}
+[28.225032] (-) TimerEvent: {}
+[28.325643] (-) TimerEvent: {}
+[28.426384] (-) TimerEvent: {}
+[28.527138] (-) TimerEvent: {}
+[28.627630] (-) TimerEvent: {}
+[28.728055] (-) TimerEvent: {}
+[28.828491] (-) TimerEvent: {}
+[28.928932] (-) TimerEvent: {}
+[29.029427] (-) TimerEvent: {}
+[29.129844] (-) TimerEvent: {}
+[29.230876] (-) TimerEvent: {}
+[29.331314] (-) TimerEvent: {}
+[29.432111] (-) TimerEvent: {}
+[29.532819] (-) TimerEvent: {}
+[29.633260] (-) TimerEvent: {}
+[29.733660] (-) TimerEvent: {}
+[29.834133] (-) TimerEvent: {}
+[29.934580] (-) TimerEvent: {}
+[30.017642] (xrf2_msgs) CommandEnded: {'returncode': 0}
+[30.021920] (xrf2_msgs) JobProgress: {'identifier': 'xrf2_msgs', 'progress': 'build'}
+[30.022561] (xrf2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jordan/SDfR/assignment6/build/xrf2_msgs', '--', '-j16', '-l16'], 'cwd': '/home/jordan/SDfR/assignment6/build/xrf2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/c/Program Files/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jordan'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/jordan/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/Jordan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jordan'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d3efba36-5092-433b-a371-3314d2095e48.sock'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/422_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.codex/tmp/arg0/codex-arg0qVyHqV:/home/jordan/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin:/home/jordan/.vscode-server/extensions/openai.chatgpt-26.406.31014-linux-x64/bin/linux-x86_64'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9113-c50e-7651-9900-d52dde90836e'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jordan/SDfR/assignment6/build/xrf2_msgs'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.034816] (-) TimerEvent: {}
+[30.135216] (-) TimerEvent: {}
+[30.145478] (xrf2_msgs) StdoutLine: {'line': b'[  2%] Generating C code for ROS interfaces\n'}
+[30.176699] (xrf2_msgs) StdoutLine: {'line': b'[  5%] Generating C++ code for ROS interfaces\n'}
+[30.201978] (xrf2_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_xrf2_msgs\n'}
+[30.235440] (-) TimerEvent: {}
+[30.335898] (-) TimerEvent: {}
+[30.436255] (-) TimerEvent: {}
+[30.536630] (-) TimerEvent: {}
+[30.637033] (-) TimerEvent: {}
+[30.737367] (-) TimerEvent: {}
+[30.844375] (-) TimerEvent: {}
+[30.886808] (xrf2_msgs) StdoutLine: {'line': b'[  5%] Built target xrf2_msgs__cpp\n'}
+[30.904676] (xrf2_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[30.906666] (xrf2_msgs) StdoutLine: {'line': b'creating xrf2_msgs.egg-info\n'}
+[30.908997] (xrf2_msgs) StdoutLine: {'line': b'writing xrf2_msgs.egg-info/PKG-INFO\n'}
+[30.910115] (xrf2_msgs) StdoutLine: {'line': b'writing dependency_links to xrf2_msgs.egg-info/dependency_links.txt\n'}
+[30.910898] (xrf2_msgs) StdoutLine: {'line': b'writing top-level names to xrf2_msgs.egg-info/top_level.txt\n'}
+[30.911608] (xrf2_msgs) StdoutLine: {'line': b"writing manifest file 'xrf2_msgs.egg-info/SOURCES.txt'\n"}
+[30.914831] (xrf2_msgs) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/xrf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xrf2_msgs/msg/detail/xeno2_ros__functions.c.o\n'}
+[30.915604] (xrf2_msgs) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/xrf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xrf2_msgs/msg/detail/ros2_xeno__functions.c.o\n'}
+[30.917545] (xrf2_msgs) StdoutLine: {'line': b'[ 15%] Generating C++ introspection for ROS interfaces\n'}
+[30.917824] (xrf2_msgs) StdoutLine: {'line': b'[ 15%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[30.918392] (xrf2_msgs) StdoutLine: {'line': b"reading manifest file 'xrf2_msgs.egg-info/SOURCES.txt'\n"}
+[30.919475] (xrf2_msgs) StdoutLine: {'line': b"writing manifest file 'xrf2_msgs.egg-info/SOURCES.txt'\n"}
+[30.921273] (xrf2_msgs) StdoutLine: {'line': b'[ 17%] Generating C++ type support dispatch for ROS interfaces\n'}
+[30.944584] (-) TimerEvent: {}
+[30.987066] (xrf2_msgs) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_xrf2_msgs_egg\n'}
+[31.044782] (-) TimerEvent: {}
+[31.084524] (xrf2_msgs) StdoutLine: {'line': b'[ 20%] Linking C shared library libxrf2_msgs__rosidl_generator_c.so\n'}
+[31.144977] (-) TimerEvent: {}
+[31.245377] (-) TimerEvent: {}
+[31.345718] (-) TimerEvent: {}
+[31.446171] (-) TimerEvent: {}
+[31.484961] (xrf2_msgs) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xrf2_msgs/msg/ros2_xeno__type_support.cpp.o\n'}
+[31.485379] (xrf2_msgs) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xrf2_msgs/msg/xeno2_ros__type_support.cpp.o\n'}
+[31.543995] (xrf2_msgs) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xrf2_msgs/msg/detail/ros2_xeno__type_support.cpp.o\n'}
+[31.544655] (xrf2_msgs) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xrf2_msgs/msg/detail/xeno2_ros__type_support.cpp.o\n'}
+[31.546314] (-) TimerEvent: {}
+[31.561979] (xrf2_msgs) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xrf2_msgs/msg/detail/dds_fastrtps/xeno2_ros__type_support.cpp.o\n'}
+[31.562595] (xrf2_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xrf2_msgs/msg/detail/dds_fastrtps/ros2_xeno__type_support.cpp.o\n'}
+[31.646660] (-) TimerEvent: {}
+[31.647880] (xrf2_msgs) StdoutLine: {'line': b'[ 35%] Built target xrf2_msgs__rosidl_generator_c\n'}
+[31.682275] (xrf2_msgs) StdoutLine: {'line': b'[ 43%] Generating C type support for eProsima Fast-RTPS\n'}
+[31.682718] (xrf2_msgs) StdoutLine: {'line': b'[ 43%] Generating C type support dispatch for ROS interfaces\n'}
+[31.682989] (xrf2_msgs) StdoutLine: {'line': b'[ 43%] Generating C introspection for ROS interfaces\n'}
+[31.746839] (-) TimerEvent: {}
+[31.847255] (-) TimerEvent: {}
+[31.947689] (-) TimerEvent: {}
+[32.048062] (-) TimerEvent: {}
+[32.148442] (-) TimerEvent: {}
+[32.248893] (-) TimerEvent: {}
+[32.339200] (xrf2_msgs) StdoutLine: {'line': b'[ 46%] Linking CXX shared library libxrf2_msgs__rosidl_typesupport_cpp.so\n'}
+[32.342972] (xrf2_msgs) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xrf2_msgs/msg/ros2_xeno__type_support.cpp.o\n'}
+[32.343340] (xrf2_msgs) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xrf2_msgs/msg/xeno2_ros__type_support.cpp.o\n'}
+[32.349109] (-) TimerEvent: {}
+[32.407399] (xrf2_msgs) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xrf2_msgs/msg/detail/xeno2_ros__type_support_c.cpp.o\n'}
+[32.407869] (xrf2_msgs) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xrf2_msgs/msg/detail/ros2_xeno__type_support_c.cpp.o\n'}
+[32.422123] (xrf2_msgs) StdoutLine: {'line': b'[ 61%] Building C object CMakeFiles/xrf2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xrf2_msgs/msg/detail/xeno2_ros__type_support.c.o\n'}
+[32.422690] (xrf2_msgs) StdoutLine: {'line': b'[ 61%] Building C object CMakeFiles/xrf2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xrf2_msgs/msg/detail/ros2_xeno__type_support.c.o\n'}
+[32.432527] (xrf2_msgs) StdoutLine: {'line': b'[ 64%] Linking CXX shared library libxrf2_msgs__rosidl_typesupport_c.so\n'}
+[32.449309] (-) TimerEvent: {}
+[32.528489] (xrf2_msgs) StdoutLine: {'line': b'[ 66%] Linking C shared library libxrf2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[32.549492] (-) TimerEvent: {}
+[32.649953] (-) TimerEvent: {}
+[32.673059] (xrf2_msgs) StdoutLine: {'line': b'[ 69%] Linking CXX shared library libxrf2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[32.750194] (-) TimerEvent: {}
+[32.832093] (xrf2_msgs) StdoutLine: {'line': b'[ 71%] Linking CXX shared library libxrf2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[32.850407] (-) TimerEvent: {}
+[32.927143] (xrf2_msgs) StdoutLine: {'line': b'[ 71%] Built target xrf2_msgs__rosidl_typesupport_cpp\n'}
+[32.950631] (-) TimerEvent: {}
+[32.964255] (xrf2_msgs) StdoutLine: {'line': b'[ 71%] Built target xrf2_msgs__rosidl_typesupport_c\n'}
+[33.050846] (-) TimerEvent: {}
+[33.059975] (xrf2_msgs) StdoutLine: {'line': b'[ 71%] Built target xrf2_msgs__rosidl_typesupport_introspection_c\n'}
+[33.094820] (xrf2_msgs) StdoutLine: {'line': b'[ 71%] Built target xrf2_msgs__rosidl_typesupport_introspection_cpp\n'}
+[33.151101] (-) TimerEvent: {}
+[33.251658] (-) TimerEvent: {}
+[33.339119] (xrf2_msgs) StdoutLine: {'line': b'[ 74%] Linking CXX shared library libxrf2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[33.351894] (-) TimerEvent: {}
+[33.418788] (xrf2_msgs) StdoutLine: {'line': b'[ 74%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[33.452163] (-) TimerEvent: {}
+[33.552598] (-) TimerEvent: {}
+[33.653028] (-) TimerEvent: {}
+[33.753483] (-) TimerEvent: {}
+[33.853894] (-) TimerEvent: {}
+[33.954308] (-) TimerEvent: {}
+[34.054750] (-) TimerEvent: {}
+[34.063958] (xrf2_msgs) StdoutLine: {'line': b'[ 74%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_c\n'}
+[34.124449] (xrf2_msgs) StdoutLine: {'line': b'[ 74%] Built target xrf2_msgs\n'}
+[34.154931] (-) TimerEvent: {}
+[34.183306] (xrf2_msgs) StdoutLine: {'line': b'[ 76%] Generating Python code for ROS interfaces\n'}
+[34.255151] (-) TimerEvent: {}
+[34.355583] (-) TimerEvent: {}
+[34.455965] (-) TimerEvent: {}
+[34.556355] (-) TimerEvent: {}
+[34.656854] (-) TimerEvent: {}
+[34.757215] (-) TimerEvent: {}
+[34.857576] (-) TimerEvent: {}
+[34.958047] (-) TimerEvent: {}
+[35.017777] (xrf2_msgs) StdoutLine: {'line': b'[ 76%] Built target xrf2_msgs__py\n'}
+[35.058264] (-) TimerEvent: {}
+[35.074309] (xrf2_msgs) StdoutLine: {'line': b'[ 79%] Building C object CMakeFiles/xrf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xrf2_msgs/msg/_ros2_xeno_s.c.o\n'}
+[35.075219] (xrf2_msgs) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/xrf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xrf2_msgs/msg/_xeno2_ros_s.c.o\n'}
+[35.158512] (-) TimerEvent: {}
+[35.258954] (-) TimerEvent: {}
+[35.359366] (-) TimerEvent: {}
+[35.386283] (xrf2_msgs) StdoutLine: {'line': b'[ 84%] Linking C shared library rosidl_generator_py/xrf2_msgs/libxrf2_msgs__rosidl_generator_py.so\n'}
+[35.459709] (-) TimerEvent: {}
+[35.560083] (-) TimerEvent: {}
+[35.660471] (-) TimerEvent: {}
+[35.760871] (-) TimerEvent: {}
+[35.861281] (-) TimerEvent: {}
+[35.922606] (xrf2_msgs) StdoutLine: {'line': b'[ 84%] Built target xrf2_msgs__rosidl_generator_py\n'}
+[35.961444] (-) TimerEvent: {}
+[35.978685] (xrf2_msgs) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/xrf2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[35.979039] (xrf2_msgs) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[35.979222] (xrf2_msgs) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/xrf2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[36.061670] (-) TimerEvent: {}
+[36.162051] (-) TimerEvent: {}
+[36.230470] (xrf2_msgs) StdoutLine: {'line': b'[ 94%] Linking C shared library rosidl_generator_py/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[36.241673] (xrf2_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[36.242101] (xrf2_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[36.262272] (-) TimerEvent: {}
+[36.362950] (-) TimerEvent: {}
+[36.463400] (-) TimerEvent: {}
+[36.563806] (-) TimerEvent: {}
+[36.632480] (xrf2_msgs) StdoutLine: {'line': b'[100%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[36.642857] (xrf2_msgs) StdoutLine: {'line': b'[100%] Built target xrf2_msgs__rosidl_typesupport_c__pyext\n'}
+[36.664125] (-) TimerEvent: {}
+[36.764515] (-) TimerEvent: {}
+[36.801106] (xrf2_msgs) StdoutLine: {'line': b'[100%] Built target xrf2_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[36.864741] (-) TimerEvent: {}
+[36.965146] (-) TimerEvent: {}
+[37.065563] (-) TimerEvent: {}
+[37.165954] (-) TimerEvent: {}
+[37.266365] (-) TimerEvent: {}
+[37.366818] (-) TimerEvent: {}
+[37.467324] (-) TimerEvent: {}
+[37.567809] (-) TimerEvent: {}
+[37.668309] (-) TimerEvent: {}
+[37.769016] (-) TimerEvent: {}
+[37.869494] (-) TimerEvent: {}
+[37.969950] (-) TimerEvent: {}
+[38.070365] (-) TimerEvent: {}
+[38.170770] (-) TimerEvent: {}
+[38.271183] (-) TimerEvent: {}
+[38.371656] (-) TimerEvent: {}
+[38.472046] (-) TimerEvent: {}
+[38.572446] (-) TimerEvent: {}
+[38.672865] (-) TimerEvent: {}
+[38.773292] (-) TimerEvent: {}
+[38.873682] (-) TimerEvent: {}
+[38.974133] (-) TimerEvent: {}
+[39.074572] (-) TimerEvent: {}
+[39.175210] (-) TimerEvent: {}
+[39.275700] (-) TimerEvent: {}
+[39.376402] (-) TimerEvent: {}
+[39.476865] (-) TimerEvent: {}
+[39.577294] (-) TimerEvent: {}
+[39.677771] (-) TimerEvent: {}
+[39.778172] (-) TimerEvent: {}
+[39.878648] (-) TimerEvent: {}
+[39.979083] (-) TimerEvent: {}
+[40.079712] (-) TimerEvent: {}
+[40.180175] (-) TimerEvent: {}
+[40.280567] (-) TimerEvent: {}
+[40.381046] (-) TimerEvent: {}
+[40.481466] (-) TimerEvent: {}
+[40.582004] (-) TimerEvent: {}
+[40.682444] (-) TimerEvent: {}
+[40.782870] (-) TimerEvent: {}
+[40.883354] (-) TimerEvent: {}
+[40.983798] (-) TimerEvent: {}
+[41.084204] (-) TimerEvent: {}
+[41.184596] (-) TimerEvent: {}
+[41.285031] (-) TimerEvent: {}
+[41.385414] (-) TimerEvent: {}
+[41.485929] (-) TimerEvent: {}
+[41.586420] (-) TimerEvent: {}
+[41.686870] (-) TimerEvent: {}
+[41.787289] (-) TimerEvent: {}
+[41.887748] (-) TimerEvent: {}
+[41.988214] (-) TimerEvent: {}
+[42.088679] (-) TimerEvent: {}
+[42.189036] (-) TimerEvent: {}
+[42.289438] (-) TimerEvent: {}
+[42.389858] (-) TimerEvent: {}
+[42.490269] (-) TimerEvent: {}
+[42.590695] (-) TimerEvent: {}
+[42.691114] (-) TimerEvent: {}
+[42.791703] (-) TimerEvent: {}
+[42.892135] (-) TimerEvent: {}
+[42.992544] (-) TimerEvent: {}
+[43.092959] (-) TimerEvent: {}
+[43.193334] (-) TimerEvent: {}
+[43.293744] (-) TimerEvent: {}
+[43.394148] (-) TimerEvent: {}
+[43.494587] (-) TimerEvent: {}
+[43.594996] (-) TimerEvent: {}
+[43.695399] (-) TimerEvent: {}
+[43.795789] (-) TimerEvent: {}
+[43.896294] (-) TimerEvent: {}
+[43.996721] (-) TimerEvent: {}
+[44.097130] (-) TimerEvent: {}
+[44.197530] (-) TimerEvent: {}
+[44.297900] (-) TimerEvent: {}
+[44.398307] (-) TimerEvent: {}
+[44.498702] (-) TimerEvent: {}
+[44.599126] (-) TimerEvent: {}
+[44.699649] (-) TimerEvent: {}
+[44.800081] (-) TimerEvent: {}
+[44.900490] (-) TimerEvent: {}
+[45.000931] (-) TimerEvent: {}
+[45.101349] (-) TimerEvent: {}
+[45.201810] (-) TimerEvent: {}
+[45.302251] (-) TimerEvent: {}
+[45.402733] (-) TimerEvent: {}
+[45.503177] (-) TimerEvent: {}
+[45.603615] (-) TimerEvent: {}
+[45.704058] (-) TimerEvent: {}
+[45.804479] (-) TimerEvent: {}
+[45.904916] (-) TimerEvent: {}
+[46.005315] (-) TimerEvent: {}
+[46.105693] (-) TimerEvent: {}
+[46.206107] (-) TimerEvent: {}
+[46.306514] (-) TimerEvent: {}
+[46.406950] (-) TimerEvent: {}
+[46.507436] (-) TimerEvent: {}
+[46.608167] (-) TimerEvent: {}
+[46.708847] (-) TimerEvent: {}
+[46.809300] (-) TimerEvent: {}
+[46.909796] (-) TimerEvent: {}
+[47.010215] (-) TimerEvent: {}
+[47.110647] (-) TimerEvent: {}
+[47.211071] (-) TimerEvent: {}
+[47.311573] (-) TimerEvent: {}
+[47.411998] (-) TimerEvent: {}
+[47.512407] (-) TimerEvent: {}
+[47.612805] (-) TimerEvent: {}
+[47.713339] (-) TimerEvent: {}
+[47.813777] (-) TimerEvent: {}
+[47.914220] (-) TimerEvent: {}
+[48.014657] (-) TimerEvent: {}
+[48.115095] (-) TimerEvent: {}
+[48.215606] (-) TimerEvent: {}
+[48.316036] (-) TimerEvent: {}
+[48.416472] (-) TimerEvent: {}
+[48.516987] (-) TimerEvent: {}
+[48.617427] (-) TimerEvent: {}
+[48.717831] (-) TimerEvent: {}
+[48.818216] (-) TimerEvent: {}
+[48.918658] (-) TimerEvent: {}
+[49.019112] (-) TimerEvent: {}
+[49.119586] (-) TimerEvent: {}
+[49.219941] (-) TimerEvent: {}
+[49.320403] (-) TimerEvent: {}
+[49.420882] (-) TimerEvent: {}
+[49.521273] (-) TimerEvent: {}
+[49.621754] (-) TimerEvent: {}
+[49.722112] (-) TimerEvent: {}
+[49.822553] (-) TimerEvent: {}
+[49.922948] (-) TimerEvent: {}
+[50.023423] (-) TimerEvent: {}
+[50.123963] (-) TimerEvent: {}
+[50.224401] (-) TimerEvent: {}
+[50.324955] (-) TimerEvent: {}
+[50.425393] (-) TimerEvent: {}
+[50.525860] (-) TimerEvent: {}
+[50.626330] (-) TimerEvent: {}
+[50.726807] (-) TimerEvent: {}
+[50.827359] (-) TimerEvent: {}
+[50.927821] (-) TimerEvent: {}
+[51.028372] (-) TimerEvent: {}
+[51.128820] (-) TimerEvent: {}
+[51.229298] (-) TimerEvent: {}
+[51.329741] (-) TimerEvent: {}
+[51.430251] (-) TimerEvent: {}
+[51.530749] (-) TimerEvent: {}
+[51.631217] (-) TimerEvent: {}
+[51.731609] (-) TimerEvent: {}
+[51.832008] (-) TimerEvent: {}
+[51.932357] (-) TimerEvent: {}
+[52.032771] (-) TimerEvent: {}
+[52.133173] (-) TimerEvent: {}
+[52.233564] (-) TimerEvent: {}
+[52.334006] (-) TimerEvent: {}
+[52.434482] (-) TimerEvent: {}
+[52.534891] (-) TimerEvent: {}
+[52.635338] (-) TimerEvent: {}
+[52.735835] (-) TimerEvent: {}
+[52.836352] (-) TimerEvent: {}
+[52.936809] (-) TimerEvent: {}
+[53.037225] (-) TimerEvent: {}
+[53.137636] (-) TimerEvent: {}
+[53.238016] (-) TimerEvent: {}
+[53.338463] (-) TimerEvent: {}
+[53.439152] (-) TimerEvent: {}
+[53.539690] (-) TimerEvent: {}
+[53.640137] (-) TimerEvent: {}
+[53.740531] (-) TimerEvent: {}
+[53.841032] (-) TimerEvent: {}
+[53.941549] (-) TimerEvent: {}
+[54.042064] (-) TimerEvent: {}
+[54.142467] (-) TimerEvent: {}
+[54.242844] (-) TimerEvent: {}
+[54.343247] (-) TimerEvent: {}
+[54.443676] (-) TimerEvent: {}
+[54.544058] (-) TimerEvent: {}
+[54.644547] (-) TimerEvent: {}
+[54.744966] (-) TimerEvent: {}
+[54.845369] (-) TimerEvent: {}
+[54.945893] (-) TimerEvent: {}
+[55.046324] (-) TimerEvent: {}
+[55.146955] (-) TimerEvent: {}
+[55.247371] (-) TimerEvent: {}
+[55.347879] (-) TimerEvent: {}
+[55.448304] (-) TimerEvent: {}
+[55.548695] (-) TimerEvent: {}
+[55.649145] (-) TimerEvent: {}
+[55.749620] (-) TimerEvent: {}
+[55.850085] (-) TimerEvent: {}
+[55.950610] (-) TimerEvent: {}
+[56.051052] (-) TimerEvent: {}
+[56.151594] (-) TimerEvent: {}
+[56.252022] (-) TimerEvent: {}
+[56.352428] (-) TimerEvent: {}
+[56.452854] (-) TimerEvent: {}
+[56.553244] (-) TimerEvent: {}
+[56.653666] (-) TimerEvent: {}
+[56.754059] (-) TimerEvent: {}
+[56.854539] (-) TimerEvent: {}
+[56.955005] (-) TimerEvent: {}
+[57.055412] (-) TimerEvent: {}
+[57.155958] (-) TimerEvent: {}
+[57.256379] (-) TimerEvent: {}
+[57.356782] (-) TimerEvent: {}
+[57.457173] (-) TimerEvent: {}
+[57.557548] (-) TimerEvent: {}
+[57.657996] (-) TimerEvent: {}
+[57.758427] (-) TimerEvent: {}
+[57.858882] (-) TimerEvent: {}
+[57.959365] (-) TimerEvent: {}
+[58.059858] (-) TimerEvent: {}
+[58.160369] (-) TimerEvent: {}
+[58.260818] (-) TimerEvent: {}
+[58.361237] (-) TimerEvent: {}
+[58.461618] (-) TimerEvent: {}
+[58.562027] (-) TimerEvent: {}
+[58.662432] (-) TimerEvent: {}
+[58.762839] (-) TimerEvent: {}
+[58.863226] (-) TimerEvent: {}
+[58.963671] (-) TimerEvent: {}
+[59.064109] (-) TimerEvent: {}
+[59.164528] (-) TimerEvent: {}
+[59.265016] (-) TimerEvent: {}
+[59.365413] (-) TimerEvent: {}
+[59.465804] (-) TimerEvent: {}
+[59.566150] (-) TimerEvent: {}
+[59.666549] (-) TimerEvent: {}
+[59.766958] (-) TimerEvent: {}
+[59.867350] (-) TimerEvent: {}
+[59.967898] (-) TimerEvent: {}
+[60.040789] (xrf2_msgs) CommandEnded: {'returncode': 0}
+[60.043147] (xrf2_msgs) JobProgress: {'identifier': 'xrf2_msgs', 'progress': 'install'}
+[60.068129] (-) TimerEvent: {}
+[60.070204] (xrf2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jordan/SDfR/assignment6/build/xrf2_msgs'], 'cwd': '/home/jordan/SDfR/assignment6/build/xrf2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/c/Program Files/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jordan'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/jordan/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/Jordan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jordan'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d3efba36-5092-433b-a371-3314d2095e48.sock'), ('ROS_PYTHON_VERSION', '3'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jordan'), ('NAME', 'JordansOmen15'), ('WSL_INTEROP', '/run/WSL/422_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jordan/.codex/tmp/arg0/codex-arg0qVyHqV:/home/jordan/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/MATLAB/R2025b/runtime/win64:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Jordan/.pyenv/pyenv-win/bin:/mnt/c/Users/Jordan/.pyenv/pyenv-win/shims:/mnt/c/Users/Jordan/scoop/shims:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Jordan/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Jordan/.dotnet/tools:/mnt/c/users/jordan/.local/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/Jordan/AppData/Local/Pandoc/:/mnt/c/Users/Jordan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jordan/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/CLion 2025.3.2/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Jordan/AppData/Local/Programs/Antigravity/bin:/snap/bin:/home/jordan/.vscode-server/extensions/openai.chatgpt-26.406.31014-linux-x64/bin/linux-x86_64'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d9113-c50e-7651-9900-d52dde90836e'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jordan/SDfR/assignment6/build/xrf2_msgs'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[60.092199] (xrf2_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[60.098510] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/ament_index/resource_index/rosidl_interfaces/xrf2_msgs\n'}
+[60.099271] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[60.102870] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[60.104343] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[60.105146] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[60.106545] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.h\n'}
+[60.107171] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__functions.h\n'}
+[60.107910] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__struct.h\n'}
+[60.108587] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__functions.c\n'}
+[60.109232] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__functions.c\n'}
+[60.110083] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.h\n'}
+[60.110849] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__struct.h\n'}
+[60.111851] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__functions.h\n'}
+[60.112631] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/ros2_xeno.h\n'}
+[60.113148] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/xeno2_ros.h\n'}
+[60.115803] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/library_path.sh\n'}
+[60.116923] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/library_path.dsv\n'}
+[60.118540] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_c.so\n'}
+[60.120032] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_c.so" to ""\n'}
+[60.120816] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[60.121310] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[60.122046] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[60.122567] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_fastrtps_c.h\n'}
+[60.122792] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_fastrtps_c.h\n'}
+[60.122988] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[60.123222] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[60.124475] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[60.124813] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[60.124999] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[60.125386] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[60.126276] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[60.126902] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_introspection_c.h\n'}
+[60.127458] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.c\n'}
+[60.128444] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.c\n'}
+[60.129424] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_introspection_c.h\n'}
+[60.130485] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[60.132130] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[60.132412] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_c.so\n'}
+[60.133389] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_c.so" to ""\n'}
+[60.134048] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[60.134183] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[60.134290] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[60.135467] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/ros2_xeno.hpp\n'}
+[60.136814] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[60.137222] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__struct.hpp\n'}
+[60.137836] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__traits.hpp\n'}
+[60.138054] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__traits.hpp\n'}
+[60.138500] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__builder.hpp\n'}
+[60.138672] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.hpp\n'}
+[60.139753] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__builder.hpp\n'}
+[60.139960] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__struct.hpp\n'}
+[60.140515] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.hpp\n'}
+[60.140673] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/xeno2_ros.hpp\n'}
+[60.141524] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[60.141755] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[60.141909] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[60.142045] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[60.142967] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[60.143227] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/dds_fastrtps\n'}
+[60.144823] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[60.145758] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[60.147672] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[60.148644] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[60.148862] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[60.149495] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[60.149839] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.cpp\n'}
+[60.150521] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_introspection_cpp.hpp\n'}
+[60.151423] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.cpp\n'}
+[60.151731] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_introspection_cpp.hpp\n'}
+[60.151934] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[60.153149] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[60.153849] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_cpp.so\n'}
+[60.155392] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[60.155669] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/pythonpath.sh\n'}
+[60.156170] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/pythonpath.dsv\n'}
+[60.156893] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info\n'}
+[60.162672] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[60.163240] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[60.164079] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[60.164664] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[60.165451] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs\n'}
+[60.166733] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[60.167672] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg\n'}
+[60.168283] (-) TimerEvent: {}
+[60.169196] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno_s.c\n'}
+[60.169789] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros_s.c\n'}
+[60.170564] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/__init__.py\n'}
+[60.171284] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros.py\n'}
+[60.172018] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno.py\n'}
+[60.172761] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[60.173481] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/libxrf2_msgs__rosidl_generator_py.so\n'}
+[60.174581] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[60.175322] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[60.175966] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[60.176697] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/__init__.py\n'}
+[60.177224] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[60.268494] (-) TimerEvent: {}
+[60.294177] (xrf2_msgs) StdoutLine: {'line': b"Listing '/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs'...\n"}
+[60.294628] (xrf2_msgs) StdoutLine: {'line': b"Compiling '/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/__init__.py'...\n"}
+[60.294821] (xrf2_msgs) StdoutLine: {'line': b"Listing '/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg'...\n"}
+[60.294995] (xrf2_msgs) StdoutLine: {'line': b"Compiling '/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/__init__.py'...\n"}
+[60.295226] (xrf2_msgs) StdoutLine: {'line': b"Compiling '/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno.py'...\n"}
+[60.295599] (xrf2_msgs) StdoutLine: {'line': b"Compiling '/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros.py'...\n"}
+[60.307861] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[60.309473] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[60.310418] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[60.311986] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[60.312785] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[60.314276] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[60.314454] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_py.so\n'}
+[60.315483] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_py.so" to ""\n'}
+[60.316977] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/msg/Ros2Xeno.idl\n'}
+[60.317614] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/msg/Xeno2Ros.idl\n'}
+[60.318262] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/msg/Ros2Xeno.msg\n'}
+[60.318834] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/msg/Xeno2Ros.msg\n'}
+[60.320894] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/ament_index/resource_index/package_run_dependencies/xrf2_msgs\n'}
+[60.322594] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/ament_index/resource_index/parent_prefix_path/xrf2_msgs\n'}
+[60.323121] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/ament_prefix_path.sh\n'}
+[60.323909] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/ament_prefix_path.dsv\n'}
+[60.324525] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/path.sh\n'}
+[60.325090] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/path.dsv\n'}
+[60.325700] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/local_setup.bash\n'}
+[60.326277] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/local_setup.sh\n'}
+[60.326852] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/local_setup.zsh\n'}
+[60.327379] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/local_setup.dsv\n'}
+[60.328016] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/package.dsv\n'}
+[60.329868] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/ament_index/resource_index/packages/xrf2_msgs\n'}
+[60.332074] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cExport.cmake\n'}
+[60.332668] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[60.333482] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[60.334056] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[60.334679] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[60.335377] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[60.336436] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cExport.cmake\n'}
+[60.337248] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[60.338050] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cppExport.cmake\n'}
+[60.338906] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[60.339590] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[60.340420] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[60.341121] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[60.342010] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[60.342874] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[60.344030] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_pyExport.cmake\n'}
+[60.344914] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[60.345860] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[60.346586] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[60.347337] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[60.348085] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[60.348918] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[60.349628] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[60.350726] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[60.351815] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgsConfig.cmake\n'}
+[60.352858] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgsConfig-version.cmake\n'}
+[60.353394] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/package.xml\n'}
+[60.368685] (-) TimerEvent: {}
+[60.469136] (-) TimerEvent: {}
+[60.569605] (-) TimerEvent: {}
+[60.670082] (-) TimerEvent: {}
+[60.770483] (-) TimerEvent: {}
+[60.870858] (-) TimerEvent: {}
+[60.971267] (-) TimerEvent: {}
+[61.071789] (-) TimerEvent: {}
+[61.172199] (-) TimerEvent: {}
+[61.272607] (-) TimerEvent: {}
+[61.373005] (-) TimerEvent: {}
+[61.473406] (-) TimerEvent: {}
+[61.573838] (-) TimerEvent: {}
+[61.674343] (-) TimerEvent: {}
+[61.774930] (-) TimerEvent: {}
+[61.875360] (-) TimerEvent: {}
+[61.975822] (-) TimerEvent: {}
+[62.076256] (-) TimerEvent: {}
+[62.176637] (-) TimerEvent: {}
+[62.277079] (-) TimerEvent: {}
+[62.377507] (-) TimerEvent: {}
+[62.477895] (-) TimerEvent: {}
+[62.578449] (-) TimerEvent: {}
+[62.678863] (-) TimerEvent: {}
+[62.779294] (-) TimerEvent: {}
+[62.879873] (-) TimerEvent: {}
+[62.980297] (-) TimerEvent: {}
+[63.080777] (-) TimerEvent: {}
+[63.181253] (-) TimerEvent: {}
+[63.281686] (-) TimerEvent: {}
+[63.382092] (-) TimerEvent: {}
+[63.482556] (-) TimerEvent: {}
+[63.582971] (-) TimerEvent: {}
+[63.683393] (-) TimerEvent: {}
+[63.783867] (-) TimerEvent: {}
+[63.884292] (-) TimerEvent: {}
+[63.984807] (-) TimerEvent: {}
+[64.085276] (-) TimerEvent: {}
+[64.185732] (-) TimerEvent: {}
+[64.286173] (-) TimerEvent: {}
+[64.386626] (-) TimerEvent: {}
+[64.487062] (-) TimerEvent: {}
+[64.587429] (-) TimerEvent: {}
+[64.687936] (-) TimerEvent: {}
+[64.788359] (-) TimerEvent: {}
+[64.888733] (-) TimerEvent: {}
+[64.989117] (-) TimerEvent: {}
+[65.089530] (-) TimerEvent: {}
+[65.190008] (-) TimerEvent: {}
+[65.290445] (-) TimerEvent: {}
+[65.391038] (-) TimerEvent: {}
+[65.491468] (-) TimerEvent: {}
+[65.592289] (-) TimerEvent: {}
+[65.692715] (-) TimerEvent: {}
+[65.793124] (-) TimerEvent: {}
+[65.893522] (-) TimerEvent: {}
+[65.993959] (-) TimerEvent: {}
+[66.094454] (-) TimerEvent: {}
+[66.194935] (-) TimerEvent: {}
+[66.295388] (-) TimerEvent: {}
+[66.395845] (-) TimerEvent: {}
+[66.496284] (-) TimerEvent: {}
+[66.596693] (-) TimerEvent: {}
+[66.697072] (-) TimerEvent: {}
+[66.797423] (-) TimerEvent: {}
+[66.897843] (-) TimerEvent: {}
+[66.998333] (-) TimerEvent: {}
+[67.098869] (-) TimerEvent: {}
+[67.199311] (-) TimerEvent: {}
+[67.299926] (-) TimerEvent: {}
+[67.400425] (-) TimerEvent: {}
+[67.500870] (-) TimerEvent: {}
+[67.601279] (-) TimerEvent: {}
+[67.701685] (-) TimerEvent: {}
+[67.802066] (-) TimerEvent: {}
+[67.902544] (-) TimerEvent: {}
+[68.002949] (-) TimerEvent: {}
+[68.103363] (-) TimerEvent: {}
+[68.203840] (-) TimerEvent: {}
+[68.304208] (-) TimerEvent: {}
+[68.404607] (-) TimerEvent: {}
+[68.504974] (-) TimerEvent: {}
+[68.605413] (-) TimerEvent: {}
+[68.706054] (-) TimerEvent: {}
+[68.806495] (-) TimerEvent: {}
+[68.906871] (-) TimerEvent: {}
+[69.007339] (-) TimerEvent: {}
+[69.107857] (-) TimerEvent: {}
+[69.208262] (-) TimerEvent: {}
+[69.308663] (-) TimerEvent: {}
+[69.409122] (-) TimerEvent: {}
+[69.509579] (-) TimerEvent: {}
+[69.610019] (-) TimerEvent: {}
+[69.710480] (-) TimerEvent: {}
+[69.810954] (-) TimerEvent: {}
+[69.911396] (-) TimerEvent: {}
+[70.011918] (-) TimerEvent: {}
+[70.112331] (-) TimerEvent: {}
+[70.212713] (-) TimerEvent: {}
+[70.313136] (-) TimerEvent: {}
+[70.413546] (-) TimerEvent: {}
+[70.513954] (-) TimerEvent: {}
+[70.614382] (-) TimerEvent: {}
+[70.714778] (-) TimerEvent: {}
+[70.815208] (-) TimerEvent: {}
+[70.915653] (-) TimerEvent: {}
+[71.016104] (-) TimerEvent: {}
+[71.116606] (-) TimerEvent: {}
+[71.217040] (-) TimerEvent: {}
+[71.317467] (-) TimerEvent: {}
+[71.417884] (-) TimerEvent: {}
+[71.518306] (-) TimerEvent: {}
+[71.618697] (-) TimerEvent: {}
+[71.719102] (-) TimerEvent: {}
+[71.819775] (-) TimerEvent: {}
+[71.920229] (-) TimerEvent: {}
+[72.020715] (-) TimerEvent: {}
+[72.121152] (-) TimerEvent: {}
+[72.221607] (-) TimerEvent: {}
+[72.322118] (-) TimerEvent: {}
+[72.422540] (-) TimerEvent: {}
+[72.522994] (-) TimerEvent: {}
+[72.623486] (-) TimerEvent: {}
+[72.723953] (-) TimerEvent: {}
+[72.824875] (-) TimerEvent: {}
+[72.925322] (-) TimerEvent: {}
+[73.025732] (-) TimerEvent: {}
+[73.126172] (-) TimerEvent: {}
+[73.226631] (-) TimerEvent: {}
+[73.327033] (-) TimerEvent: {}
+[73.427472] (-) TimerEvent: {}
+[73.527915] (-) TimerEvent: {}
+[73.628354] (-) TimerEvent: {}
+[73.728867] (-) TimerEvent: {}
+[73.829235] (-) TimerEvent: {}
+[73.929615] (-) TimerEvent: {}
+[74.030353] (-) TimerEvent: {}
+[74.130805] (-) TimerEvent: {}
+[74.231231] (-) TimerEvent: {}
+[74.331637] (-) TimerEvent: {}
+[74.432093] (-) TimerEvent: {}
+[74.532519] (-) TimerEvent: {}
+[74.632968] (-) TimerEvent: {}
+[74.733498] (-) TimerEvent: {}
+[74.833907] (-) TimerEvent: {}
+[74.934387] (-) TimerEvent: {}
+[75.034805] (-) TimerEvent: {}
+[75.135254] (-) TimerEvent: {}
+[75.235763] (-) TimerEvent: {}
+[75.336188] (-) TimerEvent: {}
+[75.436647] (-) TimerEvent: {}
+[75.537190] (-) TimerEvent: {}
+[75.637605] (-) TimerEvent: {}
+[75.737978] (-) TimerEvent: {}
+[75.838340] (-) TimerEvent: {}
+[75.938716] (-) TimerEvent: {}
+[76.039470] (-) TimerEvent: {}
+[76.139966] (-) TimerEvent: {}
+[76.240371] (-) TimerEvent: {}
+[76.340794] (-) TimerEvent: {}
+[76.441336] (-) TimerEvent: {}
+[76.541776] (-) TimerEvent: {}
+[76.642177] (-) TimerEvent: {}
+[76.742539] (-) TimerEvent: {}
+[76.842947] (-) TimerEvent: {}
+[76.943429] (-) TimerEvent: {}
+[77.043865] (-) TimerEvent: {}
+[77.144385] (-) TimerEvent: {}
+[77.244832] (-) TimerEvent: {}
+[77.345272] (-) TimerEvent: {}
+[77.445724] (-) TimerEvent: {}
+[77.546125] (-) TimerEvent: {}
+[77.646494] (-) TimerEvent: {}
+[77.746921] (-) TimerEvent: {}
+[77.847318] (-) TimerEvent: {}
+[77.947725] (-) TimerEvent: {}
+[78.048124] (-) TimerEvent: {}
+[78.148532] (-) TimerEvent: {}
+[78.248924] (-) TimerEvent: {}
+[78.349357] (-) TimerEvent: {}
+[78.449834] (-) TimerEvent: {}
+[78.550312] (-) TimerEvent: {}
+[78.650741] (-) TimerEvent: {}
+[78.751161] (-) TimerEvent: {}
+[78.851660] (-) TimerEvent: {}
+[78.952116] (-) TimerEvent: {}
+[79.052593] (-) TimerEvent: {}
+[79.153025] (-) TimerEvent: {}
+[79.253502] (-) TimerEvent: {}
+[79.353936] (-) TimerEvent: {}
+[79.454526] (-) TimerEvent: {}
+[79.554927] (-) TimerEvent: {}
+[79.655377] (-) TimerEvent: {}
+[79.780766] (-) TimerEvent: {}
+[79.881248] (-) TimerEvent: {}
+[79.981847] (-) TimerEvent: {}
+[80.082313] (-) TimerEvent: {}
+[80.182741] (-) TimerEvent: {}
+[80.283198] (-) TimerEvent: {}
+[80.383837] (-) TimerEvent: {}
+[80.484290] (-) TimerEvent: {}
+[80.584707] (-) TimerEvent: {}
+[80.685086] (-) TimerEvent: {}
+[80.785522] (-) TimerEvent: {}
+[80.885924] (-) TimerEvent: {}
+[80.986362] (-) TimerEvent: {}
+[81.086749] (-) TimerEvent: {}
+[81.187238] (-) TimerEvent: {}
+[81.287680] (-) TimerEvent: {}
+[81.388084] (-) TimerEvent: {}
+[81.488504] (-) TimerEvent: {}
+[81.588975] (-) TimerEvent: {}
+[81.689381] (-) TimerEvent: {}
+[81.789794] (-) TimerEvent: {}
+[81.890191] (-) TimerEvent: {}
+[81.990594] (-) TimerEvent: {}
+[82.091230] (-) TimerEvent: {}
+[82.191676] (-) TimerEvent: {}
+[82.292142] (-) TimerEvent: {}
+[82.392697] (-) TimerEvent: {}
+[82.493269] (-) TimerEvent: {}
+[82.593736] (-) TimerEvent: {}
+[82.694156] (-) TimerEvent: {}
+[82.794592] (-) TimerEvent: {}
+[82.895058] (-) TimerEvent: {}
+[82.995591] (-) TimerEvent: {}
+[83.096006] (-) TimerEvent: {}
+[83.196386] (-) TimerEvent: {}
+[83.296785] (-) TimerEvent: {}
+[83.397193] (-) TimerEvent: {}
+[83.497597] (-) TimerEvent: {}
+[83.597965] (-) TimerEvent: {}
+[83.698392] (-) TimerEvent: {}
+[83.798780] (-) TimerEvent: {}
+[83.899158] (-) TimerEvent: {}
+[83.999660] (-) TimerEvent: {}
+[84.100066] (-) TimerEvent: {}
+[84.200447] (-) TimerEvent: {}
+[84.300873] (-) TimerEvent: {}
+[84.401289] (-) TimerEvent: {}
+[84.501719] (-) TimerEvent: {}
+[84.602127] (-) TimerEvent: {}
+[84.702541] (-) TimerEvent: {}
+[84.802998] (-) TimerEvent: {}
+[84.903445] (-) TimerEvent: {}
+[85.004119] (-) TimerEvent: {}
+[85.104493] (-) TimerEvent: {}
+[85.204880] (-) TimerEvent: {}
+[85.305280] (-) TimerEvent: {}
+[85.405667] (-) TimerEvent: {}
+[85.506103] (-) TimerEvent: {}
+[85.606500] (-) TimerEvent: {}
+[85.706896] (-) TimerEvent: {}
+[85.807302] (-) TimerEvent: {}
+[85.907750] (-) TimerEvent: {}
+[86.008173] (-) TimerEvent: {}
+[86.108599] (-) TimerEvent: {}
+[86.208990] (-) TimerEvent: {}
+[86.309400] (-) TimerEvent: {}
+[86.409886] (-) TimerEvent: {}
+[86.510273] (-) TimerEvent: {}
+[86.610684] (-) TimerEvent: {}
+[86.711162] (-) TimerEvent: {}
+[86.811672] (-) TimerEvent: {}
+[86.912103] (-) TimerEvent: {}
+[87.012554] (-) TimerEvent: {}
+[87.113036] (-) TimerEvent: {}
+[87.213456] (-) TimerEvent: {}
+[87.313918] (-) TimerEvent: {}
+[87.414445] (-) TimerEvent: {}
+[87.515460] (-) TimerEvent: {}
+[87.615912] (-) TimerEvent: {}
+[87.716522] (-) TimerEvent: {}
+[87.816934] (-) TimerEvent: {}
+[87.917329] (-) TimerEvent: {}
+[88.017789] (-) TimerEvent: {}
+[88.118213] (-) TimerEvent: {}
+[88.218900] (-) TimerEvent: {}
+[88.319308] (-) TimerEvent: {}
+[88.419749] (-) TimerEvent: {}
+[88.520194] (-) TimerEvent: {}
+[88.620610] (-) TimerEvent: {}
+[88.721019] (-) TimerEvent: {}
+[88.821485] (-) TimerEvent: {}
+[88.921862] (-) TimerEvent: {}
+[89.022319] (-) TimerEvent: {}
+[89.122717] (-) TimerEvent: {}
+[89.223088] (-) TimerEvent: {}
+[89.323494] (-) TimerEvent: {}
+[89.424024] (-) TimerEvent: {}
+[89.524520] (-) TimerEvent: {}
+[89.624940] (-) TimerEvent: {}
+[89.725470] (-) TimerEvent: {}
+[89.825891] (-) TimerEvent: {}
+[89.926286] (-) TimerEvent: {}
+[90.026653] (-) TimerEvent: {}
+[90.071332] (xrf2_msgs) CommandEnded: {'returncode': 0}
+[90.127400] (-) TimerEvent: {}
+[90.143101] (xrf2_msgs) JobEnded: {'identifier': 'xrf2_msgs', 'rc': 0}
+[90.144915] (-) EventReactorShutdown: {}

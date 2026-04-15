@@ -1,0 +1,36 @@
+[0.120s] Invoking command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/image_functions_sdfr -- -j16 -l16
+[0.307s] [35m[1mConsolidate compiler generated dependencies of target image_functions[0m
+[0.417s] [100%] Built target image_functions
+[0.504s] Invoked command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/image_functions_sdfr -- -j16 -l16
+[0.514s] Invoking command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/image_functions_sdfr
+[0.550s] -- Install configuration: ""
+[0.550s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/include
+[0.551s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr
+[0.551s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr/image_functions.hpp
+[0.551s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr/visibility_control.h
+[0.551s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib/libimage_functions.so
+[0.560s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/image_functions_sdfr/lib/libimage_functions.so" to ""
+[0.567s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.sh
+[0.569s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.dsv
+[0.572s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/package_run_dependencies/image_functions_sdfr
+[0.574s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/parent_prefix_path/image_functions_sdfr
+[0.576s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.sh
+[0.576s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.dsv
+[0.578s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.sh
+[0.578s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.dsv
+[0.579s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.bash
+[0.581s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.sh
+[0.620s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.zsh
+[0.621s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.dsv
+[0.622s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv
+[0.625s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/packages/image_functions_sdfr
+[0.627s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport.cmake
+[0.628s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport-noconfig.cmake
+[0.630s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.630s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_libraries-extras.cmake
+[0.636s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_targets-extras.cmake
+[0.638s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.639s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig.cmake
+[0.641s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig-version.cmake
+[0.650s] -- Installing: /home/jordan/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.xml
+[0.732s] Invoked command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/image_functions_sdfr

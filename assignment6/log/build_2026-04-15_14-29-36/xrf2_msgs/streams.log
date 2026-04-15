@@ -1,0 +1,164 @@
+[0.119s] Invoking command in '/home/jordan/SDfR/assignment6/build/xrf2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/xrf2_msgs -- -j16 -l16
+[0.324s] [  2%] Built target xrf2_msgs__cpp
+[0.327s] [ 12%] Built target xrf2_msgs__rosidl_generator_c
+[0.390s] [ 12%] Built target ament_cmake_python_copy_xrf2_msgs
+[0.500s] [ 23%] Built target xrf2_msgs__rosidl_typesupport_introspection_cpp
+[0.505s] [ 33%] Built target xrf2_msgs__rosidl_typesupport_cpp
+[0.505s] [ 43%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_cpp
+[0.505s] [ 53%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_c
+[0.521s] [ 64%] Built target xrf2_msgs__rosidl_typesupport_introspection_c
+[0.572s] [ 74%] Built target xrf2_msgs__rosidl_typesupport_c
+[0.668s] [ 74%] Built target xrf2_msgs
+[0.778s] [ 76%] Built target xrf2_msgs__py
+[0.839s] [ 84%] Built target xrf2_msgs__rosidl_generator_py
+[0.915s] [ 89%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.916s] [ 94%] Built target xrf2_msgs__rosidl_typesupport_introspection_c__pyext
+[0.917s] [100%] Built target xrf2_msgs__rosidl_typesupport_c__pyext
+[1.242s] running egg_info
+[1.244s] writing xrf2_msgs.egg-info/PKG-INFO
+[1.245s] writing dependency_links to xrf2_msgs.egg-info/dependency_links.txt
+[1.245s] writing top-level names to xrf2_msgs.egg-info/top_level.txt
+[1.250s] reading manifest file 'xrf2_msgs.egg-info/SOURCES.txt'
+[1.251s] writing manifest file 'xrf2_msgs.egg-info/SOURCES.txt'
+[1.321s] [100%] Built target ament_cmake_python_build_xrf2_msgs_egg
+[1.359s] Invoked command in '/home/jordan/SDfR/assignment6/build/xrf2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/xrf2_msgs -- -j16 -l16
+[1.365s] Invoking command in '/home/jordan/SDfR/assignment6/build/xrf2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/xrf2_msgs
+[1.388s] -- Install configuration: ""
+[1.389s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/ament_index/resource_index/rosidl_interfaces/xrf2_msgs
+[1.389s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[1.390s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[1.390s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.391s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[1.391s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.h
+[1.391s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__functions.h
+[1.391s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__struct.h
+[1.392s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__functions.c
+[1.392s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__functions.c
+[1.393s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.h
+[1.393s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__struct.h
+[1.393s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__functions.h
+[1.394s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/ros2_xeno.h
+[1.394s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/xeno2_ros.h
+[1.395s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/library_path.sh
+[1.395s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/library_path.dsv
+[1.395s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_c.so
+[1.395s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[1.396s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[1.396s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[1.397s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_fastrtps_c.h
+[1.397s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_fastrtps_c.h
+[1.397s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.398s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_c.so
+[1.400s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[1.400s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[1.401s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.402s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[1.402s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_introspection_c.h
+[1.403s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.c
+[1.403s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.c
+[1.404s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_introspection_c.h
+[1.404s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_c.so
+[1.405s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_c.so
+[1.405s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[1.406s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[1.408s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.408s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/ros2_xeno.hpp
+[1.409s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[1.409s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__struct.hpp
+[1.410s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__traits.hpp
+[1.410s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__traits.hpp
+[1.410s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__builder.hpp
+[1.410s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.hpp
+[1.411s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__builder.hpp
+[1.411s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__struct.hpp
+[1.411s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.hpp
+[1.411s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/xeno2_ros.hpp
+[1.412s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[1.412s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[1.412s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[1.413s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_fastrtps_cpp.hpp
+[1.414s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_fastrtps_cpp.hpp
+[1.414s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/dds_fastrtps
+[1.414s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.416s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.418s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[1.418s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[1.419s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[1.419s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.cpp
+[1.419s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_introspection_cpp.hpp
+[1.419s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.cpp
+[1.419s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_introspection_cpp.hpp
+[1.420s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_cpp.so
+[1.420s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_cpp.so
+[1.422s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/pythonpath.sh
+[1.422s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/pythonpath.dsv
+[1.423s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info
+[1.423s] -- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.426s] -- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.426s] -- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.426s] -- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.426s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs
+[1.427s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.427s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg
+[1.427s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno_s.c
+[1.428s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros_s.c
+[1.428s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/__init__.py
+[1.429s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros.py
+[1.431s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno.py
+[1.432s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.432s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/libxrf2_msgs__rosidl_generator_py.so
+[1.432s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.433s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.433s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_c.c
+[1.433s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/__init__.py
+[1.433s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.496s] Listing '/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs'...
+[1.496s] Listing '/home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg'...
+[1.509s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.510s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.511s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.512s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_py.so
+[1.512s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/msg/Ros2Xeno.idl
+[1.513s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/msg/Xeno2Ros.idl
+[1.513s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/msg/Ros2Xeno.msg
+[1.514s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/msg/Xeno2Ros.msg
+[1.514s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/ament_index/resource_index/package_run_dependencies/xrf2_msgs
+[1.515s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/ament_index/resource_index/parent_prefix_path/xrf2_msgs
+[1.515s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/ament_prefix_path.sh
+[1.516s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/ament_prefix_path.dsv
+[1.516s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/path.sh
+[1.517s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/environment/path.dsv
+[1.517s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/local_setup.bash
+[1.518s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/local_setup.sh
+[1.519s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/local_setup.zsh
+[1.520s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/local_setup.dsv
+[1.520s] -- Installing: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/package.dsv
+[1.523s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/ament_index/resource_index/packages/xrf2_msgs
+[1.523s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cExport.cmake
+[1.524s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.525s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.527s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.528s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.528s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cExport.cmake
+[1.535s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.537s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cppExport.cmake
+[1.538s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.546s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.546s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.547s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.548s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cppExport.cmake
+[1.548s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.549s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_pyExport.cmake
+[1.550s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.551s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake-extras.cmake
+[1.551s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.552s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.553s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.553s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.555s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.557s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.558s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgsConfig.cmake
+[1.559s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgsConfig-version.cmake
+[1.560s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/xrf2_msgs/share/xrf2_msgs/package.xml
+[1.575s] Invoked command in '/home/jordan/SDfR/assignment6/build/xrf2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/xrf2_msgs

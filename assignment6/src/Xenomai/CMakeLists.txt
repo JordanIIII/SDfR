@@ -5,7 +5,7 @@ project(demo)
 
 add_compile_options(-Wno-pointer-arith)
 
-set(locationFramework "../../XRF2/XenoRosFramework/")
+set(locationFramework "../XRF2/XenoRosFramework/")
 
 set(locationXenoSrc "${locationFramework}Xenomai/src/")
 set(locationXenoInclude "${locationFramework}Xenomai/include")

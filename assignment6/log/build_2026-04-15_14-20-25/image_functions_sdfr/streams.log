@@ -1,0 +1,41 @@
+[0.111s] Invoking command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment6/src/image_functions_sdfr -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/image_functions_sdfr
+[0.688s] -- The C compiler identification is GNU 11.4.0
+[3.224s] -- The CXX compiler identification is GNU 11.4.0
+[5.077s] -- Detecting C compiler ABI info
+[5.629s] -- Detecting C compiler ABI info - done
+[5.654s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.655s] -- Detecting C compile features
+[5.656s] -- Detecting C compile features - done
+[5.665s] -- Detecting CXX compiler ABI info
+[6.380s] -- Detecting CXX compiler ABI info - done
+[6.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.409s] -- Detecting CXX compile features
+[6.410s] -- Detecting CXX compile features - done
+[6.418s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.903s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.191s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.215s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[8.048s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.062s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.086s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.165s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.299s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.308s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.211s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[18.243s] -- Found FastRTPS: /opt/ros/humble/include  
+[28.903s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[28.943s] -- Looking for pthread.h
+[29.628s] -- Looking for pthread.h - found
+[29.628s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[30.480s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[30.480s] -- Found Threads: TRUE  
+[30.711s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[31.249s] -- Configuring done
+[31.335s] -- Generating done
+[31.364s] -- Build files have been written to: /home/jordan/SDfR/assignment6/build/image_functions_sdfr
+[31.614s] Invoked command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment6/src/image_functions_sdfr -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/image_functions_sdfr
+[31.617s] Invoking command in '/home/jordan/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/image_functions_sdfr -- -j16 -l16
+[31.933s] [ 50%] Building CXX object CMakeFiles/image_functions.dir/src/image_functions.cpp.o
+[43.930s] [100%] Linking CXX shared library libimage_functions.so
+[44.879s] [100%] Built target image_functions

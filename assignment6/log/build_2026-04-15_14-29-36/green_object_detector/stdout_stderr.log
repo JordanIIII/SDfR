@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target green_object_detector[0m
+[100%] Built target green_object_detector
+-- Install configuration: ""
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/lib/green_object_detector/green_object_detector
+-- Set runtime path of "/home/jordan/SDfR/assignment6/install/green_object_detector/lib/green_object_detector/green_object_detector" to ""
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/package_run_dependencies/green_object_detector
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/parent_prefix_path/green_object_detector
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/ament_prefix_path.sh
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/ament_prefix_path.dsv
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/path.sh
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/environment/path.dsv
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.bash
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.sh
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.zsh
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/local_setup.dsv
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.dsv
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/ament_index/resource_index/packages/green_object_detector
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/cmake/green_object_detectorConfig.cmake
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/cmake/green_object_detectorConfig-version.cmake
+-- Installing: /home/jordan/SDfR/assignment6/install/green_object_detector/share/green_object_detector/package.xml

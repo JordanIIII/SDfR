@@ -1,0 +1,10 @@
+/home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/uninstall.dir
+/home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/ros_xeno_bridge_uninstall.dir
+/home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/RosXenoBridge.dir
+/home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/test.dir
+/home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/edit_cache.dir
+/home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/rebuild_cache.dir
+/home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/list_install_components.dir
+/home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/install.dir
+/home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/install/local.dir
+/home/jordan/SDfR/assignment6/build/ros_xeno_bridge/CMakeFiles/install/strip.dir

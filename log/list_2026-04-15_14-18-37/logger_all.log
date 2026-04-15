@@ -1,0 +1,353 @@
+[1.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '--base-paths', 'assignment6/src']
+[1.062s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['assignment6/src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=False, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bf45d656020>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7bf45d7cebc0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7bf45d7cebc0>>, mixin_verb=('list',))
+[1.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.909s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jordan/SDfR/assignment6/src'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extensions ['ignore', 'ignore_ament_install']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extension 'ignore'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extension 'ignore_ament_install'
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extensions ['colcon_pkg']
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extension 'colcon_pkg'
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extensions ['colcon_meta']
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extension 'colcon_meta'
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extensions ['ros']
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extension 'ros'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extensions ['cmake', 'python']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extension 'cmake'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extension 'python'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extensions ['python_setup_py']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src) by extension 'python_setup_py'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extensions ['ignore', 'ignore_ament_install']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extension 'ignore'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extension 'ignore_ament_install'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extensions ['colcon_pkg']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extension 'colcon_pkg'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extensions ['colcon_meta']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extension 'colcon_meta'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extensions ['ros']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extension 'ros'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extensions ['cmake', 'python']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extension 'cmake'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Template-20sim) by extension 'python'
+[1.957s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/Template-20sim' with type 'cmake' and name 'template_20sim'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extensions ['ignore', 'ignore_ament_install']
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extension 'ignore'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extension 'ignore_ament_install'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extensions ['colcon_pkg']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extension 'colcon_pkg'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extensions ['colcon_meta']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extension 'colcon_meta'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extensions ['ros']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extension 'ros'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extensions ['cmake', 'python']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extension 'cmake'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extension 'python'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extensions ['python_setup_py']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2) by extension 'python_setup_py'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/Template) by extensions ['ignore', 'ignore_ament_install']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/Template) by extension 'ignore'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/Template) ignored
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extensions ['ignore', 'ignore_ament_install']
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extension 'ignore'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extension 'ignore_ament_install'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extensions ['colcon_pkg']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extension 'colcon_pkg'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extensions ['colcon_meta']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extension 'colcon_meta'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extensions ['ros']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extension 'ros'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extensions ['cmake', 'python']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extension 'cmake'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extension 'python'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extensions ['python_setup_py']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework) by extension 'python_setup_py'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extensions ['ignore', 'ignore_ament_install']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extension 'ignore'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extension 'ignore_ament_install'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extensions ['colcon_pkg']
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extension 'colcon_pkg'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extensions ['colcon_meta']
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extension 'colcon_meta'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extensions ['ros']
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extension 'ros'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extensions ['cmake', 'python']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extension 'cmake'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extension 'python'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extensions ['python_setup_py']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common) by extension 'python_setup_py'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extension 'ignore'
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extension 'ignore_ament_install'
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extensions ['colcon_pkg']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extension 'colcon_pkg'
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extensions ['colcon_meta']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extension 'colcon_meta'
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extensions ['ros']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extension 'ros'
+[1.974s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs' with type 'ros.ament_cmake' and name 'xrf2_msgs'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['ignore', 'ignore_ament_install']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'ignore'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'ignore_ament_install'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['colcon_pkg']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'colcon_pkg'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['colcon_meta']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'colcon_meta'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['ros']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'ros'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['cmake', 'python']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'cmake'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'python'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['python_setup_py']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'python_setup_py'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extensions ['ignore', 'ignore_ament_install']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extension 'ignore'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extension 'ignore_ament_install'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extensions ['colcon_pkg']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extensions ['colcon_meta']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extension 'colcon_meta'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extensions ['ros']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extension 'ros'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extensions ['cmake', 'python']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extension 'cmake'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extension 'python'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extensions ['python_setup_py']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/include) by extension 'python_setup_py'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extensions ['ignore', 'ignore_ament_install']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extension 'ignore'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extension 'ignore_ament_install'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extensions ['colcon_pkg']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extension 'colcon_pkg'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extensions ['colcon_meta']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extension 'colcon_meta'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extensions ['ros']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extension 'ros'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extensions ['cmake', 'python']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extension 'cmake'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extension 'python'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extensions ['python_setup_py']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/python_script) by extension 'python_setup_py'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['ignore', 'ignore_ament_install']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'ignore'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'ignore_ament_install'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['colcon_pkg']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'colcon_pkg'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['colcon_meta']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'colcon_meta'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['ros']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'ros'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['cmake', 'python']
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'cmake'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'python'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['python_setup_py']
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'python_setup_py'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extensions ['ignore', 'ignore_ament_install']
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extension 'ignore'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extension 'ignore_ament_install'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extensions ['colcon_pkg']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extension 'colcon_pkg'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extensions ['colcon_meta']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extension 'colcon_meta'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extensions ['ros']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extension 'ros'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extensions ['cmake', 'python']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extension 'cmake'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extension 'python'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extensions ['python_setup_py']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros) by extension 'python_setup_py'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extension 'ignore'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extension 'ignore_ament_install'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extensions ['colcon_pkg']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extension 'colcon_pkg'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extensions ['colcon_meta']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extension 'colcon_meta'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extensions ['ros']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extension 'ros'
+[1.991s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge' with type 'ros.ament_cmake' and name 'ros_xeno_bridge'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['ignore', 'ignore_ament_install']
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extension 'ignore'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extension 'ignore_ament_install'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['colcon_pkg']
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extension 'colcon_pkg'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['colcon_meta']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extension 'colcon_meta'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['ros']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extension 'ros'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['cmake', 'python']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extension 'cmake'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extension 'python'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['python_setup_py']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests) by extension 'python_setup_py'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests/IcoIo) by extensions ['ignore', 'ignore_ament_install']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests/IcoIo) by extension 'ignore'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests/IcoIo) ignored
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests/Logger) by extensions ['ignore', 'ignore_ament_install']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests/Logger) by extension 'ignore'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests/Logger) ignored
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests/Monitor) by extensions ['ignore', 'ignore_ament_install']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests/Monitor) by extension 'ignore'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Unit-Tests/Monitor) ignored
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extensions ['ignore', 'ignore_ament_install']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extension 'ignore'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extension 'ignore_ament_install'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extensions ['colcon_pkg']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extension 'colcon_pkg'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extensions ['colcon_meta']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extension 'colcon_meta'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extensions ['ros']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extension 'ros'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extensions ['cmake', 'python']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extension 'cmake'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extension 'python'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extensions ['python_setup_py']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai) by extension 'python_setup_py'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['ignore', 'ignore_ament_install']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extension 'ignore'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extension 'ignore_ament_install'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['colcon_pkg']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extension 'colcon_pkg'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['colcon_meta']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extension 'colcon_meta'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['ros']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extension 'ros'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['cmake', 'python']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extension 'cmake'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extension 'python'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['python_setup_py']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/include) by extension 'python_setup_py'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['ignore', 'ignore_ament_install']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extension 'ignore'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extension 'ignore_ament_install'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['colcon_pkg']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extension 'colcon_pkg'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['colcon_meta']
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extension 'colcon_meta'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['ros']
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extension 'ros'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['cmake', 'python']
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extension 'cmake'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extension 'python'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['python_setup_py']
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/XRF2/XenoRosFramework/Xenomai/src) by extension 'python_setup_py'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extensions ['ignore', 'ignore_ament_install']
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extension 'ignore'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extension 'ignore_ament_install'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extensions ['colcon_pkg']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extension 'colcon_pkg'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extensions ['colcon_meta']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extension 'colcon_meta'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extensions ['ros']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extension 'ros'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extensions ['cmake', 'python']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extension 'cmake'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/Xenomai) by extension 'python'
+[2.007s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/Xenomai' with type 'cmake' and name 'demo'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extensions ['ignore', 'ignore_ament_install']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extension 'ignore'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extension 'ignore_ament_install'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extensions ['colcon_pkg']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extension 'colcon_pkg'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extensions ['colcon_meta']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extension 'colcon_meta'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extensions ['ros']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extension 'ros'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extensions ['cmake', 'python']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extension 'cmake'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extension 'python'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extensions ['python_setup_py']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_host2vm) by extension 'python_setup_py'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_vm2ros) by extensions ['ignore', 'ignore_ament_install']
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_vm2ros) by extension 'ignore'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_vm2ros) by extension 'ignore_ament_install'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_vm2ros) by extensions ['colcon_pkg']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_vm2ros) by extension 'colcon_pkg'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_vm2ros) by extensions ['colcon_meta']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_vm2ros) by extension 'colcon_meta'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_vm2ros) by extensions ['ros']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/cam2image_vm2ros) by extension 'ros'
+[2.014s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/cam2image_vm2ros' with type 'ros.ament_cmake' and name 'cam2image_vm2ros'
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/green_object_detector) by extensions ['ignore', 'ignore_ament_install']
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/green_object_detector) by extension 'ignore'
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/green_object_detector) by extension 'ignore_ament_install'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/green_object_detector) by extensions ['colcon_pkg']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/green_object_detector) by extension 'colcon_pkg'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/green_object_detector) by extensions ['colcon_meta']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/green_object_detector) by extension 'colcon_meta'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/green_object_detector) by extensions ['ros']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/green_object_detector) by extension 'ros'
+[2.018s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/green_object_detector' with type 'ros.ament_cmake' and name 'green_object_detector'
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/image_functions_sdfr) by extensions ['ignore', 'ignore_ament_install']
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/image_functions_sdfr) by extension 'ignore'
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/image_functions_sdfr) by extension 'ignore_ament_install'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/image_functions_sdfr) by extensions ['colcon_pkg']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/image_functions_sdfr) by extension 'colcon_pkg'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/image_functions_sdfr) by extensions ['colcon_meta']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/image_functions_sdfr) by extension 'colcon_meta'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/image_functions_sdfr) by extensions ['ros']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/image_functions_sdfr) by extension 'ros'
+[2.022s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/image_functions_sdfr' with type 'ros.ament_cmake' and name 'image_functions_sdfr'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot2turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot2turtlesim) by extension 'ignore'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot2turtlesim) by extension 'ignore_ament_install'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot2turtlesim) by extensions ['colcon_pkg']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot2turtlesim) by extension 'colcon_pkg'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot2turtlesim) by extensions ['colcon_meta']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot2turtlesim) by extension 'colcon_meta'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot2turtlesim) by extensions ['ros']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot2turtlesim) by extension 'ros'
+[2.026s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/relbot2turtlesim' with type 'ros.ament_cmake' and name 'relbot2turtlesim'
+[2.026s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_adapter) by extensions ['ignore', 'ignore_ament_install']
+[2.026s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_adapter) by extension 'ignore'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_adapter) by extension 'ignore_ament_install'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_adapter) by extensions ['colcon_pkg']
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_adapter) by extension 'colcon_pkg'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_adapter) by extensions ['colcon_meta']
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_adapter) by extension 'colcon_meta'
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_adapter) by extensions ['ros']
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_adapter) by extension 'ros'
+[2.030s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/relbot_adapter' with type 'ros.ament_cmake' and name 'relbot_adapter'
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_launch) by extensions ['ignore', 'ignore_ament_install']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_launch) by extension 'ignore'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_launch) by extension 'ignore_ament_install'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_launch) by extensions ['colcon_pkg']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_launch) by extension 'colcon_pkg'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_launch) by extensions ['colcon_meta']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_launch) by extension 'colcon_meta'
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_launch) by extensions ['ros']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_launch) by extension 'ros'
+[2.034s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/relbot_launch' with type 'ros.ament_cmake' and name 'relbot_launch'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_msgs) by extension 'ignore'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_msgs) by extension 'ignore_ament_install'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_msgs) by extensions ['colcon_pkg']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_msgs) by extension 'colcon_pkg'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_msgs) by extensions ['colcon_meta']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_msgs) by extension 'colcon_meta'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_msgs) by extensions ['ros']
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_msgs) by extension 'ros'
+[2.037s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/relbot_msgs' with type 'ros.ament_cmake' and name 'relbot_msgs'
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_sequence_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_sequence_controller) by extension 'ignore'
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_sequence_controller) by extension 'ignore_ament_install'
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_sequence_controller) by extensions ['colcon_pkg']
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_sequence_controller) by extension 'colcon_pkg'
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_sequence_controller) by extensions ['colcon_meta']
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_sequence_controller) by extension 'colcon_meta'
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_sequence_controller) by extensions ['ros']
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_sequence_controller) by extension 'ros'
+[2.041s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/relbot_sequence_controller' with type 'ros.ament_cmake' and name 'relbot_sequence_controller'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_simulator) by extensions ['ignore', 'ignore_ament_install']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_simulator) by extension 'ignore'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_simulator) by extension 'ignore_ament_install'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_simulator) by extensions ['colcon_pkg']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_simulator) by extension 'colcon_pkg'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_simulator) by extensions ['colcon_meta']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_simulator) by extension 'colcon_meta'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_simulator) by extensions ['ros']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(assignment6/src/relbot_simulator) by extension 'ros'
+[2.045s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment6/src/relbot_simulator' with type 'ros.ament_cmake' and name 'relbot_simulator'
+[2.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

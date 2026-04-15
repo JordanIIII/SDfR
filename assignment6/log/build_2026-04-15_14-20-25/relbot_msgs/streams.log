@@ -1,0 +1,262 @@
+[0.108s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment6/src/relbot_msgs -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/relbot_msgs
+[0.633s] -- The C compiler identification is GNU 11.4.0
+[2.755s] -- The CXX compiler identification is GNU 11.4.0
+[4.609s] -- Detecting C compiler ABI info
+[5.273s] -- Detecting C compiler ABI info - done
+[5.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.289s] -- Detecting C compile features
+[5.289s] -- Detecting C compile features - done
+[5.297s] -- Detecting CXX compiler ABI info
+[5.909s] -- Detecting CXX compiler ABI info - done
+[5.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.938s] -- Detecting CXX compile features
+[5.940s] -- Detecting CXX compile features - done
+[5.949s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.416s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.713s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.740s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.689s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[8.665s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[8.677s] -- Found ament_cmake_cpplint: 0.12.15 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[8.685s] -- Found ament_cmake_uncrustify: 0.12.15 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[8.692s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.200s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.203s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.697s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[12.697s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.697s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.698s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[12.757s] -- Found PythonExtra: .so  
+[13.128s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[13.138s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[13.153s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.242s] -- Added test 'lint_cmake' to check CMake code style
+[13.246s] -- Added test 'xmllint' to check XML markup files
+[13.262s] -- Configuring done
+[13.472s] -- Generating done
+[13.517s] -- Build files have been written to: /home/jordan/SDfR/assignment6/build/relbot_msgs
+[13.768s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment6/src/relbot_msgs -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/relbot_msgs
+[13.770s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot_msgs -- -j16 -l16
+[13.925s] [  2%] Generating C code for ROS interfaces
+[13.960s] [  5%] Generating C++ code for ROS interfaces
+[13.994s] [  5%] Built target ament_cmake_python_copy_relbot_msgs
+[14.806s] running egg_info
+[14.808s] creating relbot_msgs.egg-info
+[14.811s] writing relbot_msgs.egg-info/PKG-INFO
+[14.813s] writing dependency_links to relbot_msgs.egg-info/dependency_links.txt
+[14.814s] writing top-level names to relbot_msgs.egg-info/top_level.txt
+[14.815s] writing manifest file 'relbot_msgs.egg-info/SOURCES.txt'
+[14.822s] reading manifest file 'relbot_msgs.egg-info/SOURCES.txt'
+[14.824s] writing manifest file 'relbot_msgs.egg-info/SOURCES.txt'
+[14.944s] [  5%] Built target ament_cmake_python_build_relbot_msgs_egg
+[14.951s] [  5%] Built target relbot_msgs__cpp
+[14.960s] [  7%] Building C object CMakeFiles/relbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/relbot_msgs/msg/detail/relbot_motors__functions.c.o
+[14.960s] [ 10%] Building C object CMakeFiles/relbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/relbot_msgs/msg/detail/relbot_motors_stamped__functions.c.o
+[14.995s] [ 12%] Generating C++ type support dispatch for ROS interfaces
+[14.995s] [ 15%] Generating C++ type support for eProsima Fast-RTPS
+[15.004s] [ 17%] Generating C++ introspection for ROS interfaces
+[15.178s] [ 20%] Linking C shared library librelbot_msgs__rosidl_generator_c.so
+[15.937s] [ 20%] Built target relbot_msgs__rosidl_generator_c
+[15.979s] [ 23%] Generating C type support for eProsima Fast-RTPS
+[15.979s] [ 25%] Generating C introspection for ROS interfaces
+[15.984s] [ 28%] Generating C type support dispatch for ROS interfaces
+[16.047s] [ 30%] Building CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/relbot_msgs/msg/relbot_motors_stamped__type_support.cpp.o
+[16.047s] [ 33%] Building CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/relbot_msgs/msg/relbot_motors__type_support.cpp.o
+[16.083s] [ 35%] Building CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/relbot_msgs/msg/detail/relbot_motors__type_support.cpp.o
+[16.084s] [ 38%] Building CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.cpp.o
+[16.171s] [ 41%] Building CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/relbot_msgs/msg/detail/dds_fastrtps/relbot_motors__type_support.cpp.o
+[16.187s] [ 43%] Building CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/relbot_msgs/msg/detail/dds_fastrtps/relbot_motors_stamped__type_support.cpp.o
+[17.111s] [ 46%] Building CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/relbot_msgs/msg/relbot_motors_stamped__type_support.cpp.o
+[17.120s] [ 48%] Building CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/relbot_msgs/msg/relbot_motors__type_support.cpp.o
+[17.151s] [ 51%] Building C object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/relbot_msgs/msg/detail/relbot_motors__type_support.c.o
+[17.151s] [ 53%] Building C object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.c.o
+[17.283s] [ 56%] Linking CXX shared library librelbot_msgs__rosidl_typesupport_c.so
+[17.284s] [ 58%] Building CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/relbot_msgs/msg/detail/relbot_motors_stamped__type_support_c.cpp.o
+[17.297s] [ 61%] Building CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/relbot_msgs/msg/detail/relbot_motors__type_support_c.cpp.o
+[17.335s] [ 64%] Linking CXX shared library librelbot_msgs__rosidl_typesupport_cpp.so
+[17.357s] [ 66%] Linking C shared library librelbot_msgs__rosidl_typesupport_introspection_c.so
+[17.820s] [ 69%] Linking CXX shared library librelbot_msgs__rosidl_typesupport_introspection_cpp.so
+[17.990s] [ 71%] Linking CXX shared library librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[18.148s] [ 71%] Built target relbot_msgs__rosidl_typesupport_introspection_c
+[18.176s] [ 71%] Built target relbot_msgs__rosidl_typesupport_c
+[18.286s] [ 71%] Built target relbot_msgs__rosidl_typesupport_cpp
+[18.755s] [ 74%] Linking CXX shared library librelbot_msgs__rosidl_typesupport_fastrtps_c.so
+[18.863s] [ 74%] Built target relbot_msgs__rosidl_typesupport_introspection_cpp
+[18.996s] [ 74%] Built target relbot_msgs__rosidl_typesupport_fastrtps_cpp
+[19.542s] [ 74%] Built target relbot_msgs__rosidl_typesupport_fastrtps_c
+[19.625s] [ 74%] Built target relbot_msgs
+[19.700s] [ 76%] Generating Python code for ROS interfaces
+[21.010s] [ 76%] Built target relbot_msgs__py
+[21.085s] [ 79%] Building C object CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o
+[21.085s] [ 82%] Building C object CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o
+[21.457s] [ 84%] Linking C shared library rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so
+[22.054s] [ 84%] Built target relbot_msgs__rosidl_generator_py
+[22.154s] [ 87%] Building C object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[22.156s] [ 89%] Building C object CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_c.c.o
+[22.165s] [ 92%] Building C object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[22.675s] [ 94%] Linking C shared library rosidl_generator_py/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.678s] [ 97%] Linking C shared library rosidl_generator_py/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.680s] [100%] Linking C shared library rosidl_generator_py/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.174s] [100%] Built target relbot_msgs__rosidl_typesupport_introspection_c__pyext
+[23.174s] [100%] Built target relbot_msgs__rosidl_typesupport_c__pyext
+[23.218s] [100%] Built target relbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[23.353s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot_msgs -- -j16 -l16
+[23.360s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/relbot_msgs
+[23.389s] -- Install configuration: ""
+[23.396s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/ament_index/resource_index/rosidl_interfaces/relbot_msgs
+[23.397s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[23.400s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[23.401s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[23.402s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[23.404s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__functions.h
+[23.404s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__functions.c
+[23.405s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__struct.h
+[23.408s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.h
+[23.409s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__functions.h
+[23.411s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.h
+[23.412s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__struct.h
+[23.413s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__functions.c
+[23.414s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors.h
+[23.415s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors_stamped.h
+[23.419s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/environment/library_path.sh
+[23.419s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/environment/library_path.dsv
+[23.421s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_c.so
+[23.424s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_c.so" to ""
+[23.425s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[23.426s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[23.426s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[23.427s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_fastrtps_c.h
+[23.428s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_fastrtps_c.h
+[23.428s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.428s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_c.so
+[23.430s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[23.430s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[23.430s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[23.431s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.431s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[23.432s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_introspection_c.h
+[23.432s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.c
+[23.433s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_introspection_c.h
+[23.434s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.c
+[23.435s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_c.so
+[23.437s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[23.437s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_c.so
+[23.439s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_c.so" to ""
+[23.439s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[23.440s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[23.440s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[23.441s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[23.441s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__traits.hpp
+[23.442s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.hpp
+[23.443s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__struct.hpp
+[23.443s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__traits.hpp
+[23.444s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.hpp
+[23.447s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__builder.hpp
+[23.448s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__struct.hpp
+[23.449s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__builder.hpp
+[23.450s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors_stamped.hpp
+[23.451s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors.hpp
+[23.452s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[23.452s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[23.453s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[23.453s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[23.454s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/dds_fastrtps
+[23.455s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_fastrtps_cpp.hpp
+[23.456s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.457s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[23.460s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.461s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[23.461s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[23.462s] -- Up-to-date: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[23.463s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_introspection_cpp.hpp
+[23.468s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.cpp
+[23.470s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.cpp
+[23.470s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_introspection_cpp.hpp
+[23.470s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_cpp.so
+[23.471s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[23.471s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_cpp.so
+[23.473s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_cpp.so" to ""
+[23.473s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/environment/pythonpath.sh
+[23.474s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/environment/pythonpath.dsv
+[23.474s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info
+[23.481s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/top_level.txt
+[23.482s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/SOURCES.txt
+[23.484s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/PKG-INFO
+[23.485s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/dependency_links.txt
+[23.487s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs
+[23.489s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg
+[23.491s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_s.c
+[23.492s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors.py
+[23.493s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped_s.c
+[23.494s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/__init__.py
+[23.495s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped.py
+[23.496s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/librelbot_msgs__rosidl_generator_py.so
+[23.496s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.497s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.498s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[23.499s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.499s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_c.c
+[23.501s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/__init__.py
+[23.502s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.622s] Listing '/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs'...
+[23.623s] Compiling '/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/__init__.py'...
+[23.623s] Listing '/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg'...
+[23.624s] Compiling '/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/__init__.py'...
+[23.624s] Compiling '/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors.py'...
+[23.624s] Compiling '/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped.py'...
+[23.638s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.639s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.640s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.642s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.643s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.645s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.645s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_py.so
+[23.647s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_py.so" to ""
+[23.648s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotors.idl
+[23.649s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotorsStamped.idl
+[23.650s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotors.msg
+[23.651s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotorsStamped.msg
+[23.654s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/ament_index/resource_index/package_run_dependencies/relbot_msgs
+[23.657s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/ament_index/resource_index/parent_prefix_path/relbot_msgs
+[23.657s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/environment/ament_prefix_path.sh
+[23.658s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/environment/ament_prefix_path.dsv
+[23.659s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/environment/path.sh
+[23.660s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/environment/path.dsv
+[23.661s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/local_setup.bash
+[23.661s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/local_setup.sh
+[23.663s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/local_setup.zsh
+[23.664s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/local_setup.dsv
+[23.665s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.dsv
+[23.670s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/ament_index/resource_index/packages/relbot_msgs
+[23.673s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cExport.cmake
+[23.674s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[23.674s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[23.675s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[23.676s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[23.677s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.678s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cExport.cmake
+[23.679s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[23.679s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cppExport.cmake
+[23.680s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.681s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[23.682s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[23.683s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.684s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cppExport.cmake
+[23.685s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[23.687s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_pyExport.cmake
+[23.688s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[23.689s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake-extras.cmake
+[23.690s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.691s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.692s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[23.693s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[23.693s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.694s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.695s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgsConfig.cmake
+[23.696s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgsConfig-version.cmake
+[23.696s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/package.xml
+[23.798s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/relbot_msgs
