@@ -1,1 +1,0 @@
-Invoking command in '/home/jordan/SDfR/assignment6/build/ros_xeno_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/ros_xeno_bridge -- -j16 -l16

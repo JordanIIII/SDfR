@@ -1,4 +1,0 @@
-[0.030s] Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_sequence_controller -- -j3 -l3
-[0.369s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
-[53.324s] [100%] [32m[1mLinking CXX executable relbot_sequence_controller[0m
-[56.502s] [100%] Built target relbot_sequence_controller

@@ -1,6 +1,0 @@
-/home/jordan/SDfR/assignment6/build/template_20sim/CMakeFiles/uninstall.dir
-/home/jordan/SDfR/assignment6/build/template_20sim/CMakeFiles/template_20sim_uninstall.dir
-/home/jordan/SDfR/assignment6/build/template_20sim/CMakeFiles/template_20sim.dir
-/home/jordan/SDfR/assignment6/build/template_20sim/CMakeFiles/test.dir
-/home/jordan/SDfR/assignment6/build/template_20sim/CMakeFiles/edit_cache.dir
-/home/jordan/SDfR/assignment6/build/template_20sim/CMakeFiles/rebuild_cache.dir

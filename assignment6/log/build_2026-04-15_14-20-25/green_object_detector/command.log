@@ -1,3 +1,0 @@
-Invoking command in '/home/jordan/SDfR/assignment6/build/green_object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment6/src/green_object_detector -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/green_object_detector
-Invoked command in '/home/jordan/SDfR/assignment6/build/green_object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jordan/SDfR/assignment6/src/green_object_detector -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/green_object_detector
-Invoking command in '/home/jordan/SDfR/assignment6/build/green_object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/green_object_detector -- -j16 -l16

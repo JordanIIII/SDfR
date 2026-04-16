@@ -55,7 +55,7 @@ private:
 
       target_publisher_->publish(target_msg);
       RCLCPP_INFO(this->get_logger(), "Green object detected at: (%d, %d)", cx, cy);
-      RCLCPP_INFO(this->get_logger(), "Green coverage: %.3f%%", green_coverage*100);
+      RCLCPP_INFO(this->get_logger(), "Green coverage: %.3f", green_coverage);
     }
   }
 

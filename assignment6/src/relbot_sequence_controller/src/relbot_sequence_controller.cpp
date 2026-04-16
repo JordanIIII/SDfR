@@ -5,6 +5,9 @@
 SteerRelbot::SteerRelbot() : Node("steer_relbot") {
     RCLCPP_INFO(this->get_logger(), "Init");
 
+    is_in_simulation = this->declare_parameter<bool>("is_in_simulation", false);
+    RCLCPP_INFO(this->get_logger(), "Simulation mode: %s", is_in_simulation ? "true" : "false");
+
     create_topics();
     RCLCPP_INFO(this->get_logger(), "Created Topics");
 
@@ -43,6 +46,7 @@ void SteerRelbot::calculate_velocity() {
     const double tau_w = 100; 
     const double tau_v = 1;
     const double min_green_coverage_val = 0.1; //prevent division by zero and extremely high velocities
+    int sign = 1; // changes left wheel velocity depending on simulation or real relbot
 
     if (has_target) {
         const rclcpp::Time now = this->get_clock()->now();
@@ -59,6 +63,10 @@ void SteerRelbot::calculate_velocity() {
         return;
     }
 
+    if (is_in_simulation) {
+        sign = -1;
+    }
+
     // frame 320x240
     const double center_x = 160.0;
     
@@ -71,9 +79,8 @@ void SteerRelbot::calculate_velocity() {
 
     // Angular velocity control proportional to horizontal error
     double w = error_x/tau_w;
-    //double v = error_y/tau_v;
     
-    left_velocity =  v +w;
+    left_velocity = sign*(v +w);
     right_velocity = v -w;
 
 }
