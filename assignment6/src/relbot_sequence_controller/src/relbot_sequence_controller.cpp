@@ -79,7 +79,6 @@ void SteerRelbot::calculate_velocity() {
 
     // Angular velocity control proportional to horizontal error
     double w = error_x/tau_w;
-    //double v = error_y/tau_v;
     
     left_velocity = sign*(v +w);
     right_velocity = v -w;
