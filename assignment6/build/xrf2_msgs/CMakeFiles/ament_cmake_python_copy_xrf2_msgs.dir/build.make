@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Common/XRF2_msgs
+CMAKE_SOURCE_DIR = /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs
+CMAKE_BINARY_DIR = /home/jordan/SDfR/assignment6/build/xrf2_msgs
 
 # Utility rule file for ament_cmake_python_copy_xrf2_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_xrf2_msgs.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_xrf2_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_xrf2_msgs:
-	/usr/bin/cmake -E copy_directory /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/rosidl_generator_py/xrf2_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/ament_cmake_python/xrf2_msgs/xrf2_msgs
+	/usr/bin/cmake -E copy_directory /home/jordan/SDfR/assignment6/build/xrf2_msgs/rosidl_generator_py/xrf2_msgs /home/jordan/SDfR/assignment6/build/xrf2_msgs/ament_cmake_python/xrf2_msgs/xrf2_msgs
 
 ament_cmake_python_copy_xrf2_msgs: CMakeFiles/ament_cmake_python_copy_xrf2_msgs
 ament_cmake_python_copy_xrf2_msgs: CMakeFiles/ament_cmake_python_copy_xrf2_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_xrf2_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_xrf2_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_xrf2_msgs.dir/depend:
-	cd /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Common/XRF2_msgs /home/sdfr-ppd-01/SDfR/assignment6/XRF2/XenoRosFramework/Common/XRF2_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/CMakeFiles/ament_cmake_python_copy_xrf2_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jordan/SDfR/assignment6/build/xrf2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs /home/jordan/SDfR/assignment6/src/XRF2/XenoRosFramework/Common/XRF2_msgs /home/jordan/SDfR/assignment6/build/xrf2_msgs /home/jordan/SDfR/assignment6/build/xrf2_msgs /home/jordan/SDfR/assignment6/build/xrf2_msgs/CMakeFiles/ament_cmake_python_copy_xrf2_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_xrf2_msgs.dir/depend
 

@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/sdfr-ppd-01/SDfR/assignment6/install/cam2image_vm2ros"}
+: ${AMENT_CURRENT_PREFIX:="/home/jordan/SDfR/assignment6/install/cam2image_vm2ros"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

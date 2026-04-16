@@ -46,6 +46,8 @@ private:
     double current_y = 0.0;
     rclcpp::Time last_target_time_{0, 0, RCL_ROS_TIME};
 
+    bool is_in_simulation = false;
+
     // TODO: Add variables for the latest detected green-object target here.
     // Examples: target_x, target_y, target_received
 

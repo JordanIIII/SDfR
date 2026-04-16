@@ -1,8 +1,8 @@
-# Install script for directory: /home/sdfr-ppd-01/SDfR/assignment6/build/xrf2_msgs/xrf2_msgs__py
+# Install script for directory: /home/jordan/SDfR/assignment6/build/xrf2_msgs/xrf2_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sdfr-ppd-01/SDfR/assignment6/install/xrf2_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/jordan/SDfR/assignment6/install/xrf2_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

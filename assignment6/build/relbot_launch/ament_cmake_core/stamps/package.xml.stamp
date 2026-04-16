@@ -15,6 +15,7 @@
   <exec_depend>ros2launch</exec_depend>
   <exec_depend>cam2image_vm2ros</exec_depend>
   <exec_depend>green_object_detector</exec_depend>
+  <exec_depend>relbot_adapter</exec_depend>
   <exec_depend>relbot2turtlesim</exec_depend>
   <exec_depend>relbot_sequence_controller</exec_depend>
   <exec_depend>relbot_simulator</exec_depend>

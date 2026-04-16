@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_msgs
+CMAKE_SOURCE_DIR = /home/jordan/SDfR/assignment6/src/relbot_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs
+CMAKE_BINARY_DIR = /home/jordan/SDfR/assignment6/build/relbot_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/relbot_msgs__rosidl_generator_py.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/relbot_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o: CMakeFiles/relbot_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o: rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o: CMakeFiles/relbot_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o -MF CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o.d -o CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o -c /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o -MF CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o.d -o CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o -c /home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c
 
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c > CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c > CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.i
 
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c -o CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c -o CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.s
 
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o: CMakeFiles/relbot_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o: rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o: CMakeFiles/relbot_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o -MF CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o.d -o CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o -c /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o -MF CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o.d -o CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o -c /home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c
 
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c > CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c > CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.i
 
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c -o CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c -o CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.s
 
 # Object files for target relbot_msgs__rosidl_generator_py
 relbot_msgs__rosidl_generator_py_OBJECTS = \
@@ -108,12 +108,12 @@ relbot_msgs__rosidl_generator_py_EXTERNAL_OBJECTS =
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: CMakeFiles/relbot_msgs__rosidl_generator_py.dir/build.make
-rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: librelbot_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: librelbot_msgs__rosidl_generator_c.so
-rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -121,7 +121,7 @@ rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /opt/ros
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so: CMakeFiles/relbot_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/relbot_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -133,6 +133,6 @@ CMakeFiles/relbot_msgs__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/relbot_msgs__rosidl_generator_py.dir/clean
 
 CMakeFiles/relbot_msgs__rosidl_generator_py.dir/depend:
-	cd /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_msgs /home/sdfr-ppd-01/SDfR/assignment6/src/relbot_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/CMakeFiles/relbot_msgs__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jordan/SDfR/assignment6/build/relbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jordan/SDfR/assignment6/src/relbot_msgs /home/jordan/SDfR/assignment6/src/relbot_msgs /home/jordan/SDfR/assignment6/build/relbot_msgs /home/jordan/SDfR/assignment6/build/relbot_msgs /home/jordan/SDfR/assignment6/build/relbot_msgs/CMakeFiles/relbot_msgs__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/relbot_msgs__rosidl_generator_py.dir/depend
 

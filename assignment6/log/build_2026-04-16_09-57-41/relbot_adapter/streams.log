@@ -1,0 +1,72 @@
+[0.407s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_adapter': AMENT_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jordan/SDfR/assignment6/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/relbot_adapter
+[0.879s] -- The C compiler identification is GNU 11.4.0
+[2.847s] -- The CXX compiler identification is GNU 11.4.0
+[4.498s] -- Detecting C compiler ABI info
+[5.144s] -- Detecting C compiler ABI info - done
+[5.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.172s] -- Detecting C compile features
+[5.173s] -- Detecting C compile features - done
+[5.183s] -- Detecting CXX compiler ABI info
+[5.902s] -- Detecting CXX compiler ABI info - done
+[5.925s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.926s] -- Detecting CXX compile features
+[5.927s] -- Detecting CXX compile features - done
+[5.935s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.451s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.731s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[7.428s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.445s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.467s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.673s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.680s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.209s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[20.900s] -- Found FastRTPS: /opt/ros/humble/include  
+[32.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[32.490s] -- Looking for pthread.h
+[33.093s] -- Looking for pthread.h - found
+[33.095s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[33.690s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[33.693s] -- Found Threads: TRUE  
+[33.797s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[33.888s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[33.910s] -- Found relbot_msgs: 2025.2.0 (/home/jordan/SDfR/assignment6/install/relbot_msgs/share/relbot_msgs/cmake)
+[39.900s] -- xrf2_msgs not found, building without xrf2 support.
+[39.906s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[40.092s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[40.092s] -- Configured cppcheck include dirs: /home/jordan/SDfR/assignment6/src/relbot_adapter/include;$<BUILD_INTERFACE:/home/jordan/SDfR/assignment6/src/relbot_adapter/include>
+[40.092s] -- Configured cppcheck exclude dirs and/or files: 
+[40.095s] -- Added test 'lint_cmake' to check CMake code style
+[40.098s] -- Added test 'uncrustify' to check C / C++ code style
+[40.099s] -- Configured uncrustify additional arguments: 
+[40.101s] -- Added test 'xmllint' to check XML markup files
+[40.107s] -- Configuring done
+[40.156s] -- Generating done
+[40.168s] -- Build files have been written to: /home/jordan/SDfR/assignment6/build/relbot_adapter
+[40.194s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_adapter' returned '0': AMENT_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jordan/SDfR/assignment6/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/jordan/SDfR/assignment6/install/relbot_adapter
+[40.199s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_adapter': AMENT_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot_adapter -- -j16 -l16
+[40.327s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_adapter.dir/src/relbot_adapter.cpp.o[0m
+[64.720s] [100%] [32m[1mLinking CXX executable relbot_adapter[0m
+[66.326s] [100%] Built target relbot_adapter
+[66.356s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_adapter' returned '0': AMENT_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/relbot_adapter -- -j16 -l16
+[66.361s] Invoking command in '/home/jordan/SDfR/assignment6/build/relbot_adapter': AMENT_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/relbot_adapter
+[66.380s] -- Install configuration: ""
+[66.382s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/lib/relbot_adapter/relbot_adapter
+[66.402s] -- Set runtime path of "/home/jordan/SDfR/assignment6/install/relbot_adapter/lib/relbot_adapter/relbot_adapter" to ""
+[66.406s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/package_run_dependencies/relbot_adapter
+[66.408s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/parent_prefix_path/relbot_adapter
+[66.411s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.sh
+[66.411s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.dsv
+[66.412s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.sh
+[66.412s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/environment/path.dsv
+[66.413s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.bash
+[66.413s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.sh
+[66.414s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.zsh
+[66.414s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/local_setup.dsv
+[66.415s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.dsv
+[66.416s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/ament_index/resource_index/packages/relbot_adapter
+[66.418s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig.cmake
+[66.419s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig-version.cmake
+[66.419s] -- Installing: /home/jordan/SDfR/assignment6/install/relbot_adapter/share/relbot_adapter/package.xml
+[66.426s] Invoked command in '/home/jordan/SDfR/assignment6/build/relbot_adapter' returned '0': AMENT_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jordan/SDfR/assignment6/install/relbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jordan/SDfR/assignment6/build/relbot_adapter

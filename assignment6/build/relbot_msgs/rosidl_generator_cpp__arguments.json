@@ -1,10 +1,10 @@
 {
   "package_name": "relbot_msgs",
-  "output_dir": "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_generator_cpp/relbot_msgs",
+  "output_dir": "/home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_generator_cpp/relbot_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs:msg/RelbotMotors.idl",
-    "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs:msg/RelbotMotorsStamped.idl"
+    "/home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs:msg/RelbotMotors.idl",
+    "/home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs:msg/RelbotMotorsStamped.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -56,8 +56,8 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs/msg/RelbotMotors.idl",
-    "/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs/msg/RelbotMotorsStamped.idl",
+    "/home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs/msg/RelbotMotors.idl",
+    "/home/jordan/SDfR/assignment6/build/relbot_msgs/rosidl_adapter/relbot_msgs/msg/RelbotMotorsStamped.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

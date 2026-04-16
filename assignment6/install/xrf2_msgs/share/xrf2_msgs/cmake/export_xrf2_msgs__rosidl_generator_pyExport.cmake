@@ -54,7 +54,7 @@ endif()
 add_library(xrf2_msgs::xrf2_msgs__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(xrf2_msgs::xrf2_msgs__rosidl_generator_py PROPERTIES
-  INTERFACE_LINK_LIBRARIES "xrf2_msgs::xrf2_msgs__rosidl_generator_c;/usr/lib/aarch64-linux-gnu/libpython3.10.so;xrf2_msgs::xrf2_msgs__rosidl_typesupport_c"
+  INTERFACE_LINK_LIBRARIES "xrf2_msgs::xrf2_msgs__rosidl_generator_c;/usr/lib/x86_64-linux-gnu/libpython3.10.so;xrf2_msgs::xrf2_msgs__rosidl_typesupport_c"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

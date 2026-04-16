@@ -1,2 +1,0 @@
-Invoking command in '/home/jordan/SDfR/assignment6/build/template_20sim': /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/template_20sim -- -j16 -l16
-Invoked command in '/home/jordan/SDfR/assignment6/build/template_20sim' returned '2': /usr/bin/cmake --build /home/jordan/SDfR/assignment6/build/template_20sim -- -j16 -l16

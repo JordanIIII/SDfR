@@ -1,1 +1,0 @@
-Invoking command in '/home/sdfr-ppd-01/SDfR/assignment6/build/relbot_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-01/SDfR/assignment6/build/relbot_simulator -- -j3 -l3
