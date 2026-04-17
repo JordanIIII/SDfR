@@ -27,3 +27,5 @@ In a new terminal, run:
 1. source install/setup.bash
 2. ros2 launch relbot_launch relbot_simulation.launch.py
 
+#### IF DESIRED: an exact copy of the two edited packages (green_object_detector, relbot_sequence_controller, and relbot_launch) are inside of the Edited_Packages folder. These were added in case it's simpler to only have these two packages for grading, rather than the entire workspace.
+
