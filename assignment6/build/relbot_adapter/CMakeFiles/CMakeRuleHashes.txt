@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+01028461a6b4e4db64dce3fadd7223d8 CMakeFiles/relbot_adapter_uninstall

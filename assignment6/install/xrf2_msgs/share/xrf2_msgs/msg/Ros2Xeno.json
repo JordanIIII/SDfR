@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "xrf2_msgs/msg/Ros2Xeno",
+      "fields": [
+        {
+          "name": "left_wheel_vel",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "right_wheel_vel",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "xrf2_msgs/msg/Ros2Xeno",
+      "hash_string": "RIHS01_42b81e0b8280cf3332a37a19a3157e2ca33d59a419e2accff83ee78f262a81bc"
+    }
+  ]
+}

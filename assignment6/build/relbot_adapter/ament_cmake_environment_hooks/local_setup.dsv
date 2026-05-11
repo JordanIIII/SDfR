@@ -1,0 +1,2 @@
+source;share/relbot_adapter/environment/ament_prefix_path.sh
+source;share/relbot_adapter/environment/path.sh

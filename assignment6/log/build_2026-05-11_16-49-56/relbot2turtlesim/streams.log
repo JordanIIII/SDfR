@@ -1,0 +1,64 @@
+[0.026s] Invoking command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jordan/git_repos/SDfR/assignment6/src/relbot2turtlesim -DCMAKE_INSTALL_PREFIX=/home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim
+[0.084s] -- The C compiler identification is GNU 13.3.0
+[0.152s] -- The CXX compiler identification is GNU 13.3.0
+[0.173s] -- Detecting C compiler ABI info
+[0.288s] -- Detecting C compiler ABI info - done
+[0.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.315s] -- Detecting CXX compiler ABI info
+[0.444s] -- Detecting CXX compiler ABI info - done
+[0.454s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.455s] -- Detecting CXX compile features
+[0.455s] -- Detecting CXX compile features - done
+[0.460s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.662s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.826s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.883s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.904s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.926s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.950s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.058s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.064s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.176s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.203s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.231s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.327s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.392s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.432s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.576s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.576s] -- Configured cppcheck include dirs: /home/jordan/git_repos/SDfR/assignment6/src/relbot2turtlesim/include
+[1.576s] -- Configured cppcheck exclude dirs and/or files: 
+[1.577s] -- Added test 'lint_cmake' to check CMake code style
+[1.579s] -- Added test 'uncrustify' to check C / C++ code style
+[1.579s] -- Configured uncrustify additional arguments: 
+[1.580s] -- Added test 'xmllint' to check XML markup files
+[1.583s] -- Configuring done (1.5s)
+[1.599s] -- Generating done (0.0s)
+[1.605s] -- Build files have been written to: /home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim
+[1.627s] Invoked command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jordan/git_repos/SDfR/assignment6/src/relbot2turtlesim -DCMAKE_INSTALL_PREFIX=/home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim
+[1.629s] Invoking command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim -- -j16 -l16
+[1.688s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot2turtlesim.dir/src/convert.cpp.o[0m
+[12.302s] [100%] [32m[1mLinking CXX executable relbot2turtlesim[0m
+[12.687s] [100%] Built target relbot2turtlesim
+[12.701s] Invoked command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim -- -j16 -l16
+[12.703s] Invoking command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim
+[12.713s] -- Install configuration: ""
+[12.713s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/lib/relbot2turtlesim/relbot2turtlesim
+[12.717s] -- Set non-toolchain portion of runtime path of "/home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/lib/relbot2turtlesim/relbot2turtlesim" to ""
+[12.718s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/ament_index/resource_index/package_run_dependencies/relbot2turtlesim
+[12.718s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/ament_index/resource_index/parent_prefix_path/relbot2turtlesim
+[12.718s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.sh
+[12.718s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.dsv
+[12.719s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.sh
+[12.719s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.dsv
+[12.719s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.bash
+[12.719s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.sh
+[12.719s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.zsh
+[12.720s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.dsv
+[12.720s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv
+[12.720s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/ament_index/resource_index/packages/relbot2turtlesim
+[12.720s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig.cmake
+[12.720s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig-version.cmake
+[12.721s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot2turtlesim/share/relbot2turtlesim/package.xml
+[12.723s] Invoked command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jordan/git_repos/SDfR/assignment6/build/relbot2turtlesim

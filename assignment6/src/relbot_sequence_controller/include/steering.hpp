@@ -35,7 +35,7 @@ private:
 
     double target_x_raw = 0.0;
     double target_y_raw = 0.0;
-    double green_coverage = 0.0;
+    double red_coverage = 0.0;
     bool has_target = false;
 
     double left_velocity = 0.0;
@@ -48,7 +48,7 @@ private:
 
     bool is_in_simulation = false;
 
-    // TODO: Add variables for the latest detected green-object target here.
+    // TODO: Add variables for the latest detected red-object target here.
     // Examples: target_x, target_y, target_received
 
     void create_topics();

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "relbot_msgs__rs",
+		"source" : "/home/jordan/git_repos/SDfR/assignment6/build/relbot_msgs/relbot_msgs__rs"
+	}
+}

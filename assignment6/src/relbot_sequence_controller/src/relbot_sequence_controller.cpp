@@ -30,12 +30,12 @@ void SteerRelbot::create_topics() {
             current_y = msg->pose.position.y;
         });
 
-    // Position of the detected green object
+    // Position of the detected red object
     target_subscriber = this->create_subscription<geometry_msgs::msg::PointStamped>(
-        "green_object_position", 10, [this](const geometry_msgs::msg::PointStamped::SharedPtr msg) {
+        "red_object_position", 10, [this](const geometry_msgs::msg::PointStamped::SharedPtr msg) {
             target_x_raw = msg->point.x;
             target_y_raw = msg->point.y;
-            green_coverage = msg->point.z;
+            red_coverage = msg->point.z;
             has_target = true;
             last_target_time_ = msg->header.stamp;
         });
@@ -45,7 +45,7 @@ void SteerRelbot::calculate_velocity() {
     // Time constant for the controller
     const double tau_w = 100; 
     const double tau_v = 1;
-    const double min_green_coverage_val = 0.1; //prevent division by zero and extremely high velocities
+    const double min_red_coverage_val = 0.1; // prevent division by zero and extremely high velocities
     int sign = 1; // changes left wheel velocity depending on simulation or real relbot
 
     if (has_target) {
@@ -75,7 +75,7 @@ void SteerRelbot::calculate_velocity() {
     //double error_y = target_y_raw - 240;
 
     // Smaller target coverage means the object is further away, so relbot should move faster (inverse relationship)
-    double v = 1 / (tau_v * std::max(green_coverage, min_green_coverage_val));
+    double v = 1 / (tau_v * std::max(red_coverage, min_red_coverage_val));
 
     // Angular velocity control proportional to horizontal error
     double w = error_x/tau_w;

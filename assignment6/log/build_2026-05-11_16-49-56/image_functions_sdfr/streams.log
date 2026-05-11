@@ -1,0 +1,68 @@
+[0.025s] Invoking command in '/home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jordan/git_repos/SDfR/assignment6/src/image_functions_sdfr -DCMAKE_INSTALL_PREFIX=/home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr
+[0.084s] -- The C compiler identification is GNU 13.3.0
+[0.147s] -- The CXX compiler identification is GNU 13.3.0
+[0.168s] -- Detecting C compiler ABI info
+[0.277s] -- Detecting C compiler ABI info - done
+[0.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.290s] -- Detecting C compile features
+[0.291s] -- Detecting C compile features - done
+[0.304s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.439s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.444s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.650s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.802s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.819s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.877s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.899s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.920s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.043s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.048s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.161s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.188s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.219s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.319s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.498s] -- Configuring done (1.5s)
+[1.515s] -- Generating done (0.0s)
+[1.522s] -- Build files have been written to: /home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr
+[1.539s] Invoked command in '/home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jordan/git_repos/SDfR/assignment6/src/image_functions_sdfr -DCMAKE_INSTALL_PREFIX=/home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr
+[1.542s] Invoking command in '/home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr -- -j16 -l16
+[1.611s] [ 50%] [32mBuilding CXX object CMakeFiles/image_functions.dir/src/image_functions.cpp.o[0m
+[8.494s] [100%] [32m[1mLinking CXX shared library libimage_functions.so[0m
+[8.709s] [100%] Built target image_functions
+[8.723s] Invoked command in '/home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr -- -j16 -l16
+[8.740s] Invoking command in '/home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr
+[8.753s] -- Install configuration: ""
+[8.753s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/include
+[8.753s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr
+[8.754s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr/visibility_control.h
+[8.754s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/include/image_functions_sdfr/image_functions.hpp
+[8.754s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/lib/libimage_functions.so
+[8.758s] -- Set non-toolchain portion of runtime path of "/home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/lib/libimage_functions.so" to ""
+[8.758s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.sh
+[8.758s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.dsv
+[8.759s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/package_run_dependencies/image_functions_sdfr
+[8.759s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/parent_prefix_path/image_functions_sdfr
+[8.759s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.sh
+[8.759s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.dsv
+[8.760s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.sh
+[8.760s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.dsv
+[8.760s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.bash
+[8.760s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.sh
+[8.761s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.zsh
+[8.761s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.dsv
+[8.761s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv
+[8.761s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/ament_index/resource_index/packages/image_functions_sdfr
+[8.762s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport.cmake
+[8.762s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport-noconfig.cmake
+[8.762s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.762s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_libraries-extras.cmake
+[8.762s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_targets-extras.cmake
+[8.763s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.763s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig.cmake
+[8.763s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig-version.cmake
+[8.763s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/image_functions_sdfr/share/image_functions_sdfr/package.xml
+[8.767s] Invoked command in '/home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jordan/git_repos/SDfR/assignment6/build/image_functions_sdfr

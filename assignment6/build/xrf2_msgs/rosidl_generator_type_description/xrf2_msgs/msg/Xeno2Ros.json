@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "xrf2_msgs/msg/Xeno2Ros",
+      "fields": [
+        {
+          "name": "example_c",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "example_d",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "xrf2_msgs/msg/Xeno2Ros",
+      "hash_string": "RIHS01_431c60d750d980b83ce1da8712ee8cf5f742b606af2afa456d1214d5b9795702"
+    }
+  ]
+}

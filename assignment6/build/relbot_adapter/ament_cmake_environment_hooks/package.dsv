@@ -1,0 +1,4 @@
+source;share/relbot_adapter/local_setup.bash
+source;share/relbot_adapter/local_setup.dsv
+source;share/relbot_adapter/local_setup.sh
+source;share/relbot_adapter/local_setup.zsh

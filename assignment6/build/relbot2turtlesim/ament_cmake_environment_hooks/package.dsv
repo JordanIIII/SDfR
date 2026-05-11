@@ -1,0 +1,4 @@
+source;share/relbot2turtlesim/local_setup.bash
+source;share/relbot2turtlesim/local_setup.dsv
+source;share/relbot2turtlesim/local_setup.sh
+source;share/relbot2turtlesim/local_setup.zsh

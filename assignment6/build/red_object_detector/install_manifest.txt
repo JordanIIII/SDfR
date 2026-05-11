@@ -1,0 +1,16 @@
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/lib/red_object_detector/red_object_detector
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/ament_index/resource_index/package_run_dependencies/red_object_detector
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/ament_index/resource_index/parent_prefix_path/red_object_detector
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/environment/ament_prefix_path.sh
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/environment/ament_prefix_path.dsv
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/environment/path.sh
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/environment/path.dsv
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/local_setup.bash
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/local_setup.sh
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/local_setup.zsh
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/local_setup.dsv
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/package.dsv
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/ament_index/resource_index/packages/red_object_detector
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/cmake/red_object_detectorConfig.cmake
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/cmake/red_object_detectorConfig-version.cmake
+/home/jordan/git_repos/SDfR/assignment6/install/red_object_detector/share/red_object_detector/package.xml

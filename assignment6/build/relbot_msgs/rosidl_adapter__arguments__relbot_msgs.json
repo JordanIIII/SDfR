@@ -1,0 +1,7 @@
+{
+  "package_name": "relbot_msgs",
+  "non_idl_tuples": [
+    "/home/jordan/git_repos/SDfR/assignment6/src/relbot_msgs:msg/RelbotMotors.msg",
+    "/home/jordan/git_repos/SDfR/assignment6/src/relbot_msgs:msg/RelbotMotorsStamped.msg"
+  ]
+}

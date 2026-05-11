@@ -1,0 +1,64 @@
+[0.026s] Invoking command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jordan/git_repos/SDfR/assignment6/src/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller
+[0.089s] -- The C compiler identification is GNU 13.3.0
+[0.152s] -- The CXX compiler identification is GNU 13.3.0
+[0.174s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.293s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.293s] -- Detecting C compile features
+[0.294s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.450s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.450s] -- Detecting CXX compile features
+[0.451s] -- Detecting CXX compile features - done
+[0.457s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.663s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.823s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.881s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.901s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.050s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.055s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.168s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.199s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.319s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.385s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.428s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.572s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.573s] -- Configured cppcheck include dirs: /home/jordan/git_repos/SDfR/assignment6/src/relbot_sequence_controller/include
+[1.573s] -- Configured cppcheck exclude dirs and/or files: 
+[1.574s] -- Added test 'lint_cmake' to check CMake code style
+[1.576s] -- Added test 'uncrustify' to check C / C++ code style
+[1.576s] -- Configured uncrustify additional arguments: 
+[1.577s] -- Added test 'xmllint' to check XML markup files
+[1.579s] -- Configuring done (1.5s)
+[1.597s] -- Generating done (0.0s)
+[1.602s] -- Build files have been written to: /home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller
+[1.619s] Invoked command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jordan/git_repos/SDfR/assignment6/src/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller
+[1.620s] Invoking command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller -- -j16 -l16
+[1.683s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[14.251s] [100%] [32m[1mLinking CXX executable relbot_sequence_controller[0m
+[14.719s] [100%] Built target relbot_sequence_controller
+[14.733s] Invoked command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller -- -j16 -l16
+[14.734s] Invoking command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller
+[14.743s] -- Install configuration: ""
+[14.743s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller
+[14.749s] -- Set non-toolchain portion of runtime path of "/home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller" to ""
+[14.750s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller
+[14.750s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller
+[14.750s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.sh
+[14.750s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.dsv
+[14.750s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.sh
+[14.750s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.dsv
+[14.750s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.bash
+[14.751s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.sh
+[14.751s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.zsh
+[14.751s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.dsv
+[14.751s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv
+[14.751s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/ament_index/resource_index/packages/relbot_sequence_controller
+[14.751s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig.cmake
+[14.752s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig-version.cmake
+[14.752s] -- Installing: /home/jordan/git_repos/SDfR/assignment6/install/relbot_sequence_controller/share/relbot_sequence_controller/package.xml
+[14.754s] Invoked command in '/home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jordan/git_repos/SDfR/assignment6/build/relbot_sequence_controller

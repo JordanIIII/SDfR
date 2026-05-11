@@ -1,0 +1,10 @@
+/home/jordan/git_repos/SDfR/assignment6/build/red_object_detector/CMakeFiles/uninstall.dir
+/home/jordan/git_repos/SDfR/assignment6/build/red_object_detector/CMakeFiles/red_object_detector_uninstall.dir
+/home/jordan/git_repos/SDfR/assignment6/build/red_object_detector/CMakeFiles/red_object_detector.dir
+/home/jordan/git_repos/SDfR/assignment6/build/red_object_detector/CMakeFiles/test.dir
+/home/jordan/git_repos/SDfR/assignment6/build/red_object_detector/CMakeFiles/edit_cache.dir
+/home/jordan/git_repos/SDfR/assignment6/build/red_object_detector/CMakeFiles/rebuild_cache.dir
+/home/jordan/git_repos/SDfR/assignment6/build/red_object_detector/CMakeFiles/list_install_components.dir
+/home/jordan/git_repos/SDfR/assignment6/build/red_object_detector/CMakeFiles/install.dir
+/home/jordan/git_repos/SDfR/assignment6/build/red_object_detector/CMakeFiles/install/local.dir
+/home/jordan/git_repos/SDfR/assignment6/build/red_object_detector/CMakeFiles/install/strip.dir
